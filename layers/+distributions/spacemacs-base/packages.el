@@ -53,6 +53,7 @@
         (visual-line-mode :location built-in)
         (whitespace :location built-in)
         (winner :location built-in)
+        (makefile-mode :location built-in)
         ))
 
 ;; Initialization of packages
@@ -79,6 +80,18 @@
   (evilified-state-evilify-map archive-mode-map
     :mode archive-mode
     :eval-after-load archive-mode))
+
+(defun spacemacs-base/init-makefile-mode ()
+    (setq auto-mode-alist
+	(cons '("\\.mak\\'" . makefile-mode) auto-mode-alist))
+  (setq auto-mode-alist
+	(cons '("\\.bb\\'" . makefile-mode) auto-mode-alist))
+  (setq auto-mode-alist
+	(cons '("\\.inc\\'" . makefile-mode) auto-mode-alist))
+  (setq auto-mode-alist
+	(cons '("Makefile" . makefile-mode) auto-mode-alist))
+  (setq auto-mode-alist
+	(cons '("\\.conf\\'" . makefile-mode) auto-mode-alist)))
 
 (defun spacemacs-base/init-bookmark ()
   (use-package bookmark
