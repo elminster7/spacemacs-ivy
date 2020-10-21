@@ -309,17 +309,6 @@ before packages are loaded. If you are unsure, you should try in setting them in
   (require 'nlinum)
   (global-nlinum-mode t)
 
-  (setq auto-mode-alist
-	      (cons '("\\.mak\\'" . makefile-mode) auto-mode-alist))
-  (setq auto-mode-alist
-	      (cons '("\\.bb\\'" . makefile-mode) auto-mode-alist))
-  (setq auto-mode-alist
-	      (cons '("\\.inc\\'" . makefile-mode) auto-mode-alist))
-  (setq auto-mode-alist
-	      (cons '("Makefile" . makefile-mode) auto-mode-alist))
-  (setq auto-mode-alist
-	      (cons '("\\.conf\\'" . makefile-mode) auto-mode-alist))
-
   )
 
 (defun dotspacemacs/user-config ()
