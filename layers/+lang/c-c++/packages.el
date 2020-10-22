@@ -21,6 +21,7 @@
     flycheck
     gdb-mi
     ggtags
+    google-c-style
     (helm-cscope :requires (helm))
     (helm-gtags :requires (helm))
     semantic
@@ -53,6 +54,16 @@
       (spacemacs/set-leader-keys-for-major-mode 'c++-mode
         "ga" 'projectile-find-other-file
         "gA" 'projectile-find-other-file-other-window))))
+
+(defun c-c++/init-google-c-style ()
+  (use-package google-c-style
+    :defer t
+    :init
+    (progn
+      (when c-c++-enable-google-style
+        (add-hook 'c-mode-common-hook 'google-set-c-style))
+      (when c-c++-enable-google-newline
+        (add-hook 'c-mode-common-hook 'google-make-newline-indent)))))
 
 (defun c-c++/init-disaster ()
   (use-package disaster
@@ -128,6 +139,23 @@
      gdb-many-windows t
      ;; Non-nil means display source file containing the main routine at startup
      gdb-show-main t)))
+
+(defun c-c++/init-linux-c-style ()
+  (interactive)
+  (c-mode)
+  (setq c-indent-level 8)
+  (setq c-brace-imaginary-offset 0)
+  (setq c-brace-offset -8)
+  (setq c-argdecl-indent 8)
+  (setq c-label-offset -8)
+  (setq c-continued-statement-offset 8)
+  (setq indent-tabs-mode nil)
+  (setq tab-width 8)
+  (setq auto-mode-alist
+	      (cons '("\\.c\\'" . c-mode) auto-mode-alist))
+  (setq auto-mode-alist
+	      (cons '("\\.h\\'" . c-mode) auto-mode-alist))
+  )
 
 (defun c-c++/post-init-helm-gtags ()
   (spacemacs/helm-gtags-define-keys-for-mode 'c-mode)

@@ -27,6 +27,7 @@
         smex
         swiper
         wgrep
+        ripgrep
         ))
 
 (defun ivy/pre-init-auto-highlight-symbol ()
@@ -139,6 +140,11 @@
       (spacemacs/set-leader-keys
         "cc" 'helm-make-projectile
         "cm" 'helm-make))))
+
+(defun ivy/init-ripgrep ()
+  (use-package ripgrep
+    :defer t
+    :bind (("C-p" . ripgrep-regexp))))
 
 (defun ivy/post-init-imenu ()
   (spacemacs/set-leader-keys "ji" 'counsel-imenu))

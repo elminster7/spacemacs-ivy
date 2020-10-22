@@ -79,3 +79,10 @@
   (interactive)
   (call-interactively (if (spacemacs/c-c++-use-rtags t)
                           'rtags-imenu 'idomenu)))
+(defvar c-c++-enable-google-style nil
+  "If non-nil `google-set-c-style' will be added as as
+  `c-mode-common-hook'.")
+
+(defvar c-c++-enable-google-newline nil
+  "If non-nil `google-make-newline-indent' will be added as as
+  `c-mode-common-hook'.")
