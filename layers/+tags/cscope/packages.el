@@ -18,6 +18,12 @@
 (defun cscope/init-xcscope ()
   (use-package xcscope
     :commands (cscope-index-files cscope/run-pycscope)
+    :bind
+    ("C-c c" . cscope-find-functions-calling-this-function)
+    ("C-c ]" . cscope-find-global-definition)
+    ("C-c [" . cscope-pop-mark)
+    ("C-c t" . cscope-find-this-text-string)
+    ("C-c n" . cscope-find-egrep-pattern)
     :init
     (progn
       ;; for python projects, we don't want xcscope to rebuild the databse,
