@@ -19,6 +19,7 @@
         flx
         helm-make
         imenu
+        windswap
         ivy
         ivy-hydra
         (ivy-spacemacs-help :location local)
@@ -140,6 +141,14 @@
       (spacemacs/set-leader-keys
         "cc" 'helm-make-projectile
         "cm" 'helm-make))))
+
+(defun ivy/init-windswap ()
+  (use-package windswap
+    :defer t
+    :bind (("C-x <right>" . windmove-right)
+	   ("C-x <left>" . windmove-left)
+	   ("C-x <up>" . windmove-up)
+	   ("C-x <down>" . windmove-down))))
 
 (defun ivy/init-ripgrep ()
   (use-package ripgrep
