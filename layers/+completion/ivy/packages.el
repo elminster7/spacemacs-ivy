@@ -14,6 +14,7 @@
         auto-highlight-symbol
         bookmark
         counsel
+        popup-imenu
         (counsel-projectile :toggle (configuration-layer/package-usedp 'projectile))
         evil
         flx
@@ -108,6 +109,12 @@
       (spacemacs//ivy-command-not-implemented-yet "jI")
       ;; Set syntax highlighting for counsel search results
       (ivy-set-display-transformer 'spacemacs/counsel-search 'counsel-git-grep-transformer))))
+
+(defun ivy/init-popup-imenu ()
+  (use-package popup-imenu
+    :defer t
+    :bind ("C-f" . popup-imenu)
+    ))
 
 (defun ivy/init-counsel-projectile ()
   (use-package counsel-projectile

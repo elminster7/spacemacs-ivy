@@ -143,14 +143,14 @@
 (defun c-c++/init-linux-c-style ()
   (interactive)
   (c-mode)
-  (setq c-indent-level 8)
-  (setq c-brace-imaginary-offset 0)
-  (setq c-brace-offset -8)
-  (setq c-argdecl-indent 8)
-  (setq c-label-offset -8)
-  (setq c-continued-statement-offset 8)
+  (setq c-indent-level 4)
+  (setq c-brace-imaginary-offset 4)
+  (setq c-brace-offset -4)
+  (setq c-argdecl-indent 4)
+  (setq c-label-offset -4)
+  (setq c-continued-statement-offset 4)
   (setq indent-tabs-mode nil)
-  (setq tab-width 8)
+  (setq tab-width 4)
   (setq auto-mode-alist
 	      (cons '("\\.c\\'" . c-mode) auto-mode-alist))
   (setq auto-mode-alist
@@ -197,26 +197,93 @@
       (spacemacs/setup-helm-cscope mode))))
 
 (defun c-c++/init-lsp-mode ()
+  "lsp mode"
   (use-package lsp-mode
-    :defer t
-    :config
-    (progn
-      ;(spacemacs/lsp-bind-keys)
-      (setq lsp-prefer-capf t)
-      (add-hook 'lsp-after-open-hook (lambda ()
-                                       "Setup xref jump handler and declare keybinding prefixes"
-                                       (spacemacs//setup-lsp-jump-handler)
-                                       (spacemacs//lsp-declare-prefixes-for-mode major-mode))))))
+  :commands lsp
+  :ensure t
+  :hook ((python-mode c-mode c++-mode) . lsp)
+  ))
 
 (defun c-c++/init-lsp-ui ()
+  "lsp mode"
   (use-package lsp-ui
-    :defer t
-    :config
+    :requires lsp-mode flycheck
+    :commands lsp-ui-mode
+    :ensure t
+    :custom-face
+    (lsp-ui-doc-background ((t (:background "blue"))))
+    (lsp-ui-doc-header ((t (:inherit (font-lock-string-face italic)))))
     :bind (:map lsp-ui-mode-map
-                ([remap xref-find-definitions] . lsp-ui-peek-find-definitions)
-                ([remap xref-find-references] . lsp-ui-peek-find-references)
-                ("C-c u" . lsp-ui-imenu))
-    :hook (lsp-mode-hook . lsp-ui-mode)))
+		([remap xref-find-definitions] . lsp-ui-peek-find-definitions)
+		([remap xref-find-references] . lsp-ui-peek-find-references)
+		("C-c u" . lsp-ui-imenu))
+    :hook (lsp-mode-hook . lsp-ui-mode)
+    :custom
+    ;; lsp-ui-doc
+    (lsp-ui-doc-enable nil)
+    (lsp-ui-doc-header t)
+    (lsp-ui-doc-include-signature nil)
+    (lsp-ui-doc-position 'at-point) ;; top, bottom, or at-point
+    (lsp-ui-doc-max-width 120)
+    (lsp-ui-doc-max-height 30)
+    (lsp-ui-doc-use-childframe t)
+    (lsp-ui-doc-use-webkit t)
+    ;; lsp-ui-flycheck
+    (lsp-ui-flycheck-enable nil)
+    ;; lsp-ui-sideline
+    (lsp-ui-sideline-enable nil)
+    (lsp-ui-sideline-ignore-duplicate t)
+    (lsp-ui-sideline-show-symbol t)
+    (lsp-ui-sideline-show-hover t)
+    (lsp-ui-sideline-show-diagnostics nil)
+    (lsp-ui-sideline-show-code-actions t)
+    (lsp-ui-sideline-code-actions-prefix "")
+    ;; lsp-ui-imenu
+    (lsp-ui-imenu-enable t)
+    (lsp-ui-imenu-kind-position 'top)
+    ;; lsp-ui-peek
+    (lsp-ui-peek-enable t)
+    (lsp-ui-peek-peek-height 120)
+    (lsp-ui-peek-list-width 50)
+    (lsp-ui-peek-fontify 'always) ;; never, on-demand, or always
+    :preface
+    (defun ladicle/toggle-lsp-ui-doc ()
+      (interactive)
+      (if lsp-ui-doc-mode
+	  (progn
+	    (lsp-ui-doc-mode -1)
+	    (lsp-ui-doc--hide-frame))
+	         (lsp-ui-doc-mode 1)))
+    :config
+    ;; Use lsp-ui-doc-webkit only in GUI
+    (setq lsp-ui-doc-use-webkit nil)
+    ;; WORKAROUND Hide mode-line of the lsp-ui-imenu buffer
+    ;; emacs-lsp/lsp-ui#243
+    (defadvice lsp-ui-imenu (after hide-lsp-ui-imenu-mode-line activate)
+      (setq mode-line-format nil))
+    :init (setq lsp-ui-sideline-toggle-symbol-info t)))
+
+;(defun c-c++/init-lsp-mode ()
+;  (use-package lsp-mode
+;    :defer t
+;    :config
+;    (progn
+;      ;(spacemacs/lsp-bind-keys)
+;      (setq lsp-prefer-capf t)
+;      (add-hook 'lsp-after-open-hook (lambda ()
+;                                       "Setup xref jump handler and declare keybinding prefixes"
+;                                       (spacemacs//setup-lsp-jump-handler)
+;                                       (spacemacs//lsp-declare-prefixes-for-mode major-mode))))))
+
+;(defun c-c++/init-lsp-ui ()
+;  (use-package lsp-ui
+;    :defer t
+;    :config
+;    :bind (:map lsp-ui-mode-map
+;                ([remap xref-find-definitions] . lsp-ui-peek-find-definitions)
+;                ([remap xref-find-references] . lsp-ui-peek-find-references)
+;                ("C-c u" . lsp-ui-imenu))
+;    :hook (lsp-mode-hook . lsp-ui-mode)))
 
 
 ;    (progn
