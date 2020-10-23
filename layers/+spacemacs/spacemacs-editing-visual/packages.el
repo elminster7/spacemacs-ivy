@@ -19,6 +19,7 @@
         highlight-indentation
         highlight-numbers
         highlight-parentheses
+        highlight-indent-guides
         ;; waiting for an overlay bug to be fixed
         ;; see https://github.com/syl20bnr/spacemacs/issues/2529
         (hl-anything :excluded t)
@@ -375,6 +376,16 @@
         :evil-leader "t TAB"))
     :config
     (spacemacs|diminish indent-guide-mode " ⓘ" " i")))
+
+(defun spacemacs-editing-visual/init-highlight-indent-guides ()
+  (require 'highlight-indent-guides)
+  (setq highlight-indent-guides-method 'character)
+  (add-hook 'prog-mode-hook 'highlight-indent-guides-mode)
+  (setq highlight-indent-guides-delay 10)
+  (setq highlight-indent-guides-auto-odd-face-perc 15)
+  (setq highlight-indent-guides-auto-even-face-perc 15)
+  (setq highlight-indent-guides-auto-character-face-perc 20)
+  (set-face-foreground 'highlight-indent-guides-character-face "red"))
 
 (defun spacemacs-editing-visual/init-rainbow-delimiters ()
   (use-package rainbow-delimiters
