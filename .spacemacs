@@ -297,13 +297,6 @@ values."
    dotspacemacs-whitespace-cleanup nil
    ))
 
-(defun editor/linux-c-indent ()
-  "adjusted defaults for C/C++ mode use with the Linux kernel."
-  (interactive)
-  (setq indent-tabs-mode nil)
-  (add-hook 'c-mode-hook (lambda() (c-set-style "K&R")))
-  (setq c-basic-offset 8))
-
 (defun dotspacemacs/user-init ()
   "Initialization function for user code.
 It is called immediately after `dotspacemacs/init', before layer configuration
@@ -316,16 +309,21 @@ before packages are loaded. If you are unsure, you should try in setting them in
   (require 'nlinum)
   (global-nlinum-mode t)
   (require 'c-c++)
-
-  (setq auto-mode-alist
-	      (cons '("\\.c\\'" . c-mode) auto-mode-alist))
-  (setq auto-mode-alist
-	      (cons '("\\.h\\'" . c-mode) auto-mode-alist))
-  (setq auto-mode-alist
-	      (cons '("\\.cpp\\'" . c++-mode) auto-mode-alist))
-
-  (add-hook 'c-mode-hook 'editor/linux-c-indent)
 )
+
+(defun my-c-mode-common-hook ()
+  ;; my customizations for all of c-mode, c++-mode, objc-mode, java-mode
+  (c-set-offset 'substatement-open 0)
+  ;; other customizations can go here
+
+  (setq c++-tab-always-indent t)
+  (setq c-basic-offset 4)                  ;; Default is 2
+  (setq c-indent-level 4)                  ;; Default is 2
+
+  (setq tab-stop-list '(4 8 12 16 20 24 28 32 36 40 44 48 52 56 60))
+  (setq tab-width 4)
+  (setq indent-tabs-mode t)  ; use spaces only if nil
+  )
 
 (defun dotspacemacs/user-config ()
   "Configuration function for user code.
@@ -334,6 +332,7 @@ layers configuration.
 This is the place where most of your configurations should be done. Unless it is
 explicitly specified that a variable should be set before a package is loaded,
 you should place your code here."
+  (add-hook 'c-mode-common-hook 'my-c-mode-common-hook)
   )
 
 ;; Do not write anything past this comment. This is where Emacs will
