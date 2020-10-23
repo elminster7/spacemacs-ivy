@@ -297,6 +297,13 @@ values."
    dotspacemacs-whitespace-cleanup nil
    ))
 
+(defun editor/linux-c-indent ()
+  "adjusted defaults for C/C++ mode use with the Linux kernel."
+  (interactive)
+  (setq indent-tabs-mode nil)
+  (add-hook 'c-mode-hook (lambda() (c-set-style "K&R")))
+  (setq c-basic-offset 8))
+
 (defun dotspacemacs/user-init ()
   "Initialization function for user code.
 It is called immediately after `dotspacemacs/init', before layer configuration
@@ -309,6 +316,15 @@ before packages are loaded. If you are unsure, you should try in setting them in
   (require 'nlinum)
   (global-nlinum-mode t)
   (require 'c-c++)
+
+  (setq auto-mode-alist
+	      (cons '("\\.c\\'" . c-mode) auto-mode-alist))
+  (setq auto-mode-alist
+	      (cons '("\\.h\\'" . c-mode) auto-mode-alist))
+  (setq auto-mode-alist
+	      (cons '("\\.cpp\\'" . c++-mode) auto-mode-alist))
+
+  (add-hook 'c-mode-hook 'editor/linux-c-indent)
 )
 
 (defun dotspacemacs/user-config ()
@@ -328,7 +344,7 @@ you should place your code here."
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
  '(package-selected-packages
-   '(ripgrep lsp-ui ivy-rtags helm-rtags google-c-style flycheck-ycmd flycheck-rtags cpp-auto-include company-ycmd ycmd request-deferred deferred company-rtags rtags company-c-headers company ccls lsp-mode markdown-mode ht xcscope nlinum-relative nlinum helm-evil-markers yapfify pyvenv pytest pyenv-mode py-isort pip-requirements live-py-mode hy-mode dash-functional flycheck-pos-tip pos-tip flycheck cython-mode anaconda-mode pythonic disaster cmake-mode clang-format smeargle orgit magit-gitflow magit-popup helm-gitignore gitignore-mode gitconfig-mode gitattributes-mode git-timemachine git-messenger git-link evil-magit magit git-commit with-editor transient helm-swoop helm helm-core ws-butler winum which-key wgrep volatile-highlights vi-tilde-fringe uuidgen use-package undo-tree toc-org spaceline powerline smex restart-emacs request rainbow-delimiters popwin persp-mode pcre2el paradox spinner org-plus-contrib org-bullets open-junk-file neotree move-text macrostep lorem-ipsum linum-relative link-hint ivy-hydra indent-guide hydra lv hungry-delete hl-todo highlight-parentheses highlight-numbers parent-mode highlight-indentation helm-make google-translate golden-ratio flx-ido flx fill-column-indicator fancy-battery eyebrowse expand-region exec-path-from-shell evil-visualstar evil-visual-mark-mode evil-unimpaired f evil-tutor evil-surround evil-search-highlight-persist highlight evil-numbers evil-nerd-commenter evil-mc evil-matchit evil-lisp-state smartparens evil-indent-plus evil-iedit-state iedit evil-exchange evil-escape evil-ediff evil-args evil-anzu anzu evil goto-chg eval-sexp-fu elisp-slime-nav dumb-jump popup dash s diminish define-word counsel-projectile projectile pkg-info epl counsel swiper ivy column-enforce-mode clean-aindent-mode bind-map bind-key auto-highlight-symbol auto-compile packed async aggressive-indent adaptive-wrap ace-window ace-link avy)))
+   '(imenus popup-imenu windswap ripgrep lsp-ui ivy-rtags helm-rtags google-c-style flycheck-ycmd flycheck-rtags cpp-auto-include company-ycmd ycmd request-deferred deferred company-rtags rtags company-c-headers company ccls lsp-mode markdown-mode ht xcscope nlinum-relative nlinum helm-evil-markers yapfify pyvenv pytest pyenv-mode py-isort pip-requirements live-py-mode hy-mode dash-functional flycheck-pos-tip pos-tip flycheck cython-mode anaconda-mode pythonic disaster cmake-mode clang-format smeargle orgit magit-gitflow magit-popup helm-gitignore gitignore-mode gitconfig-mode gitattributes-mode git-timemachine git-messenger git-link evil-magit magit git-commit with-editor transient helm-swoop helm helm-core ws-butler winum which-key wgrep volatile-highlights vi-tilde-fringe uuidgen use-package undo-tree toc-org spaceline powerline smex restart-emacs request rainbow-delimiters popwin persp-mode pcre2el paradox spinner org-plus-contrib org-bullets open-junk-file neotree move-text macrostep lorem-ipsum linum-relative link-hint ivy-hydra indent-guide hydra lv hungry-delete hl-todo highlight-parentheses highlight-numbers parent-mode highlight-indentation helm-make google-translate golden-ratio flx-ido flx fill-column-indicator fancy-battery eyebrowse expand-region exec-path-from-shell evil-visualstar evil-visual-mark-mode evil-unimpaired f evil-tutor evil-surround evil-search-highlight-persist highlight evil-numbers evil-nerd-commenter evil-mc evil-matchit evil-lisp-state smartparens evil-indent-plus evil-iedit-state iedit evil-exchange evil-escape evil-ediff evil-args evil-anzu anzu evil goto-chg eval-sexp-fu elisp-slime-nav dumb-jump popup dash s diminish define-word counsel-projectile projectile pkg-info epl counsel swiper ivy column-enforce-mode clean-aindent-mode bind-map bind-key auto-highlight-symbol auto-compile packed async aggressive-indent adaptive-wrap ace-window ace-link avy)))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.
