@@ -322,8 +322,32 @@ before packages are loaded. If you are unsure, you should try in setting them in
 
   (setq tab-stop-list '(4 8 12 16 20 24 28 32 36 40 44 48 52 56 60))
   (setq tab-width 4)
+  (c-set-style "K&R")
   (setq indent-tabs-mode t)  ; use spaces only if nil
   )
+
+(defun linux-kernel-coding-style/c-lineup-arglist-tabs-only (ignored)
+  "Line up argument lists by tabs, not spaces"
+  (let* ((anchor (c-langelem-pos c-syntactic-element))
+	       (column (c-langelem-2nd-pos c-syntactic-element))
+	       (offset (- (1+ column) anchor))
+	       (steps (floor offset c-basic-offset)))
+    (* (max steps 1)
+       c-basic-offset)))
+
+(defun linux-kernel-coding-style/setup ()
+  (let ((filename (buffer-file-name)))
+    ;; Enable kernel mode for the appropriate files
+    (when (and filename
+	             (or (locate-dominating-file filename "Kbuild")
+		               (locate-dominating-file filename "Kconfig")
+		               (save-excursion (goto-char 0)
+				                           (search-forward-regexp "^#include <linux/\\(module\\|kernel\\)\\.h>$" nil t))))
+      (setq indent-tabs-mode t)
+      (setq tab-width 8)
+      (setq c-basic-offset 8)
+      (c-set-style "linux-kernel")
+      (message "Setting up indentation for the linux kernel"))))
 
 (defun dotspacemacs/user-config ()
   "Configuration function for user code.
@@ -332,7 +356,15 @@ layers configuration.
 This is the place where most of your configurations should be done. Unless it is
 explicitly specified that a variable should be set before a package is loaded,
 you should place your code here."
-  (add-hook 'c-mode-common-hook 'my-c-mode-common-hook)
+                                        ;  (add-hook 'c-mode-common-hook 'my-c-mode-common-hook)
+  (add-hook 'c-mode-common-hook
+	          (lambda ()
+	            (c-add-style "linux-kernel"
+			                     '("linux" (c-offsets-alist
+				                              (arglist-cont-nonempty
+				                               c-lineup-gcc-asm-reg
+				                               linux-kernel-coding-style/c-lineup-arglist-tabs-only))))))
+  (add-hook 'c-mode-hook 'linux-kernel-coding-style/setup)
   )
 
 ;; Do not write anything past this comment. This is where Emacs will
