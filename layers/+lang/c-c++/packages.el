@@ -21,7 +21,7 @@
     flycheck
     gdb-mi
     ggtags
-    google-c-style
+    ;google-c-style
     (helm-cscope :requires (helm))
     (helm-gtags :requires (helm))
     semantic
