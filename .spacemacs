@@ -132,8 +132,8 @@ values."
    ;; List of themes, the first of the list is loaded when spacemacs starts.
    ;; Press <SPC> T n to cycle to the next theme in the list (works great
    ;; with 2 themes variants, one dark and one light)
-   ;dotspacemacs-themes '(solarized-wombat-dark)
-   dotspacemacs-themes '(solarized-dark)
+   dotspacemacs-themes '(solarized-wombat-dark)
+   ;dotspacemacs-themes '(solarized-dark)
 
    ;; If non nil the cursor color matches the state color in GUI Emacs.
    dotspacemacs-colorize-cursor-according-to-state t
@@ -315,7 +315,7 @@ before packages are loaded. If you are unsure, you should try in setting them in
 
 (defun c-mode-common-hooking ()
   ;; my customizations for all of c-mode, c++-mode, objc-mode, java-mode
-  (c-set-offset 'substatement-open 0)
+  ;(c-set-offset 'substatement-open 0)
   ;; other customizations can go here
 
   (setq c++-tab-always-indent t)
@@ -380,6 +380,17 @@ before packages are loaded. If you are unsure, you should try in setting them in
           (c-put-font-lock-face start (point) 'font-lock-comment-face)))))
   nil)
 
+(defun my-c-mode-hook ()
+  (c-set-style "my-c-style")
+  (c-set-offset 'substatement-open '0) ; brackets should be at same indentation level as the statements they open
+  (c-set-offset 'inline-open '+)
+  (c-set-offset 'block-open '+)
+  (c-set-offset 'brace-list-open '+)   ; all "opens" should be indented by the c-indent-level
+  (c-set-offset 'case-label '+)
+  (setq tab-stop-list '(4 8 12 16 20 24 28 32 36 40 44 48 52 56 60))
+  (setq tab-width 4)
+  )       ; indent case labels by c-indent-level, too
+
 (defun my-c-mode-common-hook ()
   (font-lock-add-keywords
    nil
@@ -392,7 +403,8 @@ layers configuration.
 This is the place where most of your configurations should be done. Unless it is
 explicitly specified that a variable should be set before a package is loaded,
 you should place your code here."
-  (add-hook 'c-mode-common-hook 'c-mode-common-hooking)
+;  (add-hook 'c-mode-common-hook 'c-mode-common-hooking)
+;  (add-hook 'c++-mode-common-hook 'c-mode-common-hooking)
   (add-hook 'c-mode-common-hook
 	          (lambda ()
 	            (c-add-style "linux-kernel"
@@ -403,6 +415,14 @@ you should place your code here."
   (add-hook 'c-mode-hook 'linux-kernel-coding-style/setup)
   (add-hook 'c-mode-common-hook 'my-c-mode-common-hook)
   (add-hook 'c++-mode-common-hook 'my-c-mode-common-hook)
+  (setq-default c-indent-tabs-mode t     ; Pressing TAB should cause indentation
+                c-indent-level 4         ; A TAB is equivilent to four spaces
+                c-argdecl-indent 0       ; Do not indent argument decl's extra
+                c-tab-always-indent t
+                backward-delete-function nil) ; DO NOT expand tabs when deleting
+  (c-add-style "my-c-style" '((c-continued-statement-offset 4))) ; If a statement continues on the next line, indent the continuation by 4
+  (add-hook 'c-mode-hook 'my-c-mode-hook)
+  (add-hook 'c++-mode-hook 'my-c-mode-hook)
   )
 
 ;; Do not write anything past this comment. This is where Emacs will
