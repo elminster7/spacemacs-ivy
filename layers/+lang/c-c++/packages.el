@@ -201,6 +201,7 @@
   (use-package lsp-mode
   :commands lsp
   :ensure t
+  :bind ("C-c f" . man-follow)
   :hook ((python-mode c-mode c++-mode) . lsp)
   ))
 
