@@ -81,7 +81,7 @@
     :defer t
     :bind ("M-." . rtags-find-symbol)
 	         ("M-," . rtags-find-symbol-at-point)
-	         ("M-[]" . rtags-location-stack-back)
+	         ("M-[" . rtags-location-stack-back)
 	         ("M-]" . rtags-location-stack-forward)
            ("M-o" . rtags-show-target-in-other-window)
     :init (setq rtags-display-result-backend 'ivy)))
@@ -202,6 +202,7 @@
   :commands lsp
   :ensure t
   :bind ("C-c f" . man-follow)
+  	("C-c r" . lsp-ui-peek-find-references)
   :hook ((python-mode c-mode c++-mode) . lsp)
   ))
 
