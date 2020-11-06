@@ -209,61 +209,25 @@
 (defun c-c++/init-lsp-ui ()
   "lsp mode"
   (use-package lsp-ui
-    :requires lsp-mode flycheck
+    ;; :ensure t
+;    :quelpa (lsp-ui :fetcher github :repo "Jimx-/lsp-ui")
+    :defer t
+    :after lsp
     :commands lsp-ui-mode
-    :ensure t
-    :custom-face
-    (lsp-ui-doc-background ((t (:background "blue"))))
-    (lsp-ui-doc-header ((t (:inherit (font-lock-string-face italic)))))
+    :hook (lsp-mode . lsp-ui-mode)
     :bind (:map lsp-ui-mode-map
-		([remap xref-find-definitions] . lsp-ui-peek-find-definitions)
-		([remap xref-find-references] . lsp-ui-peek-find-references)
-		("C-c u" . lsp-ui-imenu))
-    :hook (lsp-mode-hook . lsp-ui-mode)
-    :custom
-    ;; lsp-ui-doc
-    (lsp-ui-doc-enable nil)
-    (lsp-ui-doc-header t)
-    (lsp-ui-doc-include-signature nil)
-    (lsp-ui-doc-position 'at-point) ;; top, bottom, or at-point
-    (lsp-ui-doc-max-width 120)
-    (lsp-ui-doc-max-height 30)
-    (lsp-ui-doc-use-childframe t)
-    (lsp-ui-doc-use-webkit t)
-    ;; lsp-ui-flycheck
-    (lsp-ui-flycheck-enable nil)
-    ;; lsp-ui-sideline
-    (lsp-ui-sideline-enable nil)
-    (lsp-ui-sideline-ignore-duplicate t)
-    (lsp-ui-sideline-show-symbol t)
-    (lsp-ui-sideline-show-hover t)
-    (lsp-ui-sideline-show-diagnostics nil)
-    (lsp-ui-sideline-show-code-actions t)
-    (lsp-ui-sideline-code-actions-prefix "")
-    ;; lsp-ui-imenu
-    (lsp-ui-imenu-enable t)
-    (lsp-ui-imenu-kind-position 'top)
-    ;; lsp-ui-peek
-    (lsp-ui-peek-enable t)
-    (lsp-ui-peek-peek-height 120)
-    (lsp-ui-peek-list-width 50)
-    (lsp-ui-peek-fontify 'always) ;; never, on-demand, or always
-    :preface
-    (defun ladicle/toggle-lsp-ui-doc ()
-      (interactive)
-      (if lsp-ui-doc-mode
-	  (progn
-	    (lsp-ui-doc-mode -1)
-	    (lsp-ui-doc--hide-frame))
-	         (lsp-ui-doc-mode 1)))
-    :config
-    ;; Use lsp-ui-doc-webkit only in GUI
-    (setq lsp-ui-doc-use-webkit nil)
-    ;; WORKAROUND Hide mode-line of the lsp-ui-imenu buffer
-    ;; emacs-lsp/lsp-ui#243
-    (defadvice lsp-ui-imenu (after hide-lsp-ui-imenu-mode-line activate)
-      (setq mode-line-format nil))
-    :init (setq lsp-ui-sideline-toggle-symbol-info t)))
+                ([remap xref-find-definitions] . lsp-ui-peek-find-definitions) ; [M-.]
+                ([remap xref-find-references] . lsp-ui-peek-find-references)   ; [M-?]
+                ("C-c C-j" . lsp-ui-imenu))
+    :init (setq lsp-ui-doc-enable nil
+                lsp-ui-doc-header nil
+                lsp-ui-doc-include-signature t
+                lsp-ui-doc-position 'at-point)
+    ;; for "Jimx-/lsp-ui" fork has xwebkit support.
+    (if (featurep 'xwidget)
+        (setq lsp-ui-doc-use-webkit t))
+    ;; (add-to-list 'lsp-ui-doc-frame-parameters )
+    ))
 
 ;(defun c-c++/init-lsp-mode ()
 ;  (use-package lsp-mode
