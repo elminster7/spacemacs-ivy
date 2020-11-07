@@ -45,7 +45,7 @@ values."
      python
      nlinum
      cscope
-     themes-megapack
+     ;;themes-megapack
      semantic
      ;; markdown
      ;; org
@@ -132,8 +132,8 @@ values."
    ;; List of themes, the first of the list is loaded when spacemacs starts.
    ;; Press <SPC> T n to cycle to the next theme in the list (works great
    ;; with 2 themes variants, one dark and one light)
-   dotspacemacs-themes '(solarized-wombat-dark)
-   ;dotspacemacs-themes '(solarized-dark)
+   ;dotspacemacs-themes '(solarized-wombat-dark)
+   ;;dotspacemacs-themes '(solarized-dark)
 
    ;; If non nil the cursor color matches the state color in GUI Emacs.
    dotspacemacs-colorize-cursor-according-to-state t
@@ -406,6 +406,9 @@ you should place your code here."
   (c-add-style "my-c-style" '((c-continued-statement-offset 4))) ; If a statement continues on the next line, indent the continuation by 4
   (add-hook 'c-mode-hook 'my-c-mode-hook)
   (add-hook 'c++-mode-hook 'my-c-mode-hook)
+  (set-terminal-parameter nil 'background-mode 'dark)
+  (set-frame-parameter nil 'background-mode 'dark)
+  (spacemacs/load-theme 'solarized)
   )
 
 ;; Do not write anything past this comment. This is where Emacs will
@@ -415,81 +418,17 @@ you should place your code here."
  ;; If you edit it by hand, you could mess it up, so be careful.
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
- '(ansi-color-names-vector
-   ["#0a0a0a" "#ffb4ac" "#8ac6f2" "#e5c06d" "#a4b5e6" "#e5786d" "#7ec98f" "#5e5e5e"])
- '(blink-cursor-mode nil)
- '(column-number-mode t)
- '(compilation-message-face 'default)
- '(cua-global-mark-cursor-color "#7ec98f")
- '(cua-normal-cursor-color "#7b7b7b")
- '(cua-overwrite-cursor-color "#e5c06d")
- '(cua-read-only-cursor-color "#8ac6f2")
- '(custom-enabled-themes nil)
  '(custom-safe-themes
-   '("8f567db503a0d27202804f2ee51b4cd409eab5c4374f57640317b8fcbbd3e466" "13a8eaddb003fd0d561096e11e1a91b029d3c9d64554f8e897b2513dbf14b277" "bffa9739ce0752a37d9b1eee78fc00ba159748f50dc328af4be661484848e476" default))
+   '("4aee8551b53a43a883cb0b7f3255d6859d766b6c5e14bcb01bed572fcbef4328" "bffa9739ce0752a37d9b1eee78fc00ba159748f50dc328af4be661484848e476" "2809bcb77ad21312897b541134981282dc455ccd7c14d74cc333b6e549b824f3" default))
  '(evil-want-Y-yank-to-eol nil)
- '(fci-rule-color "#0a0a0a" t)
- '(highlight-changes-colors '("#e5786d" "#834c98"))
- '(highlight-parentheses-colors '("#7ec98f" "#e5c06d" "#a4b5e6" "#834c98" "#8ac6f2"))
- '(highlight-symbol-colors
-   '("#37422f2f1f2e" "#22e9312c259d" "#3c102d062b4b" "#23a7185f2777" "#25bd3068390f" "#35b22ae31f57" "#2a182d0b36bb"))
- '(highlight-symbol-foreground-color "#8b8b8b")
- '(highlight-tail-colors
-   '(("#0a0a0a" . 0)
-     ("#173030" . 20)
-     ("#173030" . 30)
-     ("#173030" . 50)
-     ("#313012" . 60)
-     ("#313012" . 70)
-     ("#341206" . 85)
-     ("#0a0a0a" . 100)))
- '(hl-bg-colors
-   '("#313012" "#313012" "#313012" "#341206" "#311430" "#173030" "#173030" "#173030"))
- '(hl-fg-colors
-   '("#000000" "#000000" "#000000" "#000000" "#000000" "#000000" "#000000" "#000000"))
- '(hl-paren-colors '("#7ec98f" "#e5c06d" "#a4b5e6" "#834c98" "#8ac6f2") t)
- '(lsp-ui-doc-border "#8b8b8b")
- '(nrepl-message-colors
-   '("#ffb4ac" "#ddaa6f" "#e5c06d" "#173030" "#e2fffe" "#173030" "#7ec98f" "#e5786d" "#834c98"))
+ '(highlight-parentheses-colors '("#2aa198" "#b58900" "#268bd2" "#6c71c4" "#859900"))
+ '(hl-paren-colors '("#2aa198" "#b58900" "#268bd2" "#6c71c4" "#859900"))
  '(package-selected-packages
-   '(zenburn-theme zen-and-art-theme white-sand-theme underwater-theme ujelly-theme twilight-theme twilight-bright-theme twilight-anti-bright-theme toxi-theme tao-theme tangotango-theme tango-plus-theme tango-2-theme sunny-day-theme sublime-themes subatomic256-theme subatomic-theme stickyfunc-enhance srefactor spacegray-theme soothe-theme soft-stone-theme soft-morning-theme soft-charcoal-theme smyx-theme seti-theme reverse-theme rebecca-theme railscasts-theme purple-haze-theme professional-theme planet-theme phoenix-dark-pink-theme phoenix-dark-mono-theme organic-green-theme omtose-phellack-theme oldlace-theme occidental-theme obsidian-theme noctilux-theme naquadah-theme mustang-theme monokai-theme monochrome-theme molokai-theme moe-theme minimal-theme material-theme majapahit-theme madhat2r-theme lush-theme light-soap-theme jbeans-theme jazz-theme ir-black-theme inkpot-theme highlight-indent-guides heroku-theme hemisu-theme hc-zenburn-theme gruvbox-theme gruber-darker-theme grandshell-theme gotham-theme gandalf-theme flatui-theme flatland-theme farmhouse-theme exotica-theme espresso-theme dracula-theme django-theme darktooth-theme autothemer darkokai-theme darkmine-theme darkburn-theme dakrone-theme cyberpunk-theme color-theme-sanityinc-tomorrow color-theme-sanityinc-solarized clues-theme cherry-blossom-theme busybee-theme bubbleberry-theme birds-of-paradise-plus-theme badwolf-theme apropospriate-theme anti-zenburn-theme ample-zen-theme ample-theme alect-themes afternoon-theme solarized-womat-dark-theme unfill mwim git-gutter-fringe+ git-gutter-fringe fringe-helper git-gutter+ git-gutter fuzzy flyspell-correct-ivy flyspell-correct diff-hl company-statistics company-anaconda auto-yasnippet yasnippet auto-dictionary ac-ispell auto-complete visible-mark evil-fringe-mark tabbar imenus popup-imenu windswap ripgrep lsp-ui ivy-rtags helm-rtags google-c-style flycheck-ycmd flycheck-rtags cpp-auto-include company-ycmd ycmd request-deferred deferred company-rtags rtags company-c-headers company ccls lsp-mode markdown-mode ht xcscope nlinum-relative nlinum helm-evil-markers yapfify pyvenv pytest pyenv-mode py-isort pip-requirements live-py-mode hy-mode dash-functional flycheck-pos-tip pos-tip flycheck cython-mode anaconda-mode pythonic disaster cmake-mode clang-format smeargle orgit magit-gitflow magit-popup helm-gitignore gitignore-mode gitconfig-mode gitattributes-mode git-timemachine git-messenger git-link evil-magit magit git-commit with-editor transient helm-swoop helm helm-core ws-butler winum which-key wgrep volatile-highlights vi-tilde-fringe uuidgen use-package undo-tree toc-org spaceline powerline smex restart-emacs request rainbow-delimiters popwin persp-mode pcre2el paradox spinner org-plus-contrib org-bullets open-junk-file neotree move-text macrostep lorem-ipsum linum-relative link-hint ivy-hydra indent-guide hydra lv hungry-delete hl-todo highlight-parentheses highlight-numbers parent-mode highlight-indentation helm-make google-translate golden-ratio flx-ido flx fill-column-indicator fancy-battery eyebrowse expand-region exec-path-from-shell evil-visualstar evil-visual-mark-mode evil-unimpaired f evil-tutor evil-surround evil-search-highlight-persist highlight evil-numbers evil-nerd-commenter evil-mc evil-matchit evil-lisp-state smartparens evil-indent-plus evil-iedit-state iedit evil-exchange evil-escape evil-ediff evil-args evil-anzu anzu evil goto-chg eval-sexp-fu elisp-slime-nav dumb-jump popup dash s diminish define-word counsel-projectile projectile pkg-info epl counsel swiper ivy column-enforce-mode clean-aindent-mode bind-map bind-key auto-highlight-symbol auto-compile packed async aggressive-indent adaptive-wrap ace-window ace-link avy))
- '(pos-tip-background-color "#0a0a0a")
- '(pos-tip-foreground-color "#8b8b8b")
- '(smartrep-mode-line-active-bg (solarized-color-blend "#8ac6f2" "#0a0a0a" 0.2))
- '(term-default-bg-color "#000000")
- '(term-default-fg-color "#7b7b7b")
- '(tool-bar-mode nil)
- '(vc-annotate-background nil)
- '(vc-annotate-background-mode nil)
- '(vc-annotate-color-map
-   '((20 . "#ffb4ac")
-     (40 . "#f39fbb058dbb")
-     (60 . "#ecefbdf47dd8")
-     (80 . "#e5c06d")
-     (100 . "#d1fcc2679b34")
-     (120 . "#c551c35ab143")
-     (140 . "#b60fc464c727")
-     (160 . "#a327c587dd05")
-     (180 . "#8ac6f2")
-     (200 . "#89fec7dad1d0")
-     (220 . "#8862c85dc14f")
-     (240 . "#85eec8dcb0cf")
-     (260 . "#82a2c955a040")
-     (280 . "#7ec98f")
-     (300 . "#9131c244b2d6")
-     (320 . "#98acbe43c439")
-     (340 . "#9f20ba14d58f")
-     (360 . "#a4b5e6")))
- '(vc-annotate-very-old-color nil)
- '(weechat-color-list
-   '(unspecified "#000000" "#0a0a0a" "#313012" "#ffb4ac" "#173030" "#8ac6f2" "#313012" "#e5c06d" "#173030" "#a4b5e6" "#341206" "#e5786d" "#173030" "#7ec98f" "#7b7b7b" "#5e5e5e"))
- '(xterm-color-names
-   ["#0a0a0a" "#ffb4ac" "#8ac6f2" "#e5c06d" "#a4b5e6" "#e5786d" "#7ec98f" "#ededed"])
- '(xterm-color-names-bright
-   ["#000000" "#ddaa6f" "#525252" "#5e5e5e" "#7b7b7b" "#834c98" "#8b8b8b" "#fffeff"]))
+   '(solarized-theme color-theme-sanityinc-solarized yapfify xcscope ws-butler winum windswap which-key wgrep volatile-highlights vi-tilde-fringe uuidgen use-package unfill undo-tree toc-org stickyfunc-enhance srefactor spaceline smex smeargle rtags ripgrep restart-emacs request rainbow-delimiters pyvenv pytest pyenv-mode py-isort popwin popup-imenu pip-requirements persp-mode pcre2el paradox orgit org-bullets open-junk-file nlinum-relative neotree mwim move-text magit-gitflow macrostep lsp-ui lorem-ipsum live-py-mode link-hint ivy-hydra indent-guide hy-mode hungry-delete hl-todo highlight-parentheses highlight-numbers highlight-indentation highlight-indent-guides helm-make google-translate golden-ratio gitignore-mode gitconfig-mode gitattributes-mode git-timemachine git-messenger git-link git-gutter-fringe git-gutter-fringe+ fuzzy flyspell-correct-ivy flycheck-pos-tip fill-column-indicator fancy-battery eyebrowse expand-region exec-path-from-shell evil-visualstar evil-visual-mark-mode evil-unimpaired evil-tutor evil-surround evil-search-highlight-persist evil-numbers evil-nerd-commenter evil-mc evil-matchit evil-magit evil-lisp-state evil-indent-plus evil-iedit-state evil-exchange evil-escape evil-ediff evil-args evil-anzu eval-sexp-fu elisp-slime-nav dumb-jump disaster diminish diff-hl define-word cython-mode counsel-projectile company-statistics company-c-headers company-anaconda column-enforce-mode cmake-mode clean-aindent-mode clang-format auto-yasnippet auto-highlight-symbol auto-dictionary auto-compile aggressive-indent adaptive-wrap ace-window ace-link ac-ispell)))
+
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
- '(default ((((class color) (min-colors 89)) (:foreground "#d4d4d4" :background "#000000" :family "PragmataPro" :foundry "fsdf" :slant normal :weight normal :height 98 :width normal)))))
+ '(default ((t (:background nil)))))
