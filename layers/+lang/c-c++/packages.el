@@ -27,6 +27,7 @@
     semantic
     srefactor
     stickyfunc-enhance
+    multiple-cursors
 ;    ycmd
     xcscope
     ;; rtags
@@ -54,6 +55,14 @@
       (spacemacs/set-leader-keys-for-major-mode 'c++-mode
         "ga" 'projectile-find-other-file
         "gA" 'projectile-find-other-file-other-window))))
+
+(defun c-c++/init-multiple-cursors ()
+  (use-package multiple-cursors
+    :defer t
+    :bind ("C-c l " . mc/edit-lines)
+    ("C-c ;" . mc/mark-all-like-this)
+    ("C-c '" . mc/mark-all-words-like-this))
+  )
 
 (defun c-c++/init-google-c-style ()
   (use-package google-c-style
