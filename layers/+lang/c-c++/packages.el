@@ -31,7 +31,7 @@
 ;    ycmd
     xcscope
     ;; rtags
-    ;(ivy-rtags :requires (ivy rtags))
+    (ivy-rtags :requires (ivy rtags))
     rtags
     ; lsp mode
     lsp-mode
