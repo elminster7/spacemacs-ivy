@@ -31,7 +31,7 @@
 ;    ycmd
     xcscope
     ;; rtags
-    (ivy-rtags :requires (ivy rtags))
+    ;;(ivy-rtags :requires (ivy rtags))
     rtags
     ; lsp mode
     lsp-mode
@@ -96,9 +96,15 @@
     :init (setq rtags-display-result-backend 'ivy)))
 
 (defun c-c++/init-rtags ()
-    ;; config in `funcs.el'
+  ;; config in `funcs.el'
   (use-package rtags
-    :defer t)
+    :defer t
+    :bind ("M-." . rtags-find-symbol)
+	  ("M-," . rtags-find-symbol-at-point)
+	  ("M-[" . rtags-location-stack-back)
+	  ("M-]" . rtags-location-stack-forward)
+    ("M-o" . rtags-show-target-in-other-window)
+    )
   )
 
 (defun c-c++/init-clang-format ()
