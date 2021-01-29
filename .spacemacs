@@ -408,7 +408,7 @@ you should place your code here."
   (add-hook 'c++-mode-hook 'my-c-mode-hook)
   (set-terminal-parameter nil 'background-mode 'dark)
   (set-frame-parameter nil 'background-mode 'dark)
-  (spacemacs/load-theme 'solarized)
+;  (spacemacs/load-theme 'solarized)
   )
 
 ;; Do not write anything past this comment. This is where Emacs will
@@ -419,12 +419,14 @@ you should place your code here."
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
  '(custom-safe-themes
-   '("4aee8551b53a43a883cb0b7f3255d6859d766b6c5e14bcb01bed572fcbef4328" "bffa9739ce0752a37d9b1eee78fc00ba159748f50dc328af4be661484848e476" "2809bcb77ad21312897b541134981282dc455ccd7c14d74cc333b6e549b824f3" default))
+   (quote
+    ("4aee8551b53a43a883cb0b7f3255d6859d766b6c5e14bcb01bed572fcbef4328" "bffa9739ce0752a37d9b1eee78fc00ba159748f50dc328af4be661484848e476" "2809bcb77ad21312897b541134981282dc455ccd7c14d74cc333b6e549b824f3" default)))
  '(evil-want-Y-yank-to-eol nil)
- '(highlight-parentheses-colors '("#2aa198" "#b58900" "#268bd2" "#6c71c4" "#859900"))
- '(hl-paren-colors '("#2aa198" "#b58900" "#268bd2" "#6c71c4" "#859900"))
+ '(highlight-parentheses-colors (quote ("#2aa198" "#b58900" "#268bd2" "#6c71c4" "#859900")))
+ '(hl-paren-colors (quote ("#2aa198" "#b58900" "#268bd2" "#6c71c4" "#859900")))
  '(package-selected-packages
-   '(solarized-theme color-theme-sanityinc-solarized yapfify xcscope ws-butler winum windswap which-key wgrep volatile-highlights vi-tilde-fringe uuidgen use-package unfill undo-tree toc-org stickyfunc-enhance srefactor spaceline smex smeargle rtags ripgrep restart-emacs request rainbow-delimiters pyvenv pytest pyenv-mode py-isort popwin popup-imenu pip-requirements persp-mode pcre2el paradox orgit org-bullets open-junk-file nlinum-relative neotree mwim move-text magit-gitflow macrostep lsp-ui lorem-ipsum live-py-mode link-hint ivy-hydra indent-guide hy-mode hungry-delete hl-todo highlight-parentheses highlight-numbers highlight-indentation highlight-indent-guides helm-make google-translate golden-ratio gitignore-mode gitconfig-mode gitattributes-mode git-timemachine git-messenger git-link git-gutter-fringe git-gutter-fringe+ fuzzy flyspell-correct-ivy flycheck-pos-tip fill-column-indicator fancy-battery eyebrowse expand-region exec-path-from-shell evil-visualstar evil-visual-mark-mode evil-unimpaired evil-tutor evil-surround evil-search-highlight-persist evil-numbers evil-nerd-commenter evil-mc evil-matchit evil-magit evil-lisp-state evil-indent-plus evil-iedit-state evil-exchange evil-escape evil-ediff evil-args evil-anzu eval-sexp-fu elisp-slime-nav dumb-jump disaster diminish diff-hl define-word cython-mode counsel-projectile company-statistics company-c-headers company-anaconda column-enforce-mode cmake-mode clean-aindent-mode clang-format auto-yasnippet auto-highlight-symbol auto-dictionary auto-compile aggressive-indent adaptive-wrap ace-window ace-link ac-ispell)))
+   (quote
+    (solarized-theme color-theme-sanityinc-solarized yapfify xcscope ws-butler winum windswap which-key wgrep volatile-highlights vi-tilde-fringe uuidgen use-package unfill undo-tree toc-org stickyfunc-enhance srefactor spaceline smex smeargle rtags ripgrep restart-emacs request rainbow-delimiters pyvenv pytest pyenv-mode py-isort popwin popup-imenu pip-requirements persp-mode pcre2el paradox orgit org-bullets open-junk-file nlinum-relative neotree mwim move-text magit-gitflow macrostep lsp-ui lorem-ipsum live-py-mode link-hint ivy-hydra indent-guide hy-mode hungry-delete hl-todo highlight-parentheses highlight-numbers highlight-indentation highlight-indent-guides helm-make google-translate golden-ratio gitignore-mode gitconfig-mode gitattributes-mode git-timemachine git-messenger git-link git-gutter-fringe git-gutter-fringe+ fuzzy flyspell-correct-ivy flycheck-pos-tip fill-column-indicator fancy-battery eyebrowse expand-region exec-path-from-shell evil-visualstar evil-visual-mark-mode evil-unimpaired evil-tutor evil-surround evil-search-highlight-persist evil-numbers evil-nerd-commenter evil-mc evil-matchit evil-magit evil-lisp-state evil-indent-plus evil-iedit-state evil-exchange evil-escape evil-ediff evil-args evil-anzu eval-sexp-fu elisp-slime-nav dumb-jump disaster diminish diff-hl define-word cython-mode counsel-projectile company-statistics company-c-headers company-anaconda column-enforce-mode cmake-mode clean-aindent-mode clang-format auto-yasnippet auto-highlight-symbol auto-dictionary auto-compile aggressive-indent adaptive-wrap ace-window ace-link ac-ispell))))
 
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
