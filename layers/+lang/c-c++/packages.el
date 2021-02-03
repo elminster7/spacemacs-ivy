@@ -99,11 +99,11 @@
   ;; config in `funcs.el'
   (use-package rtags
     :defer t
-    :bind ("M-." . rtags-find-symbol)
-	  ("M-," . rtags-find-symbol-at-point)
-	  ("M-[" . rtags-location-stack-back)
-	  ("M-]" . rtags-location-stack-forward)
-    ("M-o" . rtags-show-target-in-other-window)
+    ;:bind ("M-." . rtags-find-symbol)
+	  ;("M-," . rtags-find-symbol-at-point)
+	  ;("M-[" . rtags-location-stack-back)
+	  ;("M-]" . rtags-location-stack-forward)
+    ;("M-o" . rtags-show-target-in-other-window)
     )
   )
 
@@ -201,7 +201,7 @@
 
 (defun c-c++/pre-init-xcscope ()
   (spacemacs|use-package-add-hook xcscope
-    :post-init
+    :post-init.
     (dolist (mode '(c-mode c++-mode))
       (spacemacs/set-leader-keys-for-major-mode mode "gi" 'cscope-index-files))))
 
@@ -217,7 +217,11 @@
   :commands lsp
   :ensure t
   :bind ("C-c f" . man-follow)
-  	("C-c r" . lsp-ui-peek-find-references)
+  ("C-c r" . lsp-ui-peek-find-references)
+  ("M-. " . lsp-ui-peek-find-definitions)
+  ("M-[" . lsp-ui-peek-jump-backward)
+  ("M-]" . lsp-ui-peek-jump-forward)
+  ("M-o" . xref-find-definitions-other-window)
   :hook ((python-mode c-mode c++-mode) . lsp)
   ))
 
