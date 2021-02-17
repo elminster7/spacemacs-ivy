@@ -11,7 +11,7 @@
 
 (setq git-packages
       '(
-        evil-magit
+;        evil-magit
         fill-column-indicator
         gitattributes-mode
         gitconfig-mode
