@@ -13,6 +13,7 @@
       '(
         ibuffer
         ibuffer-projectile
+        ibuffer-sidebar
         ))
 
 (defun ibuffer/init-ibuffer()
@@ -37,6 +38,13 @@
       "gr" 'ibuffer-update
       "gj" 'ibuffer-forward-filter-group
       "gk" 'ibuffer-backward-filter-group)))
+
+(defun ibuffer/init-ibuffer-sidebar()
+  (use-package ibuffer-sidebar
+    :defer t
+    :init
+    (bind-key "C-b" 'ibuffer-sidebar-toggle-sidebar)
+    ))
 
 (defun ibuffer/init-ibuffer-projectile()
     (use-package ibuffer-projectile

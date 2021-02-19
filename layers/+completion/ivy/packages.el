@@ -49,7 +49,7 @@
     :init
     (bind-key "C-c g" 'counsel-git)
     (bind-key "C-c j" 'counsel-git-grep)
-    (bind-key "C-b" 'counsel-buffer-or-recentf)
+;    (bind-key "C-b" 'counsel-buffer-or-recentf)
     :config
     (progn
       (define-key counsel-find-file-map (kbd "C-h") 'counsel-up-directory)
