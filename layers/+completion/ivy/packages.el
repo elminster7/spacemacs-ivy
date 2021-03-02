@@ -260,10 +260,10 @@
 
 (defun ivy/init-swiper ()
   (use-package swiper
-    :bind (("C-s t" . swiper-thing-at-point)
-    ("C-s w" . swiper)
-    ("C-s m" . swiper-multi)
-    ("C-s a" . swiper-ivy))
+    :bind (("C-s" . swiper-thing-at-point)
+    ("C-c w" . swiper)
+    ("C-c m" . swiper-multi)
+    ("C-c a" . swiper-ivy))
     :config
     (progn
       (spacemacs/set-leader-keys
