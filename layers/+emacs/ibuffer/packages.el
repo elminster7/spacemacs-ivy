@@ -43,7 +43,7 @@
   (use-package ibuffer-sidebar
     :defer t
     :init
-    (bind-key "C-b" 'ibuffer-sidebar-toggle-sidebar)
+    (bind-key "C-t" 'ibuffer-sidebar-toggle-sidebar)
     ))
 
 (defun ibuffer/init-ibuffer-projectile()
