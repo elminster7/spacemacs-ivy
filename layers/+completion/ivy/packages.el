@@ -260,14 +260,17 @@
 
 (defun ivy/init-swiper ()
   (use-package swiper
+    :bind (("C-s t" . swiper-thing-at-point)
+    ("C-s w" . swiper)
+    ("C-s m" . swiper-multi)
+    ("C-s a" . swiper-ivy))
     :config
     (progn
       (spacemacs/set-leader-keys
         "ss" 'swiper
         "sS" 'spacemacs/swiper-region-or-symbol
         "sb" 'swiper-all
-        "sB" 'spacemacs/swiper-all-region-or-symbol)
-      (global-set-key "\C-s" 'swiper))))
+        "sB" 'spacemacs/swiper-all-region-or-symbol))))
 
 (defun ivy/init-wgrep ()
   (evil-define-key 'normal wgrep-mode-map ",," 'wgrep-finish-edit)
