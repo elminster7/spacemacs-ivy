@@ -60,7 +60,9 @@
     ;minimal-theme
     ;moe-theme
     ;molokai-theme
-    ;monokai-theme
+    monokai-theme
+    monokai-alt-theme
+    monokai-pro-theme
     ;monochrome-theme
     ;mustang-theme
     ;naquadah-theme
@@ -83,7 +85,7 @@
     ;soft-charcoal-theme
     ;soft-morning-theme
     ;soft-stone-theme
-    ;solarized-theme
+    solarized-theme
     ;soothe-theme
     ;spacegray-theme
     ;subatomic-theme
