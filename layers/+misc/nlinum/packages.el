@@ -33,7 +33,7 @@
             (add-hook 'text-mode-hook 'nlinum-mode))
         (add-hook 'after-change-major-mode-hook 'spacemacs/nlinum-maybe-on))
       (set-face-foreground 'linum "#af8700")
-      (setq nlinum-format "%4d\u2502  "))))
+      (setq nlinum-format "%4d\u2502    "))))
 
 (defun nlinum/init-nlinum-relative ()
   (use-package nlinum-relative
