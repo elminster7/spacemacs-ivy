@@ -31,7 +31,7 @@
   (use-package ecb
     :defer t
     :config
-    :init (setq ecb-layout-name "right")
+    :init (setq ecb-layout-name "right1")
     (setq ecb-examples-bufferinfo-buffer-name nil)
     (setq stack-trace-on-error t)
     (setq ecb-version-check nil)
