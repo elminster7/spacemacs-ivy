@@ -385,7 +385,7 @@
   (setq highlight-indent-guides-auto-odd-face-perc 15)
   (setq highlight-indent-guides-auto-even-face-perc 15)
   (setq highlight-indent-guides-auto-character-face-perc 20)
-  (set-face-foreground 'highlight-indent-guides-character-face "red"))
+  (set-face-foreground 'highlight-indent-guides-character-face "orange"))
 
 (defun spacemacs-editing-visual/init-rainbow-delimiters ()
   (use-package rainbow-delimiters

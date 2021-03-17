@@ -14,6 +14,7 @@
         (semantic :location built-in)
         srefactor
         stickyfunc-enhance
+        ecb
         ))
 
 (defun semantic/init-semantic ()
@@ -25,6 +26,30 @@
                    'global-semantic-stickyfunc-mode)
       (add-to-list 'semantic-default-submodes
                    'global-semantic-idle-summary-mode))))
+
+(defun semantic/init-ecb ()
+  (use-package ecb
+    :defer t
+    :config
+    :init (setq ecb-layout-name "right")
+    (setq ecb-examples-bufferinfo-buffer-name nil)
+    (setq stack-trace-on-error t)
+    (setq ecb-version-check nil)
+    (setq ecb-compile-window-height 30)
+    (setq ecb-windows-width 0.20)
+    ;; disable tip of the day
+    (setq ecb-tip-of-the-day nil)
+    ;; semantic settings
+    (semantic-mode t)
+    ;;	(set-face-background 'semantic-highlight-func-current-tag-face "blue")
+    ;;	(set-face-background 'semantic-highlight-func-current-tag-face "brightred")
+    ;;	(set-face-foreground 'semantic-highlight-func-current-tag-face "black")
+    (add-to-list 'semantic-default-submodes 'global-semantic-stickyfunc-mode)
+    (add-to-list 'semantic-default-submodes 'global-semantic-idle-summary-mode)
+    ;;	(global-semanticdb-minor-mode t)
+    (global-semantic-stickyfunc-mode t)
+    (global-semantic-highlight-func-mode t)
+    (global-semantic-decoration-mode t)))
 
 (defun semantic/init-srefactor ()
   (use-package srefactor
