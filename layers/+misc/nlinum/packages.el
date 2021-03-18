@@ -20,6 +20,7 @@
 (defun nlinum/init-nlinum ()
   (use-package nlinum
     :init
+    (global-nlinum-mode t)
     (spacemacs|add-toggle line-numbers
       :mode nlinum-mode
       :documentation "Show the line numbers."
