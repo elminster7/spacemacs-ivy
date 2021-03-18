@@ -51,9 +51,9 @@ values."
      semantic
      ;; markdown
      ;; org
-     ;; (shell :variables
-     ;;        shell-default-height 30
-     ;;        shell-default-position 'bottom)
+     (shell :variables
+             shell-default-height 30
+             shell-default-position 'bottom)
      colors
      spell-checking
      syntax-checking
@@ -418,7 +418,7 @@ you should place your code here."
   (add-hook 'c++-mode-hook 'my-c-mode-hook)
   ;(set-terminal-parameter nil 'background-mode 'dark)
   ;(set-frame-parameter nil 'background-mode 'dark)
-  (spacemacs/load-theme 'monokai-alt)
+  (spacemacs/load-theme 'vscode-dark-plus)
   )
 
 ;; Do not write anything past this comment. This is where Emacs will
@@ -436,7 +436,7 @@ you should place your code here."
  '(highlight-parentheses-colors '("#2aa198" "#b58900" "#268bd2" "#6c71c4" "#859900"))
  '(hl-paren-colors '("#2aa198" "#b58900" "#268bd2" "#6c71c4" "#859900"))
  '(package-selected-packages
-   '(god-mode imenu-list ecb monokai-theme monokai-pro-theme monokai-alt-theme material-theme undohist afternoon-theme kaolin-themes vs-light-theme gruvbox-theme ayu-theme ibuffer-projectile ibuffer-sidebar vscode-dark-plus-theme rainbow-mode rainbow-identifiers color-identifiers-mode web-mode tagedit slim-mode scss-mode sass-mode pug-mode haml-mode emmet-mode company-web web-completion-data solarized-theme color-theme-sanityinc-solarized yapfify xcscope ws-butler winum windswap which-key wgrep volatile-highlights vi-tilde-fringe uuidgen use-package unfill undo-tree toc-org stickyfunc-enhance srefactor spaceline smex smeargle rtags ripgrep restart-emacs request rainbow-delimiters pyvenv pytest pyenv-mode py-isort popwin popup-imenu pip-requirements persp-mode pcre2el paradox orgit org-bullets open-junk-file nlinum-relative neotree mwim move-text magit-gitflow macrostep lsp-ui lorem-ipsum live-py-mode link-hint ivy-hydra indent-guide hy-mode hungry-delete hl-todo highlight-parentheses highlight-numbers highlight-indentation highlight-indent-guides helm-make google-translate golden-ratio gitignore-mode gitconfig-mode gitattributes-mode git-timemachine git-messenger git-link git-gutter-fringe git-gutter-fringe+ fuzzy flyspell-correct-ivy flycheck-pos-tip fill-column-indicator fancy-battery eyebrowse expand-region exec-path-from-shell evil-visualstar evil-visual-mark-mode evil-unimpaired evil-tutor evil-surround evil-search-highlight-persist evil-numbers evil-nerd-commenter evil-mc evil-matchit evil-magit evil-lisp-state evil-indent-plus evil-iedit-state evil-exchange evil-escape evil-ediff evil-args evil-anzu eval-sexp-fu elisp-slime-nav dumb-jump disaster diminish diff-hl define-word cython-mode counsel-projectile company-statistics company-c-headers company-anaconda column-enforce-mode cmake-mode clean-aindent-mode clang-format auto-yasnippet auto-highlight-symbol auto-dictionary auto-compile aggressive-indent adaptive-wrap ace-window ace-link ac-ispell))
+   '(bm mark-tools mark-multiple visible-mark smart-mark xterm-color shell-pop multi-term eshell-z eshell-prompt-extras esh-help god-mode imenu-list ecb monokai-theme monokai-pro-theme monokai-alt-theme material-theme undohist afternoon-theme kaolin-themes vs-light-theme gruvbox-theme ayu-theme ibuffer-projectile ibuffer-sidebar vscode-dark-plus-theme rainbow-mode rainbow-identifiers color-identifiers-mode web-mode tagedit slim-mode scss-mode sass-mode pug-mode haml-mode emmet-mode company-web web-completion-data solarized-theme color-theme-sanityinc-solarized yapfify xcscope ws-butler winum windswap which-key wgrep volatile-highlights vi-tilde-fringe uuidgen use-package unfill undo-tree toc-org stickyfunc-enhance srefactor spaceline smex smeargle rtags ripgrep restart-emacs request rainbow-delimiters pyvenv pytest pyenv-mode py-isort popwin popup-imenu pip-requirements persp-mode pcre2el paradox orgit org-bullets open-junk-file nlinum-relative neotree mwim move-text magit-gitflow macrostep lsp-ui lorem-ipsum live-py-mode link-hint ivy-hydra indent-guide hy-mode hungry-delete hl-todo highlight-parentheses highlight-numbers highlight-indentation highlight-indent-guides helm-make google-translate golden-ratio gitignore-mode gitconfig-mode gitattributes-mode git-timemachine git-messenger git-link git-gutter-fringe git-gutter-fringe+ fuzzy flyspell-correct-ivy flycheck-pos-tip fill-column-indicator fancy-battery eyebrowse expand-region exec-path-from-shell evil-visualstar evil-visual-mark-mode evil-unimpaired evil-tutor evil-surround evil-search-highlight-persist evil-numbers evil-nerd-commenter evil-mc evil-matchit evil-magit evil-lisp-state evil-indent-plus evil-iedit-state evil-exchange evil-escape evil-ediff evil-args evil-anzu eval-sexp-fu elisp-slime-nav dumb-jump disaster diminish diff-hl define-word cython-mode counsel-projectile company-statistics company-c-headers company-anaconda column-enforce-mode cmake-mode clean-aindent-mode clang-format auto-yasnippet auto-highlight-symbol auto-dictionary auto-compile aggressive-indent adaptive-wrap ace-window ace-link ac-ispell))
  '(volatile-highlights-mode t))
 
 (custom-set-faces
