@@ -48,9 +48,9 @@
 (defun ivy/init-bm ()
   (use-package bm
   :init
-  (bind-key "C-c b" 'bm-toggle)
-  (bind-key "C-c n" 'bm-next)
-  (bind-key "C-c p" 'bm-previous)
+  (bind-key "C-c 3" 'bm-toggle)
+  (bind-key "C-c 1" 'bm-next)
+  (bind-key "C-c 2" 'bm-previous)
   (bind-key "C-c h" 'bm-show-all)
   ))
 

@@ -13,7 +13,6 @@
       '(
         ibuffer
         ibuffer-projectile
-        ibuffer-sidebar
         ))
 
 (defun ibuffer/init-ibuffer()
