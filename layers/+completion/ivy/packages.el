@@ -30,6 +30,7 @@
         swiper
         wgrep
         ripgrep
+        bm
         ))
 
 (defun ivy/pre-init-auto-highlight-symbol ()
@@ -43,6 +44,15 @@
           '(("/" spacemacs/search-project-auto-region-or-symbol :exit t)
             ("b" spacemacs/swiper-all-region-or-symbol :exit t)
             ("f" spacemacs/search-auto-region-or-symbol :exit t)))))
+
+(defun ivy/init-bm ()
+  (use-package bm
+  :init
+  (bind-key "C-c b" 'bm-toggle)
+  (bind-key "C-c n" 'bm-next)
+  (bind-key "C-c p" 'bm-previous)
+  (bind-key "C-c h" 'bm-show-all)
+  ))
 
 (defun ivy/init-counsel ()
   (use-package counsel
