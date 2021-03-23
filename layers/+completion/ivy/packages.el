@@ -52,6 +52,8 @@
   (bind-key "C-c 1" 'bm-next)
   (bind-key "C-c 2" 'bm-previous)
   (bind-key "C-c h" 'bm-show-all)
+  :config
+  (set-face-attribute 'bm-face nil :foreground "white" :background "brightyellow")
   ))
 
 (defun ivy/init-counsel ()
