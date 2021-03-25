@@ -86,6 +86,7 @@
     ;soft-morning-theme
     ;soft-stone-theme
     solarized-theme
+    kaolin-themes
     ;soothe-theme
     ;spacegray-theme
     ;subatomic-theme
