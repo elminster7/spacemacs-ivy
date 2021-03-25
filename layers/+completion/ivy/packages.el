@@ -15,6 +15,7 @@
         bookmark
         counsel
         popup-imenu
+        sr-speedbar
         (counsel-projectile :toggle (configuration-layer/package-usedp 'projectile))
         evil
         flx
@@ -55,6 +56,11 @@
   :config
   (set-face-attribute 'bm-face nil :foreground "white" :background "brightyellow")
   ))
+
+(defun ivy/init-sr-speedbar()
+  (use-package sr-speedbar
+    :init (setq sr-speedbar-auto-refresh t)
+    (bind-key "C-t" 'sr-speedbar-toggle)))
 
 (defun ivy/init-counsel ()
   (use-package counsel
