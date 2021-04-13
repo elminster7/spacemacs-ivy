@@ -12,6 +12,7 @@
 (setq ivy-packages
       '(
         auto-highlight-symbol
+        highlight-symbol
         bookmark
         counsel
         popup-imenu
@@ -56,6 +57,15 @@
   :config
   (set-face-attribute 'bm-face nil :foreground "white" :background "brightyellow")
   ))
+
+(defun ivy/init-highlight-symbol ()
+  (use-package highlight-symbol
+    :init
+    (bind-key "C-h 3" 'highlight-symbol)
+    (bind-key "C-h 2" 'highlight-symbol-next)
+    (bind-key "C-h 1" 'highlight-symbol-prev)
+    )
+  )
 
 (defun ivy/init-sr-speedbar()
   (use-package sr-speedbar
