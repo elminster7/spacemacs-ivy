@@ -62,6 +62,7 @@
   (bind-key "C-c h" 'bm-show-all)
   :config
   (set-face-attribute 'bm-face nil :foreground "black" :background "brightred")
+  (set-face-attribute 'hl-line nil :background "brightblack")
   ))
 
 (defun ivy/init-highlight-symbol ()
