@@ -33,6 +33,7 @@
         wgrep
         ripgrep
         bm
+        ;;all-the-icons-ivy
         ))
 
 (defun ivy/pre-init-auto-highlight-symbol ()
@@ -47,6 +48,11 @@
             ("b" spacemacs/swiper-all-region-or-symbol :exit t)
             ("f" spacemacs/search-auto-region-or-symbol :exit t)))))
 
+(defun ivy/init-all-the-icons-ivy ()
+  (use-package all-the-icons-ivy
+    :init (add-hook 'after-init-hook 'all-the-icons-ivy-setup))
+  )
+
 (defun ivy/init-bm ()
   (use-package bm
   :init
@@ -55,7 +61,7 @@
   (bind-key "C-c 2" 'bm-previous)
   (bind-key "C-c h" 'bm-show-all)
   :config
-  (set-face-attribute 'bm-face nil :foreground "white" :background "brightyellow")
+  (set-face-attribute 'bm-face nil :foreground "black" :background "brightred")
   ))
 
 (defun ivy/init-highlight-symbol ()
@@ -70,7 +76,7 @@
 (defun ivy/init-sr-speedbar()
   (use-package sr-speedbar
     :init (setq sr-speedbar-auto-refresh t)
-    (bind-key "C-t" 'sr-speedbar-toggle)))
+    (bind-key "C-t" 'lsp-ui-imenu)))
 
 (defun ivy/init-counsel ()
   (use-package counsel
