@@ -63,6 +63,7 @@
     monokai-theme
     monokai-alt-theme
     monokai-pro-theme
+    doom-themes
     ;monochrome-theme
     ;mustang-theme
     ;naquadah-theme

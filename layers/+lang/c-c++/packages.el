@@ -93,6 +93,7 @@
 	         ("M-[" . rtags-location-stack-back)
 	         ("M-]" . rtags-location-stack-forward)
            ("M-o" . rtags-show-target-in-other-window)
+           ("C-o w" . bs-show)
     :init (setq rtags-display-result-backend 'ivy)))
 
 (defun c-c++/init-rtags ()
