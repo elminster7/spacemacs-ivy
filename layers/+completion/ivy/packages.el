@@ -60,6 +60,7 @@
   (bind-key "C-c 1" 'bm-next)
   (bind-key "C-c 2" 'bm-previous)
   (bind-key "C-c h" 'bm-show-all)
+  (bind-key "C-h s" 'bs-show)
   :config
   ;(set-face-attribute 'bm-face nil :foreground "black" :background "brightred")
   ;(set-face-attribute 'hl-line nil :background "brightblack")
