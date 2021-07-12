@@ -32,7 +32,7 @@
     xcscope
     ;; rtags
     ;;(ivy-rtags :requires (ivy rtags))
-    rtags
+    ivy-rtags
     ; lsp mode
     lsp-mode
     lsp-ui
@@ -88,12 +88,11 @@
 (defun c-c++/init-ivy-rtags ()
   (use-package ivy-rtags
     :defer t
-    :bind ("M-." . rtags-find-symbol)
-	         ("M-," . rtags-find-symbol-at-point)
-	         ("M-[" . rtags-location-stack-back)
-	         ("M-]" . rtags-location-stack-forward)
-           ("M-o" . rtags-show-target-in-other-window)
-           ("C-o w" . bs-show)
+    :bind ("C-c M-." . rtags-find-symbol)
+	         ("C-c M-," . rtags-find-symbol-at-point)
+	         ("C-c M-[" . rtags-location-stack-back)
+	         ("C-c M-]" . rtags-location-stack-forward)
+           ("C-c M-o" . rtags-show-target-in-other-window)
     :init (setq rtags-display-result-backend 'ivy)))
 
 (defun c-c++/init-rtags ()
