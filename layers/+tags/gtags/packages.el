@@ -25,6 +25,7 @@
       (add-hook 'awk-mode-local-vars-hook #'spacemacs/ggtags-mode-enable)
       (add-hook 'shell-mode-local-vars-hook #'spacemacs/ggtags-mode-enable)
       (add-hook 'tcl-mode-local-vars-hook #'spacemacs/ggtags-mode-enable)
+      (add-hook 'asm-mode-local-vars-hook #'spacemacs/ggtags-mode-enable)
       (add-hook 'vhdl-mode-local-vars-hook #'spacemacs/ggtags-mode-enable))
     :config
     (when (configuration-layer/package-usedp 'helm-gtags)
@@ -33,10 +34,10 @@
       ;; `helm-gtags-mode' is basically entirely contained within
       ;; `ggtags-mode-map' --- this way we don't have to enable both.
       ;; Note: all of these functions are autoloadable.
-      (define-key ggtags-mode-map (kbd "M-.") 'helm-gtags-dwim)
-      (define-key ggtags-mode-map (kbd "C-x 4 .") 'helm-gtags-find-tag-other-window)
-      (define-key ggtags-mode-map (kbd "M-,") 'helm-gtags-pop-stack)
-      (define-key ggtags-mode-map (kbd "M-*") 'helm-gtags-pop-stack))))
+      (define-key ggtags-mode-map (kbd "C-c M-.") 'ggtags-find-tag-dwim)
+      (define-key ggtags-mode-map (kbd "C-c M-o") 'ggtags-find-other-symbol)
+      (define-key ggtags-mode-map (kbd "C-c M-[") 'ggtags-prev-mark)
+      (define-key ggtags-mode-map (kbd "C-c M-]") 'ggtags-next-mark))))
 
 (defun gtags/init-helm-gtags ()
   (use-package helm-gtags
