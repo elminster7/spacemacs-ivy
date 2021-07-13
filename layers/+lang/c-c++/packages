@@ -29,8 +29,8 @@
     ycmd
     xcscope
     ;; rtags
-    (ivy-rtags :requires (ivy rtags))
-    rtags
+    ;; (ivy-rtags :requires (ivy rtags))
+    ;; rtags
     ))
 
 (defun c-c++/init-cc-mode ()

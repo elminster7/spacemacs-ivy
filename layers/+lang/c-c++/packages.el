@@ -32,7 +32,7 @@
     xcscope
     ;; rtags
     ;;(ivy-rtags :requires (ivy rtags))
-    ivy-rtags
+    ;; ivy-rtags
     ; lsp mode
     lsp-mode
     lsp-ui
