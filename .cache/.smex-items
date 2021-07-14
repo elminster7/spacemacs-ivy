@@ -1,0 +1,70 @@
+
+;; ----- smex-history -----
+(
+ package-install
+ list-packages
+ c-mode
+ ibuffer
+ cscope-find-global-definition
+ cscope-find-egrep-pattern
+ cscope-index-files
+ cscope-find-this-text-string
+ mc/mark-all-words-like-this
+ profiler-report
+ replace-string
+ profiler-start
+ ansi-term
+ gdb
+ load-theme
+ makefile-mode
+ cd
+ 5x5
+ arp
+ dbx
+ dig
+ erc
+ ert
+ eww
+ ftp
+ irc
+ jdb
+ lsp
+ man
+ mpc
+ pdb
+ pwd
+)
+
+;; ----- smex-data -----
+(
+ (ansi-term . 2)
+ (cscope-index-files . 3)
+ (makefile-mode . 1)
+ (load-theme . 2)
+ (gdb . 1)
+ (profiler-start . 3)
+ (ecb-activate . 1)
+ (ecb-deactivate . 1)
+ (replace-string . 1)
+ (profiler-report . 1)
+ (mc/mark-all-words-like-this . 1)
+ (package-install . 5)
+ (list-packages . 5)
+ (cscope-find-this-symbol . 2)
+ (cscope-find-this-text-string . 1)
+ (cscope-find-called-functions . 1)
+ (citre-jump . 2)
+ (citre-peek--mode . 1)
+ (cscope-find-egrep-pattern . 1)
+ (cscope-find-global-definition . 1)
+ (ggtags-mode . 3)
+ (ggtags-find-tag-dwim . 10)
+ (counsel-gtags-find-symbol . 1)
+ (counsel-gtags-mode . 1)
+ (counsel-gtags-find-definition . 2)
+ (counsel-gtags-dwim . 1)
+ (ibuffer . 1)
+ (ggtags-find-reference . 1)
+ (ggtags-find-file . 1)
+ (c-mode . 1)
+)

@@ -1,0 +1,20 @@
+;; Object semanticdb-project-database-file-158ad9d70c44
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file-158ad9d70c44"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table-158ad8f20546"
+      :major-mode emacs-lisp-mode
+      :tags 
+        '( ("setq" code nil nil [298 383])
+            ("ibuffer/init-ibuffer" function nil nil [385 1120])
+            ("ibuffer/init-ibuffer-sidebar" function nil nil [1122 1273])
+            ("ibuffer/init-ibuffer-projectile" function nil nil [1275 1773]))          
+      :file "packages.el"
+      :pointmax 1774
+      :fsize 1773
+      :lastmodtime '(24807 41275 736339 260000)
+      :unmatched-syntax nil))
+  :file "!home!bspserver!.emacs.d!layers!+emacs!ibuffer!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

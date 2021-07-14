@@ -1,0 +1,38 @@
+;; Object semanticdb-project-database-file-1576dbadf302
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file-1576dbadf302"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table-1576dc82bf00"
+      :major-mode makefile-mode
+      :tags 
+        '( ("DESCRIPTION" variable (:default-value ("\"shared lib for ${MACHINE}\"")) nil [1 43])
+            ("SECTION" variable (:default-value ("\"base\"")) nil [43 60])
+            ("PRIORITY" variable (:default-value ("\"required\"")) nil [60 82])
+            ("LICENSE" variable (:default-value ("\"CLOSED\"")) nil [82 101])
+            ("PACKAGE_ARCH" variable (:default-value ("\"${MACHINE_ARCH}\"")) nil [102 135])
+            ("PV" variable (:default-value ("\"${SRCDATE}\"")) nil [161 179])
+            ("PR" variable (:default-value ("\"r1\"")) nil [179 189])
+            ("INHIBIT_PACKAGE_STRIP" variable (:default-value ("\"1\"")) nil [211 239])
+            ("INHIBIT_PACKAGE_DEBUG_SPLIT" variable (:default-value ("\"1\"")) nil [239 273])
+            ("SOLIBS" variable (:default-value ("\".so\"")) nil [273 288])
+            ("FILES_SOLIBSDEV" variable (:default-value ("\"\"")) nil [288 309])
+            ("SRC_URI" variable (:default-value ("\"http://192.168.0.133/hisi3798mv200-hilib-${SRCDATE}.tar.gz\"")) nil [392 463])
+            ("S" variable (:default-value ("\"${WORKDIR}/hilib\"")) nil [464 487]))          
+      :file "dags-libs.inc"
+      :pointmax 709
+      :fsize 708
+      :lastmodtime '(24811 45418 610543 337000)
+      :unmatched-syntax nil)
+    (semanticdb-table "semanticdb-table-1576dd4f04c0"
+      :major-mode makefile-mode
+      :tags 
+        '( ("SRCDATE" variable (:default-value ("\"20210708\"")) nil [1 22]))          
+      :file "dags-libs-hisi3798mv200.bb"
+      :pointmax 330
+      :fsize 329
+      :lastmodtime '(24811 45468 99416 302000)
+      :unmatched-syntax '((string 263 . 329) (punctuation 261 . 262) (semantic-list 249 . 260) (symbol 242 . 249) (bol 242 . 242) (string 207 . 241) (punctuation 205 . 206) (semantic-list 196 . 204) (symbol 189 . 196) (bol 189 . 189) (symbol 31 . 44) (symbol 23 . 30) (bol 23 . 23) (string 231 . 233) (punctuation 229 . 230) (semantic-list 217 . 228) (symbol 210 . 217) (bol 210 . 210) (string 207 . 209) (punctuation 205 . 206) (semantic-list 196 . 204) (symbol 189 . 196) (bol 189 . 189) (symbol 31 . 44) (symbol 23 . 30) (bol 23 . 23))))
+  :file "!home!bspserver!000_BUILD!02_build_openatv6.4!meta-oe-alliance!meta-brands!meta-dags!recipes-graphics!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

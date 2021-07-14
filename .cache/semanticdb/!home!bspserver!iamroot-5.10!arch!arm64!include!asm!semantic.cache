@@ -1,0 +1,2362 @@
+;; Object semanticdb-project-database-file-155f1a103616
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file-155f1a103616"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table-155f1a103642"
+      :major-mode c-mode
+      :tags 
+        '( ("__ASM_MEMORY_H" variable (:constant-flag t) nil [264 278])
+            ("linux/const.h" include (:system-flag t) nil [280 304])
+            ("linux/sizes.h" include (:system-flag t) nil [305 329])
+            ("asm/page-def.h" include (:system-flag t) nil [330 355])
+            ("PCI_IO_SIZE" variable (:constant-flag t) nil [510 521])
+            ("VMEMMAP_SIZE" variable (:constant-flag t) nil [1000 1012])
+            ("VA_BITS" variable (:constant-flag t) nil [1457 1464])
+            ("_PAGE_OFFSET" variable (:constant-flag t) nil [1498 1510])
+            ("PAGE_OFFSET" variable (:constant-flag t) nil [1542 1553])
+            ("KIMAGE_VADDR" variable (:constant-flag t) nil [1587 1599])
+            ("BPF_JIT_REGION_START" variable (:constant-flag t) nil [1623 1643])
+            ("BPF_JIT_REGION_SIZE" variable (:constant-flag t) nil [1671 1690])
+            ("BPF_JIT_REGION_END" variable (:constant-flag t) nil [1709 1727])
+            ("MODULES_END" variable (:constant-flag t) nil [1781 1792])
+            ("MODULES_VADDR" variable (:constant-flag t) nil [1834 1847])
+            ("MODULES_VSIZE" variable (:constant-flag t) nil [1878 1891])
+            ("VMEMMAP_START" variable (:constant-flag t) nil [1911 1924])
+            ("VMEMMAP_END" variable (:constant-flag t) nil [1958 1969])
+            ("PCI_IO_END" variable (:constant-flag t) nil [2010 2020])
+            ("PCI_IO_START" variable (:constant-flag t) nil [2054 2066])
+            ("FIXADDR_TOP" variable (:constant-flag t) nil [2103 2114])
+            ("VA_BITS_MIN" variable (:constant-flag t) nil [2197 2208])
+            ("_PAGE_END" variable (:constant-flag t) nil [2236 2245])
+            ("KERNEL_START" variable (:constant-flag t) nil [2285 2297])
+            ("KERNEL_END" variable (:constant-flag t) nil [2313 2323])
+            ("KASAN_THREAD_SHIFT" variable (:constant-flag t) nil [2795 2813])
+            ("KASAN_SHADOW_END" variable (:constant-flag t) nil [2824 2840])
+            ("MIN_THREAD_SHIFT" variable (:constant-flag t) nil [2901 2917])
+            ("THREAD_SHIFT" variable (:constant-flag t) nil [3184 3196])
+            ("THREAD_SIZE_ORDER" variable (:constant-flag t) nil [3262 3279])
+            ("THREAD_SIZE" variable (:constant-flag t) nil [3324 3335])
+            ("THREAD_ALIGN" variable (:constant-flag t) nil [3611 3623])
+            ("IRQ_STACK_SIZE" variable (:constant-flag t) nil [3653 3667])
+            ("OVERFLOW_STACK_SIZE" variable (:constant-flag t) nil [3690 3709])
+            ("SEGMENT_ALIGN" variable (:constant-flag t) nil [3945 3958])
+            ("MT_NORMAL" variable (:constant-flag t) nil [4227 4236])
+            ("MT_NORMAL_TAGGED" variable (:constant-flag t) nil [4248 4264])
+            ("MT_NORMAL_NC" variable (:constant-flag t) nil [4275 4287])
+            ("MT_NORMAL_WT" variable (:constant-flag t) nil [4299 4311])
+            ("MT_DEVICE_nGnRnE" variable (:constant-flag t) nil [4323 4339])
+            ("MT_DEVICE_nGnRE" variable (:constant-flag t) nil [4350 4365])
+            ("MT_DEVICE_GRE" variable (:constant-flag t) nil [4377 4390])
+            ("MT_S2_NORMAL" variable (:constant-flag t) nil [4450 4462])
+            ("MT_S2_DEVICE_nGnRE" variable (:constant-flag t) nil [4476 4494])
+            ("MT_S2_FWB_NORMAL" variable (:constant-flag t) nil [4636 4652])
+            ("MT_S2_FWB_DEVICE_nGnRE" variable (:constant-flag t) nil [4663 4685])
+            ("IOREMAP_MAX_ORDER" variable (:constant-flag t) nil [4770 4787])
+            ("linux/bitops.h" include (:system-flag t) nil [4830 4855])
+            ("linux/compiler.h" include (:system-flag t) nil [4856 4883])
+            ("linux/mmdebug.h" include (:system-flag t) nil [4884 4910])
+            ("linux/types.h" include (:system-flag t) nil [4911 4935])
+            ("asm/bug.h" include (:system-flag t) nil [4936 4956])
+            ("vabits_actual" variable
+               (:typemodifiers ("extern")
+                :type ("u64" type (:type "class") nil nil))
+                nil [4958 4985])
+            ("PAGE_END" variable (:constant-flag t) nil [4994 5002])
+            ("memstart_addr" variable
+               (:typemodifiers ("extern")
+                :type ("s64" type (:type "class") nil nil))
+                nil [5032 5059])
+            ("PHYS_OFFSET" variable (:constant-flag t) nil [5133 5144])
+            ("kimage_vaddr" variable
+               (:typemodifiers ("extern")
+                :type ("u64" type (:type "class") nil nil))
+                nil [5241 5267])
+            ("kimage_voffset" variable
+               (:typemodifiers ("extern")
+                :type ("u64" type (:type "class") nil nil))
+                nil [5335 5363])
+            ("kaslr_offset" function
+               (:typemodifiers ("static" "inline")
+                :arguments 
+                  ( ("" variable (:type "void") (reparse-symbol arg-sub-list) [5406 5411]))                  
+                :type "unsigned long")
+                nil [5365 5452])
+            ("MIN_MEMBLOCK_ADDR" variable (:constant-flag t) nil [5536 5553])
+            ("MAX_MEMBLOCK_ADDR" variable (:constant-flag t) nil [5564 5581])
+            ("PHYS_PFN_OFFSET" variable (:constant-flag t) nil [5846 5861])
+            ("__untagged_addr" variable (:constant-flag t) nil [6103 6118])
+            ("untagged_addr" variable (:constant-flag t) nil [6204 6217])
+            ("__tag_shifted" variable (:constant-flag t) nil [6546 6559])
+            ("__tag_reset" variable (:constant-flag t) nil [6577 6588])
+            ("__tag_get" variable (:constant-flag t) nil [6610 6619])
+            ("__tag_set" function
+               (:pointer 1
+                :typemodifiers ("static" "inline")
+                :constant-flag t
+                :arguments 
+                  ( ("addr" variable
+                       (:pointer 1
+                        :constant-flag t
+                        :type "void")
+                        (reparse-symbol arg-sub-list) [6700 6717])
+                    ("tag" variable (:type ("u8" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [6718 6725]))                  
+                :type "void")
+                nil [6664 6830])
+            ("__is_lm_address" variable (:constant-flag t) nil [7241 7256])
+            ("__lm_to_phys" variable (:constant-flag t) nil [7314 7326])
+            ("__kimg_to_phys" variable (:constant-flag t) nil [7381 7395])
+            ("__virt_to_phys_nodebug" variable (:constant-flag t) nil [7437 7459])
+            ("__pa_symbol_nodebug" variable (:constant-flag t) nil [7604 7623])
+            ("__virt_to_phys" variable (:constant-flag t) nil [7811 7825])
+            ("__phys_addr_symbol" variable (:constant-flag t) nil [7863 7881])
+            ("__phys_to_virt" variable (:constant-flag t) nil [7951 7965])
+            ("__phys_to_kimg" variable (:constant-flag t) nil [8028 8042])
+            ("page_to_phys" variable (:constant-flag t) nil [8147 8159])
+            ("phys_to_page" variable (:constant-flag t) nil [8209 8221])
+            ("virt_to_phys" variable (:constant-flag t) nil [8436 8448])
+            ("virt_to_phys" function
+               (:typemodifiers ("static" "inline")
+                :arguments 
+                  ( ("x" variable
+                       (:pointer 1
+                        :typemodifiers ("volatile")
+                        :constant-flag t
+                        :type "void")
+                        (reparse-symbol arg-sub-list) [8501 8524]))                  
+                :type ("phys_addr_t" type (:type "class") nil nil))
+                nil [8462 8572])
+            ("phys_to_virt" variable (:constant-flag t) nil [8582 8594])
+            ("phys_to_virt" function
+               (:pointer 1
+                :typemodifiers ("static" "inline")
+                :arguments 
+                  ( ("x" variable (:type ("phys_addr_t" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [8641 8655]))                  
+                :type "void")
+                nil [8608 8696])
+            ("__pa" variable (:constant-flag t) nil [8753 8757])
+            ("__pa_symbol" variable (:constant-flag t) nil [8806 8817])
+            ("__pa_nodebug" variable (:constant-flag t) nil [8884 8896])
+            ("__va" variable (:constant-flag t) nil [8952 8956])
+            ("pfn_to_kaddr" variable (:constant-flag t) nil [9013 9025])
+            ("virt_to_pfn" variable (:constant-flag t) nil [9065 9076])
+            ("sym_to_pfn" variable (:constant-flag t) nil [9139 9149])
+            ("ARCH_PFN_OFFSET" variable (:constant-flag t) nil [9339 9354])
+            ("virt_to_page" variable (:constant-flag t) nil [9470 9482])
+            ("virt_addr_valid" variable (:constant-flag t) nil [10046 10061])
+            ("dump_mem_limit" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("" variable (:type "void") (reparse-symbol arg-sub-list) [10202 10207]))                  
+                :type "void")
+                nil [10182 10208])
+            ("asm-generic/memory_model.h" include (:system-flag t) nil [10754 10791]))          
+      :file "memory.h"
+      :pointmax 10821
+      :fsize 10820
+      :lastmodtime '(24802 37832 192192 984000)
+      :unmatched-syntax nil
+      :lexical-table 
+        '(("VMEMMAP_START" . ((semantic-list "(-VMEMMAP_SIZE - SZ_2M)" 1926 . 1949)))
+          ("MT_NORMAL_WT" . ((number "3" 4313 . 4314)))
+          ("IOREMAP_MAX_ORDER" . ((semantic-list "(PMD_SHIFT)" 4788 . 4799)))
+          ("MIN_MEMBLOCK_ADDR" . ((number "0" 5554 . 5555)))
+          ("__lm_to_phys" (spp-arg-list ("addr") 7326 . 7332) . ((semantic-list "(((addr) & ~PAGE_OFFSET) + PHYS_OFFSET)" 7333 . 7372)))
+          ("__kimg_to_phys" (spp-arg-list ("addr") 7395 . 7401) . ((semantic-list "((addr) - kimage_voffset)" 7402 . 7427)))
+          ("_PAGE_OFFSET" (spp-arg-list ("va") 1510 . 1514) . ((semantic-list "(-(UL(1) << (va)))" 1515 . 1533)))
+          ("KERNEL_END" . ((symbol "_end" 2325 . 2329)))
+          ("KASAN_SHADOW_END" . ((semantic-list "(_PAGE_END(VA_BITS_MIN))" 2841 . 2865)))
+          ("MT_DEVICE_nGnRE" . ((number "5" 4367 . 4368)))
+          ("BPF_JIT_REGION_START" . ((semantic-list "(KASAN_SHADOW_END)" 1644 . 1662)))
+          ("BPF_JIT_REGION_END" . ((semantic-list "(BPF_JIT_REGION_START + BPF_JIT_REGION_SIZE)" 1728 . 1772)))
+          ("PCI_IO_END" . ((semantic-list "(VMEMMAP_START - SZ_2M)" 2022 . 2045)))
+          ("THREAD_SIZE_ORDER" . ((semantic-list "(THREAD_SHIFT - PAGE_SHIFT)" 3280 . 3307)))
+          ("THREAD_SIZE" . ((semantic-list "(UL(1) << THREAD_SHIFT)" 3337 . 3360)))
+          ("phys_to_virt" . ((symbol "phys_to_virt" 8595 . 8607)))
+          ("__pa_symbol" (spp-arg-list ("x") 8817 . 8820) . ((symbol "__phys_addr_symbol" 8822 . 8840) (semantic-list "(RELOC_HIDE((unsigned long)(x), 0))" 8840 . 8875)))
+          ("virt_addr_valid" (spp-arg-list ("addr") 10061 . 10067) . ((semantic-list "({					\\
+	__typeof__(addr) __addr = addr;					\\
+	__is_lm_address(__addr) && pfn_valid(virt_to_pfn(__addr));	\\
+})" 10068 . 10180)))
+          ("__ASM_MEMORY_H")
+          ("PCI_IO_SIZE" . ((symbol "SZ_16M" 523 . 529)))
+          ("_PAGE_END" (spp-arg-list ("va") 2245 . 2249) . ((semantic-list "(-(UL(1) << ((va) - 1)))" 2251 . 2275)))
+          ("MT_DEVICE_GRE" . ((number "6" 4392 . 4393)))
+          ("MT_S2_FWB_NORMAL" . ((number "6" 4653 . 4654)))
+          ("MT_S2_FWB_DEVICE_nGnRE" . ((number "1" 4686 . 4687)))
+          ("MODULES_END" . ((semantic-list "(MODULES_VADDR + MODULES_VSIZE)" 1794 . 1825)))
+          ("MODULES_VSIZE" . ((semantic-list "(SZ_128M)" 1893 . 1902)))
+          ("PCI_IO_START" . ((semantic-list "(PCI_IO_END - PCI_IO_SIZE)" 2068 . 2094)))
+          ("FIXADDR_TOP" . ((semantic-list "(PCI_IO_START - SZ_2M)" 2116 . 2138)))
+          ("VA_BITS_MIN" . ((semantic-list "(VA_BITS)" 2210 . 2219)))
+          ("MAX_MEMBLOCK_ADDR" . ((symbol "U64_MAX" 5582 . 5589)))
+          ("__pa" (spp-arg-list ("x") 8757 . 8760) . ((symbol "__virt_to_phys" 8763 . 8777) (semantic-list "((unsigned long)(x))" 8777 . 8797)))
+          ("KIMAGE_VADDR" . ((semantic-list "(MODULES_END)" 1601 . 1614)))
+          ("MODULES_VADDR" . ((semantic-list "(BPF_JIT_REGION_END)" 1849 . 1869)))
+          ("OVERFLOW_STACK_SIZE" . ((symbol "SZ_4K" 3710 . 3715)))
+          ("PHYS_OFFSET" . ((semantic-list "({ VM_BUG_ON(memstart_addr & 1); memstart_addr; })" 5146 . 5196)))
+          ("__phys_addr_symbol" (spp-arg-list ("x") 7881 . 7884) . ((symbol "__pa_symbol_nodebug" 7885 . 7904) (semantic-list "(x)" 7904 . 7907)))
+          ("VMEMMAP_END" . ((semantic-list "(VMEMMAP_START + VMEMMAP_SIZE)" 1971 . 2001)))
+          ("MIN_THREAD_SHIFT" . ((semantic-list "(14 + KASAN_THREAD_SHIFT)" 2918 . 2943)))
+          ("THREAD_ALIGN" . ((symbol "THREAD_SIZE" 3625 . 3636)))
+          ("IRQ_STACK_SIZE" . ((symbol "THREAD_SIZE" 3669 . 3680)))
+          ("MT_S2_NORMAL" . ((number "0xf" 4464 . 4467)))
+          ("PAGE_END" . ((semantic-list "(_PAGE_END(vabits_actual))" 5004 . 5030)))
+          ("__tag_get" (spp-arg-list ("addr") 6619 . 6625) . ((number "0" 6627 . 6628)))
+          ("__is_lm_address" (spp-arg-list ("addr") 7256 . 7262) . ((semantic-list "(!(((u64)addr) & BIT(vabits_actual - 1)))" 7263 . 7304)))
+          ("__pa_symbol_nodebug" (spp-arg-list ("x") 7623 . 7626) . ((symbol "__kimg_to_phys" 7627 . 7641) (semantic-list "((phys_addr_t)(x))" 7641 . 7659)))
+          ("VA_BITS" . ((semantic-list "(CONFIG_ARM64_VA_BITS)" 1467 . 1489)))
+          ("MT_S2_DEVICE_nGnRE" . ((number "0x1" 4495 . 4498)))
+          ("__untagged_addr" (spp-arg-list ("addr") 6118 . 6124) . ((semantic-list "((__force __typeof__(addr))sign_extend64((__force u64)(addr), 55))" 6128 . 6194)))
+          ("virt_to_page" (spp-arg-list ("x") 9482 . 9485) . ((symbol "pfn_to_page" 9487 . 9498) (semantic-list "(virt_to_pfn(x))" 9498 . 9514)))
+          ("KERNEL_START" . ((symbol "_text" 2299 . 2304)))
+          ("MT_NORMAL" . ((number "0" 4238 . 4239)))
+          ("MT_NORMAL_NC" . ((number "2" 4289 . 4290)))
+          ("__tag_shifted" (spp-arg-list ("tag") 6559 . 6564) . ((symbol "0UL" 6565 . 6568)))
+          ("__tag_reset" (spp-arg-list ("addr") 6588 . 6594) . ((semantic-list "(addr)" 6595 . 6601)))
+          ("__virt_to_phys_nodebug" (spp-arg-list ("x") 7459 . 7462) . ((semantic-list "({					\\
+	phys_addr_t __x = (phys_addr_t)(__tag_reset(x));		\\
+	__is_lm_address(__x) ? __lm_to_phys(__x) : __kimg_to_phys(__x);	\\
+})" 7463 . 7594)))
+          ("virt_to_phys" . ((symbol "virt_to_phys" 8449 . 8461)))
+          ("PAGE_OFFSET" . ((semantic-list "(_PAGE_OFFSET(VA_BITS))" 1555 . 1578)))
+          ("SEGMENT_ALIGN" . ((symbol "SZ_64K" 3960 . 3966)))
+          ("__va" (spp-arg-list ("x") 8956 . 8959) . ((semantic-list "((void *)__phys_to_virt((phys_addr_t)(x)))" 8962 . 9004)))
+          ("ARCH_PFN_OFFSET" . ((semantic-list "((unsigned long)PHYS_PFN_OFFSET)" 9356 . 9388)))
+          ("VMEMMAP_SIZE" . ((semantic-list "((_PAGE_END(VA_BITS_MIN) - PAGE_OFFSET) \\
+			>> (PAGE_SHIFT - STRUCT_PAGE_MAX_SHIFT))" 1013 . 1098)))
+          ("MT_DEVICE_nGnRnE" . ((number "4" 4340 . 4341)))
+          ("__pa_nodebug" (spp-arg-list ("x") 8896 . 8899) . ((symbol "__virt_to_phys_nodebug" 8901 . 8923) (semantic-list "((unsigned long)(x))" 8923 . 8943)))
+          ("THREAD_SHIFT" . ((symbol "MIN_THREAD_SHIFT" 3198 . 3214)))
+          ("PHYS_PFN_OFFSET" . ((semantic-list "(PHYS_OFFSET >> PAGE_SHIFT)" 5862 . 5889)))
+          ("__virt_to_phys" (spp-arg-list ("x") 7825 . 7828) . ((symbol "__virt_to_phys_nodebug" 7829 . 7851) (semantic-list "(x)" 7851 . 7854)))
+          ("__phys_to_virt" (spp-arg-list ("x") 7965 . 7968) . ((semantic-list "((unsigned long)((x) - PHYS_OFFSET) | PAGE_OFFSET)" 7969 . 8019)))
+          ("__phys_to_kimg" (spp-arg-list ("x") 8042 . 8045) . ((semantic-list "((unsigned long)((x) + kimage_voffset))" 8046 . 8085)))
+          ("virt_to_pfn" (spp-arg-list ("x") 9076 . 9079) . ((symbol "__phys_to_pfn" 9081 . 9094) (semantic-list "(__virt_to_phys((unsigned long)(x)))" 9094 . 9130)))
+          ("sym_to_pfn" (spp-arg-list ("x") 9149 . 9152) . ((symbol "__phys_to_pfn" 9154 . 9167) (semantic-list "(__pa_symbol(x))" 9167 . 9183)))
+          ("BPF_JIT_REGION_SIZE" . ((semantic-list "(SZ_128M)" 1691 . 1700)))
+          ("KASAN_THREAD_SHIFT" . ((number "0" 2814 . 2815)))
+          ("MT_NORMAL_TAGGED" . ((number "1" 4265 . 4266)))
+          ("untagged_addr" (spp-arg-list ("addr") 6217 . 6223) . ((semantic-list "({					\\
+	u64 __addr = (__force u64)(addr);					\\
+	__addr &= __untagged_addr(__addr);				\\
+	(__force __typeof__(addr))__addr;				\\
+})" 6224 . 6357)))
+          ("page_to_phys" (spp-arg-list ("page") 8159 . 8165) . ((semantic-list "(__pfn_to_phys(page_to_pfn(page)))" 8166 . 8200)))
+          ("phys_to_page" (spp-arg-list ("phys") 8221 . 8227) . ((semantic-list "(pfn_to_page(__phys_to_pfn(phys)))" 8228 . 8262)))
+          ("pfn_to_kaddr" (spp-arg-list ("pfn") 9025 . 9030) . ((symbol "__va" 9031 . 9035) (semantic-list "((pfn) << PAGE_SHIFT)" 9035 . 9056)))
+          )
+)
+    (semanticdb-table "semanticdb-table-155f1b525e48"
+      :major-mode c-mode
+      :tags 
+        '( ("__ASM_INSN_H" variable (:constant-flag t) nil [213 225])
+            ("linux/build_bug.h" include (:system-flag t) nil [226 254])
+            ("linux/types.h" include (:system-flag t) nil [255 279])
+            ("AARCH64_INSN_SIZE" variable (:constant-flag t) nil [332 349])
+            ("aarch64_insn_encoding_class" type
+               (:members 
+                  ( ("AARCH64_INSN_CLS_UNKNOWN" variable
+                       (:constant-flag t
+                        :type "int")
+                        (reparse-symbol enumsubparts) [984 1009])
+                    ("AARCH64_INSN_CLS_DP_IMM" variable
+                       (:constant-flag t
+                        :type "int")
+                        (reparse-symbol enumsubparts) [1029 1053])
+                    ("AARCH64_INSN_CLS_DP_REG" variable
+                       (:constant-flag t
+                        :type "int")
+                        (reparse-symbol enumsubparts) [1089 1113])
+                    ("AARCH64_INSN_CLS_DP_FPSIMD" variable
+                       (:constant-flag t
+                        :type "int")
+                        (reparse-symbol enumsubparts) [1148 1175])
+                    ("AARCH64_INSN_CLS_LDST" variable
+                       (:constant-flag t
+                        :type "int")
+                        (reparse-symbol enumsubparts) [1213 1235])
+                    ("AARCH64_INSN_CLS_BR_SYS" variable
+                       (:constant-flag t
+                        :type "int")
+                        (reparse-symbol enumsubparts) [1261 1285]))                  
+                :type "enum")
+                nil [948 1355])
+            ("aarch64_insn_hint_cr_op" type
+               (:members 
+                  ( ("AARCH64_INSN_HINT_NOP" variable
+                       (:constant-flag t
+                        :default-value (1413 1416)
+                        :type "int")
+                        (reparse-symbol enumsubparts) [1389 1416])
+                    ("AARCH64_INSN_HINT_YIELD" variable
+                       (:constant-flag t
+                        :default-value (1450 1453)
+                        :type "int")
+                        (reparse-symbol enumsubparts) [1424 1453])
+                    ("AARCH64_INSN_HINT_WFE" variable
+                       (:constant-flag t
+                        :default-value (1485 1488)
+                        :type "int")
+                        (reparse-symbol enumsubparts) [1461 1488])
+                    ("AARCH64_INSN_HINT_WFI" variable
+                       (:constant-flag t
+                        :default-value (1520 1523)
+                        :type "int")
+                        (reparse-symbol enumsubparts) [1496 1523])
+                    ("AARCH64_INSN_HINT_SEV" variable
+                       (:constant-flag t
+                        :default-value (1555 1558)
+                        :type "int")
+                        (reparse-symbol enumsubparts) [1531 1558])
+                    ("AARCH64_INSN_HINT_SEVL" variable
+                       (:constant-flag t
+                        :default-value (1591 1594)
+                        :type "int")
+                        (reparse-symbol enumsubparts) [1566 1594])
+                    ("AARCH64_INSN_HINT_XPACLRI" variable
+                       (:constant-flag t
+                        :default-value (1634 1638)
+                        :type "int")
+                        (reparse-symbol enumsubparts) [1603 1638])
+                    ("AARCH64_INSN_HINT_PACIA_1716" variable
+                       (:constant-flag t
+                        :default-value (1677 1681)
+                        :type "int")
+                        (reparse-symbol enumsubparts) [1646 1681])
+                    ("AARCH64_INSN_HINT_PACIB_1716" variable
+                       (:constant-flag t
+                        :default-value (1720 1724)
+                        :type "int")
+                        (reparse-symbol enumsubparts) [1689 1724])
+                    ("AARCH64_INSN_HINT_AUTIA_1716" variable
+                       (:constant-flag t
+                        :default-value (1763 1767)
+                        :type "int")
+                        (reparse-symbol enumsubparts) [1732 1767])
+                    ("AARCH64_INSN_HINT_AUTIB_1716" variable
+                       (:constant-flag t
+                        :default-value (1806 1810)
+                        :type "int")
+                        (reparse-symbol enumsubparts) [1775 1810])
+                    ("AARCH64_INSN_HINT_PACIAZ" variable
+                       (:constant-flag t
+                        :default-value (1849 1853)
+                        :type "int")
+                        (reparse-symbol enumsubparts) [1818 1853])
+                    ("AARCH64_INSN_HINT_PACIASP" variable
+                       (:constant-flag t
+                        :default-value (1892 1896)
+                        :type "int")
+                        (reparse-symbol enumsubparts) [1861 1896])
+                    ("AARCH64_INSN_HINT_PACIBZ" variable
+                       (:constant-flag t
+                        :default-value (1935 1939)
+                        :type "int")
+                        (reparse-symbol enumsubparts) [1904 1939])
+                    ("AARCH64_INSN_HINT_PACIBSP" variable
+                       (:constant-flag t
+                        :default-value (1978 1982)
+                        :type "int")
+                        (reparse-symbol enumsubparts) [1947 1982])
+                    ("AARCH64_INSN_HINT_AUTIAZ" variable
+                       (:constant-flag t
+                        :default-value (2021 2025)
+                        :type "int")
+                        (reparse-symbol enumsubparts) [1990 2025])
+                    ("AARCH64_INSN_HINT_AUTIASP" variable
+                       (:constant-flag t
+                        :default-value (2064 2068)
+                        :type "int")
+                        (reparse-symbol enumsubparts) [2033 2068])
+                    ("AARCH64_INSN_HINT_AUTIBZ" variable
+                       (:constant-flag t
+                        :default-value (2107 2111)
+                        :type "int")
+                        (reparse-symbol enumsubparts) [2076 2111])
+                    ("AARCH64_INSN_HINT_AUTIBSP" variable
+                       (:constant-flag t
+                        :default-value (2150 2154)
+                        :type "int")
+                        (reparse-symbol enumsubparts) [2119 2154])
+                    ("AARCH64_INSN_HINT_ESB" variable
+                       (:constant-flag t
+                        :default-value (2188 2192)
+                        :type "int")
+                        (reparse-symbol enumsubparts) [2163 2192])
+                    ("AARCH64_INSN_HINT_PSB" variable
+                       (:constant-flag t
+                        :default-value (2225 2229)
+                        :type "int")
+                        (reparse-symbol enumsubparts) [2200 2229])
+                    ("AARCH64_INSN_HINT_TSB" variable
+                       (:constant-flag t
+                        :default-value (2262 2266)
+                        :type "int")
+                        (reparse-symbol enumsubparts) [2237 2266])
+                    ("AARCH64_INSN_HINT_CSDB" variable
+                       (:constant-flag t
+                        :default-value (2299 2303)
+                        :type "int")
+                        (reparse-symbol enumsubparts) [2274 2303])
+                    ("AARCH64_INSN_HINT_BTI" variable
+                       (:constant-flag t
+                        :default-value (2338 2342)
+                        :type "int")
+                        (reparse-symbol enumsubparts) [2312 2342])
+                    ("AARCH64_INSN_HINT_BTIC" variable
+                       (:constant-flag t
+                        :default-value (2376 2380)
+                        :type "int")
+                        (reparse-symbol enumsubparts) [2350 2380])
+                    ("AARCH64_INSN_HINT_BTIJ" variable
+                       (:constant-flag t
+                        :default-value (2414 2418)
+                        :type "int")
+                        (reparse-symbol enumsubparts) [2388 2418])
+                    ("AARCH64_INSN_HINT_BTIJC" variable
+                       (:constant-flag t
+                        :default-value (2452 2456)
+                        :type "int")
+                        (reparse-symbol enumsubparts) [2426 2456]))                  
+                :type "enum")
+                nil [1357 2465])
+            ("aarch64_insn_imm_type" type
+               (:members 
+                  ( ("AARCH64_INSN_IMM_ADR" variable
+                       (:constant-flag t
+                        :type "int")
+                        (reparse-symbol enumsubparts) [2497 2518])
+                    ("AARCH64_INSN_IMM_26" variable
+                       (:constant-flag t
+                        :type "int")
+                        (reparse-symbol enumsubparts) [2520 2540])
+                    ("AARCH64_INSN_IMM_19" variable
+                       (:constant-flag t
+                        :type "int")
+                        (reparse-symbol enumsubparts) [2542 2562])
+                    ("AARCH64_INSN_IMM_16" variable
+                       (:constant-flag t
+                        :type "int")
+                        (reparse-symbol enumsubparts) [2564 2584])
+                    ("AARCH64_INSN_IMM_14" variable
+                       (:constant-flag t
+                        :type "int")
+                        (reparse-symbol enumsubparts) [2586 2606])
+                    ("AARCH64_INSN_IMM_12" variable
+                       (:constant-flag t
+                        :type "int")
+                        (reparse-symbol enumsubparts) [2608 2628])
+                    ("AARCH64_INSN_IMM_9" variable
+                       (:constant-flag t
+                        :type "int")
+                        (reparse-symbol enumsubparts) [2630 2649])
+                    ("AARCH64_INSN_IMM_7" variable
+                       (:constant-flag t
+                        :type "int")
+                        (reparse-symbol enumsubparts) [2651 2670])
+                    ("AARCH64_INSN_IMM_6" variable
+                       (:constant-flag t
+                        :type "int")
+                        (reparse-symbol enumsubparts) [2672 2691])
+                    ("AARCH64_INSN_IMM_S" variable
+                       (:constant-flag t
+                        :type "int")
+                        (reparse-symbol enumsubparts) [2693 2712])
+                    ("AARCH64_INSN_IMM_R" variable
+                       (:constant-flag t
+                        :type "int")
+                        (reparse-symbol enumsubparts) [2714 2733])
+                    ("AARCH64_INSN_IMM_N" variable
+                       (:constant-flag t
+                        :type "int")
+                        (reparse-symbol enumsubparts) [2735 2754])
+                    ("AARCH64_INSN_IMM_MAX" variable
+                       (:constant-flag t
+                        :type "int")
+                        (reparse-symbol enumsubparts) [2756 2778]))                  
+                :type "enum")
+                nil [2467 2779])
+            ("aarch64_insn_register_type" type
+               (:members 
+                  ( ("AARCH64_INSN_REGTYPE_RT" variable
+                       (:constant-flag t
+                        :type "int")
+                        (reparse-symbol enumsubparts) [2816 2840])
+                    ("AARCH64_INSN_REGTYPE_RN" variable
+                       (:constant-flag t
+                        :type "int")
+                        (reparse-symbol enumsubparts) [2842 2866])
+                    ("AARCH64_INSN_REGTYPE_RT2" variable
+                       (:constant-flag t
+                        :type "int")
+                        (reparse-symbol enumsubparts) [2868 2893])
+                    ("AARCH64_INSN_REGTYPE_RM" variable
+                       (:constant-flag t
+                        :type "int")
+                        (reparse-symbol enumsubparts) [2895 2919])
+                    ("AARCH64_INSN_REGTYPE_RD" variable
+                       (:constant-flag t
+                        :type "int")
+                        (reparse-symbol enumsubparts) [2921 2945])
+                    ("AARCH64_INSN_REGTYPE_RA" variable
+                       (:constant-flag t
+                        :type "int")
+                        (reparse-symbol enumsubparts) [2947 2971])
+                    ("AARCH64_INSN_REGTYPE_RS" variable
+                       (:constant-flag t
+                        :type "int")
+                        (reparse-symbol enumsubparts) [2973 2997]))                  
+                :type "enum")
+                nil [2781 3000])
+            ("aarch64_insn_register" type
+               (:members 
+                  ( ("AARCH64_INSN_REG_0" variable
+                       (:constant-flag t
+                        :default-value (3054 3055)
+                        :type "int")
+                        (reparse-symbol enumsubparts) [3032 3055])
+                    ("AARCH64_INSN_REG_1" variable
+                       (:constant-flag t
+                        :default-value (3080 3081)
+                        :type "int")
+                        (reparse-symbol enumsubparts) [3058 3081])
+                    ("AARCH64_INSN_REG_2" variable
+                       (:constant-flag t
+                        :default-value (3106 3107)
+                        :type "int")
+                        (reparse-symbol enumsubparts) [3084 3107])
+                    ("AARCH64_INSN_REG_3" variable
+                       (:constant-flag t
+                        :default-value (3132 3133)
+                        :type "int")
+                        (reparse-symbol enumsubparts) [3110 3133])
+                    ("AARCH64_INSN_REG_4" variable
+                       (:constant-flag t
+                        :default-value (3158 3159)
+                        :type "int")
+                        (reparse-symbol enumsubparts) [3136 3159])
+                    ("AARCH64_INSN_REG_5" variable
+                       (:constant-flag t
+                        :default-value (3184 3185)
+                        :type "int")
+                        (reparse-symbol enumsubparts) [3162 3185])
+                    ("AARCH64_INSN_REG_6" variable
+                       (:constant-flag t
+                        :default-value (3210 3211)
+                        :type "int")
+                        (reparse-symbol enumsubparts) [3188 3211])
+                    ("AARCH64_INSN_REG_7" variable
+                       (:constant-flag t
+                        :default-value (3236 3237)
+                        :type "int")
+                        (reparse-symbol enumsubparts) [3214 3237])
+                    ("AARCH64_INSN_REG_8" variable
+                       (:constant-flag t
+                        :default-value (3262 3263)
+                        :type "int")
+                        (reparse-symbol enumsubparts) [3240 3263])
+                    ("AARCH64_INSN_REG_9" variable
+                       (:constant-flag t
+                        :default-value (3288 3289)
+                        :type "int")
+                        (reparse-symbol enumsubparts) [3266 3289])
+                    ("AARCH64_INSN_REG_10" variable
+                       (:constant-flag t
+                        :default-value (3314 3316)
+                        :type "int")
+                        (reparse-symbol enumsubparts) [3292 3316])
+                    ("AARCH64_INSN_REG_11" variable
+                       (:constant-flag t
+                        :default-value (3341 3343)
+                        :type "int")
+                        (reparse-symbol enumsubparts) [3319 3343])
+                    ("AARCH64_INSN_REG_12" variable
+                       (:constant-flag t
+                        :default-value (3368 3370)
+                        :type "int")
+                        (reparse-symbol enumsubparts) [3346 3370])
+                    ("AARCH64_INSN_REG_13" variable
+                       (:constant-flag t
+                        :default-value (3395 3397)
+                        :type "int")
+                        (reparse-symbol enumsubparts) [3373 3397])
+                    ("AARCH64_INSN_REG_14" variable
+                       (:constant-flag t
+                        :default-value (3422 3424)
+                        :type "int")
+                        (reparse-symbol enumsubparts) [3400 3424])
+                    ("AARCH64_INSN_REG_15" variable
+                       (:constant-flag t
+                        :default-value (3449 3451)
+                        :type "int")
+                        (reparse-symbol enumsubparts) [3427 3451])
+                    ("AARCH64_INSN_REG_16" variable
+                       (:constant-flag t
+                        :default-value (3476 3478)
+                        :type "int")
+                        (reparse-symbol enumsubparts) [3454 3478])
+                    ("AARCH64_INSN_REG_17" variable
+                       (:constant-flag t
+                        :default-value (3503 3505)
+                        :type "int")
+                        (reparse-symbol enumsubparts) [3481 3505])
+                    ("AARCH64_INSN_REG_18" variable
+                       (:constant-flag t
+                        :default-value (3530 3532)
+                        :type "int")
+                        (reparse-symbol enumsubparts) [3508 3532])
+                    ("AARCH64_INSN_REG_19" variable
+                       (:constant-flag t
+                        :default-value (3557 3559)
+                        :type "int")
+                        (reparse-symbol enumsubparts) [3535 3559])
+                    ("AARCH64_INSN_REG_20" variable
+                       (:constant-flag t
+                        :default-value (3584 3586)
+                        :type "int")
+                        (reparse-symbol enumsubparts) [3562 3586])
+                    ("AARCH64_INSN_REG_21" variable
+                       (:constant-flag t
+                        :default-value (3611 3613)
+                        :type "int")
+                        (reparse-symbol enumsubparts) [3589 3613])
+                    ("AARCH64_INSN_REG_22" variable
+                       (:constant-flag t
+                        :default-value (3638 3640)
+                        :type "int")
+                        (reparse-symbol enumsubparts) [3616 3640])
+                    ("AARCH64_INSN_REG_23" variable
+                       (:constant-flag t
+                        :default-value (3665 3667)
+                        :type "int")
+                        (reparse-symbol enumsubparts) [3643 3667])
+                    ("AARCH64_INSN_REG_24" variable
+                       (:constant-flag t
+                        :default-value (3692 3694)
+                        :type "int")
+                        (reparse-symbol enumsubparts) [3670 3694])
+                    ("AARCH64_INSN_REG_25" variable
+                       (:constant-flag t
+                        :default-value (3719 3721)
+                        :type "int")
+                        (reparse-symbol enumsubparts) [3697 3721])
+                    ("AARCH64_INSN_REG_26" variable
+                       (:constant-flag t
+                        :default-value (3746 3748)
+                        :type "int")
+                        (reparse-symbol enumsubparts) [3724 3748])
+                    ("AARCH64_INSN_REG_27" variable
+                       (:constant-flag t
+                        :default-value (3773 3775)
+                        :type "int")
+                        (reparse-symbol enumsubparts) [3751 3775])
+                    ("AARCH64_INSN_REG_28" variable
+                       (:constant-flag t
+                        :default-value (3800 3802)
+                        :type "int")
+                        (reparse-symbol enumsubparts) [3778 3802])
+                    ("AARCH64_INSN_REG_29" variable
+                       (:constant-flag t
+                        :default-value (3827 3829)
+                        :type "int")
+                        (reparse-symbol enumsubparts) [3805 3829])
+                    ("AARCH64_INSN_REG_FP" variable
+                       (:constant-flag t
+                        :default-value (3854 3856)
+                        :type "int")
+                        (reparse-symbol enumsubparts) [3832 3856])
+                    ("AARCH64_INSN_REG_30" variable
+                       (:constant-flag t
+                        :default-value (3901 3903)
+                        :type "int")
+                        (reparse-symbol enumsubparts) [3879 3903])
+                    ("AARCH64_INSN_REG_LR" variable
+                       (:constant-flag t
+                        :default-value (3928 3930)
+                        :type "int")
+                        (reparse-symbol enumsubparts) [3906 3930])
+                    ("AARCH64_INSN_REG_ZR" variable
+                       (:constant-flag t
+                        :default-value (3975 3977)
+                        :type "int")
+                        (reparse-symbol enumsubparts) [3953 3977])
+                    ("AARCH64_INSN_REG_SP" variable
+                       (:constant-flag t
+                        :default-value (4033 4035)
+                        :type "int")
+                        (reparse-symbol enumsubparts) [4011 4035]))                  
+                :type "enum")
+                nil [3002 4083])
+            ("aarch64_insn_special_register" type
+               (:members 
+                  ( ("AARCH64_INSN_SPCLREG_SPSR_EL1" variable
+                       (:constant-flag t
+                        :default-value (4155 4161)
+                        :type "int")
+                        (reparse-symbol enumsubparts) [4123 4161])
+                    ("AARCH64_INSN_SPCLREG_ELR_EL1" variable
+                       (:constant-flag t
+                        :default-value (4195 4201)
+                        :type "int")
+                        (reparse-symbol enumsubparts) [4164 4201])
+                    ("AARCH64_INSN_SPCLREG_SP_EL0" variable
+                       (:constant-flag t
+                        :default-value (4234 4240)
+                        :type "int")
+                        (reparse-symbol enumsubparts) [4204 4240])
+                    ("AARCH64_INSN_SPCLREG_SPSEL" variable
+                       (:constant-flag t
+                        :default-value (4272 4278)
+                        :type "int")
+                        (reparse-symbol enumsubparts) [4243 4278])
+                    ("AARCH64_INSN_SPCLREG_CURRENTEL" variable
+                       (:constant-flag t
+                        :default-value (4314 4320)
+                        :type "int")
+                        (reparse-symbol enumsubparts) [4281 4320])
+                    ("AARCH64_INSN_SPCLREG_DAIF" variable
+                       (:constant-flag t
+                        :default-value (4351 4357)
+                        :type "int")
+                        (reparse-symbol enumsubparts) [4323 4357])
+                    ("AARCH64_INSN_SPCLREG_NZCV" variable
+                       (:constant-flag t
+                        :default-value (4388 4394)
+                        :type "int")
+                        (reparse-symbol enumsubparts) [4360 4394])
+                    ("AARCH64_INSN_SPCLREG_FPCR" variable
+                       (:constant-flag t
+                        :default-value (4425 4431)
+                        :type "int")
+                        (reparse-symbol enumsubparts) [4397 4431])
+                    ("AARCH64_INSN_SPCLREG_DSPSR_EL0" variable
+                       (:constant-flag t
+                        :default-value (4467 4473)
+                        :type "int")
+                        (reparse-symbol enumsubparts) [4434 4473])
+                    ("AARCH64_INSN_SPCLREG_DLR_EL0" variable
+                       (:constant-flag t
+                        :default-value (4507 4513)
+                        :type "int")
+                        (reparse-symbol enumsubparts) [4476 4513])
+                    ("AARCH64_INSN_SPCLREG_SPSR_EL2" variable
+                       (:constant-flag t
+                        :default-value (4548 4554)
+                        :type "int")
+                        (reparse-symbol enumsubparts) [4516 4554])
+                    ("AARCH64_INSN_SPCLREG_ELR_EL2" variable
+                       (:constant-flag t
+                        :default-value (4588 4594)
+                        :type "int")
+                        (reparse-symbol enumsubparts) [4557 4594])
+                    ("AARCH64_INSN_SPCLREG_SP_EL1" variable
+                       (:constant-flag t
+                        :default-value (4627 4633)
+                        :type "int")
+                        (reparse-symbol enumsubparts) [4597 4633])
+                    ("AARCH64_INSN_SPCLREG_SPSR_INQ" variable
+                       (:constant-flag t
+                        :default-value (4668 4674)
+                        :type "int")
+                        (reparse-symbol enumsubparts) [4636 4674])
+                    ("AARCH64_INSN_SPCLREG_SPSR_ABT" variable
+                       (:constant-flag t
+                        :default-value (4709 4715)
+                        :type "int")
+                        (reparse-symbol enumsubparts) [4677 4715])
+                    ("AARCH64_INSN_SPCLREG_SPSR_UND" variable
+                       (:constant-flag t
+                        :default-value (4750 4756)
+                        :type "int")
+                        (reparse-symbol enumsubparts) [4718 4756])
+                    ("AARCH64_INSN_SPCLREG_SPSR_FIQ" variable
+                       (:constant-flag t
+                        :default-value (4791 4797)
+                        :type "int")
+                        (reparse-symbol enumsubparts) [4759 4797])
+                    ("AARCH64_INSN_SPCLREG_SPSR_EL3" variable
+                       (:constant-flag t
+                        :default-value (4832 4838)
+                        :type "int")
+                        (reparse-symbol enumsubparts) [4800 4838])
+                    ("AARCH64_INSN_SPCLREG_ELR_EL3" variable
+                       (:constant-flag t
+                        :default-value (4872 4878)
+                        :type "int")
+                        (reparse-symbol enumsubparts) [4841 4878])
+                    ("AARCH64_INSN_SPCLREG_SP_EL2" variable
+                       (:constant-flag t
+                        :default-value (4911 4917)
+                        :type "int")
+                        (reparse-symbol enumsubparts) [4881 4917]))                  
+                :type "enum")
+                nil [4085 4920])
+            ("aarch64_insn_variant" type
+               (:members 
+                  ( ("AARCH64_INSN_VARIANT_32BIT" variable
+                       (:constant-flag t
+                        :type "int")
+                        (reparse-symbol enumsubparts) [4951 4978])
+                    ("AARCH64_INSN_VARIANT_64BIT" variable
+                       (:constant-flag t
+                        :type "int")
+                        (reparse-symbol enumsubparts) [4980 5008]))                  
+                :type "enum")
+                nil [4922 5009])
+            ("aarch64_insn_condition" type
+               (:members 
+                  ( ("AARCH64_INSN_COND_EQ" variable
+                       (:constant-flag t
+                        :default-value (5065 5068)
+                        :type "int")
+                        (reparse-symbol enumsubparts) [5042 5068])
+                    ("AARCH64_INSN_COND_NE" variable
+                       (:constant-flag t
+                        :default-value (5103 5106)
+                        :type "int")
+                        (reparse-symbol enumsubparts) [5080 5106])
+                    ("AARCH64_INSN_COND_CS" variable
+                       (:constant-flag t
+                        :default-value (5141 5144)
+                        :type "int")
+                        (reparse-symbol enumsubparts) [5118 5144])
+                    ("AARCH64_INSN_COND_CC" variable
+                       (:constant-flag t
+                        :default-value (5188 5191)
+                        :type "int")
+                        (reparse-symbol enumsubparts) [5165 5191])
+                    ("AARCH64_INSN_COND_MI" variable
+                       (:constant-flag t
+                        :default-value (5234 5237)
+                        :type "int")
+                        (reparse-symbol enumsubparts) [5211 5237])
+                    ("AARCH64_INSN_COND_PL" variable
+                       (:constant-flag t
+                        :default-value (5273 5276)
+                        :type "int")
+                        (reparse-symbol enumsubparts) [5250 5276])
+                    ("AARCH64_INSN_COND_VS" variable
+                       (:constant-flag t
+                        :default-value (5313 5316)
+                        :type "int")
+                        (reparse-symbol enumsubparts) [5290 5316])
+                    ("AARCH64_INSN_COND_VC" variable
+                       (:constant-flag t
+                        :default-value (5357 5360)
+                        :type "int")
+                        (reparse-symbol enumsubparts) [5334 5360])
+                    ("AARCH64_INSN_COND_HI" variable
+                       (:constant-flag t
+                        :default-value (5404 5407)
+                        :type "int")
+                        (reparse-symbol enumsubparts) [5381 5407])
+                    ("AARCH64_INSN_COND_LS" variable
+                       (:constant-flag t
+                        :default-value (5450 5453)
+                        :type "int")
+                        (reparse-symbol enumsubparts) [5427 5453])
+                    ("AARCH64_INSN_COND_GE" variable
+                       (:constant-flag t
+                        :default-value (5497 5500)
+                        :type "int")
+                        (reparse-symbol enumsubparts) [5474 5500])
+                    ("AARCH64_INSN_COND_LT" variable
+                       (:constant-flag t
+                        :default-value (5542 5545)
+                        :type "int")
+                        (reparse-symbol enumsubparts) [5519 5545])
+                    ("AARCH64_INSN_COND_GT" variable
+                       (:constant-flag t
+                        :default-value (5586 5589)
+                        :type "int")
+                        (reparse-symbol enumsubparts) [5563 5589])
+                    ("AARCH64_INSN_COND_LE" variable
+                       (:constant-flag t
+                        :default-value (5630 5633)
+                        :type "int")
+                        (reparse-symbol enumsubparts) [5607 5633])
+                    ("AARCH64_INSN_COND_AL" variable
+                       (:constant-flag t
+                        :default-value (5675 5678)
+                        :type "int")
+                        (reparse-symbol enumsubparts) [5652 5678]))                  
+                :type "enum")
+                nil [5011 5695])
+            ("aarch64_insn_branch_type" type
+               (:members 
+                  ( ("AARCH64_INSN_BRANCH_NOLINK" variable
+                       (:constant-flag t
+                        :type "int")
+                        (reparse-symbol enumsubparts) [5730 5757])
+                    ("AARCH64_INSN_BRANCH_LINK" variable
+                       (:constant-flag t
+                        :type "int")
+                        (reparse-symbol enumsubparts) [5759 5784])
+                    ("AARCH64_INSN_BRANCH_RETURN" variable
+                       (:constant-flag t
+                        :type "int")
+                        (reparse-symbol enumsubparts) [5786 5813])
+                    ("AARCH64_INSN_BRANCH_COMP_ZERO" variable
+                       (:constant-flag t
+                        :type "int")
+                        (reparse-symbol enumsubparts) [5815 5845])
+                    ("AARCH64_INSN_BRANCH_COMP_NONZERO" variable
+                       (:constant-flag t
+                        :type "int")
+                        (reparse-symbol enumsubparts) [5847 5880]))                  
+                :type "enum")
+                nil [5697 5883])
+            ("aarch64_insn_size_type" type
+               (:members 
+                  ( ("AARCH64_INSN_SIZE_8" variable
+                       (:constant-flag t
+                        :type "int")
+                        (reparse-symbol enumsubparts) [5916 5936])
+                    ("AARCH64_INSN_SIZE_16" variable
+                       (:constant-flag t
+                        :type "int")
+                        (reparse-symbol enumsubparts) [5938 5959])
+                    ("AARCH64_INSN_SIZE_32" variable
+                       (:constant-flag t
+                        :type "int")
+                        (reparse-symbol enumsubparts) [5961 5982])
+                    ("AARCH64_INSN_SIZE_64" variable
+                       (:constant-flag t
+                        :type "int")
+                        (reparse-symbol enumsubparts) [5984 6005]))                  
+                :type "enum")
+                nil [5885 6008])
+            ("aarch64_insn_ldst_type" type
+               (:members 
+                  ( ("AARCH64_INSN_LDST_LOAD_REG_OFFSET" variable
+                       (:constant-flag t
+                        :type "int")
+                        (reparse-symbol enumsubparts) [6041 6075])
+                    ("AARCH64_INSN_LDST_STORE_REG_OFFSET" variable
+                       (:constant-flag t
+                        :type "int")
+                        (reparse-symbol enumsubparts) [6077 6112])
+                    ("AARCH64_INSN_LDST_LOAD_PAIR_PRE_INDEX" variable
+                       (:constant-flag t
+                        :type "int")
+                        (reparse-symbol enumsubparts) [6114 6152])
+                    ("AARCH64_INSN_LDST_STORE_PAIR_PRE_INDEX" variable
+                       (:constant-flag t
+                        :type "int")
+                        (reparse-symbol enumsubparts) [6154 6193])
+                    ("AARCH64_INSN_LDST_LOAD_PAIR_POST_INDEX" variable
+                       (:constant-flag t
+                        :type "int")
+                        (reparse-symbol enumsubparts) [6195 6234])
+                    ("AARCH64_INSN_LDST_STORE_PAIR_POST_INDEX" variable
+                       (:constant-flag t
+                        :type "int")
+                        (reparse-symbol enumsubparts) [6236 6276])
+                    ("AARCH64_INSN_LDST_LOAD_EX" variable
+                       (:constant-flag t
+                        :type "int")
+                        (reparse-symbol enumsubparts) [6278 6304])
+                    ("AARCH64_INSN_LDST_STORE_EX" variable
+                       (:constant-flag t
+                        :type "int")
+                        (reparse-symbol enumsubparts) [6306 6333]))                  
+                :type "enum")
+                nil [6010 6336])
+            ("aarch64_insn_adsb_type" type
+               (:members 
+                  ( ("AARCH64_INSN_ADSB_ADD" variable
+                       (:constant-flag t
+                        :type "int")
+                        (reparse-symbol enumsubparts) [6369 6391])
+                    ("AARCH64_INSN_ADSB_SUB" variable
+                       (:constant-flag t
+                        :type "int")
+                        (reparse-symbol enumsubparts) [6393 6415])
+                    ("AARCH64_INSN_ADSB_ADD_SETFLAGS" variable
+                       (:constant-flag t
+                        :type "int")
+                        (reparse-symbol enumsubparts) [6417 6448])
+                    ("AARCH64_INSN_ADSB_SUB_SETFLAGS" variable
+                       (:constant-flag t
+                        :type "int")
+                        (reparse-symbol enumsubparts) [6450 6482]))                  
+                :type "enum")
+                nil [6338 6483])
+            ("aarch64_insn_movewide_type" type
+               (:members 
+                  ( ("AARCH64_INSN_MOVEWIDE_ZERO" variable
+                       (:constant-flag t
+                        :type "int")
+                        (reparse-symbol enumsubparts) [6520 6547])
+                    ("AARCH64_INSN_MOVEWIDE_KEEP" variable
+                       (:constant-flag t
+                        :type "int")
+                        (reparse-symbol enumsubparts) [6549 6576])
+                    ("AARCH64_INSN_MOVEWIDE_INVERSE" variable
+                       (:constant-flag t
+                        :type "int")
+                        (reparse-symbol enumsubparts) [6578 6609]))                  
+                :type "enum")
+                nil [6485 6610])
+            ("aarch64_insn_bitfield_type" type
+               (:members 
+                  ( ("AARCH64_INSN_BITFIELD_MOVE" variable
+                       (:constant-flag t
+                        :type "int")
+                        (reparse-symbol enumsubparts) [6647 6674])
+                    ("AARCH64_INSN_BITFIELD_MOVE_UNSIGNED" variable
+                       (:constant-flag t
+                        :type "int")
+                        (reparse-symbol enumsubparts) [6676 6712])
+                    ("AARCH64_INSN_BITFIELD_MOVE_SIGNED" variable
+                       (:constant-flag t
+                        :type "int")
+                        (reparse-symbol enumsubparts) [6714 6749]))                  
+                :type "enum")
+                nil [6612 6750])
+            ("aarch64_insn_data1_type" type
+               (:members 
+                  ( ("AARCH64_INSN_DATA1_REVERSE_16" variable
+                       (:constant-flag t
+                        :type "int")
+                        (reparse-symbol enumsubparts) [6784 6814])
+                    ("AARCH64_INSN_DATA1_REVERSE_32" variable
+                       (:constant-flag t
+                        :type "int")
+                        (reparse-symbol enumsubparts) [6816 6846])
+                    ("AARCH64_INSN_DATA1_REVERSE_64" variable
+                       (:constant-flag t
+                        :type "int")
+                        (reparse-symbol enumsubparts) [6848 6878]))                  
+                :type "enum")
+                nil [6752 6881])
+            ("aarch64_insn_data2_type" type
+               (:members 
+                  ( ("AARCH64_INSN_DATA2_UDIV" variable
+                       (:constant-flag t
+                        :type "int")
+                        (reparse-symbol enumsubparts) [6915 6939])
+                    ("AARCH64_INSN_DATA2_SDIV" variable
+                       (:constant-flag t
+                        :type "int")
+                        (reparse-symbol enumsubparts) [6941 6965])
+                    ("AARCH64_INSN_DATA2_LSLV" variable
+                       (:constant-flag t
+                        :type "int")
+                        (reparse-symbol enumsubparts) [6967 6991])
+                    ("AARCH64_INSN_DATA2_LSRV" variable
+                       (:constant-flag t
+                        :type "int")
+                        (reparse-symbol enumsubparts) [6993 7017])
+                    ("AARCH64_INSN_DATA2_ASRV" variable
+                       (:constant-flag t
+                        :type "int")
+                        (reparse-symbol enumsubparts) [7019 7043])
+                    ("AARCH64_INSN_DATA2_RORV" variable
+                       (:constant-flag t
+                        :type "int")
+                        (reparse-symbol enumsubparts) [7045 7069]))                  
+                :type "enum")
+                nil [6883 7072])
+            ("aarch64_insn_data3_type" type
+               (:members 
+                  ( ("AARCH64_INSN_DATA3_MADD" variable
+                       (:constant-flag t
+                        :type "int")
+                        (reparse-symbol enumsubparts) [7106 7130])
+                    ("AARCH64_INSN_DATA3_MSUB" variable
+                       (:constant-flag t
+                        :type "int")
+                        (reparse-symbol enumsubparts) [7132 7156]))                  
+                :type "enum")
+                nil [7074 7159])
+            ("aarch64_insn_logic_type" type
+               (:members 
+                  ( ("AARCH64_INSN_LOGIC_AND" variable
+                       (:constant-flag t
+                        :type "int")
+                        (reparse-symbol enumsubparts) [7193 7216])
+                    ("AARCH64_INSN_LOGIC_BIC" variable
+                       (:constant-flag t
+                        :type "int")
+                        (reparse-symbol enumsubparts) [7218 7241])
+                    ("AARCH64_INSN_LOGIC_ORR" variable
+                       (:constant-flag t
+                        :type "int")
+                        (reparse-symbol enumsubparts) [7243 7266])
+                    ("AARCH64_INSN_LOGIC_ORN" variable
+                       (:constant-flag t
+                        :type "int")
+                        (reparse-symbol enumsubparts) [7268 7291])
+                    ("AARCH64_INSN_LOGIC_EOR" variable
+                       (:constant-flag t
+                        :type "int")
+                        (reparse-symbol enumsubparts) [7293 7316])
+                    ("AARCH64_INSN_LOGIC_EON" variable
+                       (:constant-flag t
+                        :type "int")
+                        (reparse-symbol enumsubparts) [7318 7341])
+                    ("AARCH64_INSN_LOGIC_AND_SETFLAGS" variable
+                       (:constant-flag t
+                        :type "int")
+                        (reparse-symbol enumsubparts) [7343 7375])
+                    ("AARCH64_INSN_LOGIC_BIC_SETFLAGS" variable
+                       (:constant-flag t
+                        :type "int")
+                        (reparse-symbol enumsubparts) [7377 7410]))                  
+                :type "enum")
+                nil [7161 7411])
+            ("aarch64_insn_prfm_type" type
+               (:members 
+                  ( ("AARCH64_INSN_PRFM_TYPE_PLD" variable
+                       (:constant-flag t
+                        :type "int")
+                        (reparse-symbol enumsubparts) [7444 7471])
+                    ("AARCH64_INSN_PRFM_TYPE_PLI" variable
+                       (:constant-flag t
+                        :type "int")
+                        (reparse-symbol enumsubparts) [7473 7500])
+                    ("AARCH64_INSN_PRFM_TYPE_PST" variable
+                       (:constant-flag t
+                        :type "int")
+                        (reparse-symbol enumsubparts) [7502 7529]))                  
+                :type "enum")
+                nil [7413 7532])
+            ("aarch64_insn_prfm_target" type
+               (:members 
+                  ( ("AARCH64_INSN_PRFM_TARGET_L1" variable
+                       (:constant-flag t
+                        :type "int")
+                        (reparse-symbol enumsubparts) [7567 7595])
+                    ("AARCH64_INSN_PRFM_TARGET_L2" variable
+                       (:constant-flag t
+                        :type "int")
+                        (reparse-symbol enumsubparts) [7597 7625])
+                    ("AARCH64_INSN_PRFM_TARGET_L3" variable
+                       (:constant-flag t
+                        :type "int")
+                        (reparse-symbol enumsubparts) [7627 7655]))                  
+                :type "enum")
+                nil [7534 7658])
+            ("aarch64_insn_prfm_policy" type
+               (:members 
+                  ( ("AARCH64_INSN_PRFM_POLICY_KEEP" variable
+                       (:constant-flag t
+                        :type "int")
+                        (reparse-symbol enumsubparts) [7693 7723])
+                    ("AARCH64_INSN_PRFM_POLICY_STRM" variable
+                       (:constant-flag t
+                        :type "int")
+                        (reparse-symbol enumsubparts) [7725 7755]))                  
+                :type "enum")
+                nil [7660 7758])
+            ("aarch64_insn_adr_type" type
+               (:members 
+                  ( ("AARCH64_INSN_ADR_TYPE_ADRP" variable
+                       (:constant-flag t
+                        :type "int")
+                        (reparse-symbol enumsubparts) [7790 7817])
+                    ("AARCH64_INSN_ADR_TYPE_ADR" variable
+                       (:constant-flag t
+                        :type "int")
+                        (reparse-symbol enumsubparts) [7819 7845]))                  
+                :type "enum")
+                nil [7760 7848])
+            ("__AARCH64_INSN_FUNCS" variable (:constant-flag t) nil [7858 7878])
+            ("aarch64_insn_is_adr" function
+               (:arguments 
+                  ( ("code" variable (:type ("u32" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) nil))                  
+                :type "bool")
+                nil [8171 8220])
+            ("aarch64_insn_get_adr_value" function
+               (:arguments 
+                  ( ("" variable (:type "void") (reparse-symbol arg-sub-list) nil))                  
+                :type ("u32" type (:type "class") nil nil))
+                nil [8171 8220])
+            ("aarch64_insn_is_adrp" function
+               (:arguments 
+                  ( ("code" variable (:type ("u32" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) nil))                  
+                :type "bool")
+                nil [8221 8271])
+            ("aarch64_insn_get_adrp_value" function
+               (:arguments 
+                  ( ("" variable (:type "void") (reparse-symbol arg-sub-list) nil))                  
+                :type ("u32" type (:type "class") nil nil))
+                nil [8221 8271])
+            ("aarch64_insn_is_prfm" function
+               (:arguments 
+                  ( ("code" variable (:type ("u32" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) nil))                  
+                :type "bool")
+                nil [8272 8322])
+            ("aarch64_insn_get_prfm_value" function
+               (:arguments 
+                  ( ("" variable (:type "void") (reparse-symbol arg-sub-list) nil))                  
+                :type ("u32" type (:type "class") nil nil))
+                nil [8272 8322])
+            ("aarch64_insn_is_prfm_lit" function
+               (:arguments 
+                  ( ("code" variable (:type ("u32" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) nil))                  
+                :type "bool")
+                nil [8323 8377])
+            ("aarch64_insn_get_prfm_lit_value" function
+               (:arguments 
+                  ( ("" variable (:type "void") (reparse-symbol arg-sub-list) nil))                  
+                :type ("u32" type (:type "class") nil nil))
+                nil [8323 8377])
+            ("aarch64_insn_is_str_reg" function
+               (:arguments 
+                  ( ("code" variable (:type ("u32" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) nil))                  
+                :type "bool")
+                nil [8378 8431])
+            ("aarch64_insn_get_str_reg_value" function
+               (:arguments 
+                  ( ("" variable (:type "void") (reparse-symbol arg-sub-list) nil))                  
+                :type ("u32" type (:type "class") nil nil))
+                nil [8378 8431])
+            ("aarch64_insn_is_ldadd" function
+               (:arguments 
+                  ( ("code" variable (:type ("u32" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) nil))                  
+                :type "bool")
+                nil [8432 8483])
+            ("aarch64_insn_get_ldadd_value" function
+               (:arguments 
+                  ( ("" variable (:type "void") (reparse-symbol arg-sub-list) nil))                  
+                :type ("u32" type (:type "class") nil nil))
+                nil [8432 8483])
+            ("aarch64_insn_is_ldr_reg" function
+               (:arguments 
+                  ( ("code" variable (:type ("u32" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) nil))                  
+                :type "bool")
+                nil [8484 8537])
+            ("aarch64_insn_get_ldr_reg_value" function
+               (:arguments 
+                  ( ("" variable (:type "void") (reparse-symbol arg-sub-list) nil))                  
+                :type ("u32" type (:type "class") nil nil))
+                nil [8484 8537])
+            ("aarch64_insn_is_ldr_lit" function
+               (:arguments 
+                  ( ("code" variable (:type ("u32" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) nil))                  
+                :type "bool")
+                nil [8538 8591])
+            ("aarch64_insn_get_ldr_lit_value" function
+               (:arguments 
+                  ( ("" variable (:type "void") (reparse-symbol arg-sub-list) nil))                  
+                :type ("u32" type (:type "class") nil nil))
+                nil [8538 8591])
+            ("aarch64_insn_is_ldrsw_lit" function
+               (:arguments 
+                  ( ("code" variable (:type ("u32" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) nil))                  
+                :type "bool")
+                nil [8592 8647])
+            ("aarch64_insn_get_ldrsw_lit_value" function
+               (:arguments 
+                  ( ("" variable (:type "void") (reparse-symbol arg-sub-list) nil))                  
+                :type ("u32" type (:type "class") nil nil))
+                nil [8592 8647])
+            ("aarch64_insn_is_exclusive" function
+               (:arguments 
+                  ( ("code" variable (:type ("u32" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) nil))                  
+                :type "bool")
+                nil [8648 8703])
+            ("aarch64_insn_get_exclusive_value" function
+               (:arguments 
+                  ( ("" variable (:type "void") (reparse-symbol arg-sub-list) nil))                  
+                :type ("u32" type (:type "class") nil nil))
+                nil [8648 8703])
+            ("aarch64_insn_is_load_ex" function
+               (:arguments 
+                  ( ("code" variable (:type ("u32" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) nil))                  
+                :type "bool")
+                nil [8704 8757])
+            ("aarch64_insn_get_load_ex_value" function
+               (:arguments 
+                  ( ("" variable (:type "void") (reparse-symbol arg-sub-list) nil))                  
+                :type ("u32" type (:type "class") nil nil))
+                nil [8704 8757])
+            ("aarch64_insn_is_store_ex" function
+               (:arguments 
+                  ( ("code" variable (:type ("u32" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) nil))                  
+                :type "bool")
+                nil [8758 8812])
+            ("aarch64_insn_get_store_ex_value" function
+               (:arguments 
+                  ( ("" variable (:type "void") (reparse-symbol arg-sub-list) nil))                  
+                :type ("u32" type (:type "class") nil nil))
+                nil [8758 8812])
+            ("aarch64_insn_is_stp_post" function
+               (:arguments 
+                  ( ("code" variable (:type ("u32" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) nil))                  
+                :type "bool")
+                nil [8813 8867])
+            ("aarch64_insn_get_stp_post_value" function
+               (:arguments 
+                  ( ("" variable (:type "void") (reparse-symbol arg-sub-list) nil))                  
+                :type ("u32" type (:type "class") nil nil))
+                nil [8813 8867])
+            ("aarch64_insn_is_ldp_post" function
+               (:arguments 
+                  ( ("code" variable (:type ("u32" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) nil))                  
+                :type "bool")
+                nil [8868 8922])
+            ("aarch64_insn_get_ldp_post_value" function
+               (:arguments 
+                  ( ("" variable (:type "void") (reparse-symbol arg-sub-list) nil))                  
+                :type ("u32" type (:type "class") nil nil))
+                nil [8868 8922])
+            ("aarch64_insn_is_stp_pre" function
+               (:arguments 
+                  ( ("code" variable (:type ("u32" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) nil))                  
+                :type "bool")
+                nil [8923 8976])
+            ("aarch64_insn_get_stp_pre_value" function
+               (:arguments 
+                  ( ("" variable (:type "void") (reparse-symbol arg-sub-list) nil))                  
+                :type ("u32" type (:type "class") nil nil))
+                nil [8923 8976])
+            ("aarch64_insn_is_ldp_pre" function
+               (:arguments 
+                  ( ("code" variable (:type ("u32" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) nil))                  
+                :type "bool")
+                nil [8977 9030])
+            ("aarch64_insn_get_ldp_pre_value" function
+               (:arguments 
+                  ( ("" variable (:type "void") (reparse-symbol arg-sub-list) nil))                  
+                :type ("u32" type (:type "class") nil nil))
+                nil [8977 9030])
+            ("aarch64_insn_is_add_imm" function
+               (:arguments 
+                  ( ("code" variable (:type ("u32" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) nil))                  
+                :type "bool")
+                nil [9031 9084])
+            ("aarch64_insn_get_add_imm_value" function
+               (:arguments 
+                  ( ("" variable (:type "void") (reparse-symbol arg-sub-list) nil))                  
+                :type ("u32" type (:type "class") nil nil))
+                nil [9031 9084])
+            ("aarch64_insn_is_adds_imm" function
+               (:arguments 
+                  ( ("code" variable (:type ("u32" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) nil))                  
+                :type "bool")
+                nil [9085 9139])
+            ("aarch64_insn_get_adds_imm_value" function
+               (:arguments 
+                  ( ("" variable (:type "void") (reparse-symbol arg-sub-list) nil))                  
+                :type ("u32" type (:type "class") nil nil))
+                nil [9085 9139])
+            ("aarch64_insn_is_sub_imm" function
+               (:arguments 
+                  ( ("code" variable (:type ("u32" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) nil))                  
+                :type "bool")
+                nil [9140 9193])
+            ("aarch64_insn_get_sub_imm_value" function
+               (:arguments 
+                  ( ("" variable (:type "void") (reparse-symbol arg-sub-list) nil))                  
+                :type ("u32" type (:type "class") nil nil))
+                nil [9140 9193])
+            ("aarch64_insn_is_subs_imm" function
+               (:arguments 
+                  ( ("code" variable (:type ("u32" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) nil))                  
+                :type "bool")
+                nil [9194 9248])
+            ("aarch64_insn_get_subs_imm_value" function
+               (:arguments 
+                  ( ("" variable (:type "void") (reparse-symbol arg-sub-list) nil))                  
+                :type ("u32" type (:type "class") nil nil))
+                nil [9194 9248])
+            ("aarch64_insn_is_movn" function
+               (:arguments 
+                  ( ("code" variable (:type ("u32" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) nil))                  
+                :type "bool")
+                nil [9249 9299])
+            ("aarch64_insn_get_movn_value" function
+               (:arguments 
+                  ( ("" variable (:type "void") (reparse-symbol arg-sub-list) nil))                  
+                :type ("u32" type (:type "class") nil nil))
+                nil [9249 9299])
+            ("aarch64_insn_is_sbfm" function
+               (:arguments 
+                  ( ("code" variable (:type ("u32" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) nil))                  
+                :type "bool")
+                nil [9300 9350])
+            ("aarch64_insn_get_sbfm_value" function
+               (:arguments 
+                  ( ("" variable (:type "void") (reparse-symbol arg-sub-list) nil))                  
+                :type ("u32" type (:type "class") nil nil))
+                nil [9300 9350])
+            ("aarch64_insn_is_bfm" function
+               (:arguments 
+                  ( ("code" variable (:type ("u32" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) nil))                  
+                :type "bool")
+                nil [9351 9400])
+            ("aarch64_insn_get_bfm_value" function
+               (:arguments 
+                  ( ("" variable (:type "void") (reparse-symbol arg-sub-list) nil))                  
+                :type ("u32" type (:type "class") nil nil))
+                nil [9351 9400])
+            ("aarch64_insn_is_movz" function
+               (:arguments 
+                  ( ("code" variable (:type ("u32" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) nil))                  
+                :type "bool")
+                nil [9401 9451])
+            ("aarch64_insn_get_movz_value" function
+               (:arguments 
+                  ( ("" variable (:type "void") (reparse-symbol arg-sub-list) nil))                  
+                :type ("u32" type (:type "class") nil nil))
+                nil [9401 9451])
+            ("aarch64_insn_is_ubfm" function
+               (:arguments 
+                  ( ("code" variable (:type ("u32" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) nil))                  
+                :type "bool")
+                nil [9452 9502])
+            ("aarch64_insn_get_ubfm_value" function
+               (:arguments 
+                  ( ("" variable (:type "void") (reparse-symbol arg-sub-list) nil))                  
+                :type ("u32" type (:type "class") nil nil))
+                nil [9452 9502])
+            ("aarch64_insn_is_movk" function
+               (:arguments 
+                  ( ("code" variable (:type ("u32" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) nil))                  
+                :type "bool")
+                nil [9503 9553])
+            ("aarch64_insn_get_movk_value" function
+               (:arguments 
+                  ( ("" variable (:type "void") (reparse-symbol arg-sub-list) nil))                  
+                :type ("u32" type (:type "class") nil nil))
+                nil [9503 9553])
+            ("aarch64_insn_is_add" function
+               (:arguments 
+                  ( ("code" variable (:type ("u32" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) nil))                  
+                :type "bool")
+                nil [9554 9603])
+            ("aarch64_insn_get_add_value" function
+               (:arguments 
+                  ( ("" variable (:type "void") (reparse-symbol arg-sub-list) nil))                  
+                :type ("u32" type (:type "class") nil nil))
+                nil [9554 9603])
+            ("aarch64_insn_is_adds" function
+               (:arguments 
+                  ( ("code" variable (:type ("u32" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) nil))                  
+                :type "bool")
+                nil [9604 9654])
+            ("aarch64_insn_get_adds_value" function
+               (:arguments 
+                  ( ("" variable (:type "void") (reparse-symbol arg-sub-list) nil))                  
+                :type ("u32" type (:type "class") nil nil))
+                nil [9604 9654])
+            ("aarch64_insn_is_sub" function
+               (:arguments 
+                  ( ("code" variable (:type ("u32" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) nil))                  
+                :type "bool")
+                nil [9655 9704])
+            ("aarch64_insn_get_sub_value" function
+               (:arguments 
+                  ( ("" variable (:type "void") (reparse-symbol arg-sub-list) nil))                  
+                :type ("u32" type (:type "class") nil nil))
+                nil [9655 9704])
+            ("aarch64_insn_is_subs" function
+               (:arguments 
+                  ( ("code" variable (:type ("u32" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) nil))                  
+                :type "bool")
+                nil [9705 9755])
+            ("aarch64_insn_get_subs_value" function
+               (:arguments 
+                  ( ("" variable (:type "void") (reparse-symbol arg-sub-list) nil))                  
+                :type ("u32" type (:type "class") nil nil))
+                nil [9705 9755])
+            ("aarch64_insn_is_madd" function
+               (:arguments 
+                  ( ("code" variable (:type ("u32" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) nil))                  
+                :type "bool")
+                nil [9756 9806])
+            ("aarch64_insn_get_madd_value" function
+               (:arguments 
+                  ( ("" variable (:type "void") (reparse-symbol arg-sub-list) nil))                  
+                :type ("u32" type (:type "class") nil nil))
+                nil [9756 9806])
+            ("aarch64_insn_is_msub" function
+               (:arguments 
+                  ( ("code" variable (:type ("u32" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) nil))                  
+                :type "bool")
+                nil [9807 9857])
+            ("aarch64_insn_get_msub_value" function
+               (:arguments 
+                  ( ("" variable (:type "void") (reparse-symbol arg-sub-list) nil))                  
+                :type ("u32" type (:type "class") nil nil))
+                nil [9807 9857])
+            ("aarch64_insn_is_udiv" function
+               (:arguments 
+                  ( ("code" variable (:type ("u32" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) nil))                  
+                :type "bool")
+                nil [9858 9908])
+            ("aarch64_insn_get_udiv_value" function
+               (:arguments 
+                  ( ("" variable (:type "void") (reparse-symbol arg-sub-list) nil))                  
+                :type ("u32" type (:type "class") nil nil))
+                nil [9858 9908])
+            ("aarch64_insn_is_sdiv" function
+               (:arguments 
+                  ( ("code" variable (:type ("u32" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) nil))                  
+                :type "bool")
+                nil [9909 9959])
+            ("aarch64_insn_get_sdiv_value" function
+               (:arguments 
+                  ( ("" variable (:type "void") (reparse-symbol arg-sub-list) nil))                  
+                :type ("u32" type (:type "class") nil nil))
+                nil [9909 9959])
+            ("aarch64_insn_is_lslv" function
+               (:arguments 
+                  ( ("code" variable (:type ("u32" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) nil))                  
+                :type "bool")
+                nil [9960 10010])
+            ("aarch64_insn_get_lslv_value" function
+               (:arguments 
+                  ( ("" variable (:type "void") (reparse-symbol arg-sub-list) nil))                  
+                :type ("u32" type (:type "class") nil nil))
+                nil [9960 10010])
+            ("aarch64_insn_is_lsrv" function
+               (:arguments 
+                  ( ("code" variable (:type ("u32" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) nil))                  
+                :type "bool")
+                nil [10011 10061])
+            ("aarch64_insn_get_lsrv_value" function
+               (:arguments 
+                  ( ("" variable (:type "void") (reparse-symbol arg-sub-list) nil))                  
+                :type ("u32" type (:type "class") nil nil))
+                nil [10011 10061])
+            ("aarch64_insn_is_asrv" function
+               (:arguments 
+                  ( ("code" variable (:type ("u32" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) nil))                  
+                :type "bool")
+                nil [10062 10112])
+            ("aarch64_insn_get_asrv_value" function
+               (:arguments 
+                  ( ("" variable (:type "void") (reparse-symbol arg-sub-list) nil))                  
+                :type ("u32" type (:type "class") nil nil))
+                nil [10062 10112])
+            ("aarch64_insn_is_rorv" function
+               (:arguments 
+                  ( ("code" variable (:type ("u32" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) nil))                  
+                :type "bool")
+                nil [10113 10163])
+            ("aarch64_insn_get_rorv_value" function
+               (:arguments 
+                  ( ("" variable (:type "void") (reparse-symbol arg-sub-list) nil))                  
+                :type ("u32" type (:type "class") nil nil))
+                nil [10113 10163])
+            ("aarch64_insn_is_rev16" function
+               (:arguments 
+                  ( ("code" variable (:type ("u32" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) nil))                  
+                :type "bool")
+                nil [10164 10215])
+            ("aarch64_insn_get_rev16_value" function
+               (:arguments 
+                  ( ("" variable (:type "void") (reparse-symbol arg-sub-list) nil))                  
+                :type ("u32" type (:type "class") nil nil))
+                nil [10164 10215])
+            ("aarch64_insn_is_rev32" function
+               (:arguments 
+                  ( ("code" variable (:type ("u32" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) nil))                  
+                :type "bool")
+                nil [10216 10267])
+            ("aarch64_insn_get_rev32_value" function
+               (:arguments 
+                  ( ("" variable (:type "void") (reparse-symbol arg-sub-list) nil))                  
+                :type ("u32" type (:type "class") nil nil))
+                nil [10216 10267])
+            ("aarch64_insn_is_rev64" function
+               (:arguments 
+                  ( ("code" variable (:type ("u32" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) nil))                  
+                :type "bool")
+                nil [10268 10319])
+            ("aarch64_insn_get_rev64_value" function
+               (:arguments 
+                  ( ("" variable (:type "void") (reparse-symbol arg-sub-list) nil))                  
+                :type ("u32" type (:type "class") nil nil))
+                nil [10268 10319])
+            ("aarch64_insn_is_and" function
+               (:arguments 
+                  ( ("code" variable (:type ("u32" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) nil))                  
+                :type "bool")
+                nil [10320 10369])
+            ("aarch64_insn_get_and_value" function
+               (:arguments 
+                  ( ("" variable (:type "void") (reparse-symbol arg-sub-list) nil))                  
+                :type ("u32" type (:type "class") nil nil))
+                nil [10320 10369])
+            ("aarch64_insn_is_bic" function
+               (:arguments 
+                  ( ("code" variable (:type ("u32" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) nil))                  
+                :type "bool")
+                nil [10370 10419])
+            ("aarch64_insn_get_bic_value" function
+               (:arguments 
+                  ( ("" variable (:type "void") (reparse-symbol arg-sub-list) nil))                  
+                :type ("u32" type (:type "class") nil nil))
+                nil [10370 10419])
+            ("aarch64_insn_is_orr" function
+               (:arguments 
+                  ( ("code" variable (:type ("u32" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) nil))                  
+                :type "bool")
+                nil [10420 10469])
+            ("aarch64_insn_get_orr_value" function
+               (:arguments 
+                  ( ("" variable (:type "void") (reparse-symbol arg-sub-list) nil))                  
+                :type ("u32" type (:type "class") nil nil))
+                nil [10420 10469])
+            ("aarch64_insn_is_orn" function
+               (:arguments 
+                  ( ("code" variable (:type ("u32" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) nil))                  
+                :type "bool")
+                nil [10470 10519])
+            ("aarch64_insn_get_orn_value" function
+               (:arguments 
+                  ( ("" variable (:type "void") (reparse-symbol arg-sub-list) nil))                  
+                :type ("u32" type (:type "class") nil nil))
+                nil [10470 10519])
+            ("aarch64_insn_is_eor" function
+               (:arguments 
+                  ( ("code" variable (:type ("u32" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) nil))                  
+                :type "bool")
+                nil [10520 10569])
+            ("aarch64_insn_get_eor_value" function
+               (:arguments 
+                  ( ("" variable (:type "void") (reparse-symbol arg-sub-list) nil))                  
+                :type ("u32" type (:type "class") nil nil))
+                nil [10520 10569])
+            ("aarch64_insn_is_eon" function
+               (:arguments 
+                  ( ("code" variable (:type ("u32" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) nil))                  
+                :type "bool")
+                nil [10570 10619])
+            ("aarch64_insn_get_eon_value" function
+               (:arguments 
+                  ( ("" variable (:type "void") (reparse-symbol arg-sub-list) nil))                  
+                :type ("u32" type (:type "class") nil nil))
+                nil [10570 10619])
+            ("aarch64_insn_is_ands" function
+               (:arguments 
+                  ( ("code" variable (:type ("u32" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) nil))                  
+                :type "bool")
+                nil [10620 10670])
+            ("aarch64_insn_get_ands_value" function
+               (:arguments 
+                  ( ("" variable (:type "void") (reparse-symbol arg-sub-list) nil))                  
+                :type ("u32" type (:type "class") nil nil))
+                nil [10620 10670])
+            ("aarch64_insn_is_bics" function
+               (:arguments 
+                  ( ("code" variable (:type ("u32" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) nil))                  
+                :type "bool")
+                nil [10671 10721])
+            ("aarch64_insn_get_bics_value" function
+               (:arguments 
+                  ( ("" variable (:type "void") (reparse-symbol arg-sub-list) nil))                  
+                :type ("u32" type (:type "class") nil nil))
+                nil [10671 10721])
+            ("aarch64_insn_is_and_imm" function
+               (:arguments 
+                  ( ("code" variable (:type ("u32" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) nil))                  
+                :type "bool")
+                nil [10722 10775])
+            ("aarch64_insn_get_and_imm_value" function
+               (:arguments 
+                  ( ("" variable (:type "void") (reparse-symbol arg-sub-list) nil))                  
+                :type ("u32" type (:type "class") nil nil))
+                nil [10722 10775])
+            ("aarch64_insn_is_orr_imm" function
+               (:arguments 
+                  ( ("code" variable (:type ("u32" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) nil))                  
+                :type "bool")
+                nil [10776 10829])
+            ("aarch64_insn_get_orr_imm_value" function
+               (:arguments 
+                  ( ("" variable (:type "void") (reparse-symbol arg-sub-list) nil))                  
+                :type ("u32" type (:type "class") nil nil))
+                nil [10776 10829])
+            ("aarch64_insn_is_eor_imm" function
+               (:arguments 
+                  ( ("code" variable (:type ("u32" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) nil))                  
+                :type "bool")
+                nil [10830 10883])
+            ("aarch64_insn_get_eor_imm_value" function
+               (:arguments 
+                  ( ("" variable (:type "void") (reparse-symbol arg-sub-list) nil))                  
+                :type ("u32" type (:type "class") nil nil))
+                nil [10830 10883])
+            ("aarch64_insn_is_ands_imm" function
+               (:arguments 
+                  ( ("code" variable (:type ("u32" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) nil))                  
+                :type "bool")
+                nil [10884 10938])
+            ("aarch64_insn_get_ands_imm_value" function
+               (:arguments 
+                  ( ("" variable (:type "void") (reparse-symbol arg-sub-list) nil))                  
+                :type ("u32" type (:type "class") nil nil))
+                nil [10884 10938])
+            ("aarch64_insn_is_extr" function
+               (:arguments 
+                  ( ("code" variable (:type ("u32" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) nil))                  
+                :type "bool")
+                nil [10939 10989])
+            ("aarch64_insn_get_extr_value" function
+               (:arguments 
+                  ( ("" variable (:type "void") (reparse-symbol arg-sub-list) nil))                  
+                :type ("u32" type (:type "class") nil nil))
+                nil [10939 10989])
+            ("aarch64_insn_is_b" function
+               (:arguments 
+                  ( ("code" variable (:type ("u32" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) nil))                  
+                :type "bool")
+                nil [10990 11038])
+            ("aarch64_insn_get_b_value" function
+               (:arguments 
+                  ( ("" variable (:type "void") (reparse-symbol arg-sub-list) nil))                  
+                :type ("u32" type (:type "class") nil nil))
+                nil [10990 11038])
+            ("aarch64_insn_is_bl" function
+               (:arguments 
+                  ( ("code" variable (:type ("u32" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) nil))                  
+                :type "bool")
+                nil [11039 11087])
+            ("aarch64_insn_get_bl_value" function
+               (:arguments 
+                  ( ("" variable (:type "void") (reparse-symbol arg-sub-list) nil))                  
+                :type ("u32" type (:type "class") nil nil))
+                nil [11039 11087])
+            ("aarch64_insn_is_cbz" function
+               (:arguments 
+                  ( ("code" variable (:type ("u32" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) nil))                  
+                :type "bool")
+                nil [11088 11137])
+            ("aarch64_insn_get_cbz_value" function
+               (:arguments 
+                  ( ("" variable (:type "void") (reparse-symbol arg-sub-list) nil))                  
+                :type ("u32" type (:type "class") nil nil))
+                nil [11088 11137])
+            ("aarch64_insn_is_cbnz" function
+               (:arguments 
+                  ( ("code" variable (:type ("u32" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) nil))                  
+                :type "bool")
+                nil [11138 11188])
+            ("aarch64_insn_get_cbnz_value" function
+               (:arguments 
+                  ( ("" variable (:type "void") (reparse-symbol arg-sub-list) nil))                  
+                :type ("u32" type (:type "class") nil nil))
+                nil [11138 11188])
+            ("aarch64_insn_is_tbz" function
+               (:arguments 
+                  ( ("code" variable (:type ("u32" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) nil))                  
+                :type "bool")
+                nil [11189 11238])
+            ("aarch64_insn_get_tbz_value" function
+               (:arguments 
+                  ( ("" variable (:type "void") (reparse-symbol arg-sub-list) nil))                  
+                :type ("u32" type (:type "class") nil nil))
+                nil [11189 11238])
+            ("aarch64_insn_is_tbnz" function
+               (:arguments 
+                  ( ("code" variable (:type ("u32" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) nil))                  
+                :type "bool")
+                nil [11239 11289])
+            ("aarch64_insn_get_tbnz_value" function
+               (:arguments 
+                  ( ("" variable (:type "void") (reparse-symbol arg-sub-list) nil))                  
+                :type ("u32" type (:type "class") nil nil))
+                nil [11239 11289])
+            ("aarch64_insn_is_bcond" function
+               (:arguments 
+                  ( ("code" variable (:type ("u32" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) nil))                  
+                :type "bool")
+                nil [11290 11341])
+            ("aarch64_insn_get_bcond_value" function
+               (:arguments 
+                  ( ("" variable (:type "void") (reparse-symbol arg-sub-list) nil))                  
+                :type ("u32" type (:type "class") nil nil))
+                nil [11290 11341])
+            ("aarch64_insn_is_svc" function
+               (:arguments 
+                  ( ("code" variable (:type ("u32" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) nil))                  
+                :type "bool")
+                nil [11342 11391])
+            ("aarch64_insn_get_svc_value" function
+               (:arguments 
+                  ( ("" variable (:type "void") (reparse-symbol arg-sub-list) nil))                  
+                :type ("u32" type (:type "class") nil nil))
+                nil [11342 11391])
+            ("aarch64_insn_is_hvc" function
+               (:arguments 
+                  ( ("code" variable (:type ("u32" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) nil))                  
+                :type "bool")
+                nil [11392 11441])
+            ("aarch64_insn_get_hvc_value" function
+               (:arguments 
+                  ( ("" variable (:type "void") (reparse-symbol arg-sub-list) nil))                  
+                :type ("u32" type (:type "class") nil nil))
+                nil [11392 11441])
+            ("aarch64_insn_is_smc" function
+               (:arguments 
+                  ( ("code" variable (:type ("u32" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) nil))                  
+                :type "bool")
+                nil [11442 11491])
+            ("aarch64_insn_get_smc_value" function
+               (:arguments 
+                  ( ("" variable (:type "void") (reparse-symbol arg-sub-list) nil))                  
+                :type ("u32" type (:type "class") nil nil))
+                nil [11442 11491])
+            ("aarch64_insn_is_brk" function
+               (:arguments 
+                  ( ("code" variable (:type ("u32" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) nil))                  
+                :type "bool")
+                nil [11492 11541])
+            ("aarch64_insn_get_brk_value" function
+               (:arguments 
+                  ( ("" variable (:type "void") (reparse-symbol arg-sub-list) nil))                  
+                :type ("u32" type (:type "class") nil nil))
+                nil [11492 11541])
+            ("aarch64_insn_is_exception" function
+               (:arguments 
+                  ( ("code" variable (:type ("u32" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) nil))                  
+                :type "bool")
+                nil [11542 11597])
+            ("aarch64_insn_get_exception_value" function
+               (:arguments 
+                  ( ("" variable (:type "void") (reparse-symbol arg-sub-list) nil))                  
+                :type ("u32" type (:type "class") nil nil))
+                nil [11542 11597])
+            ("aarch64_insn_is_hint" function
+               (:arguments 
+                  ( ("code" variable (:type ("u32" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) nil))                  
+                :type "bool")
+                nil [11598 11648])
+            ("aarch64_insn_get_hint_value" function
+               (:arguments 
+                  ( ("" variable (:type "void") (reparse-symbol arg-sub-list) nil))                  
+                :type ("u32" type (:type "class") nil nil))
+                nil [11598 11648])
+            ("aarch64_insn_is_br" function
+               (:arguments 
+                  ( ("code" variable (:type ("u32" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) nil))                  
+                :type "bool")
+                nil [11649 11697])
+            ("aarch64_insn_get_br_value" function
+               (:arguments 
+                  ( ("" variable (:type "void") (reparse-symbol arg-sub-list) nil))                  
+                :type ("u32" type (:type "class") nil nil))
+                nil [11649 11697])
+            ("aarch64_insn_is_br_auth" function
+               (:arguments 
+                  ( ("code" variable (:type ("u32" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) nil))                  
+                :type "bool")
+                nil [11698 11751])
+            ("aarch64_insn_get_br_auth_value" function
+               (:arguments 
+                  ( ("" variable (:type "void") (reparse-symbol arg-sub-list) nil))                  
+                :type ("u32" type (:type "class") nil nil))
+                nil [11698 11751])
+            ("aarch64_insn_is_blr" function
+               (:arguments 
+                  ( ("code" variable (:type ("u32" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) nil))                  
+                :type "bool")
+                nil [11752 11801])
+            ("aarch64_insn_get_blr_value" function
+               (:arguments 
+                  ( ("" variable (:type "void") (reparse-symbol arg-sub-list) nil))                  
+                :type ("u32" type (:type "class") nil nil))
+                nil [11752 11801])
+            ("aarch64_insn_is_blr_auth" function
+               (:arguments 
+                  ( ("code" variable (:type ("u32" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) nil))                  
+                :type "bool")
+                nil [11802 11856])
+            ("aarch64_insn_get_blr_auth_value" function
+               (:arguments 
+                  ( ("" variable (:type "void") (reparse-symbol arg-sub-list) nil))                  
+                :type ("u32" type (:type "class") nil nil))
+                nil [11802 11856])
+            ("aarch64_insn_is_ret" function
+               (:arguments 
+                  ( ("code" variable (:type ("u32" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) nil))                  
+                :type "bool")
+                nil [11857 11906])
+            ("aarch64_insn_get_ret_value" function
+               (:arguments 
+                  ( ("" variable (:type "void") (reparse-symbol arg-sub-list) nil))                  
+                :type ("u32" type (:type "class") nil nil))
+                nil [11857 11906])
+            ("aarch64_insn_is_ret_auth" function
+               (:arguments 
+                  ( ("code" variable (:type ("u32" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) nil))                  
+                :type "bool")
+                nil [11907 11961])
+            ("aarch64_insn_get_ret_auth_value" function
+               (:arguments 
+                  ( ("" variable (:type "void") (reparse-symbol arg-sub-list) nil))                  
+                :type ("u32" type (:type "class") nil nil))
+                nil [11907 11961])
+            ("aarch64_insn_is_eret" function
+               (:arguments 
+                  ( ("code" variable (:type ("u32" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) nil))                  
+                :type "bool")
+                nil [11962 12012])
+            ("aarch64_insn_get_eret_value" function
+               (:arguments 
+                  ( ("" variable (:type "void") (reparse-symbol arg-sub-list) nil))                  
+                :type ("u32" type (:type "class") nil nil))
+                nil [11962 12012])
+            ("aarch64_insn_is_eret_auth" function
+               (:arguments 
+                  ( ("code" variable (:type ("u32" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) nil))                  
+                :type "bool")
+                nil [12013 12068])
+            ("aarch64_insn_get_eret_auth_value" function
+               (:arguments 
+                  ( ("" variable (:type "void") (reparse-symbol arg-sub-list) nil))                  
+                :type ("u32" type (:type "class") nil nil))
+                nil [12013 12068])
+            ("aarch64_insn_is_mrs" function
+               (:arguments 
+                  ( ("code" variable (:type ("u32" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) nil))                  
+                :type "bool")
+                nil [12069 12118])
+            ("aarch64_insn_get_mrs_value" function
+               (:arguments 
+                  ( ("" variable (:type "void") (reparse-symbol arg-sub-list) nil))                  
+                :type ("u32" type (:type "class") nil nil))
+                nil [12069 12118])
+            ("aarch64_insn_is_msr_imm" function
+               (:arguments 
+                  ( ("code" variable (:type ("u32" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) nil))                  
+                :type "bool")
+                nil [12119 12172])
+            ("aarch64_insn_get_msr_imm_value" function
+               (:arguments 
+                  ( ("" variable (:type "void") (reparse-symbol arg-sub-list) nil))                  
+                :type ("u32" type (:type "class") nil nil))
+                nil [12119 12172])
+            ("aarch64_insn_is_msr_reg" function
+               (:arguments 
+                  ( ("code" variable (:type ("u32" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) nil))                  
+                :type "bool")
+                nil [12173 12226])
+            ("aarch64_insn_get_msr_reg_value" function
+               (:arguments 
+                  ( ("" variable (:type "void") (reparse-symbol arg-sub-list) nil))                  
+                :type ("u32" type (:type "class") nil nil))
+                nil [12173 12226])
+            ("aarch64_insn_is_steppable_hint" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("insn" variable (:type ("u32" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [12293 12302]))                  
+                :type "bool")
+                nil [12257 12303])
+            ("aarch64_insn_is_branch_imm" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("insn" variable (:type ("u32" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [12336 12345]))                  
+                :type "bool")
+                nil [12304 12346])
+            ("aarch64_insn_is_adr_adrp" function
+               (:typemodifiers ("static" "inline")
+                :arguments 
+                  ( ("insn" variable (:type ("u32" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [12392 12401]))                  
+                :type "bool")
+                nil [12348 12470])
+            ("aarch64_insn_read" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("addr" variable
+                       (:pointer 1
+                        :type "void")
+                        (reparse-symbol arg-sub-list) [12494 12505])
+                    ("insnp" variable
+                       (:pointer 1
+                        :type ("u32" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [12506 12517]))                  
+                :type "int")
+                nil [12472 12518])
+            ("aarch64_insn_write" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("addr" variable
+                       (:pointer 1
+                        :type "void")
+                        (reparse-symbol arg-sub-list) [12542 12553])
+                    ("insn" variable (:type ("u32" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [12554 12563]))                  
+                :type "int")
+                nil [12519 12564])
+            ("aarch64_get_insn_class" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("insn" variable (:type ("u32" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [12621 12630]))                  
+                :type ("aarch64_insn_encoding_class" type (:type "enum") nil nil))
+                nil [12565 12631])
+            ("aarch64_insn_uses_literal" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("insn" variable (:type ("u32" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [12663 12672]))                  
+                :type "bool")
+                nil [12632 12673])
+            ("aarch64_insn_is_branch" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("insn" variable (:type ("u32" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [12702 12711]))                  
+                :type "bool")
+                nil [12674 12712])
+            ("aarch64_insn_decode_immediate" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("type" variable (:type ("aarch64_insn_imm_type" type (:type "enum") nil nil)) (reparse-symbol arg-sub-list) [12747 12779])
+                    ("insn" variable (:type ("u32" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [12780 12789]))                  
+                :type ("u64" type (:type "class") nil nil))
+                nil [12713 12790])
+            ("aarch64_insn_encode_immediate" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("type" variable (:type ("aarch64_insn_imm_type" type (:type "enum") nil nil)) (reparse-symbol arg-sub-list) [12825 12857])
+                    ("insn" variable (:type ("u32" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [12864 12873])
+                    ("imm" variable (:type ("u64" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [12874 12882]))                  
+                :type ("u32" type (:type "class") nil nil))
+                nil [12791 12883])
+            ("aarch64_insn_decode_register" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("type" variable (:type ("aarch64_insn_register_type" type (:type "enum") nil nil)) (reparse-symbol arg-sub-list) [12917 12954])
+                    ("insn" variable (:type ("u32" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [12961 12970]))                  
+                :type ("u32" type (:type "class") nil nil))
+                nil [12884 12971])
+            ("aarch64_insn_gen_branch_imm" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("pc" variable (:type "unsigned long") (reparse-symbol arg-sub-list) [13004 13021])
+                    ("addr" variable (:type "unsigned long") (reparse-symbol arg-sub-list) [13022 13041])
+                    ("type" variable (:type ("aarch64_insn_branch_type" type (:type "enum") nil nil)) (reparse-symbol arg-sub-list) [13046 13081]))                  
+                :type ("u32" type (:type "class") nil nil))
+                nil [12972 13082])
+            ("aarch64_insn_gen_comp_branch_imm" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("pc" variable (:type "unsigned long") (reparse-symbol arg-sub-list) [13120 13137])
+                    ("addr" variable (:type "unsigned long") (reparse-symbol arg-sub-list) [13138 13157])
+                    ("reg" variable (:type ("aarch64_insn_register" type (:type "enum") nil nil)) (reparse-symbol arg-sub-list) [13167 13198])
+                    ("variant" variable (:type ("aarch64_insn_variant" type (:type "enum") nil nil)) (reparse-symbol arg-sub-list) [13208 13242])
+                    ("type" variable (:type ("aarch64_insn_branch_type" type (:type "enum") nil nil)) (reparse-symbol arg-sub-list) [13252 13287]))                  
+                :type ("u32" type (:type "class") nil nil))
+                nil [13083 13288])
+            ("aarch64_insn_gen_cond_branch_imm" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("pc" variable (:type "unsigned long") (reparse-symbol arg-sub-list) [13326 13343])
+                    ("addr" variable (:type "unsigned long") (reparse-symbol arg-sub-list) [13344 13363])
+                    ("cond" variable (:type ("aarch64_insn_condition" type (:type "enum") nil nil)) (reparse-symbol arg-sub-list) [13373 13406]))                  
+                :type ("u32" type (:type "class") nil nil))
+                nil [13289 13407])
+            ("aarch64_insn_gen_hint" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("op" variable (:type ("aarch64_insn_hint_cr_op" type (:type "enum") nil nil)) (reparse-symbol arg-sub-list) [13434 13466]))                  
+                :type ("u32" type (:type "class") nil nil))
+                nil [13408 13467])
+            ("aarch64_insn_gen_nop" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("" variable (:type "void") (reparse-symbol arg-sub-list) [13493 13498]))                  
+                :type ("u32" type (:type "class") nil nil))
+                nil [13468 13499])
+            ("aarch64_insn_gen_branch_reg" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("reg" variable (:type ("aarch64_insn_register" type (:type "enum") nil nil)) (reparse-symbol arg-sub-list) [13532 13563])
+                    ("type" variable (:type ("aarch64_insn_branch_type" type (:type "enum") nil nil)) (reparse-symbol arg-sub-list) [13568 13603]))                  
+                :type ("u32" type (:type "class") nil nil))
+                nil [13500 13604])
+            ("aarch64_insn_gen_load_store_reg" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("reg" variable (:type ("aarch64_insn_register" type (:type "enum") nil nil)) (reparse-symbol arg-sub-list) [13641 13672])
+                    ("base" variable (:type ("aarch64_insn_register" type (:type "enum") nil nil)) (reparse-symbol arg-sub-list) [13681 13713])
+                    ("offset" variable (:type ("aarch64_insn_register" type (:type "enum") nil nil)) (reparse-symbol arg-sub-list) [13722 13756])
+                    ("size" variable (:type ("aarch64_insn_size_type" type (:type "enum") nil nil)) (reparse-symbol arg-sub-list) [13765 13798])
+                    ("type" variable (:type ("aarch64_insn_ldst_type" type (:type "enum") nil nil)) (reparse-symbol arg-sub-list) [13807 13840]))                  
+                :type ("u32" type (:type "class") nil nil))
+                nil [13605 13841])
+            ("aarch64_insn_gen_load_store_pair" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("reg1" variable (:type ("aarch64_insn_register" type (:type "enum") nil nil)) (reparse-symbol arg-sub-list) [13879 13911])
+                    ("reg2" variable (:type ("aarch64_insn_register" type (:type "enum") nil nil)) (reparse-symbol arg-sub-list) [13921 13953])
+                    ("base" variable (:type ("aarch64_insn_register" type (:type "enum") nil nil)) (reparse-symbol arg-sub-list) [13963 13995])
+                    ("offset" variable (:type "int") (reparse-symbol arg-sub-list) [14005 14016])
+                    ("variant" variable (:type ("aarch64_insn_variant" type (:type "enum") nil nil)) (reparse-symbol arg-sub-list) [14026 14060])
+                    ("type" variable (:type ("aarch64_insn_ldst_type" type (:type "enum") nil nil)) (reparse-symbol arg-sub-list) [14070 14103]))                  
+                :type ("u32" type (:type "class") nil nil))
+                nil [13842 14104])
+            ("aarch64_insn_gen_load_store_ex" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("reg" variable (:type ("aarch64_insn_register" type (:type "enum") nil nil)) (reparse-symbol arg-sub-list) [14140 14171])
+                    ("base" variable (:type ("aarch64_insn_register" type (:type "enum") nil nil)) (reparse-symbol arg-sub-list) [14179 14211])
+                    ("state" variable (:type ("aarch64_insn_register" type (:type "enum") nil nil)) (reparse-symbol arg-sub-list) [14219 14252])
+                    ("size" variable (:type ("aarch64_insn_size_type" type (:type "enum") nil nil)) (reparse-symbol arg-sub-list) [14260 14293])
+                    ("type" variable (:type ("aarch64_insn_ldst_type" type (:type "enum") nil nil)) (reparse-symbol arg-sub-list) [14301 14334]))                  
+                :type ("u32" type (:type "class") nil nil))
+                nil [14105 14335])
+            ("aarch64_insn_gen_ldadd" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("result" variable (:type ("aarch64_insn_register" type (:type "enum") nil nil)) (reparse-symbol arg-sub-list) [14363 14397])
+                    ("address" variable (:type ("aarch64_insn_register" type (:type "enum") nil nil)) (reparse-symbol arg-sub-list) [14404 14439])
+                    ("value" variable (:type ("aarch64_insn_register" type (:type "enum") nil nil)) (reparse-symbol arg-sub-list) [14446 14479])
+                    ("size" variable (:type ("aarch64_insn_size_type" type (:type "enum") nil nil)) (reparse-symbol arg-sub-list) [14486 14519]))                  
+                :type ("u32" type (:type "class") nil nil))
+                nil [14336 14520])
+            ("aarch64_insn_gen_stadd" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("address" variable (:type ("aarch64_insn_register" type (:type "enum") nil nil)) (reparse-symbol arg-sub-list) [14548 14583])
+                    ("value" variable (:type ("aarch64_insn_register" type (:type "enum") nil nil)) (reparse-symbol arg-sub-list) [14590 14623])
+                    ("size" variable (:type ("aarch64_insn_size_type" type (:type "enum") nil nil)) (reparse-symbol arg-sub-list) [14630 14663]))                  
+                :type ("u32" type (:type "class") nil nil))
+                nil [14521 14664])
+            ("aarch64_insn_gen_add_sub_imm" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("dst" variable (:type ("aarch64_insn_register" type (:type "enum") nil nil)) (reparse-symbol arg-sub-list) [14698 14729])
+                    ("src" variable (:type ("aarch64_insn_register" type (:type "enum") nil nil)) (reparse-symbol arg-sub-list) [14735 14766])
+                    ("imm" variable (:type "int") (reparse-symbol arg-sub-list) [14772 14780])
+                    ("variant" variable (:type ("aarch64_insn_variant" type (:type "enum") nil nil)) (reparse-symbol arg-sub-list) [14781 14815])
+                    ("type" variable (:type ("aarch64_insn_adsb_type" type (:type "enum") nil nil)) (reparse-symbol arg-sub-list) [14821 14854]))                  
+                :type ("u32" type (:type "class") nil nil))
+                nil [14665 14855])
+            ("aarch64_insn_gen_adr" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("pc" variable (:type "unsigned long") (reparse-symbol arg-sub-list) [14881 14898])
+                    ("addr" variable (:type "unsigned long") (reparse-symbol arg-sub-list) [14899 14918])
+                    ("reg" variable (:type ("aarch64_insn_register" type (:type "enum") nil nil)) (reparse-symbol arg-sub-list) [14923 14954])
+                    ("type" variable (:type ("aarch64_insn_adr_type" type (:type "enum") nil nil)) (reparse-symbol arg-sub-list) [14959 14991]))                  
+                :type ("u32" type (:type "class") nil nil))
+                nil [14856 14992])
+            ("aarch64_insn_gen_bitfield" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("dst" variable (:type ("aarch64_insn_register" type (:type "enum") nil nil)) (reparse-symbol arg-sub-list) [15023 15054])
+                    ("src" variable (:type ("aarch64_insn_register" type (:type "enum") nil nil)) (reparse-symbol arg-sub-list) [15064 15095])
+                    ("immr" variable (:type "int") (reparse-symbol arg-sub-list) [15105 15114])
+                    ("imms" variable (:type "int") (reparse-symbol arg-sub-list) [15115 15124])
+                    ("variant" variable (:type ("aarch64_insn_variant" type (:type "enum") nil nil)) (reparse-symbol arg-sub-list) [15134 15168])
+                    ("type" variable (:type ("aarch64_insn_bitfield_type" type (:type "enum") nil nil)) (reparse-symbol arg-sub-list) [15178 15215]))                  
+                :type ("u32" type (:type "class") nil nil))
+                nil [14993 15216])
+            ("aarch64_insn_gen_movewide" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("dst" variable (:type ("aarch64_insn_register" type (:type "enum") nil nil)) (reparse-symbol arg-sub-list) [15247 15278])
+                    ("imm" variable (:type "int") (reparse-symbol arg-sub-list) [15288 15296])
+                    ("shift" variable (:type "int") (reparse-symbol arg-sub-list) [15297 15307])
+                    ("variant" variable (:type ("aarch64_insn_variant" type (:type "enum") nil nil)) (reparse-symbol arg-sub-list) [15317 15351])
+                    ("type" variable (:type ("aarch64_insn_movewide_type" type (:type "enum") nil nil)) (reparse-symbol arg-sub-list) [15361 15398]))                  
+                :type ("u32" type (:type "class") nil nil))
+                nil [15217 15399])
+            ("aarch64_insn_gen_add_sub_shifted_reg" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("dst" variable (:type ("aarch64_insn_register" type (:type "enum") nil nil)) (reparse-symbol arg-sub-list) [15441 15472])
+                    ("src" variable (:type ("aarch64_insn_register" type (:type "enum") nil nil)) (reparse-symbol arg-sub-list) [15479 15510])
+                    ("reg" variable (:type ("aarch64_insn_register" type (:type "enum") nil nil)) (reparse-symbol arg-sub-list) [15517 15548])
+                    ("shift" variable (:type "int") (reparse-symbol arg-sub-list) [15555 15565])
+                    ("variant" variable (:type ("aarch64_insn_variant" type (:type "enum") nil nil)) (reparse-symbol arg-sub-list) [15572 15606])
+                    ("type" variable (:type ("aarch64_insn_adsb_type" type (:type "enum") nil nil)) (reparse-symbol arg-sub-list) [15613 15646]))                  
+                :type ("u32" type (:type "class") nil nil))
+                nil [15400 15647])
+            ("aarch64_insn_gen_data1" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("dst" variable (:type ("aarch64_insn_register" type (:type "enum") nil nil)) (reparse-symbol arg-sub-list) [15675 15706])
+                    ("src" variable (:type ("aarch64_insn_register" type (:type "enum") nil nil)) (reparse-symbol arg-sub-list) [15713 15744])
+                    ("variant" variable (:type ("aarch64_insn_variant" type (:type "enum") nil nil)) (reparse-symbol arg-sub-list) [15751 15785])
+                    ("type" variable (:type ("aarch64_insn_data1_type" type (:type "enum") nil nil)) (reparse-symbol arg-sub-list) [15792 15826]))                  
+                :type ("u32" type (:type "class") nil nil))
+                nil [15648 15827])
+            ("aarch64_insn_gen_data2" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("dst" variable (:type ("aarch64_insn_register" type (:type "enum") nil nil)) (reparse-symbol arg-sub-list) [15855 15886])
+                    ("src" variable (:type ("aarch64_insn_register" type (:type "enum") nil nil)) (reparse-symbol arg-sub-list) [15893 15924])
+                    ("reg" variable (:type ("aarch64_insn_register" type (:type "enum") nil nil)) (reparse-symbol arg-sub-list) [15931 15962])
+                    ("variant" variable (:type ("aarch64_insn_variant" type (:type "enum") nil nil)) (reparse-symbol arg-sub-list) [15969 16003])
+                    ("type" variable (:type ("aarch64_insn_data2_type" type (:type "enum") nil nil)) (reparse-symbol arg-sub-list) [16010 16044]))                  
+                :type ("u32" type (:type "class") nil nil))
+                nil [15828 16045])
+            ("aarch64_insn_gen_data3" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("dst" variable (:type ("aarch64_insn_register" type (:type "enum") nil nil)) (reparse-symbol arg-sub-list) [16073 16104])
+                    ("src" variable (:type ("aarch64_insn_register" type (:type "enum") nil nil)) (reparse-symbol arg-sub-list) [16111 16142])
+                    ("reg1" variable (:type ("aarch64_insn_register" type (:type "enum") nil nil)) (reparse-symbol arg-sub-list) [16149 16181])
+                    ("reg2" variable (:type ("aarch64_insn_register" type (:type "enum") nil nil)) (reparse-symbol arg-sub-list) [16188 16220])
+                    ("variant" variable (:type ("aarch64_insn_variant" type (:type "enum") nil nil)) (reparse-symbol arg-sub-list) [16227 16261])
+                    ("type" variable (:type ("aarch64_insn_data3_type" type (:type "enum") nil nil)) (reparse-symbol arg-sub-list) [16268 16302]))                  
+                :type ("u32" type (:type "class") nil nil))
+                nil [16046 16303])
+            ("aarch64_insn_gen_logical_shifted_reg" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("dst" variable (:type ("aarch64_insn_register" type (:type "enum") nil nil)) (reparse-symbol arg-sub-list) [16345 16376])
+                    ("src" variable (:type ("aarch64_insn_register" type (:type "enum") nil nil)) (reparse-symbol arg-sub-list) [16383 16414])
+                    ("reg" variable (:type ("aarch64_insn_register" type (:type "enum") nil nil)) (reparse-symbol arg-sub-list) [16421 16452])
+                    ("shift" variable (:type "int") (reparse-symbol arg-sub-list) [16459 16469])
+                    ("variant" variable (:type ("aarch64_insn_variant" type (:type "enum") nil nil)) (reparse-symbol arg-sub-list) [16476 16510])
+                    ("type" variable (:type ("aarch64_insn_logic_type" type (:type "enum") nil nil)) (reparse-symbol arg-sub-list) [16517 16551]))                  
+                :type ("u32" type (:type "class") nil nil))
+                nil [16304 16552])
+            ("aarch64_insn_gen_move_reg" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("dst" variable (:type ("aarch64_insn_register" type (:type "enum") nil nil)) (reparse-symbol arg-sub-list) [16583 16614])
+                    ("src" variable (:type ("aarch64_insn_register" type (:type "enum") nil nil)) (reparse-symbol arg-sub-list) [16624 16655])
+                    ("variant" variable (:type ("aarch64_insn_variant" type (:type "enum") nil nil)) (reparse-symbol arg-sub-list) [16665 16699]))                  
+                :type ("u32" type (:type "class") nil nil))
+                nil [16553 16700])
+            ("aarch64_insn_gen_logical_immediate" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("type" variable (:type ("aarch64_insn_logic_type" type (:type "enum") nil nil)) (reparse-symbol arg-sub-list) [16740 16774])
+                    ("variant" variable (:type ("aarch64_insn_variant" type (:type "enum") nil nil)) (reparse-symbol arg-sub-list) [16786 16820])
+                    ("Rn" variable (:type ("aarch64_insn_register" type (:type "enum") nil nil)) (reparse-symbol arg-sub-list) [16832 16862])
+                    ("Rd" variable (:type ("aarch64_insn_register" type (:type "enum") nil nil)) (reparse-symbol arg-sub-list) [16874 16904])
+                    ("imm" variable (:type ("u64" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [16916 16924]))                  
+                :type ("u32" type (:type "class") nil nil))
+                nil [16701 16925])
+            ("aarch64_insn_gen_extr" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("variant" variable (:type ("aarch64_insn_variant" type (:type "enum") nil nil)) (reparse-symbol arg-sub-list) [16952 16986])
+                    ("Rm" variable (:type ("aarch64_insn_register" type (:type "enum") nil nil)) (reparse-symbol arg-sub-list) [16992 17022])
+                    ("Rn" variable (:type ("aarch64_insn_register" type (:type "enum") nil nil)) (reparse-symbol arg-sub-list) [17028 17058])
+                    ("Rd" variable (:type ("aarch64_insn_register" type (:type "enum") nil nil)) (reparse-symbol arg-sub-list) [17064 17094])
+                    ("lsb" variable (:type ("u8" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [17100 17107]))                  
+                :type ("u32" type (:type "class") nil nil))
+                nil [16926 17108])
+            ("aarch64_insn_gen_prefetch" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("base" variable (:type ("aarch64_insn_register" type (:type "enum") nil nil)) (reparse-symbol arg-sub-list) [17139 17171])
+                    ("type" variable (:type ("aarch64_insn_prfm_type" type (:type "enum") nil nil)) (reparse-symbol arg-sub-list) [17181 17214])
+                    ("target" variable (:type ("aarch64_insn_prfm_target" type (:type "enum") nil nil)) (reparse-symbol arg-sub-list) [17224 17261])
+                    ("policy" variable (:type ("aarch64_insn_prfm_policy" type (:type "enum") nil nil)) (reparse-symbol arg-sub-list) [17271 17308]))                  
+                :type ("u32" type (:type "class") nil nil))
+                nil [17109 17309])
+            ("aarch64_get_branch_offset" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("insn" variable (:type ("u32" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [17340 17349]))                  
+                :type ("s32" type (:type "class") nil nil))
+                nil [17310 17350])
+            ("aarch64_set_branch_offset" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("insn" variable (:type ("u32" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [17381 17390])
+                    ("offset" variable (:type ("s32" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [17391 17402]))                  
+                :type ("u32" type (:type "class") nil nil))
+                nil [17351 17403])
+            ("aarch64_insn_patch_text_nosync" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("addr" variable
+                       (:pointer 1
+                        :type "void")
+                        (reparse-symbol arg-sub-list) [17440 17451])
+                    ("insn" variable (:type ("u32" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [17452 17461]))                  
+                :type "int")
+                nil [17405 17462])
+            ("aarch64_insn_patch_text" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("addrs" variable
+                       (:pointer 1
+                        :dereference 1
+                        :type "void")
+                        (reparse-symbol arg-sub-list) [17491 17505])
+                    ("insns" variable
+                       (:dereference 1
+                        :type ("u32" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [17506 17518])
+                    ("cnt" variable (:type "int") (reparse-symbol arg-sub-list) [17519 17527]))                  
+                :type "int")
+                nil [17463 17528])
+            ("aarch64_insn_adrp_get_offset" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("insn" variable (:type ("u32" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [17563 17572]))                  
+                :type ("s32" type (:type "class") nil nil))
+                nil [17530 17573])
+            ("aarch64_insn_adrp_set_offset" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("insn" variable (:type ("u32" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [17607 17616])
+                    ("offset" variable (:type ("s32" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [17617 17628]))                  
+                :type ("u32" type (:type "class") nil nil))
+                nil [17574 17629])
+            ("aarch32_insn_is_wide" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("insn" variable (:type ("u32" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [17657 17666]))                  
+                :type "bool")
+                nil [17631 17667])
+            ("A32_RN_OFFSET" variable (:constant-flag t) nil [17677 17690])
+            ("A32_RT_OFFSET" variable (:constant-flag t) nil [17702 17715])
+            ("A32_RT2_OFFSET" variable (:constant-flag t) nil [17727 17741])
+            ("aarch64_insn_extract_system_reg" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("insn" variable (:type ("u32" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [17782 17791]))                  
+                :type ("u32" type (:type "class") nil nil))
+                nil [17746 17792])
+            ("aarch32_insn_extract_reg_num" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("insn" variable (:type ("u32" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [17826 17835])
+                    ("offset" variable (:type "int") (reparse-symbol arg-sub-list) [17836 17847]))                  
+                :type ("u32" type (:type "class") nil nil))
+                nil [17793 17848])
+            ("aarch32_insn_mcr_extract_opc2" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("insn" variable (:type ("u32" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [17883 17892]))                  
+                :type ("u32" type (:type "class") nil nil))
+                nil [17849 17893])
+            ("aarch32_insn_mcr_extract_crm" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("insn" variable (:type ("u32" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [17927 17936]))                  
+                :type ("u32" type (:type "class") nil nil))
+                nil [17894 17937])
+            ("pstate_check_t" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("" variable (:type "unsigned long") (reparse-symbol arg-sub-list) [17969 17983]))                  
+                :type "bool")
+                nil [17947 17984])
+            ("aarch32_opcode_cond_checks" variable
+               (:pointer 1
+                :dereference 1
+                :typemodifiers ("extern")
+                :type ("pstate_check_t" type (:type "class") nil nil))
+                nil [17985 18046]))          
+      :file "insn.h"
+      :pointmax 18100
+      :fsize 18099
+      :lastmodtime '(24802 37832 188192 950000)
+      :unmatched-syntax '((TYPEDEF 17939 . 17946) (symbol "__inline" 12173 . 12226) (STATIC "static" 12173 . 12226) (symbol "__inline" 12173 . 12226) (STATIC "static" 12173 . 12226) (symbol "__inline" 12119 . 12172) (STATIC "static" 12119 . 12172) (symbol "__inline" 12119 . 12172) (STATIC "static" 12119 . 12172) (symbol "__inline" 12069 . 12118) (STATIC "static" 12069 . 12118) (symbol "__inline" 12069 . 12118) (STATIC "static" 12069 . 12118) (symbol "__inline" 12013 . 12068) (STATIC "static" 12013 . 12068) (symbol "__inline" 12013 . 12068) (STATIC "static" 12013 . 12068) (symbol "__inline" 11962 . 12012) (STATIC "static" 11962 . 12012) (symbol "__inline" 11962 . 12012) (STATIC "static" 11962 . 12012) (symbol "__inline" 11907 . 11961) (STATIC "static" 11907 . 11961) (symbol "__inline" 11907 . 11961) (STATIC "static" 11907 . 11961) (symbol "__inline" 11857 . 11906) (STATIC "static" 11857 . 11906) (symbol "__inline" 11857 . 11906) (STATIC "static" 11857 . 11906) (symbol "__inline" 11802 . 11856) (STATIC "static" 11802 . 11856) (symbol "__inline" 11802 . 11856) (STATIC "static" 11802 . 11856) (symbol "__inline" 11752 . 11801) (STATIC "static" 11752 . 11801) (symbol "__inline" 11752 . 11801) (STATIC "static" 11752 . 11801) (symbol "__inline" 11698 . 11751) (STATIC "static" 11698 . 11751) (symbol "__inline" 11698 . 11751) (STATIC "static" 11698 . 11751) (symbol "__inline" 11649 . 11697) (STATIC "static" 11649 . 11697) (symbol "__inline" 11649 . 11697) (STATIC "static" 11649 . 11697) (symbol "__inline" 11598 . 11648) (STATIC "static" 11598 . 11648) (symbol "__inline" 11598 . 11648) (STATIC "static" 11598 . 11648) (symbol "__inline" 11542 . 11597) (STATIC "static" 11542 . 11597) (symbol "__inline" 11542 . 11597) (STATIC "static" 11542 . 11597) (symbol "__inline" 11492 . 11541) (STATIC "static" 11492 . 11541) (symbol "__inline" 11492 . 11541) (STATIC "static" 11492 . 11541) (symbol "__inline" 11442 . 11491) (STATIC "static" 11442 . 11491) (symbol "__inline" 11442 . 11491) (STATIC "static" 11442 . 11491) (symbol "__inline" 11392 . 11441) (STATIC "static" 11392 . 11441) (symbol "__inline" 11392 . 11441) (STATIC "static" 11392 . 11441) (symbol "__inline" 11342 . 11391) (STATIC "static" 11342 . 11391) (symbol "__inline" 11342 . 11391) (STATIC "static" 11342 . 11391) (symbol "__inline" 11290 . 11341) (STATIC "static" 11290 . 11341) (symbol "__inline" 11290 . 11341) (STATIC "static" 11290 . 11341) (symbol "__inline" 11239 . 11289) (STATIC "static" 11239 . 11289) (symbol "__inline" 11239 . 11289) (STATIC "static" 11239 . 11289) (symbol "__inline" 11189 . 11238) (STATIC "static" 11189 . 11238) (symbol "__inline" 11189 . 11238) (STATIC "static" 11189 . 11238) (symbol "__inline" 11138 . 11188) (STATIC "static" 11138 . 11188) (symbol "__inline" 11138 . 11188) (STATIC "static" 11138 . 11188) (symbol "__inline" 11088 . 11137) (STATIC "static" 11088 . 11137) (symbol "__inline" 11088 . 11137) (STATIC "static" 11088 . 11137) (symbol "__inline" 11039 . 11087) (STATIC "static" 11039 . 11087) (symbol "__inline" 11039 . 11087) (STATIC "static" 11039 . 11087) (symbol "__inline" 10990 . 11038) (STATIC "static" 10990 . 11038) (symbol "__inline" 10990 . 11038) (STATIC "static" 10990 . 11038) (symbol "__inline" 10939 . 10989) (STATIC "static" 10939 . 10989) (symbol "__inline" 10939 . 10989) (STATIC "static" 10939 . 10989) (symbol "__inline" 10884 . 10938) (STATIC "static" 10884 . 10938) (symbol "__inline" 10884 . 10938) (STATIC "static" 10884 . 10938) (symbol "__inline" 10830 . 10883) (STATIC "static" 10830 . 10883) (symbol "__inline" 10830 . 10883) (STATIC "static" 10830 . 10883) (symbol "__inline" 10776 . 10829) (STATIC "static" 10776 . 10829) (symbol "__inline" 10776 . 10829) (STATIC "static" 10776 . 10829) (symbol "__inline" 10722 . 10775) (STATIC "static" 10722 . 10775) (symbol "__inline" 10722 . 10775) (STATIC "static" 10722 . 10775) (symbol "__inline" 10671 . 10721) (STATIC "static" 10671 . 10721) (symbol "__inline" 10671 . 10721) (STATIC "static" 10671 . 10721) (symbol "__inline" 10620 . 10670) (STATIC "static" 10620 . 10670) (symbol "__inline" 10620 . 10670) (STATIC "static" 10620 . 10670) (symbol "__inline" 10570 . 10619) (STATIC "static" 10570 . 10619) (symbol "__inline" 10570 . 10619) (STATIC "static" 10570 . 10619) (symbol "__inline" 10520 . 10569) (STATIC "static" 10520 . 10569) (symbol "__inline" 10520 . 10569) (STATIC "static" 10520 . 10569) (symbol "__inline" 10470 . 10519) (STATIC "static" 10470 . 10519) (symbol "__inline" 10470 . 10519) (STATIC "static" 10470 . 10519) (symbol "__inline" 10420 . 10469) (STATIC "static" 10420 . 10469) (symbol "__inline" 10420 . 10469) (STATIC "static" 10420 . 10469) (symbol "__inline" 10370 . 10419) (STATIC "static" 10370 . 10419) (symbol "__inline" 10370 . 10419) (STATIC "static" 10370 . 10419) (symbol "__inline" 10320 . 10369) (STATIC "static" 10320 . 10369) (symbol "__inline" 10320 . 10369) (STATIC "static" 10320 . 10369) (symbol "__inline" 10268 . 10319) (STATIC "static" 10268 . 10319) (symbol "__inline" 10268 . 10319) (STATIC "static" 10268 . 10319) (symbol "__inline" 10216 . 10267) (STATIC "static" 10216 . 10267) (symbol "__inline" 10216 . 10267) (STATIC "static" 10216 . 10267) (symbol "__inline" 10164 . 10215) (STATIC "static" 10164 . 10215) (symbol "__inline" 10164 . 10215) (STATIC "static" 10164 . 10215) (symbol "__inline" 10113 . 10163) (STATIC "static" 10113 . 10163) (symbol "__inline" 10113 . 10163) (STATIC "static" 10113 . 10163) (symbol "__inline" 10062 . 10112) (STATIC "static" 10062 . 10112) (symbol "__inline" 10062 . 10112) (STATIC "static" 10062 . 10112) (symbol "__inline" 10011 . 10061) (STATIC "static" 10011 . 10061) (symbol "__inline" 10011 . 10061) (STATIC "static" 10011 . 10061) (symbol "__inline" 9960 . 10010) (STATIC "static" 9960 . 10010) (symbol "__inline" 9960 . 10010) (STATIC "static" 9960 . 10010) (symbol "__inline" 9909 . 9959) (STATIC "static" 9909 . 9959) (symbol "__inline" 9909 . 9959) (STATIC "static" 9909 . 9959) (symbol "__inline" 9858 . 9908) (STATIC "static" 9858 . 9908) (symbol "__inline" 9858 . 9908) (STATIC "static" 9858 . 9908) (symbol "__inline" 9807 . 9857) (STATIC "static" 9807 . 9857) (symbol "__inline" 9807 . 9857) (STATIC "static" 9807 . 9857) (symbol "__inline" 9756 . 9806) (STATIC "static" 9756 . 9806) (symbol "__inline" 9756 . 9806) (STATIC "static" 9756 . 9806) (symbol "__inline" 9705 . 9755) (STATIC "static" 9705 . 9755) (symbol "__inline" 9705 . 9755) (STATIC "static" 9705 . 9755) (symbol "__inline" 9655 . 9704) (STATIC "static" 9655 . 9704) (symbol "__inline" 9655 . 9704) (STATIC "static" 9655 . 9704) (symbol "__inline" 9604 . 9654) (STATIC "static" 9604 . 9654) (symbol "__inline" 9604 . 9654) (STATIC "static" 9604 . 9654) (symbol "__inline" 9554 . 9603) (STATIC "static" 9554 . 9603) (symbol "__inline" 9554 . 9603) (STATIC "static" 9554 . 9603) (symbol "__inline" 9503 . 9553) (STATIC "static" 9503 . 9553) (symbol "__inline" 9503 . 9553) (STATIC "static" 9503 . 9553) (symbol "__inline" 9452 . 9502) (STATIC "static" 9452 . 9502) (symbol "__inline" 9452 . 9502) (STATIC "static" 9452 . 9502) (symbol "__inline" 9401 . 9451) (STATIC "static" 9401 . 9451) (symbol "__inline" 9401 . 9451) (STATIC "static" 9401 . 9451) (symbol "__inline" 9351 . 9400) (STATIC "static" 9351 . 9400) (symbol "__inline" 9351 . 9400) (STATIC "static" 9351 . 9400) (symbol "__inline" 9300 . 9350) (STATIC "static" 9300 . 9350) (symbol "__inline" 9300 . 9350) (STATIC "static" 9300 . 9350) (symbol "__inline" 9249 . 9299) (STATIC "static" 9249 . 9299) (symbol "__inline" 9249 . 9299) (STATIC "static" 9249 . 9299) (symbol "__inline" 9194 . 9248) (STATIC "static" 9194 . 9248) (symbol "__inline" 9194 . 9248) (STATIC "static" 9194 . 9248) (symbol "__inline" 9140 . 9193) (STATIC "static" 9140 . 9193) (symbol "__inline" 9140 . 9193) (STATIC "static" 9140 . 9193) (symbol "__inline" 9085 . 9139) (STATIC "static" 9085 . 9139) (symbol "__inline" 9085 . 9139) (STATIC "static" 9085 . 9139) (symbol "__inline" 9031 . 9084) (STATIC "static" 9031 . 9084) (symbol "__inline" 9031 . 9084) (STATIC "static" 9031 . 9084) (symbol "__inline" 8977 . 9030) (STATIC "static" 8977 . 9030) (symbol "__inline" 8977 . 9030) (STATIC "static" 8977 . 9030) (symbol "__inline" 8923 . 8976) (STATIC "static" 8923 . 8976) (symbol "__inline" 8923 . 8976) (STATIC "static" 8923 . 8976) (symbol "__inline" 8868 . 8922) (STATIC "static" 8868 . 8922) (symbol "__inline" 8868 . 8922) (STATIC "static" 8868 . 8922) (symbol "__inline" 8813 . 8867) (STATIC "static" 8813 . 8867) (symbol "__inline" 8813 . 8867) (STATIC "static" 8813 . 8867) (symbol "__inline" 8758 . 8812) (STATIC "static" 8758 . 8812) (symbol "__inline" 8758 . 8812) (STATIC "static" 8758 . 8812) (symbol "__inline" 8704 . 8757) (STATIC "static" 8704 . 8757) (symbol "__inline" 8704 . 8757) (STATIC "static" 8704 . 8757) (symbol "__inline" 8648 . 8703) (STATIC "static" 8648 . 8703) (symbol "__inline" 8648 . 8703) (STATIC "static" 8648 . 8703) (symbol "__inline" 8592 . 8647) (STATIC "static" 8592 . 8647) (symbol "__inline" 8592 . 8647) (STATIC "static" 8592 . 8647) (symbol "__inline" 8538 . 8591) (STATIC "static" 8538 . 8591) (symbol "__inline" 8538 . 8591) (STATIC "static" 8538 . 8591) (symbol "__inline" 8484 . 8537) (STATIC "static" 8484 . 8537) (symbol "__inline" 8484 . 8537) (STATIC "static" 8484 . 8537) (symbol "__inline" 8432 . 8483) (STATIC "static" 8432 . 8483) (symbol "__inline" 8432 . 8483) (STATIC "static" 8432 . 8483) (symbol "__inline" 8378 . 8431) (STATIC "static" 8378 . 8431) (symbol "__inline" 8378 . 8431) (STATIC "static" 8378 . 8431) (symbol "__inline" 8323 . 8377) (STATIC "static" 8323 . 8377) (symbol "__inline" 8323 . 8377) (STATIC "static" 8323 . 8377) (symbol "__inline" 8272 . 8322) (STATIC "static" 8272 . 8322) (symbol "__inline" 8272 . 8322) (STATIC "static" 8272 . 8322) (symbol "__inline" 8221 . 8271) (STATIC "static" 8221 . 8271) (symbol "__inline" 8221 . 8271) (STATIC "static" 8221 . 8271) (symbol "__inline" 8171 . 8220) (STATIC "static" 8171 . 8220) (symbol "__inline" 8171 . 8220) (STATIC "static" 8171 . 8220) (number 2460 . 2461) (punctuation 2458 . 2459) (punctuation 2457 . 2458) (number 2422 . 2423) (punctuation 2420 . 2421) (punctuation 2419 . 2420) (number 2384 . 2385) (punctuation 2382 . 2383) (punctuation 2381 . 2382) (number 2346 . 2347) (punctuation 2344 . 2345) (punctuation 2343 . 2344) (number 2307 . 2308) (punctuation 2305 . 2306) (punctuation 2304 . 2305) (number 2270 . 2271) (punctuation 2268 . 2269) (punctuation 2267 . 2268) (number 2233 . 2234) (punctuation 2231 . 2232) (punctuation 2230 . 2231) (number 2196 . 2197) (punctuation 2194 . 2195) (punctuation 2193 . 2194) (number 2158 . 2159) (punctuation 2156 . 2157) (punctuation 2155 . 2156) (number 2115 . 2116) (punctuation 2113 . 2114) (punctuation 2112 . 2113) (number 2072 . 2073) (punctuation 2070 . 2071) (punctuation 2069 . 2070) (number 2029 . 2030) (punctuation 2027 . 2028) (punctuation 2026 . 2027) (number 1986 . 1987) (punctuation 1984 . 1985) (punctuation 1983 . 1984) (number 1943 . 1944) (punctuation 1941 . 1942) (punctuation 1940 . 1941) (number 1900 . 1901) (punctuation 1898 . 1899) (punctuation 1897 . 1898) (number 1857 . 1858) (punctuation 1855 . 1856) (punctuation 1854 . 1855) (number 1814 . 1815) (punctuation 1812 . 1813) (punctuation 1811 . 1812) (number 1771 . 1772) (punctuation 1769 . 1770) (punctuation 1768 . 1769) (number 1728 . 1729) (punctuation 1726 . 1727) (punctuation 1725 . 1726) (number 1685 . 1686) (punctuation 1683 . 1684) (punctuation 1682 . 1683) (number 1642 . 1643) (punctuation 1640 . 1641) (punctuation 1639 . 1640) (number 1598 . 1599) (punctuation 1596 . 1597) (punctuation 1595 . 1596) (number 1562 . 1563) (punctuation 1560 . 1561) (punctuation 1559 . 1560) (number 1527 . 1528) (punctuation 1525 . 1526) (punctuation 1524 . 1525) (number 1492 . 1493) (punctuation 1490 . 1491) (punctuation 1489 . 1490) (number 1457 . 1458) (punctuation 1455 . 1456) (punctuation 1454 . 1455) (number 1420 . 1421) (punctuation 1418 . 1419) (punctuation 1417 . 1418))
+      :lexical-table 
+        '(("A32_RN_OFFSET" . ((number "16" 17691 . 17693)))
+          ("A32_RT_OFFSET" . ((number "12" 17716 . 17718)))
+          ("A32_RT2_OFFSET" . ((number "0" 17743 . 17744)))
+          ("AARCH64_INSN_SIZE" . ((number "4" 351 . 352)))
+          ("__ASM_INSN_H")
+          )
+))
+  :file "!home!bspserver!iamroot-5.10!arch!arm64!include!asm!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

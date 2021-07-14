@@ -1,0 +1,29 @@
+;; Object semanticdb-project-database-file-1584edcef460
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file-1584edcef460"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table-1584edcef414"
+      :major-mode makefile-mode
+      :tags 
+        '( ("SUMMARY" variable (:default-value ("\"Merge machine and distro options to create a oe-alliance enigma2 feeds machine task/package\"")) nil [1 105])
+            ("LICENSE" variable (:default-value ("\"MIT\"")) nil [105 121])
+            ("LIC_FILES_CHKSUM" variable (:default-value ("\"file://${COMMON_LICENSE_DIR}/MIT;md5=0835ade698e0bcf8506ecda2f7b4f302 \\
+                    file://${COREBASE}/meta/COPYING.MIT;md5=3da9cfbcb788c80a0384361b4de20420\"")) nil [121 307])
+            ("PACKAGE_ARCH" variable (:default-value ("\"${MACHINE_ARCH}\"")) nil [307 340])
+            ("PACKAGES" variable (:default-value ("\"${PN}\"")) nil [386 405])
+            ("PV" variable (:default-value ("\"${IMAGE_VERSION}\"")) nil [406 430])
+            ("PR" variable (:default-value ("\"r11\"")) nil [430 441])
+            ("DEPENDS" variable (:default-value ("\"enigma2-plugin-drivers-usbserial enigma2-plugin-systemplugins-radiotimesemulator enigma2-plugin-systemplugins-hrtunerproxy\"")) nil [442 577])
+            ("GST_BASE_DVD" variable (:default-value ("\"\\
+    gstreamer1.0-plugins-bad-videoparsersbad \\
+    gstreamer1.0-plugins-bad-mpegtsmux \\
+\"")) nil [6353 6461]))          
+      :file "oe-alliance-feeds.bb"
+      :pointmax 6940
+      :fsize 6939
+      :lastmodtime '(24807 54292 230225 859000)
+      :unmatched-syntax nil))
+  :file "!home!bspserver!000_BUILD!01_build_openatv!meta-oe-alliance!meta-oe!recipes-oe-alliance!image!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

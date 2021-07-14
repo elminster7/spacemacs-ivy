@@ -1,0 +1,23 @@
+;; Object semanticdb-project-database-file-1576dc757370
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file-1576dc757370"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table-1576de1cf814"
+      :major-mode makefile-mode
+      :tags 
+        '( ("SUMMARY" variable (:default-value ("\"openhdf-spinner\"")) nil [1 29])
+            ("MAINTAINER" variable (:default-value ("\"HDFreaks\"")) nil [29 53])
+            ("SECTION" variable (:default-value ("\"base\"")) nil [53 70])
+            ("LICENSE" variable (:default-value ("\"proprietary\"")) nil [70 94])
+            ("PV" variable (:default-value ("\"1.0\"")) nil [151 162])
+            ("PR" variable (:default-value ("\"r3\"")) nil [162 172])
+            ("S" variable (:default-value ("\"${WORKDIR}\"")) nil [779 804]))          
+      :file "openhdf-spinner.bb"
+      :pointmax 966
+      :fsize 965
+      :lastmodtime '(24811 39573 442430 225000)
+      :unmatched-syntax nil))
+  :file "!home!bspserver!000_BUILD!02_build_openatv6.4!meta-oe-alliance!meta-oe!recipes-distros!openhdf!spinner!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

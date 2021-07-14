@@ -1,0 +1,229 @@
+;; Object semanticdb-project-database-file-1576dd20f326
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file-1576dd20f326"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table-1576dc0015cc"
+      :major-mode makefile-mode
+      :tags 
+        '( ("PV" variable (:default-value ("\"20111105\"")) nil [1 17])
+            ("PR" variable (:default-value ("\"r0\"")) nil [17 27])
+            ("SUMMARY" variable (:default-value ("\"Autorecover settings and install packages at first boot from /media/*/backup\"")) nil [129 218])
+            ("PACKAGES" variable (:default-value ("\"${PN}\"")) nil [218 237])
+            ("MAINTAINER" variable (:default-value ("\"MiLo\"")) nil [237 257])
+            ("S" variable (:default-value ("\"${WORKDIR}\"")) nil [394 411]))          
+      :file "settings-autorestore.bb"
+      :pointmax 1125
+      :fsize 1124
+      :lastmodtime '(24811 39500 85173 511000)
+      :unmatched-syntax nil)
+    (semanticdb-table "semanticdb-table-1576dd2a550a"
+      :major-mode makefile-mode
+      :tags 
+        '( ("SUMMARY" variable (:default-value ("\"Autorecover settings and installed packages at first boot from backup\"")) nil [1 83])
+            ("PACKAGES" variable (:default-value ("\"${PN}\"")) nil [83 102])
+            ("MAINTAINER" variable (:default-value ("\"Schimmelreiter\"")) nil [102 132])
+            ("SRCREV" variable (:default-value ("\"${AUTOREV}\"")) nil [219 241])
+            ("SRC_URI" variable (:default-value ("\"git://github.com/openatv/autorestore.git;protocol=git\"")) nil [286 352])
+            ("S" variable (:default-value ("\"${WORKDIR}/git/src\"")) nil [352 377]))          
+      :file "openatv-autorestore.bb"
+      :pointmax 623
+      :fsize 622
+      :lastmodtime '(24811 39399 183443 653000)
+      :unmatched-syntax nil)
+    (semanticdb-table "semanticdb-table-1576dc402f4a"
+      :major-mode makefile-mode
+      :tags 
+        '( ("SUMMARY" variable (:default-value ("\"Enigma2 is an experimental, but useful framebuffer-based frontend for DVB functions\"")) nil [1 97])
+            ("MAINTAINER" variable (:default-value ("\"OE-Alliance\"")) nil [97 124])
+            ("LICENSE" variable (:default-value ("\"GPLv2\"")) nil [124 142])
+            ("LIC_FILES_CHKSUM" variable (:default-value ("\"file://LICENSE;md5=751419260aa954499f7abaabaa882bbe\"")) nil [142 215])
+            ("LIC_FILES_CHKSUM_teamblue" variable (:default-value ("\"file://LICENSE;md5=b234ee4d69f5fce4486a80fdaf4a4263\"")) nil [215 297])
+            ("LIC_FILES_CHKSUM_openatv" variable (:default-value ("\"file://LICENSE;md5=b234ee4d69f5fce4486a80fdaf4a4263\"")) nil [297 378])
+            ("LIC_FILES_CHKSUM_beyonwiz" variable (:default-value ("\"file://LICENSE;md5=b234ee4d69f5fce4486a80fdaf4a4263\"")) nil [378 460])
+            ("LIC_FILES_CHKSUM_openeight" variable (:default-value ("\"file://LICENSE;md5=b234ee4d69f5fce4486a80fdaf4a4263\"")) nil [460 543])
+            ("DEPENDS" variable (:default-value ("\" \\
+    freetype \\
+    gettext-native \\
+    gstreamer1.0-plugins-base gstreamer1.0 \\
+    jpeg \\
+    libdreamdvd libdvbsi++ fribidi libmad libpng giflib libxml2 libxmlccwrap libsigc++-2.0 \\
+    openssl avahi libudfread \\
+    python python-imaging python-twisted python-wifi \\
+    swig-native \\
+    tuxtxt-enigma2 \\
+    ${@bb.utils.contains(\"DISTRO_NAME\", \"openspa\", \"uchardet\" , \"\", d)} \\
+    ${@bb.utils.contains(\"MACHINE_FEATURES\", \"uianimation\", \"vuplus-libgles-${MACHINE}" "libvugles2\" , \"\", d)} \\
+    ${@bb.utils.contains(\"MACHINE_FEATURES\", \"hiaccel\", \"dinobot-libs-${MACHINE}\" , \"\", d)} \\
+    \"")) nil [544 1153])
+            ("PYTHON_RDEPS" variable (:default-value ("\" \\
+    python-codecs \\
+    python-core \\
+    python-crypt \\
+    python-fcntl \\
+    python-lang \\
+    python-mmap \\
+    python-netclient \\
+    python-netifaces \\
+    python-netserver \\
+    python-pickle \\
+    python-re \\
+    python-shell \\
+    python-threading \\
+    python-twisted-core \\
+    python-twisted-web \\
+    python-xml \\
+    python-zlib \\
+    python-zopeinterface \\
+    python-email \\
+    python-mime \\
+    python-pyusb \\
+    python-subprocess \\
+    python-process \\
+    python-image \\
+    python-imaging \\
+    python-smtpd \\
+    python-six \\
+    \"")) nil [2065 2639])
+            ("GST_BASE_RDEPS" variable (:default-value ("\"\\
+    gstreamer1.0-plugins-base-alsa \\
+    gstreamer1.0-plugins-base-app \\
+    gstreamer1.0-plugins-base-audioconvert \\
+    gstreamer1.0-plugins-base-audioresample \\
+    gstreamer1.0-plugins-base-audiorate \\
+    gstreamer1.0-plugins-base-videoconvert \\
+    gstreamer1.0-plugins-base-ivorbisdec \\
+    gstreamer1.0-plugins-base-ogg \\
+    gstreamer1.0-plugins-base-playback \\
+    gstreamer1.0-plugins-base-subparse \\
+    gstreamer1.0-plugins-base-typefindfunctions \\
+    gstreamer1.0-plugins-base-vorbis \\
+    gstreamer1.0-plugins-base-rawparse \\
+\"")) nil [2640 3204])
+            ("GST_GOOD_RDEPS" variable (:default-value ("\"\\
+    gstreamer1.0-plugins-good-apetag \\
+    gstreamer1.0-plugins-good-audioparsers \\
+    gstreamer1.0-plugins-good-autodetect \\
+    gstreamer1.0-plugins-good-avi \\
+    gstreamer1.0-plugins-good-flac \\
+    gstreamer1.0-plugins-good-flv \\
+    gstreamer1.0-plugins-good-icydemux \\
+    gstreamer1.0-plugins-good-id3demux \\
+    gstreamer1.0-plugins-good-isomp4 \\
+    gstreamer1.0-plugins-good-matroska \\
+    gstreamer1.0-plugins-good-rtp \\
+    gstreamer1.0-plugins-good-rtpmanager \\
+    gstreamer1.0-plugins-good-rtsp \\
+    gstreamer1.0-plugins-good-soup \\
+    gstreamer1.0-plugins-good-udp \\
+    gstreamer1.0-plugins-good-wavparse \\
+    gstreamer1.0-plugins-good-wavpack \\
+\"")) nil [3205 3895])
+            ("GST_BAD_RDEPS" variable (:default-value ("\"\\
+    gstreamer1.0-plugins-bad-dashdemux \\
+    gstreamer1.0-plugins-bad-mms \\
+    gstreamer1.0-plugins-bad-mpegpsdemux \\
+    gstreamer1.0-plugins-bad-mpegtsdemux \\
+    gstreamer1.0-plugins-bad-rtmp \\
+    gstreamer1.0-plugins-bad-smoothstreaming \\
+    gstreamer1.0-plugins-bad-faad \\
+    gstreamer1.0-plugins-bad-hls \\
+    gstreamer1.0-plugins-bad-videoparsersbad \\
+    gstreamer1.0-plugins-bad-autoconvert \\
+\"")) nil [3896 4323])
+            ("GST_BAD_OPUS" variable (:default-value ("\" \\
+    ${@bb.utils.contains(\"TARGET_ARCH\", \"arm\", \"" "gstreamer1.0-plugins-base-opus" "gstreamer1.0-plugins-bad-opusparse\", \"\", d)} \\
+    ${@bb.utils.contains(\"TARGET_ARCH\", \"aarch64\", \"" "gstreamer1.0-plugins-base-opus" "gstreamer1.0-plugins-bad-opusparse\", \"\", d)} \\
+    \"")) nil [4324 4607])
+            ("GST_UGLY_RDEPS" variable (:default-value ("\"\\
+    gstreamer1.0-plugins-ugly-amrnb \\
+    gstreamer1.0-plugins-ugly-amrwbdec \\
+    gstreamer1.0-plugins-ugly-asf \\
+    gstreamer1.0-plugins-ugly-cdio \\
+    gstreamer1.0-plugins-ugly-dvdsub \\
+\"")) nil [4608 4821])
+            ("DESCRIPTION_append_enigma2-plugin-extensions-cutlisteditor" variable (:default-value ("\"enables you to cut your movies.\"")) nil [5296 5391])
+            ("RDEPENDS_enigma2-plugin-extensions-cutlisteditor" variable (:default-value ("\"aio-grab\"")) nil [5391 5453])
+            ("DESCRIPTION_append_enigma2-plugin-extensions-graphmultiepg" variable (:default-value ("\"shows a graphical timeline EPG.\"")) nil [5453 5548])
+            ("DESCRIPTION_append_enigma2-plugin-extensions-pictureplayer" variable (:default-value ("\"displays photos on the TV.\"")) nil [5548 5638])
+            ("DESCRIPTION_append_enigma2-plugin-systemplugins-frontprocessorupdate" variable (:default-value ("\"keeps your frontprocessor up to date.\"")) nil [5638 5749])
+            ("DESCRIPTION_append_enigma2-plugin-systemplugins-positionersetup" variable (:default-value ("\"helps you installing a motorized dish.\"")) nil [5749 5856])
+            ("DESCRIPTION_append_enigma2-plugin-systemplugins-satelliteequipmentcontrol" variable (:default-value ("\"allows you to fine-tune DiSEqC-settings.\"")) nil [5856 5975])
+            ("DESCRIPTION_append_enigma2-plugin-systemplugins-satfinder" variable (:default-value ("\"helps you to align your dish.\"")) nil [5975 6067])
+            ("DESCRIPTION_append_enigma2-plugin-systemplugins-skinselector" variable (:default-value ("\"shows a menu with selectable skins.\"")) nil [6067 6168])
+            ("DESCRIPTION_append_enigma2-plugin-systemplugins-videomode" variable (:default-value ("\"selects advanced video modes\"")) nil [6168 6259])
+            ("RDEPENDS_enigma2-plugin-systemplugins-nfiflash" variable (:default-value ("\"python-twisted-web\"")) nil [6259 6329])
+            ("RDEPENDS_enigma2-plugin-systemplugins-softwaremanager" variable (:default-value ("\"python-twisted-web\"")) nil [6329 6406])
+            ("DESCRIPTION_append_enigma2-plugin-systemplugins-crashlogautosubmit" variable (:default-value ("\"automatically send crashlogs to Dream Multimedia\"")) nil [6406 6526])
+            ("RDEPENDS_enigma2-plugin-systemplugins-crashlogautosubmit" variable (:default-value ("\"python-twisted-mail python-twisted-names python-compression python-mime python-email\"")) nil [6526 6672])
+            ("DESCRIPTION_append_enigma2-plugin-systemplugins-cleanupwizard" variable (:default-value ("\"informs you on low internal memory on system startup.\"")) nil [6672 6792])
+            ("DESCRIPTION_append_enigma2-plugin-extensions-modem" variable (:default-value ("\"opens a menu to connect to internet via builtin modem.\"")) nil [6792 6902])
+            ("RDEPENDS_enigma2-plugin-extensions-modem" variable (:default-value ("\"dreambox-modem-ppp-scripts\"")) nil [6902 6974])
+            ("DESCRIPTION_append_enigma2-plugin-systemplugins-wirelesslan" variable (:default-value ("\"helps you configuring your wireless lan\"")) nil [6974 7078])
+            ("RDEPENDS_enigma2-plugin-systemplugins-wirelesslan" variable (:default-value ("\"wpa-supplicant wireless-tools python-wifi\"")) nil [7078 7174])
+            ("DESCRIPTION_append_enigma2-plugin-systemplugins-networkwizard" variable (:default-value ("\"provides easy step by step network configuration\"")) nil [7174 7289])
+            ("RDEPENDS_enigma2-plugin-extensions-dvdburn" variable (:default-value ("\"dvd+rw-tools dvdauthor mjpegtools cdrkit python-imaging ${DEMUXTOOL}\"")) nil [7326 7442])
+            ("RDEPENDS_enigma2-plugin-systemplugins-hotplug" variable (:default-value ("\"hotplug-e2-helper\"")) nil [7442 7510])
+            ("RDEPENDS_enigma2-plugin-systemplugins-fsblupdater" variable (:default-value ("\"python-distutils\"")) nil [7510 7581])
+            ("DESCRIPTION_enigma2-plugin-font-wqy-microhei" variable (:default-value ("\"Font wqy-microhei add support for China EPG\"")) nil [7581 7674])
+            ("PV" variable (:default-value ("\"${IMAGE_VERSION}+git${SRCPV}\"")) nil [7748 7784])
+            ("PKGV" variable (:default-value ("\"${IMAGE_VERSION}+git${GITPKGV}\"")) nil [7784 7824])
+            ("SRC_URI" variable (:default-value ("\"${ENIGMA2_URI}\"")) nil [7825 7852])
+            ("SRC_URI_append_sh4" variable (:default-value ("\" \\
+    ${@bb.utils.contains(\"DISTRO_NAME\", \"openspa\", \"file://sh4-define-DTV_ENUM_DELSYS.patch\" , \"\", d)} \\
+    \"")) nil [7938 8074])
+            ("SRC_URI_append_vuduo" variable (:default-value ("\" \\
+    file://duo_VFD.patch \\
+    \"")) nil [8075 8135])
+            ("SRC_URI_append_dual" variable (:default-value ("\" \\
+	file://dual_VFD.patch \\
+\"")) nil [8136 8189])
+            ("S" variable (:default-value ("\"${WORKDIR}/git\"")) nil [8190 8211])
+            ("PACKAGES" variable (:default-value ("\"${PN}-meta\"")) nil [8285 8310])
+            ("PACKAGE_ARCH" variable (:default-value ("\"${MACHINEBUILD}\"")) nil [8310 8343])
+            ("PACKAGES" variable (:default-value ("+" "\"enigma2-plugin-font-wqy-microhei enigma2-fonts\"")) nil [8344 8405])
+            ("FILES_enigma2-plugin-font-wqy-microhei" variable (:default-value ("\"${datadir}/fonts/wqy-microhei.ttc ${datadir}/fonts/fallback.font\"")) nil [8405 8513])
+            ("FILES_enigma2-fonts" variable (:default-value ("\"${datadir}/fonts\"")) nil [8513 8554])
+            ("ALLOW_EMPTY_enigma2-plugin-font-wqy-microhei" variable (:default-value ("\"1\"")) nil [8555 8606])
+            ("EXTRA_OECONF" variable (:default-value ("\" \\
+    BUILD_SYS=${BUILD_SYS} \\
+    HOST_SYS=${HOST_SYS} \\
+    STAGING_INCDIR=${STAGING_INCDIR} \\
+    STAGING_LIBDIR=${STAGING_LIBDIR} \\
+    --with-boxtype=${MACHINE} \\
+    --with-machinebuild=\"${MACHINEBUILD}\" \\
+    --with-libsdl=no \\
+    --enable-dependency-tracking \\
+    --with-gstversion=1.0 \\
+    ${@bb.utils.contains(\"MACHINE_FEATURES\", \"textlcd\", \"--with-textlcd\" , \"\", d)} \\
+    ${@bb.utils.contains(\"MACHINE_FEATURES\", \"colorlcd\", \"--with-colorlcd\" , \"\", d)} \\
+    ${@bb.utils.contains(\"MACHINE_FEATURES\", \"colorlcd128\", \"--with-colorlcd128\" , \"\", d)} \\
+    ${@bb.utils.contains(\"MACHINE_FEATURES\", \"colorlcd220\", \"--with-colorlcd220\" , \"\", d)} \\
+    ${@bb.utils.contains(\"MACHINE_FEATURES\", \"colorlcd390\", \"--with-colorlcd390\" , \"\", d)} \\
+    ${@bb.utils.contains(\"MACHINE_FEATURES\", \"colorlcd400\", \"--with-colorlcd400\" , \"\", d)} \\
+    ${@bb.utils.contains(\"MACHINE_FEATURES\", \"colorlcd480\", \"--with-colorlcd480\" , \"\", d)} \\
+    ${@bb.utils.contains(\"MACHINE_FEATURES\", \"colorlcd720\", \"--with-colorlcd720\" , \"\", d)} \\
+    ${@bb.utils.contains(\"MACHINE_FEATURES\", \"colorlcd800\", \"--with-colorlcd800\" , \"\", d)} \\
+    ${@bb.utils.contains(\"MACHINE_FEATURES\", \"bwlcd96\", \"--with-bwlcd96\" , \"\", d)} \\
+    ${@bb.utils.contains(\"MACHINE_FEATURES\", \"bwlcd128\", \"--with-bwlcd128\" , \"\", d)} \\
+    ${@bb.utils.contains(\"MACHINE_FEATURES\", \"bwlcd140\", \"--with-bwlcd140\" , \"\", d)} \\
+    ${@bb.utils.contains(\"MACHINE_FEATURES\", \"bwlcd255\", \"--with-bwlcd255\" , \"\", d)} \\
+    ${@bb.utils.contains(\"MACHINE_FEATURES\", \"fullgraphiclcd\", \"--with-fullgraphiclcd\" , \"\", d)} \\
+    ${@bb.utils.contains(\"MACHINE_FEATURES\", \"gigabluelcd\", \"--with-gigabluelcd\" , \"\", d)} \\
+    ${@bb.utils.contains(\"MACHINE_FEATURES\", \"nolcd\", \"--with-nolcd\" , \"\", d)} \\
+    ${@bb.utils.contains(\"MACHINE_FEATURES\", \"7segment\", \"--with-7segment\" , \"\", d)} \\
+    ${@bb.utils.contains(\"MACHINE_FEATURES\", \"uianimation\", \"--with-libvugles2\" , \"\", d)} \\
+    ${@bb.utils.contains(\"MACHINE_FEATURES\", \"osdanimation\", \"--with-osdanimation\" , \"\", d)} \\
+    ${@bb.utils.contains(\"MACHINE_FEATURES\", \"hiaccel\", \"--with-libhiaccel\" , \"\", d)} \\
+    \"")) nil [8607 10732])
+            ("LDFLAGS_prepend" variable (:default-value ("\"${@bb.utils.contains('GST_VERSION', '1.0', ' -lxml2 ', '', d)}\"")) nil [10733 10816])
+            ("SRC_URI_append" variable (:default-value ("\"${@bb.utils.contains(\"MACHINE_FEATURES\", \"uianimation\", \"" "file://use-lv3ddriver.patch\" , \"\", d)}\"")) nil [10816 10932])
+            ("PACKAGES" variable (:default-value ("+" "\"${PN}-po\"")) nil [12301 12324]))          
+      :file "enigma2.bb"
+      :pointmax 14430
+      :fsize 14429
+      :lastmodtime '(24811 44453 853074 395000)
+      :unmatched-syntax nil))
+  :file "!home!bspserver!000_BUILD!02_build_openatv6.4!meta-oe-alliance!meta-oe!recipes-oe-alliance!enigma2!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

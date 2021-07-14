@@ -1,0 +1,41 @@
+;; Object semanticdb-project-database-file-1576dd7ea208
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file-1576dd7ea208"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table-1576dd7ea244"
+      :major-mode emacs-lisp-mode
+      :tags 
+        '( ("setq" code nil nil [288 803])
+            ("c-c++/init-cc-mode" function nil nil [805 1383])
+            ("c-c++/init-multiple-cursors" function nil nil [1385 1591])
+            ("c-c++/init-google-c-style" function nil nil [1593 1901])
+            ("c-c++/init-disaster" function nil nil [1903 2178])
+            ("c-c++/init-ivy-rtags" function nil nil [2180 2567])
+            ("c-c++/init-rtags" function nil nil [2569 2877])
+            ("c-c++/init-clang-format" function nil nil [2879 2977])
+            ("c-c++/init-cmake-mode" function nil nil [2979 3176])
+            ("c-c++/post-init-company" function nil nil [3178 3673])
+            ("c-c++/init-company-c-headers" function nil nil [3675 3828])
+            ("c-c++/post-init-flycheck" function nil nil [3830 4058])
+            ("c-c++/post-init-ggtags" function nil nil [4060 4231])
+            ("c-c++/init-gdb-mi" function nil nil [4233 4499])
+            ("c-c++/init-linux-c-style" function nil nil [4501 4955])
+            ("c-c++/post-init-helm-gtags" function nil nil [4957 5104])
+            ("c-c++/post-init-semantic" function nil nil [5106 5212])
+            ("c-c++/post-init-srefactor" function nil nil [5214 5511])
+            ("c-c++/post-init-stickyfunc-enhance" function nil nil [5513 5654])
+            ("c-c++/post-init-ycmd" function nil nil [5656 6026])
+            ("c-c++/post-init-company-ycmd" function nil nil [6028 6121])
+            ("c-c++/pre-init-xcscope" function nil nil [6123 6333])
+            ("c-c++/pre-init-helm-cscope" function nil nil [6335 6510])
+            ("c-c++/init-lsp-mode" function nil nil [6512 6894])
+            ("c-c++/init-lsp-ui" function nil nil [6896 7721]))          
+      :file "packages.el"
+      :pointmax 9082
+      :fsize 9081
+      :lastmodtime '(24807 41275 740339 331000)
+      :unmatched-syntax nil))
+  :file "!home!bspserver!.emacs.d!layers!+lang!c-c++!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

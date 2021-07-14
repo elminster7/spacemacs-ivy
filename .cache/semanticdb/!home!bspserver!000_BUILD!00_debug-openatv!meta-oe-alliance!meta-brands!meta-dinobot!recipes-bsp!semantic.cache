@@ -1,0 +1,46 @@
+;; Object semanticdb-project-database-file-1576dc9eec28
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file-1576dc9eec28"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table-1576dc9eec50"
+      :major-mode makefile-mode
+      :tags 
+        '( ("SUMMARY" variable (:default-value ("\"showiframe for dinobot Model ${MACHINE}\"")) nil [1 53])
+            ("SECTION" variable (:default-value ("\"base\"")) nil [53 70])
+            ("PRIORITY" variable (:default-value ("\"optional\"")) nil [70 92])
+            ("LICENSE" variable (:default-value ("\"CLOSED\"")) nil [92 111])
+            ("PACKAGE_ARCH" variable (:default-value ("\"${MACHINE_ARCH}\"")) nil [111 144])
+            ("COMPATIBLE_MACHINE" variable (:default-value ("\"^(u5pvr)$\"")) nil [178 211])
+            ("SRCDATE" variable (:default-value ("\"20180510\"")) nil [212 233])
+            ("PV" variable (:default-value ("\"${SRCDATE}\"")) nil [234 252])
+            ("PR" variable (:default-value ("\"r0\"")) nil [252 262])
+            ("SRC_URI" variable (:default-value ("\"http://source.mynonpublic.com/dinobot/${MACHINE}-showiframe-${SRCDATE}.tar.gz\"")) nil [360 450])
+            ("S" variable (:default-value ("\"${WORKDIR}\"")) nil [451 468]))          
+      :file "dinobot-showiframe-u5pvr.bb"
+      :pointmax 768
+      :fsize 767
+      :lastmodtime '(24795 63300 514323 555000)
+      :unmatched-syntax '((string 701 . 767) (punctuation 699 . 700) (semantic-list 687 . 698) (symbol 680 . 687) (bol 680 . 680) (string 645 . 679) (punctuation 643 . 644) (semantic-list 634 . 642) (symbol 627 . 634) (bol 627 . 627) (string 603 . 625) (punctuation 601 . 602) (semantic-list 595 . 599) (punctuation 594 . 595) (symbol 588 . 594) (bol 588 . 588) (semantic-list 583 . 586) (semantic-list 580 . 582) (symbol 567 . 580) (bol 567 . 567) (semantic-list 482 . 565) (semantic-list 479 . 481) (symbol 469 . 479) (bol 469 . 469) (string 346 . 358) (punctuation 344 . 345) (semantic-list 339 . 343) (punctuation 338 . 339) (symbol 327 . 338) (bol 327 . 327) (string 314 . 326) (punctuation 312 . 313) (semantic-list 306 . 310) (punctuation 305 . 306) (symbol 295 . 305) (bol 295 . 295) (string 282 . 294) (punctuation 280 . 281) (semantic-list 274 . 278) (punctuation 273 . 274) (symbol 263 . 273) (bol 263 . 263) (string 161 . 176) (punctuation 159 . 160) (semantic-list 154 . 158) (punctuation 153 . 154) (symbol 144 . 153) (bol 144 . 144)))
+    (semanticdb-table "semanticdb-table-1576db89d4f6"
+      :major-mode makefile-mode
+      :tags 
+        '( ("SUMMARY" variable (:default-value ("\"showiframe for dinobot Model ${MACHINE}\"")) nil [1 53])
+            ("SECTION" variable (:default-value ("\"base\"")) nil [53 70])
+            ("PRIORITY" variable (:default-value ("\"optional\"")) nil [70 92])
+            ("LICENSE" variable (:default-value ("\"CLOSED\"")) nil [92 111])
+            ("PACKAGE_ARCH" variable (:default-value ("\"${MACHINE_ARCH}\"")) nil [111 144])
+            ("COMPATIBLE_MACHINE" variable (:default-value ("\"^(u45)$\"")) nil [178 209])
+            ("SRCDATE" variable (:default-value ("\"20210325\"")) nil [210 231])
+            ("PV" variable (:default-value ("\"${SRCDATE}\"")) nil [232 250])
+            ("PR" variable (:default-value ("\"r0\"")) nil [250 260])
+            ("SRC_URI" variable (:default-value ("\"http://source.mynonpublic.com/dinobot/${MACHINE}-showiframe-${SRCDATE}.tar.gz\"")) nil [358 448])
+            ("S" variable (:default-value ("\"${WORKDIR}\"")) nil [449 466]))          
+      :file "dinobot-showiframe-u45.bb"
+      :pointmax 766
+      :fsize 765
+      :lastmodtime '(24795 63300 514323 555000)
+      :unmatched-syntax '((string 699 . 765) (punctuation 697 . 698) (semantic-list 685 . 696) (symbol 678 . 685) (bol 678 . 678) (string 643 . 677) (punctuation 641 . 642) (semantic-list 632 . 640) (symbol 625 . 632) (bol 625 . 625) (string 601 . 623) (punctuation 599 . 600) (semantic-list 593 . 597) (punctuation 592 . 593) (symbol 586 . 592) (bol 586 . 586) (semantic-list 581 . 584) (semantic-list 578 . 580) (symbol 565 . 578) (bol 565 . 565) (semantic-list 480 . 563) (semantic-list 477 . 479) (symbol 467 . 477) (bol 467 . 467) (string 344 . 356) (punctuation 342 . 343) (semantic-list 337 . 341) (punctuation 336 . 337) (symbol 325 . 336) (bol 325 . 325) (string 312 . 324) (punctuation 310 . 311) (semantic-list 304 . 308) (punctuation 303 . 304) (symbol 293 . 303) (bol 293 . 293) (string 280 . 292) (punctuation 278 . 279) (semantic-list 272 . 276) (punctuation 271 . 272) (symbol 261 . 271) (bol 261 . 261) (string 161 . 176) (punctuation 159 . 160) (semantic-list 154 . 158) (punctuation 153 . 154) (symbol 144 . 153) (bol 144 . 144))))
+  :file "!home!bspserver!000_BUILD!00_debug-openatv!meta-oe-alliance!meta-brands!meta-dinobot!recipes-bsp!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

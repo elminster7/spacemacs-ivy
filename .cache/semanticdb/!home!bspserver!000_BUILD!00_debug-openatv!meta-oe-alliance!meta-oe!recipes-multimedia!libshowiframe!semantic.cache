@@ -1,0 +1,26 @@
+;; Object semanticdb-project-database-file-1576dbfded7c
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file-1576dbfded7c"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table-1576dd326b5c"
+      :major-mode makefile-mode
+      :tags 
+        '( ("SUMMARY" variable (:default-value ("\"libray to show an mpeg2/4 iframe on a linuxtv video device\"")) nil [1 72])
+            ("SECTION" variable (:default-value ("\"base\"")) nil [72 89])
+            ("PRIORITY" variable (:default-value ("\"optional\"")) nil [89 111])
+            ("LICENSE" variable (:default-value ("\"PD\"")) nil [111 126])
+            ("LIC_FILES_CHKSUM" variable (:default-value ("\"file://showiframe.c;firstline=1;endline=1;md5=22919e57c6dcf1ff48ac50e784f44880\"")) nil [126 226])
+            ("PV" variable (:default-value ("\"1.0\"")) nil [227 238])
+            ("PROVIDES" variable (:default-value ("+" "\" libshowiframe0\"")) nil [239 269])
+            ("PACKAGES" variable (:default-value ("+" "\" libshowiframe0\"")) nil [269 299])
+            ("SRC_URI" variable (:default-value ("\"file://showiframe.c file://showiframe.h\"")) nil [300 352])
+            ("S" variable (:default-value ("\"${WORKDIR}\"")) nil [353 370]))          
+      :file "libshowiframe.bb"
+      :pointmax 720
+      :fsize 719
+      :lastmodtime '(24795 63301 106331 975000)
+      :unmatched-syntax '((string 711 . 720) (punctuation 709 . 710) (punctuation 708 . 709) (semantic-list 703 . 707) (punctuation 702 . 703) (symbol 690 . 702) (bol 690 . 690) (string 677 . 688) (punctuation 675 . 676) (semantic-list 670 . 674) (punctuation 669 . 670) (symbol 663 . 669) (bol 663 . 663) (semantic-list 515 . 661) (semantic-list 512 . 514) (symbol 502 . 512) (bol 502 . 502) (semantic-list 383 . 500) (semantic-list 380 . 382) (symbol 370 . 380) (bol 370 . 370))))
+  :file "!home!bspserver!000_BUILD!00_debug-openatv!meta-oe-alliance!meta-oe!recipes-multimedia!libshowiframe!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

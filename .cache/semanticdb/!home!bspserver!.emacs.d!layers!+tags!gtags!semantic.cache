@@ -1,0 +1,22 @@
+;; Object semanticdb-project-database-file-1593782800a4
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file-1593782800a4"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table-159378280084"
+      :major-mode emacs-lisp-mode
+      :tags 
+        '( ("gtags-packages" variable
+               (:constant-flag t
+                :default-value '(ggtags (helm-gtags :toggle (configuration-layer/package-usedp 'helm))))
+                nil [337 451])
+            ("gtags/init-ggtags" function nil nil [453 1647])
+            ("gtags/init-helm-gtags" function nil nil [1667 2348]))          
+      :file "packages.el"
+      :pointmax 2349
+      :fsize 2348
+      :lastmodtime '(24811 41191 877559 382000)
+      :unmatched-syntax nil))
+  :file "!home!bspserver!.emacs.d!layers!+tags!gtags!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

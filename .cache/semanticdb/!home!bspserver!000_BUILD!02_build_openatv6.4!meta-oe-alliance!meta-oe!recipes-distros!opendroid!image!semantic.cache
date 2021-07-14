@@ -1,0 +1,23 @@
+;; Object semanticdb-project-database-file-1576dc6ac36e
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file-1576dc6ac36e"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table-1576de162d44"
+      :major-mode makefile-mode
+      :tags 
+        '( ("SUMMARY" variable (:default-value ("\"Base packages require for image.\"")) nil [1 46])
+            ("LICENSE" variable (:default-value ("\"MIT\"")) nil [46 62])
+            ("LIC_FILES_CHKSUM" variable (:default-value ("\"file://${COMMON_LICENSE_DIR}/MIT;md5=0835ade698e0bcf8506ecda2f7b4f302 \\
+                    file://${COREBASE}/meta/COPYING.MIT;md5=3da9cfbcb788c80a0384361b4de20420\"")) nil [62 248])
+            ("PV" variable (:default-value ("\"7.0\"")) nil [274 285])
+            ("PR" variable (:default-value ("\"r9\"")) nil [285 295])
+            ("PACKAGE_ARCH" variable (:default-value ("\"${MACHINE_ARCH}\"")) nil [296 329]))          
+      :file "opendroid-base.bb"
+      :pointmax 930
+      :fsize 929
+      :lastmodtime '(24811 38665 522779 117000)
+      :unmatched-syntax '((string 915 . 929) (string 911 . 915) (symbol 899 . 911) (string 895 . 899) (symbol 891 . 895) (string 887 . 891) (symbol 874 . 887) (string 839 . 874) (symbol 831 . 839) (string 827 . 831) (string 823 . 827) (symbol 813 . 823) (string 809 . 813) (symbol 793 . 809) (string 601 . 793) (symbol 593 . 600) (string 589 . 593) (string 585 . 589) (symbol 575 . 585) (string 571 . 575) (symbol 555 . 571) (string 369 . 555) (punctuation 367 . 368) (semantic-list 362 . 366) (punctuation 361 . 362) (symbol 352 . 361) (bol 352 . 352) (symbol 338 . 350) (symbol 330 . 337) (bol 330 . 330) (string 269 . 272) (punctuation 267 . 268) (semantic-list 262 . 266) (punctuation 261 . 262) (symbol 249 . 261) (bol 249 . 249) (string 891 . 905) (string 887 . 891) (symbol 875 . 887) (string 871 . 875) (symbol 867 . 871) (string 863 . 867) (symbol 850 . 863) (string 815 . 850) (symbol 807 . 815) (string 803 . 807) (string 799 . 803) (symbol 789 . 799) (string 785 . 789) (symbol 769 . 785) (string 577 . 769) (symbol 569 . 576) (string 565 . 569) (string 561 . 565) (symbol 551 . 561) (string 547 . 551) (symbol 531 . 547) (string 369 . 531) (punctuation 367 . 368) (semantic-list 362 . 366) (punctuation 361 . 362) (symbol 352 . 361) (bol 352 . 352) (symbol 338 . 350) (symbol 330 . 337) (bol 330 . 330) (string 269 . 272) (punctuation 267 . 268) (semantic-list 262 . 266) (punctuation 261 . 262) (symbol 249 . 261) (bol 249 . 249) (string 915 . 929) (string 911 . 915) (symbol 899 . 911) (string 895 . 899) (symbol 891 . 895) (string 887 . 891) (symbol 874 . 887) (string 839 . 874) (symbol 831 . 839) (string 827 . 831) (string 823 . 827) (symbol 813 . 823) (string 809 . 813) (symbol 793 . 809) (string 601 . 793) (symbol 593 . 600) (string 589 . 593) (string 585 . 589) (symbol 575 . 585) (string 571 . 575) (symbol 555 . 571) (string 369 . 555) (punctuation 367 . 368) (semantic-list 362 . 366) (punctuation 361 . 362) (symbol 352 . 361) (bol 352 . 352) (symbol 338 . 350) (symbol 330 . 337) (bol 330 . 330) (string 269 . 272) (punctuation 267 . 268) (semantic-list 262 . 266) (punctuation 261 . 262) (symbol 249 . 261) (bol 249 . 249))))
+  :file "!home!bspserver!000_BUILD!02_build_openatv6.4!meta-oe-alliance!meta-oe!recipes-distros!opendroid!image!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

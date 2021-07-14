@@ -1,0 +1,522 @@
+;; Object semanticdb-project-database-file-1593790642b4
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file-1593790642b4"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table-159378690d5c"
+      :major-mode emacs-lisp-mode
+      :tags 
+        '( ("cl-lib" include nil nil [1075 1092])
+            ("dash" include nil nil [1093 1108])
+            ("ht" include nil nil [1109 1122])
+            ("s" include nil nil [1123 1135])
+            ("lsp-use-plists" variable nil nil [1398 1425])
+            ("lsp-keyword->string" function (:arguments ("keyword")) nil [1282 1394])
+            ("lsp-keyword->symbol" function (:arguments ("keyword")) nil [1157 1278])
+            ("lsp-interface" function (:arguments ("interfaces")) nil [1428 14705])
+            ("if" code nil nil [14707 15785])
+            ("lsp-defun" function (:arguments ("name" "match-form" "body")) nil [15787 18154])
+            ("lsp/markup-kind-plain-text" variable
+               (:constant-flag t
+                :default-value "plaintext")
+                nil [18191 18240])
+            ("lsp/markup-kind-markdown" variable
+               (:constant-flag t
+                :default-value "markdown")
+                nil [18241 18287])
+            ("lsp-interface" code nil nil [18289 19322])
+            ("lsp-interface" code nil nil [19324 19401])
+            ("dash-expand:&RangeToPoint" function (:arguments ("key" "source")) nil [19403 19559])
+            ("lsp-interface" code nil nil [19561 19746])
+            ("lsp-interface" code nil nil [19748 19808])
+            ("lsp-interface" code nil nil [19810 19925])
+            ("lsp-interface" code nil nil [19927 21298])
+            ("lsp-interface" code nil nil [21300 21355])
+            ("lsp/rust-analyzer-inlay-hint-kind-type-hint" variable
+               (:constant-flag t
+                :default-value "TypeHint")
+                nil [21357 21422])
+            ("lsp/rust-analyzer-inlay-hint-kind-param-hint" variable
+               (:constant-flag t
+                :default-value "ParameterHint")
+                nil [21423 21494])
+            ("lsp/rust-analyzer-inlay-hint-kind-chaining-hint" variable
+               (:constant-flag t
+                :default-value "ChainingHint")
+                nil [21495 21568])
+            ("lsp-interface" code nil nil [21569 22898])
+            ("lsp/completion-item-kind-lookup" variable (:default-value [nil Text Method Function Constructor Field Variable Class Interface Module Property Unit Value Enum Keyword Snippet Color File Reference Folder EnumMember Constant Struct Event Operator TypeParameter]) nil [22931 23175])
+            ("lsp/completion-item-kind-text" variable
+               (:constant-flag t
+                :default-value 1)
+                nil [23176 23218])
+            ("lsp/completion-item-kind-method" variable
+               (:constant-flag t
+                :default-value 2)
+                nil [23219 23263])
+            ("lsp/completion-item-kind-function" variable
+               (:constant-flag t
+                :default-value 3)
+                nil [23264 23310])
+            ("lsp/completion-item-kind-constructor" variable
+               (:constant-flag t
+                :default-value 4)
+                nil [23311 23360])
+            ("lsp/completion-item-kind-field" variable
+               (:constant-flag t
+                :default-value 5)
+                nil [23361 23404])
+            ("lsp/completion-item-kind-variable" variable
+               (:constant-flag t
+                :default-value 6)
+                nil [23405 23451])
+            ("lsp/completion-item-kind-class" variable
+               (:constant-flag t
+                :default-value 7)
+                nil [23452 23495])
+            ("lsp/completion-item-kind-interface" variable
+               (:constant-flag t
+                :default-value 8)
+                nil [23496 23543])
+            ("lsp/completion-item-kind-module" variable
+               (:constant-flag t
+                :default-value 9)
+                nil [23544 23588])
+            ("lsp/completion-item-kind-property" variable
+               (:constant-flag t
+                :default-value 10)
+                nil [23589 23636])
+            ("lsp/completion-item-kind-unit" variable
+               (:constant-flag t
+                :default-value 11)
+                nil [23637 23680])
+            ("lsp/completion-item-kind-value" variable
+               (:constant-flag t
+                :default-value 12)
+                nil [23681 23725])
+            ("lsp/completion-item-kind-enum" variable
+               (:constant-flag t
+                :default-value 13)
+                nil [23726 23769])
+            ("lsp/completion-item-kind-keyword" variable
+               (:constant-flag t
+                :default-value 14)
+                nil [23770 23816])
+            ("lsp/completion-item-kind-snippet" variable
+               (:constant-flag t
+                :default-value 15)
+                nil [23817 23863])
+            ("lsp/completion-item-kind-color" variable
+               (:constant-flag t
+                :default-value 16)
+                nil [23864 23908])
+            ("lsp/completion-item-kind-file" variable
+               (:constant-flag t
+                :default-value 17)
+                nil [23909 23952])
+            ("lsp/completion-item-kind-reference" variable
+               (:constant-flag t
+                :default-value 18)
+                nil [23953 24001])
+            ("lsp/completion-item-kind-folder" variable
+               (:constant-flag t
+                :default-value 19)
+                nil [24002 24047])
+            ("lsp/completion-item-kind-enum-member" variable
+               (:constant-flag t
+                :default-value 20)
+                nil [24048 24098])
+            ("lsp/completion-item-kind-constant" variable
+               (:constant-flag t
+                :default-value 21)
+                nil [24099 24146])
+            ("lsp/completion-item-kind-struct" variable
+               (:constant-flag t
+                :default-value 22)
+                nil [24147 24192])
+            ("lsp/completion-item-kind-event" variable
+               (:constant-flag t
+                :default-value 23)
+                nil [24193 24237])
+            ("lsp/completion-item-kind-operator" variable
+               (:constant-flag t
+                :default-value 24)
+                nil [24238 24285])
+            ("lsp/completion-item-kind-type-parameter" variable
+               (:constant-flag t
+                :default-value 25)
+                nil [24286 24339])
+            ("lsp/completion-trigger-kind-lookup" variable (:default-value [nil Invoked TriggerCharacter TriggerForIncompleteCompletions]) nil [24340 24448])
+            ("lsp/completion-trigger-kind-invoked" variable
+               (:constant-flag t
+                :default-value 1)
+                nil [24449 24497])
+            ("lsp/completion-trigger-kind-trigger-character" variable
+               (:constant-flag t
+                :default-value 2)
+                nil [24498 24556])
+            ("lsp/completion-trigger-kind-trigger-for-incomplete-completions" variable
+               (:constant-flag t
+                :default-value 3)
+                nil [24557 24632])
+            ("lsp/diagnostic-severity-lookup" variable (:default-value [nil Error Warning Information Hint Max]) nil [24633 24715])
+            ("lsp/diagnostic-severity-error" variable
+               (:constant-flag t
+                :default-value 1)
+                nil [24716 24758])
+            ("lsp/diagnostic-severity-warning" variable
+               (:constant-flag t
+                :default-value 2)
+                nil [24759 24803])
+            ("lsp/diagnostic-severity-information" variable
+               (:constant-flag t
+                :default-value 3)
+                nil [24804 24852])
+            ("lsp/diagnostic-severity-hint" variable
+               (:constant-flag t
+                :default-value 4)
+                nil [24853 24894])
+            ("lsp/diagnostic-severity-max" variable
+               (:constant-flag t
+                :default-value 5)
+                nil [24895 24935])
+            ("lsp/diagnostic-tag-lookup" variable (:default-value [nil Unnecessary Deprecated]) nil [24936 25001])
+            ("lsp/diagnostic-tag-unnecessary" variable
+               (:constant-flag t
+                :default-value 1)
+                nil [25002 25045])
+            ("lsp/diagnostic-tag-deprecated" variable
+               (:constant-flag t
+                :default-value 2)
+                nil [25046 25088])
+            ("lsp/document-highlight-kind-lookup" variable (:default-value [nil Text Read Write]) nil [25089 25156])
+            ("lsp/document-highlight-kind-text" variable
+               (:constant-flag t
+                :default-value 1)
+                nil [25157 25202])
+            ("lsp/document-highlight-kind-read" variable
+               (:constant-flag t
+                :default-value 2)
+                nil [25203 25248])
+            ("lsp/document-highlight-kind-write" variable
+               (:constant-flag t
+                :default-value 3)
+                nil [25249 25295])
+            ("lsp/file-change-type-lookup" variable (:default-value [nil Created Changed Deleted]) nil [25296 25364])
+            ("lsp/file-change-type-created" variable
+               (:constant-flag t
+                :default-value 1)
+                nil [25365 25406])
+            ("lsp/file-change-type-changed" variable
+               (:constant-flag t
+                :default-value 2)
+                nil [25407 25448])
+            ("lsp/file-change-type-deleted" variable
+               (:constant-flag t
+                :default-value 3)
+                nil [25449 25490])
+            ("lsp/insert-text-format-lookup" variable (:default-value [nil PlainText Snippet]) nil [25491 25555])
+            ("lsp/insert-text-format-plain-text" variable
+               (:constant-flag t
+                :default-value 1)
+                nil [25556 25602])
+            ("lsp/insert-text-format-snippet" variable
+               (:constant-flag t
+                :default-value 2)
+                nil [25603 25646])
+            ("lsp/insert-text-mode-lookup" variable (:default-value [nil AsIs AdjustIndentation]) nil [25647 25714])
+            ("lsp/insert-text-mode-as-it" variable
+               (:constant-flag t
+                :default-value 1)
+                nil [25715 25754])
+            ("lsp/insert-text-mode-adjust-indentation" variable
+               (:constant-flag t
+                :default-value 2)
+                nil [25755 25807])
+            ("lsp/message-type-lookup" variable (:default-value [nil Error Warning Info Log]) nil [25808 25871])
+            ("lsp/message-type-error" variable
+               (:constant-flag t
+                :default-value 1)
+                nil [25872 25907])
+            ("lsp/message-type-warning" variable
+               (:constant-flag t
+                :default-value 2)
+                nil [25908 25945])
+            ("lsp/message-type-info" variable
+               (:constant-flag t
+                :default-value 3)
+                nil [25946 25980])
+            ("lsp/message-type-log" variable
+               (:constant-flag t
+                :default-value 4)
+                nil [25981 26014])
+            ("lsp/signature-help-trigger-kind-lookup" variable (:default-value [nil Invoked TriggerCharacter ContentChange]) nil [26015 26109])
+            ("lsp/signature-help-trigger-kind-invoked" variable
+               (:constant-flag t
+                :default-value 1)
+                nil [26110 26162])
+            ("lsp/signature-help-trigger-kind-trigger-character" variable
+               (:constant-flag t
+                :default-value 2)
+                nil [26163 26225])
+            ("lsp/signature-help-trigger-kind-content-change" variable
+               (:constant-flag t
+                :default-value 3)
+                nil [26226 26285])
+            ("lsp/symbol-kind-lookup" variable (:default-value [nil File Module Namespace Package Class Method Property Field Constructor Enum Interface Function Variable Constant String Number Boolean Array Object Key Null EnumMember Struct Event Operator TypeParameter]) nil [26286 26528])
+            ("lsp/symbol-kind-file" variable
+               (:constant-flag t
+                :default-value 1)
+                nil [26529 26562])
+            ("lsp/symbol-kind-module" variable
+               (:constant-flag t
+                :default-value 2)
+                nil [26563 26598])
+            ("lsp/symbol-kind-namespace" variable
+               (:constant-flag t
+                :default-value 3)
+                nil [26599 26637])
+            ("lsp/symbol-kind-package" variable
+               (:constant-flag t
+                :default-value 4)
+                nil [26638 26674])
+            ("lsp/symbol-kind-class" variable
+               (:constant-flag t
+                :default-value 5)
+                nil [26675 26709])
+            ("lsp/symbol-kind-method" variable
+               (:constant-flag t
+                :default-value 6)
+                nil [26710 26745])
+            ("lsp/symbol-kind-property" variable
+               (:constant-flag t
+                :default-value 7)
+                nil [26746 26783])
+            ("lsp/symbol-kind-field" variable
+               (:constant-flag t
+                :default-value 8)
+                nil [26784 26818])
+            ("lsp/symbol-kind-constructor" variable
+               (:constant-flag t
+                :default-value 9)
+                nil [26819 26859])
+            ("lsp/symbol-kind-enum" variable
+               (:constant-flag t
+                :default-value 10)
+                nil [26860 26894])
+            ("lsp/symbol-kind-interface" variable
+               (:constant-flag t
+                :default-value 11)
+                nil [26895 26934])
+            ("lsp/symbol-kind-function" variable
+               (:constant-flag t
+                :default-value 12)
+                nil [26935 26973])
+            ("lsp/symbol-kind-variable" variable
+               (:constant-flag t
+                :default-value 13)
+                nil [26974 27012])
+            ("lsp/symbol-kind-constant" variable
+               (:constant-flag t
+                :default-value 14)
+                nil [27013 27051])
+            ("lsp/symbol-kind-string" variable
+               (:constant-flag t
+                :default-value 15)
+                nil [27052 27088])
+            ("lsp/symbol-kind-number" variable
+               (:constant-flag t
+                :default-value 16)
+                nil [27089 27125])
+            ("lsp/symbol-kind-boolean" variable
+               (:constant-flag t
+                :default-value 17)
+                nil [27126 27163])
+            ("lsp/symbol-kind-array" variable
+               (:constant-flag t
+                :default-value 18)
+                nil [27164 27199])
+            ("lsp/symbol-kind-object" variable
+               (:constant-flag t
+                :default-value 19)
+                nil [27200 27236])
+            ("lsp/symbol-kind-key" variable
+               (:constant-flag t
+                :default-value 20)
+                nil [27237 27270])
+            ("lsp/symbol-kind-null" variable
+               (:constant-flag t
+                :default-value 21)
+                nil [27271 27305])
+            ("lsp/symbol-kind-enum-member" variable
+               (:constant-flag t
+                :default-value 22)
+                nil [27306 27347])
+            ("lsp/symbol-kind-struct" variable
+               (:constant-flag t
+                :default-value 23)
+                nil [27348 27384])
+            ("lsp/symbol-kind-event" variable
+               (:constant-flag t
+                :default-value 24)
+                nil [27385 27420])
+            ("lsp/symbol-kind-operator" variable
+               (:constant-flag t
+                :default-value 25)
+                nil [27421 27459])
+            ("lsp/symbol-kind-type-parameter" variable
+               (:constant-flag t
+                :default-value 26)
+                nil [27460 27504])
+            ("lsp/text-document-save-reason-lookup" variable (:default-value [nil Manual AfterDelay FocusOut]) nil [27505 27585])
+            ("lsp/text-document-save-reason-manual" variable
+               (:constant-flag t
+                :default-value 1)
+                nil [27586 27635])
+            ("lsp/text-document-save-reason-after-delay" variable
+               (:constant-flag t
+                :default-value 2)
+                nil [27636 27690])
+            ("lsp/text-document-save-reason-focus-out" variable
+               (:constant-flag t
+                :default-value 3)
+                nil [27691 27743])
+            ("lsp/text-document-sync-kind-lookup" variable (:default-value [None Full Incremental]) nil [27744 27813])
+            ("lsp/text-document-sync-kind-none" variable (:constant-flag t) nil [27814 27859])
+            ("lsp/text-document-sync-kind-full" variable
+               (:constant-flag t
+                :default-value 1)
+                nil [27860 27905])
+            ("lsp/text-document-sync-kind-incremental" variable
+               (:constant-flag t
+                :default-value 2)
+                nil [27906 27958])
+            ("lsp/type-hierarchy-direction-lookup" variable (:default-value [nil Children Parents Both]) nil [27959 28033])
+            ("lsp/type-hierarchy-direction-children" variable
+               (:constant-flag t
+                :default-value 1)
+                nil [28034 28084])
+            ("lsp/type-hierarchy-direction-parents" variable
+               (:constant-flag t
+                :default-value 2)
+                nil [28085 28134])
+            ("lsp/type-hierarchy-direction-both" variable
+               (:constant-flag t
+                :default-value 3)
+                nil [28135 28181])
+            ("lsp/call-hierarchy-direction-lookup" variable (:default-value [nil CallsFrom CallsTo]) nil [28182 28252])
+            ("lsp/call-hierarchy-direction-calls-from" variable
+               (:constant-flag t
+                :default-value 1)
+                nil [28253 28305])
+            ("lsp/call-hierarchy-direction-calls-to" variable
+               (:constant-flag t
+                :default-value 2)
+                nil [28306 28356])
+            ("lsp/response-error-code-lookup" variable (:default-value [nil ParseError InvalidRequest MethodNotFound InvalidParams InternalError serverErrorStart serverErrorEnd]) nil [28357 28505])
+            ("lsp/response-error-code-parse-error" variable
+               (:constant-flag t
+                :default-value 1)
+                nil [28506 28554])
+            ("lsp/response-error-code-invalid-request" variable
+               (:constant-flag t
+                :default-value 2)
+                nil [28555 28607])
+            ("lsp/response-error-code-method-not-found" variable
+               (:constant-flag t
+                :default-value 3)
+                nil [28608 28661])
+            ("lsp/response-error-code-invalid-params" variable
+               (:constant-flag t
+                :default-value 4)
+                nil [28662 28713])
+            ("lsp/response-error-code-internal-error" variable
+               (:constant-flag t
+                :default-value 5)
+                nil [28714 28765])
+            ("lsp/response-error-code-server-error-start" variable
+               (:constant-flag t
+                :default-value 6)
+                nil [28766 28821])
+            ("lsp/response-error-code-server-error-end" variable
+               (:constant-flag t
+                :default-value 7)
+                nil [28822 28875])
+            ("lsp-interface" code nil nil [28877 41400])
+            ("lsp-protocol" package nil nil [41404 41427]))          
+      :file "lsp-protocol.el"
+      :pointmax 41459
+      :fsize 41458
+      :lastmodtime '(24807 41423 106910 591000)
+      :unmatched-syntax '((close-paren 1425 . 1426) (symbol 1138 . 1154) (open-paren 1137 . 1138)))
+    (semanticdb-table "semanticdb-table-159378fdf85a"
+      :major-mode emacs-lisp-mode
+      :tags 
+        '( ("lsp-mode" include nil nil [897 916])
+            ("lsp-protocol" include nil nil [917 940])
+            ("cl-lib" include nil nil [941 958])
+            ("lsp-clojure" customgroup (:user-visible-flag t) nil [960 1113])
+            ("define-obsolete-variable-alias" code nil nil [1115 1228])
+            ("lsp-clojure-custom-server-command" variable nil nil [1230 1374])
+            ("lsp-clojure-server-download-url" variable (:default-value (format "https://github.com/clojure-lsp/clojure-lsp/releases/latest/download/clojure-lsp-native-%s-amd64.zip" (pcase system-type ('gnu/linux "linux") ('darwin "macos") ('windows-nt "windows")))) nil [1376 1782])
+            ("lsp-clojure-server-store-path" variable (:default-value (f-join lsp-server-install-dir "clojure" (if (eq system-type 'windows-nt) "clojure-lsp.exe" "clojure-lsp"))) nil [1784 2120])
+            ("lsp-clojure-workspace-dir" variable (:default-value (expand-file-name (locate-user-emacs-file "workspace/"))) nil [2122 2305])
+            ("lsp-clojure-workspace-cache-dir" variable (:default-value (expand-file-name ".cache/" lsp-clojure-workspace-dir)) nil [2307 2500])
+            ("lsp-interface" code nil nil [2515 2588])
+            ("lsp-dependency" code nil nil [2590 2814])
+            ("lsp-clojure--execute-command" function (:arguments ("command" "args")) nil [2833 3040])
+            ("lsp-clojure--refactoring-call" function (:arguments ("refactor-name" "additional-args")) nil [3042 3647])
+            ("lsp-clojure-add-import-to-namespace" function
+               (:user-visible-flag t
+                :arguments ("import-name"))
+                nil [3649 3851])
+            ("lsp-clojure-add-missing-libspec" function (:user-visible-flag t) nil [3853 4019])
+            ("lsp-clojure-clean-ns" function (:user-visible-flag t) nil [4021 4154])
+            ("lsp-clojure-cycle-coll" function (:user-visible-flag t) nil [4156 4295])
+            ("lsp-clojure-cycle-privacy" function (:user-visible-flag t) nil [4297 4445])
+            ("lsp-clojure-expand-let" function (:user-visible-flag t) nil [4447 4586])
+            ("lsp-clojure-extract-function" function
+               (:user-visible-flag t
+                :arguments ("function-name"))
+                nil [4588 4830])
+            ("lsp-clojure-inline-symbol" function (:user-visible-flag t) nil [4832 4980])
+            ("lsp-clojure-introduce-let" function
+               (:user-visible-flag t
+                :arguments ("binding-name"))
+                nil [4982 5217])
+            ("lsp-clojure-move-to-let" function
+               (:user-visible-flag t
+                :arguments ("binding-name"))
+                nil [5219 5461])
+            ("lsp-clojure-thread-first" function (:user-visible-flag t) nil [5463 5608])
+            ("lsp-clojure-thread-first-all" function (:user-visible-flag t) nil [5610 5767])
+            ("lsp-clojure-thread-last" function (:user-visible-flag t) nil [5769 5911])
+            ("lsp-clojure-thread-last-all" function (:user-visible-flag t) nil [5913 6067])
+            ("lsp-clojure-unwind-all" function (:user-visible-flag t) nil [6069 6208])
+            ("lsp-clojure-unwind-thread" function (:user-visible-flag t) nil [6210 6358])
+            ("lsp-clojure-server-info" function (:user-visible-flag t) nil [6360 6508])
+            ("lsp-clojure-server-info-raw" function (:user-visible-flag t) nil [6510 6709])
+            ("lsp-clojure-cursor-info" function (:user-visible-flag t) nil [6711 7154])
+            ("lsp-clojure--ask-macro-to-resolve" function nil nil [7156 7520])
+            ("lsp-clojure--ask-clj-kondo-config-dir" function nil nil [7522 7868])
+            ("lsp-clojure-resolve-macro-as" function (:user-visible-flag t) nil [7870 8446])
+            ("lsp-defun" code nil nil [8448 8829])
+            ("lsp-clojure--ensure-dir" function (:arguments ("path")) nil [8831 8971])
+            ("lsp-clojure--get-metadata-location" function (:arguments ("file-location")) nil [8973 9226])
+            ("lsp-clojure--file-in-jar" function (:arguments ("uri")) nil [9228 10020])
+            ("lsp-clojure--server-executable-path" function nil nil [10022 10188])
+            ("lsp-register-client" code nil nil [10190 11269])
+            ("lsp-consistency-check" code nil nil [11271 11306])
+            ("lsp-clojure" package nil nil [11308 11330]))          
+      :file "lsp-clojure.el"
+      :pointmax 11360
+      :fsize 11359
+      :lastmodtime '(24807 41423 114910 730000)
+      :unmatched-syntax nil)
+    (semanticdb-table "semanticdb-table-1593791b1d3c"
+      :file "lsp-mode.el"
+      :fsize 382565
+      :lastmodtime '(24807 41423 110910 660000)))
+  :file "!home!bspserver!.emacs.d!elpa!lsp-mode-20210707.1922!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

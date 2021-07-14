@@ -1,0 +1,15 @@
+;;; -*- coding: utf-8; mode: lisp-data -*-
+(("/home/elminster/iamroot-5.10.bin/arch/arm64/include/asm/memory.h" . 2403)
+ ("/home/elminster/iamroot-5.10.bin/arch/arm64/kernel/vmlinux.lds.S" . 556)
+ ("/home/elminster/iamroot-5.10.bin/include/linux/kernel.h" . 787)
+ ("/home/elminster/iamroot-5.10.bin/include/linux/linkage.h" . 2777)
+ ("/home/elminster/iamroot-5.10.bin/arch/arm64/include/asm/linkage.h" . 223)
+ ("/home/elminster/.emacs.d/layers/"
+  (dired-filename . "/home/elminster/.emacs.d/layers/LAYERS.org"))
+ ("/home/elminster/.emacs.d/layers/+themes/themes-megapack/packages.el" . 2383)
+ ("/home/elminster/.spacemacs" . 21097)
+ ("/home/elminster/.emacs.d/layers/+tags/gtags/packages.el" . 384)
+ ("/home/elminster/iamroot-5.10.bin/arch/arm64/kernel/head.S" . 1219)
+ ("/home/elminster/iamroot-5.10.bin/drivers/acpi/x86/utils.c" . 1396)
+ ("/home/elminster/iamroot-5.10.bin/"
+  (dired-filename . "/home/elminster/iamroot-5.10.bin/.cache")))

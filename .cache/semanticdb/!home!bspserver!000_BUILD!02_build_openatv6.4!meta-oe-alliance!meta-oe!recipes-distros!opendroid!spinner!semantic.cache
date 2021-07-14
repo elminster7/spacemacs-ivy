@@ -1,0 +1,41 @@
+;; Object semanticdb-project-database-file-1576dc87b306
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file-1576dc87b306"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table-1576dcb057ba"
+      :major-mode makefile-mode
+      :tags 
+        '( ("SUMMARY" variable (:default-value ("\"opendroid-spinner\"")) nil [1 31])
+            ("MAINTAINER" variable (:default-value ("\"OpenDroid Team\"")) nil [31 61])
+            ("SECTION" variable (:default-value ("\"base\"")) nil [61 78])
+            ("LICENSE" variable (:default-value ("\"proprietary\"")) nil [78 102])
+            ("PV" variable (:default-value ("\"6.8\"")) nil [159 170])
+            ("PR" variable (:default-value ("\"r4\"")) nil [170 180])
+            ("SRC_URI" variable (:default-value ("\" \\
+file://wait10.png \\
+file://wait11.png \\
+file://wait12.png \\
+file://wait13.png \\
+file://wait14.png \\
+file://wait15.png \\
+file://wait16.png \\
+file://wait1.png \\
+file://wait2.png \\
+file://wait3.png \\
+file://wait4.png \\
+file://wait5.png \\
+file://wait6.png \\
+file://wait7.png \\
+file://wait8.png \\
+file://wait9.png \\
+\"")) nil [181 506])
+            ("S" variable (:default-value ("\"${WORKDIR}\"")) nil [516 541]))          
+      :file "opendroid-spinner.bb"
+      :pointmax 703
+      :fsize 702
+      :lastmodtime '(24811 38797 397072 868000)
+      :unmatched-syntax '((string 682 . 702) (punctuation 680 . 681) (semantic-list 675 . 679) (punctuation 674 . 675) (symbol 668 . 674) (bol 668 . 668) (semantic-list 555 . 666) (semantic-list 552 . 554) (symbol 542 . 552) (bol 542 . 542) (bol 507 . 507) (symbol 127 . 157) (symbol 119 . 126) (bol 119 . 119) (symbol 110 . 117) (symbol 102 . 109) (bol 102 . 102))))
+  :file "!home!bspserver!000_BUILD!02_build_openatv6.4!meta-oe-alliance!meta-oe!recipes-distros!opendroid!spinner!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

@@ -1,0 +1,625 @@
+;; Object semanticdb-project-database-file-1576dd0d5336
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file-1576dd0d5336"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table-1576dd0d5276"
+      :major-mode c-mode
+      :tags 
+        '( ("drv_intf_linuxcommon.h" include nil nil [1 34])
+            ("hi_type.h" include nil nil [63 83])
+            ("hi_common.h" include nil nil [84 106])
+            ("hi_math.h" include nil nil [107 127])
+            ("hi_module.h" include nil nil [128 150])
+            ("hi_debug.h" include nil nil [151 172])
+            ("hi_error_mpi.h" include nil nil [216 241])
+            ("hi_unf_common.h" include nil nil [242 268])
+            ("hi_unf_demux.h" include nil nil [269 294])
+            ("hi_unf_audio.h" include nil nil [295 320])
+            ("hi_unf_video.h" include nil nil [321 346])
+            ("hi_unf_avplay.h" include nil nil [347 373])
+            ("hi_unf_disp.h" include nil nil [374 398])
+            ("hi_unf_sound.h" include nil nil [399 424])
+            ("hi_unf_ir.h" include nil nil [425 447])
+            ("hi_unf_i2c.h" include nil nil [448 471])
+            ("hi_unf_gpio.h" include nil nil [472 496])
+            ("hi_unf_mce.h" include nil nil [497 520])
+            ("hi_unf_sci.h" include nil nil [521 544])
+            ("hi_drv_module.h" include nil nil [634 660])
+            ("hi_drv_adec.h" include nil nil [661 685])
+            ("hi_drv_ao.h" include nil nil [686 708])
+            ("hi_drv_demux.h" include nil nil [709 734])
+            ("hi_drv_descrambler.h" include nil nil [735 766])
+            ("hi_drv_disp.h" include nil nil [767 791])
+            ("hi_drv_gpio.h" include nil nil [792 816])
+            ("hi_drv_hdmi.h" include nil nil [817 841])
+            ("hi_drv_i2c.h" include nil nil [842 865])
+            ("hi_drv_ir.h" include nil nil [866 888])
+            ("hi_drv_keyled.h" include nil nil [889 915])
+            ("hi_drv_otp.h" include nil nil [916 939])
+            ("hi_drv_sci.h" include nil nil [940 963])
+            ("hi_drv_sync.h" include nil nil [964 988])
+            ("hi_drv_vdec.h" include nil nil [989 1013])
+            ("hi_drv_video.h" include nil nil [1014 1039])
+            ("hi_drv_vpss.h" include nil nil [1040 1064])
+            ("hi_drv_win.h" include nil nil [1065 1088])
+            ("drv_disp_ext.h" include nil nil [1089 1114])
+            ("drv_disp_ioctl.h" include nil nil [1115 1142])
+            ("drv_intf_common.h" include nil nil [1184 1212])
+            ("drv_intf_display.h" include nil nil [1213 1242])
+            ("drv_intf_pq.h" include nil nil [1243 1267])
+            ("intf_disp_trace" variable (:constant-flag t) nil [1384 1399])
+            ("drv_intf_disp_SetNewVideoMode" function
+               (:arguments 
+                  ( ("strVideomode" variable
+                       (:pointer 1
+                        :type ("HI_U8" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [1579 1599]))                  
+                :type "void")
+                nil [1544 5169])
+            ("drv_intf_disp_SetNewAspectRatio" function
+               (:arguments 
+                  ( ("strAspect" variable
+                       (:pointer 1
+                        :type ("HI_U8" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [5341 5358]))                  
+                :type "void")
+                nil [5304 6251])
+            ("drv_intf_disp_SetFormat" function
+               (:arguments 
+                  ( ("enDisp" variable (:type ("HI_UNF_DISP_E" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [6417 6438])
+                    ("enEncodingFormat" variable (:type ("HI_UNF_ENC_FMT_E" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [6439 6473]))                  
+                :type ("HI_S32" type (:type "class") nil nil))
+                nil [6386 7421])
+            ("drv_intf_disp_GetFormat" function
+               (:arguments 
+                  ( ("enDisp" variable (:type ("HI_UNF_DISP_E" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [7587 7608])
+                    ("penEncodingFormat" variable
+                       (:pointer 1
+                        :type ("HI_UNF_ENC_FMT_E" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [7609 7645]))                  
+                :type ("HI_S32" type (:type "class") nil nil))
+                nil [7556 8607])
+            ("drv_intf_disp_SetAspectRatio" function
+               (:arguments 
+                  ( ("enDisp" variable (:type ("HI_UNF_DISP_E" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [8778 8799])
+                    ("pstDispAspectRatio" variable
+                       (:pointer 1
+                        :type ("HI_UNF_DISP_ASPECT_RATIO_S" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [8800 8847]))                  
+                :type ("HI_S32" type (:type "class") nil nil))
+                nil [8742 9824])
+            ("drv_intf_disp_GetAspectRatio" function
+               (:arguments 
+                  ( ("enDisp" variable (:type ("HI_UNF_DISP_E" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [9995 10016])
+                    ("pstDispAspectRatio" variable
+                       (:pointer 1
+                        :type ("HI_UNF_DISP_ASPECT_RATIO_S" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [10017 10064]))                  
+                :type ("HI_S32" type (:type "class") nil nil))
+                nil [9959 11059])
+            ("drv_intf_disp_SetBgColor" function
+               (:arguments 
+                  ( ("enDisp" variable (:type ("HI_UNF_DISP_E" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [11226 11247])
+                    ("pstBgColor" variable
+                       (:pointer 1
+                        :constant-flag t
+                        :type ("HI_UNF_DISP_BG_COLOR_S" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [11248 11289]))                  
+                :type ("HI_S32" type (:type "class") nil nil))
+                nil [11194 12252])
+            ("drv_intf_disp_GetBgColor" function
+               (:arguments 
+                  ( ("enDisp" variable (:type ("HI_UNF_DISP_E" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [12419 12440])
+                    ("pstBgColor" variable
+                       (:pointer 1
+                        :type ("HI_UNF_DISP_BG_COLOR_S" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [12441 12476]))                  
+                :type ("HI_S32" type (:type "class") nil nil))
+                nil [12387 13458])
+            ("drv_intf_disp_SetBrightness" function
+               (:arguments 
+                  ( ("enDisp" variable (:type ("HI_UNF_DISP_E" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [13628 13649])
+                    ("u32Brightness" variable (:type ("HI_U32" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [13650 13671]))                  
+                :type ("HI_S32" type (:type "class") nil nil))
+                nil [13593 14255])
+            ("drv_intf_disp_SetContrast" function
+               (:arguments 
+                  ( ("enDisp" variable (:type ("HI_UNF_DISP_E" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [14423 14444])
+                    ("u32Contrast" variable (:type ("HI_U32" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [14445 14464]))                  
+                :type ("HI_S32" type (:type "class") nil nil))
+                nil [14390 15037])
+            ("drv_intf_disp_SetHue" function
+               (:arguments 
+                  ( ("enDisp" variable (:type ("HI_UNF_DISP_E" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [15200 15221])
+                    ("u32Hue" variable (:type ("HI_U32" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [15222 15236]))                  
+                :type ("HI_S32" type (:type "class") nil nil))
+                nil [15172 15784])
+            ("drv_intf_disp_SetSaturation" function
+               (:arguments 
+                  ( ("enDisp" variable (:type ("HI_UNF_DISP_E" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [15953 15974])
+                    ("u32Saturation" variable (:type ("HI_U32" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [15975 15996]))                  
+                :type ("HI_S32" type (:type "class") nil nil))
+                nil [15918 16579])
+            ("drv_intf_disp_SetVideoAlphaValue" function
+               (:arguments 
+                  ( ("u32Alpha" variable (:type ("HI_U32" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [17640 17656]))                  
+                :type "void")
+                nil [17602 18934])
+            ("drv_intf_disp_GetVideoAlphaValue" function
+               (:arguments 
+                  ( ("pAlpha" variable
+                       (:pointer 1
+                        :type ("HI_U32" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [19107 19122]))                  
+                :type "void")
+                nil [19069 19515])
+            ("drv_intf_disp_SetHDRType" function
+               (:arguments 
+                  ( ("strHDRType" variable
+                       (:pointer 1
+                        :type ("HI_U8" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [19717 19735]))                  
+                :type ("HI_S32" type (:type "class") nil nil))
+                nil [19685 21617])
+            ("drv_intf_disp_GetHDRType" function
+               (:arguments 
+                  ( ("strHDRType" variable
+                       (:pointer 1
+                        :type ("HI_U8" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [21819 21837]))                  
+                :type ("HI_S32" type (:type "class") nil nil))
+                nil [21787 22957])
+            ("drv_intf_disp_SetVirtualScreen" function
+               (:arguments 
+                  ( ("enUnfDisp" variable (:type ("HI_UNF_DISP_E" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [23130 23154])
+                    ("u32Width" variable (:type ("HI_U32" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [23155 23171])
+                    ("u32Height" variable (:type ("HI_U32" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [23172 23189]))                  
+                :type ("HI_S32" type (:type "class") nil nil))
+                nil [23092 24313])
+            ("drv_intf_disp_GetVirtualScreen" function
+               (:arguments 
+                  ( ("enUnfDisp" variable (:type ("HI_UNF_DISP_E" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [24486 24510])
+                    ("u32Width" variable
+                       (:pointer 1
+                        :type ("HI_U32" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [24511 24528])
+                    ("u32Height" variable
+                       (:pointer 1
+                        :type ("HI_U32" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [24529 24547]))                  
+                :type ("HI_S32" type (:type "class") nil nil))
+                nil [24448 25634])
+            ("drv_intf_disp_GetVirtualScreenOffset" function
+               (:arguments 
+                  ( ("enUnfDisp" variable (:type ("HI_UNF_DISP_E" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [25828 25852])
+                    ("u32Left" variable
+                       (:pointer 1
+                        :type ("HI_U32" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [25853 25869])
+                    ("u32Top" variable
+                       (:pointer 1
+                        :type ("HI_U32" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [25870 25885])
+                    ("u32Right" variable
+                       (:pointer 1
+                        :type ("HI_U32" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [25886 25903])
+                    ("u32Bottom" variable
+                       (:pointer 1
+                        :type ("HI_U32" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [25904 25922]))                  
+                :type ("HI_S32" type (:type "class") nil nil))
+                nil [25784 27102])
+            ("drv_intf_disp_SetVirtualScreenOffset" function
+               (:arguments 
+                  ( ("enUnfDisp" variable (:type ("HI_UNF_DISP_E" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [27297 27321])
+                    ("u32Left" variable (:type ("HI_U32" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [27322 27337])
+                    ("u32Top" variable (:type ("HI_U32" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [27338 27352])
+                    ("u32Right" variable (:type ("HI_U32" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [27353 27369])
+                    ("u32Bottom" variable (:type ("HI_U32" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [27370 27387]))                  
+                :type ("HI_S32" type (:type "class") nil nil))
+                nil [27253 28546])
+            ("vscreen_test" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("index" variable (:type ("HI_U32" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [29364 29377]))                  
+                :type "void")
+                nil [29346 29378])
+            ("vscreen_test" function
+               (:arguments 
+                  ( ("index" variable (:type ("HI_U32" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [29414 29427]))                  
+                :type "void")
+                nil [29396 30151])
+            ("drv_intf_disp_ChangeVirtualScreen" function
+               (:arguments 
+                  ( ("fbinfo" variable
+                       (:pointer 1
+                        :type ("fb_info" type
+                             (:prototype t
+                              :type "struct")
+                              nil nil))
+                        (reparse-symbol arg-sub-list) [30327 30350]))                  
+                :type "void")
+                nil [30288 30488])
+            ("EXPORT_SYMBOL" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("" variable (:type ("drv_intf_disp_ChangeVirtualScreen" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [30503 30537]))                  
+                :type "int")
+                nil [30489 30538]))          
+      :file "drv_intf_display.c"
+      :pointmax 30540
+      :fsize 31307
+      :lastmodtime '(24803 44618 485964 659000)
+      :unmatched-syntax nil
+      :lexical-table 
+        '(("intf_disp_trace" (spp-arg-list ("x") 1399 . 1402))
+          )
+)
+    (semanticdb-table "semanticdb-table-1576dd0d5296"
+      :file "drv_intf_linuxcommon.h"
+      :fsize 2666
+      :lastmodtime '(24803 44618 485964 659000))
+    (semanticdb-table "semanticdb-table-1576dd0d52b6"
+      :file "drv_intf_common.h"
+      :fsize 19785
+      :lastmodtime '(24806 23569 822879 555000))
+    (semanticdb-table "semanticdb-table-1576dd0d52d6"
+      :file "drv_intf_display.h"
+      :fsize 1931
+      :lastmodtime '(24803 44618 485964 659000))
+    (semanticdb-table "semanticdb-table-1576dd0d52f6"
+      :file "drv_intf_pq.h"
+      :fsize 2290
+      :lastmodtime '(24803 44618 485964 659000))
+    (semanticdb-table "semanticdb-table-1576dd0d5316"
+      :major-mode c-mode
+      :tags 
+        '( ("__DRV_INTF_TRANSFER_INCLUDE__" variable (:constant-flag t) nil [47 76])
+            ("Transfer_DispType" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("pU" variable
+                       (:pointer 1
+                        :type ("HI_UNF_DISP_HDR_TYPE_E" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [105 132])
+                    ("pM" variable
+                       (:pointer 1
+                        :type ("HI_DRV_DISP_OUT_TYPE_E" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [133 160])
+                    ("bu2m" variable (:type ("HI_BOOL" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [161 174]))                  
+                :type ("HI_S32" type (:type "class") nil nil))
+                nil [78 175])
+            ("Transfer_DispID" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("pU" variable
+                       (:pointer 1
+                        :type ("HI_UNF_DISP_E" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [201 219])
+                    ("pM" variable
+                       (:pointer 1
+                        :type ("HI_DRV_DISPLAY_E" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [220 241])
+                    ("bu2m" variable (:type ("HI_BOOL" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [242 255]))                  
+                :type ("HI_S32" type (:type "class") nil nil))
+                nil [176 256])
+            ("Transfer_VbiCfg" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("pU" variable
+                       (:pointer 1
+                        :type ("HI_UNF_DISP_VBI_CFG_S" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [282 308])
+                    ("pM" variable
+                       (:pointer 1
+                        :type ("HI_DRV_DISP_VBI_CFG_S" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [309 335])
+                    ("bu2m" variable (:type ("HI_BOOL" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [336 349]))                  
+                :type ("HI_S32" type (:type "class") nil nil))
+                nil [257 350])
+            ("Transfer_VbiData" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("pU" variable
+                       (:pointer 1
+                        :type ("HI_UNF_DISP_VBI_DATA_S" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [377 404])
+                    ("pM" variable
+                       (:pointer 1
+                        :type ("HI_DRV_DISP_VBI_DATA_S" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [405 432])
+                    ("bu2m" variable (:type ("HI_BOOL" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [433 446]))                  
+                :type ("HI_S32" type (:type "class") nil nil))
+                nil [351 447])
+            ("Transfer_DispOffset" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("pU" variable
+                       (:pointer 1
+                        :type ("HI_UNF_DISP_OFFSET_S" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [477 502])
+                    ("pM" variable
+                       (:pointer 1
+                        :type ("HI_DRV_DISP_OFFSET_S" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [503 528])
+                    ("bu2m" variable (:type ("HI_BOOL" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [529 542]))                  
+                :type ("HI_S32" type (:type "class") nil nil))
+                nil [448 543])
+            ("Transfer_Disp3DMode" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("pU" variable
+                       (:pointer 1
+                        :type ("HI_UNF_DISP_3D_E" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [573 594])
+                    ("pM" variable
+                       (:pointer 1
+                        :type ("HI_DRV_DISP_STEREO_MODE_E" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [595 625])
+                    ("bu2m" variable (:type ("HI_BOOL" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [626 639]))                  
+                :type ("HI_S32" type (:type "class") nil nil))
+                nil [544 640])
+            ("Transfer_LayerID" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("pU" variable
+                       (:pointer 1
+                        :type ("HI_UNF_DISP_LAYER_E" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [667 691])
+                    ("pM" variable
+                       (:pointer 1
+                        :type ("HI_DRV_DISP_LAYER_E" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [692 716])
+                    ("bu2m" variable (:type ("HI_BOOL" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [717 730]))                  
+                :type ("HI_S32" type (:type "class") nil nil))
+                nil [641 731])
+            ("Transfer_TVHDFmtU2V" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("U" variable (:type ("HI_UNF_ENC_FMT_E" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [771 790]))                  
+                :type ("HI_DRV_DISP_FMT_E" type (:type "class") nil nil))
+                nil [732 791])
+            ("Transfer_TVHDFmtV2U" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("V" variable (:type ("HI_DRV_DISP_FMT_E" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [830 850]))                  
+                :type ("HI_UNF_ENC_FMT_E" type (:type "class") nil nil))
+                nil [792 851])
+            ("Transfer_TVSDFmtU2V" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("U" variable (:type ("HI_UNF_ENC_FMT_E" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [891 910]))                  
+                :type ("HI_DRV_DISP_FMT_E" type (:type "class") nil nil))
+                nil [852 911])
+            ("Transfer_TVSDFmtV2U" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("V" variable (:type ("HI_DRV_DISP_FMT_E" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [950 970]))                  
+                :type ("HI_UNF_ENC_FMT_E" type (:type "class") nil nil))
+                nil [912 971])
+            ("Transfer_3DFmtU2V" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("U" variable (:type ("HI_UNF_ENC_FMT_E" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [1009 1028]))                  
+                :type ("HI_DRV_DISP_FMT_E" type (:type "class") nil nil))
+                nil [972 1029])
+            ("Transfer_3DFmtV2U" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("V" variable (:type ("HI_DRV_DISP_FMT_E" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [1066 1086]))                  
+                :type ("HI_UNF_ENC_FMT_E" type (:type "class") nil nil))
+                nil [1030 1087])
+            ("Transfer_4KFmtV2U" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("V" variable (:type ("HI_DRV_DISP_FMT_E" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [1124 1144]))                  
+                :type ("HI_UNF_ENC_FMT_E" type (:type "class") nil nil))
+                nil [1088 1145])
+            ("Transfer_4KFmtU2V" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("U" variable (:type ("HI_UNF_ENC_FMT_E" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [1183 1202]))                  
+                :type ("HI_DRV_DISP_FMT_E" type (:type "class") nil nil))
+                nil [1146 1203])
+            ("Transfer_DVIFmtU2V" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("U" variable (:type ("HI_UNF_ENC_FMT_E" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [1242 1261]))                  
+                :type ("HI_DRV_DISP_FMT_E" type (:type "class") nil nil))
+                nil [1204 1262])
+            ("Transfer_DVIFmtV2U" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("V" variable (:type ("HI_DRV_DISP_FMT_E" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [1300 1320]))                  
+                :type ("HI_UNF_ENC_FMT_E" type (:type "class") nil nil))
+                nil [1263 1321])
+            ("Transfer_DecimalFmtU2V" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("U" variable (:type ("HI_UNF_ENC_FMT_E" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [1364 1383]))                  
+                :type ("HI_DRV_DISP_FMT_E" type (:type "class") nil nil))
+                nil [1322 1384])
+            ("Transfer_DecimalFmtV2U" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("V" variable (:type ("HI_DRV_DISP_FMT_E" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [1426 1446]))                  
+                :type ("HI_UNF_ENC_FMT_E" type (:type "class") nil nil))
+                nil [1385 1447])
+            ("Transfer_EncFmt" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("pU" variable
+                       (:pointer 1
+                        :type ("HI_UNF_ENC_FMT_E" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [1473 1494])
+                    ("pM" variable
+                       (:pointer 1
+                        :type ("HI_DRV_DISP_FMT_E" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [1495 1517])
+                    ("bu2m" variable (:type ("HI_BOOL" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [1518 1531]))                  
+                :type ("HI_S32" type (:type "class") nil nil))
+                nil [1448 1532])
+            ("Transfer_AspectRatio" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("pU" variable
+                       (:pointer 1
+                        :type ("HI_UNF_DISP_ASPECT_RATIO_S" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [1563 1594])
+                    ("pH" variable
+                       (:pointer 1
+                        :type ("HI_U32" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [1595 1606])
+                    ("pV" variable
+                       (:pointer 1
+                        :type ("HI_U32" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [1607 1618])
+                    ("bu2m" variable (:type ("HI_BOOL" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [1619 1632]))                  
+                :type ("HI_S32" type (:type "class") nil nil))
+                nil [1533 1633])
+            ("Transfer_Timing" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("pU" variable
+                       (:pointer 1
+                        :type ("HI_UNF_DISP_TIMING_S" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [1659 1684])
+                    ("pM" variable
+                       (:pointer 1
+                        :type ("HI_DRV_DISP_TIMING_S" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [1685 1710])
+                    ("bu2m" variable (:type ("HI_BOOL" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [1711 1724]))                  
+                :type ("HI_S32" type (:type "class") nil nil))
+                nil [1634 1725])
+            ("Transfer_BGColor" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("pU" variable
+                       (:pointer 1
+                        :type ("HI_UNF_DISP_BG_COLOR_S" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [1752 1779])
+                    ("pM" variable
+                       (:pointer 1
+                        :type ("HI_DRV_DISP_COLOR_S" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [1780 1804])
+                    ("bu2m" variable (:type ("HI_BOOL" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [1805 1818]))                  
+                :type ("HI_S32" type (:type "class") nil nil))
+                nil [1726 1819])
+            ("Transfer_FrameRate" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("pM" variable
+                       (:pointer 1
+                        :type ("HI_U32" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [1848 1859])
+                    ("pU" variable
+                       (:pointer 1
+                        :type ("HI_UNF_VCODEC_FRMRATE_S" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [1860 1888])
+                    ("bu2m" variable (:type ("HI_BOOL" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [1889 1902]))                  
+                :type ("HI_S32" type (:type "class") nil nil))
+                nil [1820 1903])
+            ("Transfer_VideoFormat" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("pU" variable
+                       (:pointer 1
+                        :type ("HI_UNF_VIDEO_FORMAT_E" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [1934 1961])
+                    ("pM" variable
+                       (:pointer 1
+                        :type ("HI_DRV_PIX_FORMAT_E" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [1962 1986])
+                    ("bu2m" variable (:type ("HI_BOOL" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [1987 2000]))                  
+                :type ("HI_S32" type (:type "class") nil nil))
+                nil [1904 2001])
+            ("Transfer_ARConvert" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("pU" variable
+                       (:pointer 1
+                        :type ("HI_UNF_VO_ASPECT_CVRS_E" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [2030 2059])
+                    ("pM" variable
+                       (:pointer 1
+                        :type ("HI_DRV_ASP_RAT_MODE_E" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [2060 2086])
+                    ("bu2m" variable (:type ("HI_BOOL" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [2087 2100]))                  
+                :type ("HI_S32" type (:type "class") nil nil))
+                nil [2002 2101])
+            ("Transfer_ZOrder" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("pU" variable
+                       (:pointer 1
+                        :type ("HI_LAYER_ZORDER_E" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [2127 2149])
+                    ("pM" variable
+                       (:pointer 1
+                        :type ("HI_DRV_DISP_ZORDER_E" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [2150 2175])
+                    ("bu2m" variable (:type ("HI_BOOL" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [2176 2189]))                  
+                :type ("HI_S32" type (:type "class") nil nil))
+                nil [2102 2190])
+            ("Transfer_SwitchMode" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("pU" variable
+                       (:pointer 1
+                        :type ("HI_UNF_WINDOW_FREEZE_MODE_E" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [2220 2252])
+                    ("pM" variable
+                       (:pointer 1
+                        :type ("HI_DRV_WIN_SWITCH_E" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [2253 2277])
+                    ("bu2m" variable (:type ("HI_BOOL" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [2278 2291]))                  
+                :type ("HI_S32" type (:type "class") nil nil))
+                nil [2191 2292])
+            ("Transfer_GetVdacIdFromPinIDForMPW" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("PinId" variable (:type ("HI_U8" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [2335 2347]))                  
+                :type ("HI_U8" type (:type "class") nil nil))
+                nil [2293 2348])
+            ("Transfer_Intf" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("pU" variable
+                       (:pointer 1
+                        :type ("HI_UNF_DISP_INTF_S" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [2372 2395])
+                    ("pM" variable
+                       (:pointer 1
+                        :type ("HI_DRV_DISP_INTF_S" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [2396 2419])
+                    ("bu2m" variable (:type ("HI_BOOL" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [2420 2433]))                  
+                :type ("HI_S32" type (:type "class") nil nil))
+                nil [2349 2434])
+            ("Transfer_DispColorSpace" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("pU" variable
+                       (:pointer 1
+                        :type ("HI_UNF_DISP_COLOR_SPACE_E" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [2468 2498])
+                    ("pM" variable
+                       (:pointer 1
+                        :type ("HI_DRV_DISP_COLOR_SPACE_E" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [2499 2529])
+                    ("bu2m" variable (:type ("HI_BOOL" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [2530 2543]))                  
+                :type ("HI_S32" type (:type "class") nil nil))
+                nil [2435 2544]))          
+      :file "drv_intf_transfer.h"
+      :pointmax 2553
+      :fsize 2588
+      :lastmodtime '(24803 44618 485964 659000)
+      :unmatched-syntax nil
+      :lexical-table 
+        '(("__DRV_INTF_TRANSFER_INCLUDE__")
+          )
+))
+  :file "!home!bspserver!001_DRV!00_DEV_DRV!HiSTBLinuxV100R!source!msp!drv!drv_intf!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

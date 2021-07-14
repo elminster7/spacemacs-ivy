@@ -1,0 +1,21 @@
+;; Object semanticdb-project-database-file-155f1c0d799c
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file-155f1c0d799c"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table-155f1c0d79d6"
+      :major-mode c-mode
+      :tags 
+        '( ("__ARM64_KERNEL_IMAGE_VARS_H" variable (:constant-flag t) nil [235 262]))          
+      :file "image-vars.h"
+      :pointmax 3351
+      :fsize 3350
+      :lastmodtime '(24802 37832 196193 18000)
+      :unmatched-syntax '((symbol 342 . 343) (punctuation 341 . 342) (symbol 338 . 341) (punctuation 337 . 338) (symbol 330 . 337) (symbol 327 . 329) (symbol 318 . 326) (symbol 315 . 317) (symbol 310 . 314) (symbol 303 . 309) (symbol 298 . 302) (symbol 293 . 297) (symbol 287 . 292) (punctuation 286 . 287))
+      :lexical-table 
+        '(("__ARM64_KERNEL_IMAGE_VARS_H")
+          )
+))
+  :file "!home!bspserver!iamroot-5.10!arch!arm64!kernel!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

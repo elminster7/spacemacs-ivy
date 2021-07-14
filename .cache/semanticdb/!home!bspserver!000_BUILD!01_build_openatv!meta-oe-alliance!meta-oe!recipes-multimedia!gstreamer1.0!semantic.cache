@@ -1,0 +1,31 @@
+;; Object semanticdb-project-database-file-1584eda3e438
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file-1584eda3e438"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table-1584ecc9fd72"
+      :major-mode makefile-mode
+      :tags 
+        '( ("DESCRIPTION" variable (:default-value ("\"gstreamer dvbmediasink plugin\"")) nil [1 47])
+            ("SECTION" variable (:default-value ("\"multimedia\"")) nil [47 70])
+            ("PRIORITY" variable (:default-value ("\"optional\"")) nil [70 92])
+            ("LICENSE" variable (:default-value ("\"GPLv2\"")) nil [92 110])
+            ("PACKAGE_ARCH" variable (:default-value ("\"${MACHINE_ARCH}\"")) nil [110 143])
+            ("LIC_FILES_CHKSUM" variable (:default-value ("\"file://COPYING;md5=7fbc338309ac38fefcd64b04bb903e34\"")) nil [143 216])
+            ("DEPENDS" variable (:default-value ("\"glib-2.0-native gstreamer1.0 gstreamer1.0-plugins-base libdca\"")) nil [217 291])
+            ("GSTVERSION" variable (:default-value ("\"1.0\"")) nil [292 311])
+            ("SRC_URI" variable (:default-value ("\"git://github.com/christophecvr/gstreamer1.0-plugin-multibox-dvbmediasink;branch=openatv-dev;protocol=git \\
+	file://gstreamer_payload.patch \\
+\"")) nil [312 466])
+            ("S" variable (:default-value ("\"${WORKDIR}/git\"")) nil [467 488])
+            ("PV" variable (:default-value ("\"${GSTVERSION}+git${SRCPV}\"")) nil [506 539])
+            ("PKGV" variable (:default-value ("\"${GSTVERSION}+git${GITPKGV}\"")) nil [539 576])
+            ("EXTRA_OECONF" variable (:default-value ("\"${DVBMEDIASINK_CONFIG} --with-gstversion=${GSTVERSION} --with-machine=${MACHINE}\"")) nil [1442 1540]))          
+      :file "gstreamer1.0-plugin-dvbmediasink.bb"
+      :pointmax 1750
+      :fsize 1749
+      :lastmodtime '(24807 55586 216158 165000)
+      :unmatched-syntax nil))
+  :file "!home!bspserver!000_BUILD!01_build_openatv!meta-oe-alliance!meta-oe!recipes-multimedia!gstreamer1.0!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

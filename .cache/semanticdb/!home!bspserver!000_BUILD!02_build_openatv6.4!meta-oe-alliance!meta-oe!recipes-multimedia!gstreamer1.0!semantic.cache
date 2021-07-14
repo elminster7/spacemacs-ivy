@@ -1,0 +1,30 @@
+;; Object semanticdb-project-database-file-1576db7815f4
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file-1576db7815f4"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table-1576db78161e"
+      :major-mode makefile-mode
+      :tags 
+        '( ("DESCRIPTION" variable (:default-value ("\"gstreamer dvbmediasink plugin\"")) nil [1 47])
+            ("SECTION" variable (:default-value ("\"multimedia\"")) nil [47 70])
+            ("PRIORITY" variable (:default-value ("\"optional\"")) nil [70 92])
+            ("LICENSE" variable (:default-value ("\"GPLv2\"")) nil [92 110])
+            ("PACKAGE_ARCH" variable (:default-value ("\"${MACHINE_ARCH}\"")) nil [110 143])
+            ("LIC_FILES_CHKSUM" variable (:default-value ("\"file://COPYING;md5=7fbc338309ac38fefcd64b04bb903e34\"")) nil [143 216])
+            ("DEPENDS" variable (:default-value ("\"glib-2.0-native gstreamer1.0 gstreamer1.0-plugins-base libdca\"")) nil [217 291])
+            ("GSTVERSION" variable (:default-value ("\"1.0\"")) nil [292 311])
+            ("SRC_URI" variable (:default-value ("\"git://github.com/christophecvr/gstreamer1.0-plugin-multibox-dvbmediasink;branch=openatv-dev;protocol=git\"")) nil [312 429])
+            ("SRC_URI_append_dual" variable (:default-value ("\" \\
+	file://gstreamer_payload.patch\"")) nil [430 489])
+            ("S" variable (:default-value ("\"${WORKDIR}/git\"")) nil [490 511])
+            ("SRC_REV" variable (:default-value ("\"${AUTOREV}\"")) nil [529 552])
+            ("EXTRA_OECONF" variable (:default-value ("\"${DVBMEDIASINK_CONFIG} --with-gstversion=${GSTVERSION} --with-machine=${MACHINE}\"")) nil [1490 1588]))          
+      :file "gstreamer1.0-plugin-dvbmediasink.bb"
+      :pointmax 1798
+      :fsize 1797
+      :lastmodtime '(24811 44618 636160 363000)
+      :unmatched-syntax nil))
+  :file "!home!bspserver!000_BUILD!02_build_openatv6.4!meta-oe-alliance!meta-oe!recipes-multimedia!gstreamer1.0!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

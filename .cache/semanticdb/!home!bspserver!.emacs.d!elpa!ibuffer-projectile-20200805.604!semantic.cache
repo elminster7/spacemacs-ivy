@@ -1,0 +1,34 @@
+;; Object semanticdb-project-database-file-158ad9ff7180
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file-158ad9ff7180"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table-158ad8f205ba"
+      :major-mode emacs-lisp-mode
+      :tags 
+        '( ("ibuffer" include nil nil [2159 2177])
+            ("ibuf-ext" include nil nil [2178 2197])
+            ("projectile" include nil nil [2198 2219])
+            ("ibuffer-projectile" customgroup (:user-visible-flag t) nil [2222 2381])
+            ("ibuffer-projectile-skip-if-remote" variable (:default-value t) nil [2383 2532])
+            ("ibuffer-projectile-include-function" variable (:default-value 'identity) nil [2534 2876])
+            ("ibuffer-projectile-prefix" variable (:default-value "Projectile:") nil [2878 3021])
+            ("ibuffer-projectile-group-name-function" variable (:default-value 'ibuffer-projectile-default-group-name) nil [3023 3306])
+            ("ibuffer-projectile-default-group-name" function (:arguments ("project-name" "root-dir")) nil [3308 3506])
+            ("ibuffer-projectile--include-file-p" function (:arguments ("file")) nil [3508 3795])
+            ("ibuffer-projectile-root" function (:arguments ("buf")) nil [3797 4254])
+            ("define-ibuffer-filter" code nil nil [4256 4694])
+            ("define-ibuffer-column" code nil nil [4777 4861])
+            ("define-ibuffer-sorter" code nil nil [4943 5344])
+            ("define-ibuffer-column" code nil nil [5436 5703])
+            ("ibuffer-projectile-generate-filter-groups" function nil nil [5720 6169])
+            ("ibuffer-projectile-set-filter-groups" function (:user-visible-flag t) nil [6186 6588])
+            ("ibuffer-projectile" package nil nil [6591 6620]))          
+      :file "ibuffer-projectile.el"
+      :pointmax 6657
+      :fsize 6656
+      :lastmodtime '(24807 41408 50648 383000)
+      :unmatched-syntax nil))
+  :file "!home!bspserver!.emacs.d!elpa!ibuffer-projectile-20200805.604!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

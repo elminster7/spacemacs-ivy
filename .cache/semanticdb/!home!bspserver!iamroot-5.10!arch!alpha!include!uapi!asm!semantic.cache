@@ -1,0 +1,53 @@
+;; Object semanticdb-project-database-file-15685f366e94
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file-15685f366e94"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table-15685f368024"
+      :major-mode c-mode
+      :tags 
+        '( ("__ALPHA_SETUP_H" variable (:constant-flag t) nil [96 111])
+            ("COMMAND_LINE_SIZE" variable (:constant-flag t) nil [121 138])
+            ("BOOT_PCB" variable (:constant-flag t) nil [354 362])
+            ("BOOT_ADDR" variable (:constant-flag t) nil [382 391])
+            ("BOOT_SIZE" variable (:constant-flag t) nil [469 478])
+            ("KERNEL_START_PHYS" variable (:constant-flag t) nil [619 636])
+            ("KERNEL_START" variable (:constant-flag t) nil [701 713])
+            ("SWAPPER_PGD" variable (:constant-flag t) nil [754 765])
+            ("INIT_STACK" variable (:constant-flag t) nil [787 797])
+            ("EMPTY_PGT" variable (:constant-flag t) nil [846 855])
+            ("EMPTY_PGE" variable (:constant-flag t) nil [904 913])
+            ("ZERO_PGE" variable (:constant-flag t) nil [962 970])
+            ("START_ADDR" variable (:constant-flag t) nil [1020 1030])
+            ("PARAM" variable (:constant-flag t) nil [1282 1287])
+            ("COMMAND_LINE" variable (:constant-flag t) nil [1307 1319])
+            ("INITRD_START" variable (:constant-flag t) nil [1355 1367])
+            ("INITRD_SIZE" variable (:constant-flag t) nil [1412 1423]))          
+      :file "setup.h"
+      :pointmax 1468
+      :fsize 1467
+      :lastmodtime '(24802 37831 944190 856000)
+      :unmatched-syntax nil
+      :lexical-table 
+        '(("INIT_STACK" . ((semantic-list "(PAGE_OFFSET+KERNEL_START_PHYS+0x02000)" 798 . 837)))
+          ("ZERO_PGE" . ((semantic-list "(PAGE_OFFSET+KERNEL_START_PHYS+0x0A000)" 971 . 1010)))
+          ("SWAPPER_PGD" . ((symbol "KERNEL_START" 766 . 778)))
+          ("INITRD_START" . ((semantic-list "(*(unsigned long *) (PARAM+0x100))" 1369 . 1403)))
+          ("BOOT_PCB" . ((number "0x20000000" 363 . 373)))
+          ("BOOT_SIZE" . ((semantic-list "(16*1024)" 479 . 488)))
+          ("COMMAND_LINE_SIZE" . ((number "256" 139 . 142)))
+          ("KERNEL_START_PHYS" . ((number "0x1000000" 637 . 646)))
+          ("EMPTY_PGT" . ((semantic-list "(PAGE_OFFSET+KERNEL_START_PHYS+0x04000)" 856 . 895)))
+          ("EMPTY_PGE" . ((semantic-list "(PAGE_OFFSET+KERNEL_START_PHYS+0x08000)" 914 . 953)))
+          ("INITRD_SIZE" . ((semantic-list "(*(unsigned long *) (PARAM+0x108))" 1425 . 1459)))
+          ("BOOT_ADDR" . ((number "0x20000000" 392 . 402)))
+          ("KERNEL_START" . ((semantic-list "(PAGE_OFFSET+KERNEL_START_PHYS)" 714 . 745)))
+          ("START_ADDR" . ((semantic-list "(PAGE_OFFSET+KERNEL_START_PHYS+0x10000)" 1031 . 1070)))
+          ("PARAM" . ((symbol "ZERO_PGE" 1290 . 1298)))
+          ("COMMAND_LINE" . ((semantic-list "((char*)(PARAM + 0x0000))" 1321 . 1346)))
+          ("__ALPHA_SETUP_H")
+          )
+))
+  :file "!home!bspserver!iamroot-5.10!arch!alpha!include!uapi!asm!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

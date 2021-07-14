@@ -1,0 +1,28 @@
+;; Object semanticdb-project-database-file-1576dcfdd428
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file-1576dcfdd428"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table-1576dcfdd462"
+      :major-mode makefile-mode
+      :tags 
+        '( ("DESCRIPTION" variable (:default-value ("\"E2 Webkit HbbTV Plugin\"")) nil [1 40])
+            ("SECTION" variable (:default-value ("\"base\"")) nil [40 57])
+            ("PRIORITY" variable (:default-value ("\"required\"")) nil [57 79])
+            ("LICENSE" variable (:default-value ("\"CLOSED\"")) nil [79 98])
+            ("SRCREV" variable (:default-value ("\"${AUTOREV}\"")) nil [305 327])
+            ("PKGVERSION" variable (:default-value ("\"2.0-r0\"")) nil [327 349])
+            ("PV" variable (:default-value ("\"${PKGVERSION}-${SRCPV}\"")) nil [349 379])
+            ("PKGV" variable (:default-value ("\"${PKGVERSION}-${GITPKGV}\"")) nil [379 413])
+            ("PR" variable (:default-value ("\"r0\"")) nil [413 423])
+            ("SRC_URI" variable (:default-value ("\"git://github.com/oe-alliance/enigma2-plugin-extensions-hbbtv-webkit.git;protocol=https;branch=dev\"")) nil [470 580])
+            ("S" variable (:default-value ("\"${WORKDIR}/git\"")) nil [581 602])
+            ("DESTDIR" variable (:default-value ("\"enigma2/python/Plugins/Extensions/HbbTV\"")) nil [624 676]))          
+      :file "enigma2-plugin-extensions-hbbtv-webkit.bb"
+      :pointmax 834
+      :fsize 833
+      :lastmodtime '(24807 54220 650039 859000)
+      :unmatched-syntax '((string 830 . 833) (punctuation 828 . 829) (semantic-list 823 . 827) (punctuation 822 . 823) (symbol 816 . 822) (bol 816 . 816) (semantic-list 697 . 814) (semantic-list 694 . 696) (symbol 677 . 694) (bol 677 . 677) (semantic-list 619 . 622) (semantic-list 616 . 618) (symbol 603 . 616) (bol 603 . 603) (string 445 . 468) (punctuation 443 . 444) (punctuation 442 . 443) (semantic-list 437 . 441) (punctuation 436 . 437) (symbol 424 . 436) (bol 424 . 424) (symbol 296 . 303) (symbol 288 . 295) (bol 288 . 288) (string 155 . 286) (punctuation 153 . 154) (semantic-list 148 . 152) (punctuation 147 . 148) (symbol 138 . 147) (bol 138 . 138) (symbol 106 . 136) (symbol 98 . 105) (bol 98 . 98))))
+  :file "!home!bspserver!000_BUILD!01_build_openatv!meta-oe-alliance!meta-oe!recipes-webkit!hbbtv-plugin!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

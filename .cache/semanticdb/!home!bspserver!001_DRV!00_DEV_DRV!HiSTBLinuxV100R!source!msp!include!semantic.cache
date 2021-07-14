@@ -1,0 +1,1504 @@
+;; Object semanticdb-project-database-file-15889636cbda
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file-15889636cbda"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table-15889636cef8"
+      :major-mode c-mode
+      :tags 
+        '( ("__HI_UNF_DISP_H__" variable (:constant-flag t) nil [713 730])
+            ("hi_unf_common.h" include nil nil [732 758])
+            ("hi_unf_hdmi.h" include nil nil [759 783])
+            ("HI_UNF_DISP_GetOutputStatus" function
+               (:typemodifiers ("extern" "\"C\"")
+                :type ("HI_S32" type (:type "class") nil nil)
+                :arguments 
+                  ( ("enDisp" variable (:type ("HI_UNF_DISP_E" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [78123 78144])
+                    ("pstOutputStatus" variable
+                       (:pointer 1
+                        :type ("HI_UNF_DISP_OUTPUT_STATUS_S" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [78145 78190]))                  
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [78088 78191])
+            ("HI_UNF_DISP_GetVideoAlpha" function
+               (:typemodifiers ("extern" "\"C\"")
+                :type ("HI_S32" type (:type "class") nil nil)
+                :arguments 
+                  ( ("enDisp" variable (:type ("HI_UNF_DISP_E" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [77514 77535])
+                    ("pu32Alpha" variable
+                       (:pointer 1
+                        :type ("HI_U32" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [77536 77554]))                  
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [77481 77555])
+            ("HI_UNF_DISP_SetVideoAlpha" function
+               (:typemodifiers ("extern" "\"C\"")
+                :type ("HI_S32" type (:type "class") nil nil)
+                :arguments 
+                  ( ("enDisp" variable (:type ("HI_UNF_DISP_E" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [76910 76931])
+                    ("u32Alpha" variable (:type ("HI_U32" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [76932 76949]))                  
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [76876 76950])
+            ("HI_UNF_DISP_SetSinkCapability" function
+               (:typemodifiers ("extern" "\"C\"")
+                :type ("HI_S32" type (:type "class") nil nil)
+                :arguments 
+                  ( ("enDisp" variable (:type ("HI_UNF_DISP_E" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [76285 76306])
+                    ("pstSinkCap" variable
+                       (:pointer 1
+                        :constant-flag t
+                        :type ("HI_UNF_EDID_BASE_INFO_S" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [76307 76349]))                  
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [76247 76350])
+            ("HI_UNF_DISP_GetOutputColorSpace" function
+               (:typemodifiers ("extern" "\"C\"")
+                :type ("HI_S32" type (:type "class") nil nil)
+                :arguments 
+                  ( ("enDisp" variable (:type ("HI_UNF_DISP_E" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [75443 75464])
+                    ("penColorSpace" variable
+                       (:pointer 1
+                        :type ("HI_UNF_DISP_COLOR_SPACE_E" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [75465 75506]))                  
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [75404 75507])
+            ("HI_UNF_DISP_SetOutputColorSpace" function
+               (:typemodifiers ("extern" "\"C\"")
+                :type ("HI_S32" type (:type "class") nil nil)
+                :arguments 
+                  ( ("enDisp" variable (:type ("HI_UNF_DISP_E" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [74787 74808])
+                    ("enColorSpace" variable
+                       (:constant-flag t
+                        :type ("HI_UNF_DISP_COLOR_SPACE_E" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [74809 74854]))                  
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [74748 74855])
+            ("HI_UNF_DISP_GetHDRType" function
+               (:typemodifiers ("extern" "\"C\"")
+                :type ("HI_S32" type (:type "class") nil nil)
+                :arguments 
+                  ( ("enDisp" variable (:type ("HI_UNF_DISP_E" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [73992 74013])
+                    ("penHDRType" variable
+                       (:pointer 1
+                        :type ("HI_UNF_DISP_HDR_TYPE_E" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [74014 74049]))                  
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [73962 74050])
+            ("HI_UNF_DISP_SetHDRType" function
+               (:typemodifiers ("extern" "\"C\"")
+                :type ("HI_S32" type (:type "class") nil nil)
+                :arguments 
+                  ( ("enDisp" variable (:type ("HI_UNF_DISP_E" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [73373 73394])
+                    ("enHDRType" variable
+                       (:constant-flag t
+                        :type ("HI_UNF_DISP_HDR_TYPE_E" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [73395 73434]))                  
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [73343 73435])
+            ("HI_UNF_DISP_SetIsogenyAttr" function
+               (:typemodifiers ("extern" "\"C\"")
+                :type ("HI_S32" type (:type "class") nil nil)
+                :arguments 
+                  ( ("pstIsogeny" variable
+                       (:pointer 1
+                        :constant-flag t
+                        :type ("HI_UNF_DISP_ISOGENY_ATTR_S" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [72743 72788])
+                    ("u32ChannelNum" variable
+                       (:constant-flag t
+                        :type ("HI_U32" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [72789 72816]))                  
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [72709 72817])
+            ("HI_UNF_DISP_GetScreenOffset" function
+               (:typemodifiers ("extern" "\"C\"")
+                :type ("HI_S32" type (:type "class") nil nil)
+                :arguments 
+                  ( ("enDisp" variable (:type ("HI_UNF_DISP_E" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [72051 72072])
+                    ("pstOffset" variable
+                       (:pointer 1
+                        :type ("HI_UNF_DISP_OFFSET_S" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [72073 72105]))                  
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [72016 72106])
+            ("HI_UNF_DISP_SetScreenOffset" function
+               (:typemodifiers ("extern" "\"C\"")
+                :type ("HI_S32" type (:type "class") nil nil)
+                :arguments 
+                  ( ("enDisp" variable (:type ("HI_UNF_DISP_E" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [71338 71359])
+                    ("pstOffset" variable
+                       (:pointer 1
+                        :type ("HI_UNF_DISP_OFFSET_S" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [71360 71392]))                  
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [71303 71393])
+            ("HI_UNF_DISP_GetVirtualScreen" function
+               (:typemodifiers ("extern" "\"C\"")
+                :type ("HI_S32" type (:type "class") nil nil)
+                :arguments 
+                  ( ("enDisp" variable (:type ("HI_UNF_DISP_E" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [70525 70546])
+                    ("u32Width" variable
+                       (:pointer 1
+                        :type ("HI_U32" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [70547 70564])
+                    ("u32Height" variable
+                       (:pointer 1
+                        :type ("HI_U32" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [70565 70583]))                  
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [70489 70584])
+            ("HI_UNF_DISP_SetVirtualScreen" function
+               (:typemodifiers ("extern" "\"C\"")
+                :type ("HI_S32" type (:type "class") nil nil)
+                :arguments 
+                  ( ("enDisp" variable (:type ("HI_UNF_DISP_E" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [69698 69719])
+                    ("u32Width" variable (:type ("HI_U32" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [69720 69736])
+                    ("u32Height" variable (:type ("HI_U32" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [69737 69754]))                  
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [69662 69755])
+            ("HI_UNF_DISP_SetRightEyeFirst" function
+               (:typemodifiers ("extern" "\"C\"")
+                :type ("HI_S32" type (:type "class") nil nil)
+                :arguments 
+                  ( ("enDisp" variable (:type ("HI_UNF_DISP_E" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [68817 68838])
+                    ("bEnable" variable (:type ("HI_BOOL" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [68839 68855]))                  
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [68781 68856])
+            ("HI_UNF_DISP_Get3DMode" function
+               (:typemodifiers ("extern" "\"C\"")
+                :type ("HI_S32" type (:type "class") nil nil)
+                :arguments 
+                  ( ("enDisp" variable (:type ("HI_UNF_DISP_E" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [68118 68139])
+                    ("pen3D" variable
+                       (:pointer 1
+                        :type ("HI_UNF_DISP_3D_E" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [68140 68164])
+                    ("penEncFormat" variable
+                       (:pointer 1
+                        :type ("HI_UNF_ENC_FMT_E" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [68165 68196]))                  
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [68089 68197])
+            ("HI_UNF_DISP_Set3DMode" function
+               (:typemodifiers ("extern" "\"C\"")
+                :type ("HI_S32" type (:type "class") nil nil)
+                :arguments 
+                  ( ("enDisp" variable (:type ("HI_UNF_DISP_E" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [67409 67430])
+                    ("en3D" variable (:type ("HI_UNF_DISP_3D_E" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [67431 67453])
+                    ("enEncFormat" variable (:type ("HI_UNF_ENC_FMT_E" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [67454 67483]))                  
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [67380 67484])
+            ("HI_UNF_DISP_SetDefaultPara" function
+               (:typemodifiers ("extern" "\"C\"")
+                :type ("HI_S32" type (:type "class") nil nil)
+                :arguments 
+                  ( ("enDisp" variable (:type ("HI_UNF_DISP_E" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [66752 66773]))                  
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [66717 66774])
+            ("HI_UNF_DISP_ReleaseSnapshot" function
+               (:typemodifiers ("extern" "\"C\"")
+                :type ("HI_S32" type (:type "class") nil nil)
+                :arguments 
+                  ( ("enDisp" variable (:type ("HI_UNF_DISP_E" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [66004 66025])
+                    ("pstFrameInfo" variable
+                       (:pointer 1
+                        :type ("HI_UNF_VIDEO_FRAME_INFO_S" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [66026 66067]))                  
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [65969 66068])
+            ("HI_UNF_DISP_AcquireSnapshot" function
+               (:typemodifiers ("extern" "\"C\"")
+                :type ("HI_S32" type (:type "class") nil nil)
+                :arguments 
+                  ( ("enDisp" variable (:type ("HI_UNF_DISP_E" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [65209 65230])
+                    ("pstFrameInfo" variable
+                       (:pointer 1
+                        :type ("HI_UNF_VIDEO_FRAME_INFO_S" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [65231 65272]))                  
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [65174 65273])
+            ("HI_UNF_DISP_GetColor" function
+               (:typemodifiers ("extern" "\"C\"")
+                :type ("HI_S32" type (:type "class") nil nil)
+                :arguments 
+                  ( ("enDisp" variable (:type ("HI_UNF_DISP_E" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [64360 64381])
+                    ("pstCS" variable
+                       (:pointer 1
+                        :type ("HI_UNF_DISP_COLOR_SETTING_S" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [64382 64418]))                  
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [64331 64419])
+            ("HI_UNF_DISP_SetColor" function
+               (:typemodifiers ("extern" "\"C\"")
+                :type ("HI_S32" type (:type "class") nil nil)
+                :arguments 
+                  ( ("enDisp" variable (:type ("HI_UNF_DISP_E" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [63543 63564])
+                    ("pstCS" variable
+                       (:pointer 1
+                        :type ("HI_UNF_DISP_COLOR_SETTING_S" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [63565 63601]))                  
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [63514 63602])
+            ("HI_UNF_DISP_ReleaseCastFrame" function
+               (:typemodifiers ("extern" "\"C\"")
+                :type ("HI_S32" type (:type "class") nil nil)
+                :arguments 
+                  ( ("hCast" variable (:type ("HI_HANDLE" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [62731 62747])
+                    ("pstFrameInfo" variable
+                       (:pointer 1
+                        :type ("HI_UNF_VIDEO_FRAME_INFO_S" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [62748 62789]))                  
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [62694 62790])
+            ("HI_UNF_DISP_AcquireCastFrame" function
+               (:typemodifiers ("extern" "\"C\"")
+                :type ("HI_S32" type (:type "class") nil nil)
+                :arguments 
+                  ( ("hCast" variable (:type ("HI_HANDLE" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [61885 61901])
+                    ("pstFrameInfo" variable
+                       (:pointer 1
+                        :type ("HI_UNF_VIDEO_FRAME_INFO_S" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [61902 61942])
+                    ("u32TimeoutMs" variable (:type ("HI_U32" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [61943 61963]))                  
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [61849 61964])
+            ("HI_UNF_DISP_GetCastEnable" function
+               (:typemodifiers ("extern" "\"C\"")
+                :type ("HI_S32" type (:type "class") nil nil)
+                :arguments 
+                  ( ("hCast" variable (:type ("HI_HANDLE" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [60916 60932])
+                    ("pbEnable" variable
+                       (:pointer 1
+                        :type ("HI_BOOL" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [60933 60952]))                  
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [60882 60953])
+            ("HI_UNF_DISP_SetCastEnable" function
+               (:typemodifiers ("extern" "\"C\"")
+                :type ("HI_S32" type (:type "class") nil nil)
+                :arguments 
+                  ( ("hCast" variable (:type ("HI_HANDLE" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [60128 60144])
+                    ("bEnable" variable (:type ("HI_BOOL" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [60145 60162]))                  
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [60094 60163])
+            ("HI_UNF_DISP_DestroyCast" function
+               (:typemodifiers ("extern" "\"C\"")
+                :type ("HI_S32" type (:type "class") nil nil)
+                :arguments 
+                  ( ("hCast" variable (:type ("HI_HANDLE" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [59350 59367]))                  
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [59318 59368])
+            ("HI_UNF_DISP_CreateCast" function
+               (:typemodifiers ("extern" "\"C\"")
+                :type ("HI_S32" type (:type "class") nil nil)
+                :arguments 
+                  ( ("enDisp" variable (:type ("HI_UNF_DISP_E" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [58584 58605])
+                    ("pstAttr" variable
+                       (:pointer 1
+                        :type ("HI_UNF_DISP_CAST_ATTR_S" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [58606 58640])
+                    ("phCast" variable
+                       (:pointer 1
+                        :type ("HI_HANDLE" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [58641 58659]))                  
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [58554 58660])
+            ("HI_UNF_DISP_GetDefaultCastAttr" function
+               (:typemodifiers ("extern" "\"C\"")
+                :type ("HI_S32" type (:type "class") nil nil)
+                :arguments 
+                  ( ("enDisp" variable (:type ("HI_UNF_DISP_E" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [57695 57716])
+                    ("pstAttr" variable
+                       (:pointer 1
+                        :type ("HI_UNF_DISP_CAST_ATTR_S" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [57716 57749]))                  
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [57657 57750])
+            ("HI_UNF_DISP_SendVBIData" function
+               (:typemodifiers ("extern" "\"C\"")
+                :type ("HI_S32" type (:type "class") nil nil)
+                :arguments 
+                  ( ("hVbi" variable (:type ("HI_HANDLE" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [57025 57040])
+                    ("pstVbiData" variable
+                       (:pointer 1
+                        :type ("HI_UNF_DISP_VBI_DATA_S" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [57041 57076]))                  
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [56994 57077])
+            ("HI_UNF_DISP_DestroyVBI" function
+               (:typemodifiers ("extern" "\"C\"")
+                :type ("HI_S32" type (:type "class") nil nil)
+                :arguments 
+                  ( ("hVbi" variable (:type ("HI_HANDLE" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [56060 56076]))                  
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [56029 56077])
+            ("HI_UNF_DISP_CreateVBI" function
+               (:typemodifiers ("extern" "\"C\"")
+                :type ("HI_S32" type (:type "class") nil nil)
+                :arguments 
+                  ( ("enDisp" variable (:type ("HI_UNF_DISP_E" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [55313 55334])
+                    ("pstCfg" variable
+                       (:pointer 1
+                        :type ("HI_UNF_DISP_VBI_CFG_S" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [55335 55365])
+                    ("phVbi" variable
+                       (:pointer 1
+                        :type ("HI_HANDLE" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [55366 55384]))                  
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [55283 55385])
+            ("HI_UNF_DISP_GetAlgCfg" function
+               (:typemodifiers ("extern" "\"C\"")
+                :type ("HI_S32" type (:type "class") nil nil)
+                :arguments 
+                  ( ("enDisp" variable (:type ("HI_UNF_DISP_E" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [54147 54168])
+                    ("pstAlg" variable
+                       (:pointer 1
+                        :type ("HI_UNF_DISP_ALG_CFG_S" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [54169 54200]))                  
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [54117 54201])
+            ("HI_UNF_DISP_SetAlgCfg" function
+               (:typemodifiers ("extern" "\"C\"")
+                :type ("HI_S32" type (:type "class") nil nil)
+                :arguments 
+                  ( ("enDisp" variable (:type ("HI_UNF_DISP_E" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [53282 53303])
+                    ("pstAlg" variable
+                       (:pointer 1
+                        :type ("HI_UNF_DISP_ALG_CFG_S" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [53304 53335]))                  
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [53252 53336])
+            ("HI_UNF_DISP_GetAspectRatio" function
+               (:typemodifiers ("extern" "\"C\"")
+                :type ("HI_S32" type (:type "class") nil nil)
+                :arguments 
+                  ( ("enDisp" variable (:type ("HI_UNF_DISP_E" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [52398 52419])
+                    ("pstDispAspectRatio" variable
+                       (:pointer 1
+                        :type ("HI_UNF_DISP_ASPECT_RATIO_S" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [52420 52468]))                  
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [52363 52469])
+            ("HI_UNF_DISP_SetAspectRatio" function
+               (:typemodifiers ("extern" "\"C\"")
+                :type ("HI_S32" type (:type "class") nil nil)
+                :arguments 
+                  ( ("enDisp" variable (:type ("HI_UNF_DISP_E" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [51487 51508])
+                    ("pstDispAspectRatio" variable
+                       (:pointer 1
+                        :type ("HI_UNF_DISP_ASPECT_RATIO_S" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [51509 51557]))                  
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [51452 51558])
+            ("HI_UNF_DISP_GetMacrovisionSupport" function
+               (:typemodifiers ("extern" "\"C\"")
+                :type ("HI_S32" type (:type "class") nil nil)
+                :arguments 
+                  ( ("enDisp" variable (:type ("HI_UNF_DISP_E" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [49937 49958])
+                    ("pbSupport" variable
+                       (:pointer 1
+                        :type ("HI_BOOL" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [49959 49979]))                  
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [49895 49980])
+            ("HI_UNF_DISP_SetCgms" function
+               (:typemodifiers ("extern" "\"C\"")
+                :type ("HI_S32" type (:type "class") nil nil)
+                :arguments 
+                  ( ("enDisp" variable (:type ("HI_UNF_DISP_E" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [49066 49087])
+                    ("pstCgmsCfg" variable
+                       (:pointer 1
+                        :constant-flag t
+                        :type ("HI_UNF_DISP_CGMS_CFG_S" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [49088 49130]))                  
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [49038 49131])
+            ("HI_UNF_DISP_GetMacrovision" function
+               (:typemodifiers ("extern" "\"C\"")
+                :type ("HI_S32" type (:type "class") nil nil)
+                :arguments 
+                  ( ("enDisp" variable (:type ("HI_UNF_DISP_E" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [48155 48176])
+                    ("penMode" variable
+                       (:pointer 1
+                        :type ("HI_UNF_DISP_MACROVISION_MODE_E" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [48177 48217])
+                    ("pData" variable
+                       (:pointer 1
+                        :constant-flag t
+                        :type ("HI_VOID" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [48218 48240]))                  
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [48120 48241])
+            ("HI_UNF_DISP_SetMacrovision" function
+               (:typemodifiers ("extern" "\"C\"")
+                :type ("HI_S32" type (:type "class") nil nil)
+                :arguments 
+                  ( ("enDisp" variable (:type ("HI_UNF_DISP_E" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [47128 47149])
+                    ("enMode" variable (:type ("HI_UNF_DISP_MACROVISION_MODE_E" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [47150 47188])
+                    ("pData" variable
+                       (:pointer 1
+                        :constant-flag t
+                        :type ("HI_VOID" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [47189 47211]))                  
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [47093 47212])
+            ("HI_UNF_DISP_SetWss" function
+               (:typemodifiers ("extern" "\"C\"")
+                :type ("HI_S32" type (:type "class") nil nil)
+                :arguments 
+                  ( ("enDisp" variable (:type ("HI_UNF_DISP_E" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [46148 46169])
+                    ("pstWssData" variable
+                       (:pointer 1
+                        :constant-flag t
+                        :type ("HI_UNF_DISP_WSS_DATA_S" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [46170 46212]))                  
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [46121 46213])
+            ("HI_UNF_DISP_GetHuePlus" function
+               (:typemodifiers ("extern" "\"C\"")
+                :type ("HI_S32" type (:type "class") nil nil)
+                :arguments 
+                  ( ("enDisp" variable (:type ("HI_UNF_DISP_E" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [45301 45322])
+                    ("pu32HuePlus" variable
+                       (:pointer 1
+                        :type ("HI_U32" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [45323 45344]))                  
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [45270 45345])
+            ("HI_UNF_DISP_SetHuePlus" function
+               (:typemodifiers ("extern" "\"C\"")
+                :type ("HI_S32" type (:type "class") nil nil)
+                :arguments 
+                  ( ("enDisp" variable (:type ("HI_UNF_DISP_E" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [44243 44264])
+                    ("u32HuePlus" variable (:type ("HI_U32" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [44265 44284]))                  
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [44212 44285])
+            ("HI_UNF_DISP_GetSaturation" function
+               (:typemodifiers ("extern" "\"C\"")
+                :type ("HI_S32" type (:type "class") nil nil)
+                :arguments 
+                  ( ("enDisp" variable (:type ("HI_UNF_DISP_E" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [43330 43351])
+                    ("pu32Saturation" variable
+                       (:pointer 1
+                        :type ("HI_U32" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [43352 43376]))                  
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [43296 43377])
+            ("HI_UNF_DISP_SetSaturation" function
+               (:typemodifiers ("extern" "\"C\"")
+                :type ("HI_S32" type (:type "class") nil nil)
+                :arguments 
+                  ( ("enDisp" variable (:type ("HI_UNF_DISP_E" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [42248 42269])
+                    ("u32Saturation" variable (:type ("HI_U32" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [42270 42292]))                  
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [42214 42293])
+            ("HI_UNF_DISP_GetContrast" function
+               (:typemodifiers ("extern" "\"C\"")
+                :type ("HI_S32" type (:type "class") nil nil)
+                :arguments 
+                  ( ("enDisp" variable (:type ("HI_UNF_DISP_E" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [41258 41279])
+                    ("pu32Contrast" variable
+                       (:pointer 1
+                        :type ("HI_U32" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [41280 41302]))                  
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [41226 41303])
+            ("HI_UNF_DISP_SetContrast" function
+               (:typemodifiers ("extern" "\"C\"")
+                :type ("HI_S32" type (:type "class") nil nil)
+                :arguments 
+                  ( ("enDisp" variable (:type ("HI_UNF_DISP_E" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [40188 40209])
+                    ("u32Contrast" variable (:type ("HI_U32" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [40210 40230]))                  
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [40156 40231])
+            ("HI_UNF_DISP_GetBrightness" function
+               (:typemodifiers ("extern" "\"C\"")
+                :type ("HI_S32" type (:type "class") nil nil)
+                :arguments 
+                  ( ("enDisp" variable (:type ("HI_UNF_DISP_E" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [39205 39226])
+                    ("pu32Brightness" variable
+                       (:pointer 1
+                        :type ("HI_U32" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [39227 39251]))                  
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [39171 39252])
+            ("HI_UNF_DISP_SetBrightness" function
+               (:typemodifiers ("extern" "\"C\"")
+                :type ("HI_S32" type (:type "class") nil nil)
+                :arguments 
+                  ( ("enDisp" variable (:type ("HI_UNF_DISP_E" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [38130 38151])
+                    ("u32Brightness" variable (:type ("HI_U32" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [38152 38174]))                  
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [38096 38175])
+            ("HI_UNF_DISP_GetBgColor" function
+               (:typemodifiers ("extern" "\"C\"")
+                :type ("HI_S32" type (:type "class") nil nil)
+                :arguments 
+                  ( ("enDisp" variable (:type ("HI_UNF_DISP_E" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [37142 37163])
+                    ("pstBgColor" variable
+                       (:pointer 1
+                        :type ("HI_UNF_DISP_BG_COLOR_S" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [37164 37200]))                  
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [37111 37201])
+            ("HI_UNF_DISP_SetBgColor" function
+               (:typemodifiers ("extern" "\"C\"")
+                :type ("HI_S32" type (:type "class") nil nil)
+                :arguments 
+                  ( ("enDisp" variable (:type ("HI_UNF_DISP_E" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [36076 36097])
+                    ("pstBgColor" variable
+                       (:pointer 1
+                        :constant-flag t
+                        :type ("HI_UNF_DISP_BG_COLOR_S" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [36098 36140]))                  
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [36045 36141])
+            ("HI_UNF_DISP_GetLayerZorder" function
+               (:typemodifiers ("extern" "\"C\"")
+                :type ("HI_S32" type (:type "class") nil nil)
+                :arguments 
+                  ( ("enDisp" variable (:type ("HI_UNF_DISP_E" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [35239 35260])
+                    ("enLayer" variable (:type ("HI_UNF_DISP_LAYER_E" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [35261 35289])
+                    ("pu32Zorder" variable
+                       (:pointer 1
+                        :type ("HI_U32" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [35290 35310]))                  
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [35204 35311])
+            ("HI_UNF_DISP_SetLayerZorder" function
+               (:typemodifiers ("extern" "\"C\"")
+                :type ("HI_S32" type (:type "class") nil nil)
+                :arguments 
+                  ( ("enDisp" variable (:type ("HI_UNF_DISP_E" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [34103 34124])
+                    ("enLayer" variable (:type ("HI_UNF_DISP_LAYER_E" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [34125 34153])
+                    ("enZFlag" variable (:type ("HI_LAYER_ZORDER_E" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [34154 34181]))                  
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [34068 34182])
+            ("HI_UNF_DISP_GetCustomTiming" function
+               (:typemodifiers ("extern" "\"C\"")
+                :type ("HI_S32" type (:type "class") nil nil)
+                :arguments 
+                  ( ("enDisp" variable (:type ("HI_UNF_DISP_E" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [33112 33133])
+                    ("pstTiming" variable
+                       (:pointer 1
+                        :type ("HI_UNF_DISP_TIMING_S" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [33134 33167]))                  
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [33076 33168])
+            ("HI_UNF_DISP_SetCustomTiming" function
+               (:typemodifiers ("extern" "\"C\"")
+                :type ("HI_S32" type (:type "class") nil nil)
+                :arguments 
+                  ( ("enDisp" variable (:type ("HI_UNF_DISP_E" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [32210 32231])
+                    ("pstTiming" variable
+                       (:pointer 1
+                        :type ("HI_UNF_DISP_TIMING_S" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [32232 32265]))                  
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [32174 32266])
+            ("HI_UNF_DISP_GetFormat" function
+               (:typemodifiers ("extern" "\"C\"")
+                :type ("HI_S32" type (:type "class") nil nil)
+                :arguments 
+                  ( ("enDisp" variable (:type ("HI_UNF_DISP_E" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [31306 31327])
+                    ("penEncodingFormat" variable
+                       (:pointer 1
+                        :type ("HI_UNF_ENC_FMT_E" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [31328 31365]))                  
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [31276 31366])
+            ("HI_UNF_DISP_SetFormat" function
+               (:typemodifiers ("extern" "\"C\"")
+                :type ("HI_S32" type (:type "class") nil nil)
+                :arguments 
+                  ( ("enDisp" variable (:type ("HI_UNF_DISP_E" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [30491 30512])
+                    ("enEncodingFormat" variable (:type ("HI_UNF_ENC_FMT_E" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [30513 30548]))                  
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [30461 30549])
+            ("HI_UNF_DISP_DetachIntf" function
+               (:typemodifiers ("extern" "\"C\"")
+                :type ("HI_S32" type (:type "class") nil nil)
+                :arguments 
+                  ( ("enDisp" variable (:type ("HI_UNF_DISP_E" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [29313 29334])
+                    ("pstIntf" variable
+                       (:pointer 1
+                        :type ("HI_UNF_DISP_INTF_S" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [29335 29363])
+                    ("u32IntfNum" variable (:type ("HI_U32" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [29364 29383]))                  
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [29282 29384])
+            ("HI_UNF_DISP_AttachIntf" function
+               (:typemodifiers ("extern" "\"C\"")
+                :type ("HI_S32" type (:type "class") nil nil)
+                :arguments 
+                  ( ("enDisp" variable (:type ("HI_UNF_DISP_E" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [28321 28342])
+                    ("pstIntf" variable
+                       (:pointer 1
+                        :type ("HI_UNF_DISP_INTF_S" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [28343 28371])
+                    ("u32IntfNum" variable (:type ("HI_U32" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [28372 28391]))                  
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [28290 28392])
+            ("HI_UNF_DISP_Close" function
+               (:typemodifiers ("extern" "\"C\"")
+                :type ("HI_S32" type (:type "class") nil nil)
+                :arguments 
+                  ( ("enDisp" variable (:type ("HI_UNF_DISP_E" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [26791 26813]))                  
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [26765 26814])
+            ("HI_UNF_DISP_Open" function
+               (:typemodifiers ("extern" "\"C\"")
+                :type ("HI_S32" type (:type "class") nil nil)
+                :arguments 
+                  ( ("enDisp" variable (:type ("HI_UNF_DISP_E" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [26293 26315]))                  
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [26268 26316])
+            ("HI_UNF_DISP_Detach" function
+               (:typemodifiers ("extern" "\"C\"")
+                :type ("HI_S32" type (:type "class") nil nil)
+                :arguments 
+                  ( ("enDstDisp" variable (:type ("HI_UNF_DISP_E" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [25513 25537])
+                    ("enSrcDisp" variable (:type ("HI_UNF_DISP_E" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [25538 25563]))                  
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [25486 25564])
+            ("HI_UNF_DISP_Attach" function
+               (:typemodifiers ("extern" "\"C\"")
+                :type ("HI_S32" type (:type "class") nil nil)
+                :arguments 
+                  ( ("enDstDisp" variable (:type ("HI_UNF_DISP_E" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [24708 24732])
+                    ("enSrcDisp" variable (:type ("HI_UNF_DISP_E" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [24733 24758]))                  
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [24681 24759])
+            ("HI_UNF_DISP_DeInit" function
+               (:typemodifiers ("extern" "\"C\"")
+                :type ("HI_S32" type (:type "class") nil nil)
+                :arguments 
+                  ( ("" variable (:type ("HI_VOID" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [23799 23808]))                  
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [23772 23809])
+            ("HI_UNF_DISP_Init" function
+               (:typemodifiers ("extern" "\"C\"")
+                :type ("HI_S32" type (:type "class") nil nil)
+                :arguments 
+                  ( ("" variable (:type ("HI_VOID" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [23308 23317]))                  
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [23283 23318])
+            ("HI_UNF_DISP_OUTPUT_STATUS_S" type
+               (:typemodifiers ("extern" "\"C\"")
+                :type "typedef"
+                :typedef ("hiUNF_DISP_OUTPUT_STATUS_S" type (:type "struct") nil nil))
+                (reparse-symbol extern-c-contents) [22282 22455])
+            ("hiUNF_DISP_OUTPUT_STATUS_S" type
+               (:typemodifiers ("extern" "\"C\"")
+                :type "struct"
+                :members 
+                  ( ("enActualOutHDRType" variable (:type ("HI_UNF_DISP_HDR_TYPE_E" type (:type "class") nil nil)) (reparse-symbol classsubparts) [22330 22372])
+                    ("enActualOutColorSpace" variable (:type ("HI_UNF_DISP_COLOR_SPACE_E" type (:type "class") nil nil)) (reparse-symbol classsubparts) [22377 22425]))                  )
+                (reparse-symbol extern-c-contents) [22282 22455])
+            ("HI_UNF_DISP_COLOR_SPACE_E" type
+               (:typemodifiers ("extern" "\"C\"")
+                :type "typedef"
+                :typedef ("hiHI_UNF_DISP_COLOR_SPACE_E" type (:type "enum") nil nil))
+                (reparse-symbol extern-c-contents) [21621 22193])
+            ("hiHI_UNF_DISP_COLOR_SPACE_E" type
+               (:typemodifiers ("extern" "\"C\"")
+                :type "enum"
+                :members 
+                  ( ("HI_UNF_DISP_COLOR_SPACE_AUTO" variable
+                       (:constant-flag t
+                        :default-value (21699 21702)
+                        :type "int")
+                        (reparse-symbol enumsubparts) [21668 21702])
+                    ("HI_UNF_DISP_COLOR_SPACE_BT601" variable
+                       (:constant-flag t
+                        :type "int")
+                        (reparse-symbol enumsubparts) [21780 21810])
+                    ("HI_UNF_DISP_COLOR_SPACE_BT709" variable
+                       (:constant-flag t
+                        :type "int")
+                        (reparse-symbol enumsubparts) [21915 21945])
+                    ("HI_UNF_DISP_COLOR_SPACE_BT2020" variable
+                       (:constant-flag t
+                        :type "int")
+                        (reparse-symbol enumsubparts) [22025 22056])
+                    ("HI_UNF_DISP_COLOR_SPACE_BUTT" variable
+                       (:constant-flag t
+                        :type "int")
+                        (reparse-symbol enumsubparts) [22137 22167]))                  )
+                (reparse-symbol extern-c-contents) [21621 22193])
+            ("HI_UNF_DISP_HDR_TYPE_E" type
+               (:typemodifiers ("extern" "\"C\"")
+                :type "typedef"
+                :typedef ("hiUNF_DISP_HDR_TYPE_E" type (:type "enum") nil nil))
+                (reparse-symbol extern-c-contents) [20763 21542])
+            ("hiUNF_DISP_HDR_TYPE_E" type
+               (:typemodifiers ("extern" "\"C\"")
+                :type "enum"
+                :members 
+                  ( ("HI_UNF_DISP_HDR_TYPE_NONE" variable
+                       (:constant-flag t
+                        :default-value (20832 20833)
+                        :type "int")
+                        (reparse-symbol enumsubparts) [20804 20833])
+                    ("HI_UNF_DISP_HDR_TYPE_AUTO" variable
+                       (:constant-flag t
+                        :type "int")
+                        (reparse-symbol enumsubparts) [20913 20939])
+                    ("HI_UNF_DISP_HDR_TYPE_AUTO_FOLLOW_FIRSTFRAME" variable
+                       (:constant-flag t
+                        :type "int")
+                        (reparse-symbol enumsubparts) [21037 21081])
+                    ("HI_UNF_DISP_HDR_TYPE_DOLBY" variable
+                       (:constant-flag t
+                        :type "int")
+                        (reparse-symbol enumsubparts) [21176 21203])
+                    ("HI_UNF_DISP_HDR_TYPE_HDR10" variable
+                       (:constant-flag t
+                        :type "int")
+                        (reparse-symbol enumsubparts) [21290 21317])
+                    ("HI_UNF_DISP_HDR_TYPE_HLG" variable
+                       (:constant-flag t
+                        :type "int")
+                        (reparse-symbol enumsubparts) [21392 21417])
+                    ("HI_UNF_DISP_HDR_TYPE_BUTT" variable
+                       (:constant-flag t
+                        :type "int")
+                        (reparse-symbol enumsubparts) [21491 21518]))                  )
+                (reparse-symbol extern-c-contents) [20763 21542])
+            ("HI_UNF_DISP_OFFSET_S" type
+               (:typemodifiers ("extern" "\"C\"")
+                :type "typedef"
+                :typedef ("hiUNF_DISP_OFFSET_S" type (:type "struct") nil nil))
+                (reparse-symbol extern-c-contents) [20372 20697])
+            ("hiUNF_DISP_OFFSET_S" type
+               (:typemodifiers ("extern" "\"C\"")
+                :type "struct"
+                :members 
+                  ( ("u32Left" variable (:type ("HI_U32" type (:type "class") nil nil)) (reparse-symbol classsubparts) [20413 20428])
+                    ("u32Top" variable (:type ("HI_U32" type (:type "class") nil nil)) (reparse-symbol classsubparts) [20479 20493])
+                    ("u32Right" variable (:type ("HI_U32" type (:type "class") nil nil)) (reparse-symbol classsubparts) [20544 20560])
+                    ("u32Bottom" variable (:type ("HI_U32" type (:type "class") nil nil)) (reparse-symbol classsubparts) [20611 20628]))                  )
+                (reparse-symbol extern-c-contents) [20372 20697])
+            ("HI_UNF_DISP_3D_E" type
+               (:typemodifiers ("extern" "\"C\"")
+                :type "typedef"
+                :typedef ("hiUNF_DISP_3D_E" type (:type "enum") nil nil))
+                (reparse-symbol extern-c-contents) [19238 20295])
+            ("hiUNF_DISP_3D_E" type
+               (:typemodifiers ("extern" "\"C\"")
+                :type "enum"
+                :members 
+                  ( ("HI_UNF_DISP_3D_NONE" variable
+                       (:constant-flag t
+                        :default-value (19295 19296)
+                        :type "int")
+                        (reparse-symbol enumsubparts) [19273 19296])
+                    ("HI_UNF_DISP_3D_FRAME_PACKING" variable
+                       (:constant-flag t
+                        :type "int")
+                        (reparse-symbol enumsubparts) [19302 19331])
+                    ("HI_UNF_DISP_3D_SIDE_BY_SIDE_HALF" variable
+                       (:constant-flag t
+                        :type "int")
+                        (reparse-symbol enumsubparts) [19412 19445])
+                    ("HI_UNF_DISP_3D_TOP_AND_BOTTOM" variable
+                       (:constant-flag t
+                        :type "int")
+                        (reparse-symbol enumsubparts) [19535 19565])
+                    ("HI_UNF_DISP_3D_FIELD_ALTERNATIVE" variable
+                       (:constant-flag t
+                        :type "int")
+                        (reparse-symbol enumsubparts) [19648 19681])
+                    ("HI_UNF_DISP_3D_LINE_ALTERNATIVE" variable
+                       (:constant-flag t
+                        :type "int")
+                        (reparse-symbol enumsubparts) [19762 19794])
+                    ("HI_UNF_DISP_3D_SIDE_BY_SIDE_FULL" variable
+                       (:constant-flag t
+                        :type "int")
+                        (reparse-symbol enumsubparts) [19876 19909])
+                    ("HI_UNF_DISP_3D_L_DEPTH" variable
+                       (:constant-flag t
+                        :type "int")
+                        (reparse-symbol enumsubparts) [19999 20022])
+                    ("HI_UNF_DISP_3D_L_DEPTH_GRAPHICS_GRAPHICS_DEPTH" variable
+                       (:constant-flag t
+                        :type "int")
+                        (reparse-symbol enumsubparts) [20104 20151])
+                    ("HI_UNF_DISP_3D_BUTT" variable
+                       (:constant-flag t
+                        :type "int")
+                        (reparse-symbol enumsubparts) [20257 20278]))                  )
+                (reparse-symbol extern-c-contents) [19238 20295])
+            ("HI_UNF_DISP_WSS_DATA_S" type
+               (:typemodifiers ("extern" "\"C\"")
+                :type "typedef"
+                :typedef ("hiUNF_DISP_WSS_DATA_S" type (:type "struct") nil nil))
+                (reparse-symbol extern-c-contents) [18844 19163])
+            ("hiUNF_DISP_WSS_DATA_S" type
+               (:typemodifiers ("extern" "\"C\"")
+                :type "struct"
+                :members 
+                  ( ("bEnable" variable (:type ("HI_BOOL" type (:type "class") nil nil)) (reparse-symbol classsubparts) [18887 18903])
+                    ("u16Data" variable (:type ("HI_U16" type (:type "class") nil nil)) (reparse-symbol classsubparts) [19055 19071]))                  )
+                (reparse-symbol extern-c-contents) [18844 19163])
+            ("HI_UNF_DISP_CGMS_CFG_S" type
+               (:typemodifiers ("extern" "\"C\"")
+                :type "typedef"
+                :typedef ("hiUNF_DISP_CGMS_CFG_S" type (:type "struct") nil nil))
+                (reparse-symbol extern-c-contents) [18367 18767])
+            ("hiUNF_DISP_CGMS_CFG_S" type
+               (:typemodifiers ("extern" "\"C\"")
+                :type "struct"
+                :members 
+                  ( ("bEnable" variable (:type ("HI_BOOL" type (:type "class") nil nil)) (reparse-symbol classsubparts) [18410 18442])
+                    ("enType" variable (:type ("HI_UNF_DISP_CGMS_TYPE_E" type (:type "class") nil nil)) (reparse-symbol classsubparts) [18545 18576])
+                    ("enMode" variable (:type ("HI_UNF_DISP_CGMS_MODE_E" type (:type "class") nil nil)) (reparse-symbol classsubparts) [18656 18687]))                  )
+                (reparse-symbol extern-c-contents) [18367 18767])
+            ("HI_UNF_DISP_CGMS_MODE_E" type
+               (:typemodifiers ("extern" "\"C\"")
+                :type "typedef"
+                :typedef ("hiUNF_DISP_CGMS_MODE_E" type (:type "enum") nil nil))
+                (reparse-symbol extern-c-contents) [17724 18325])
+            ("hiUNF_DISP_CGMS_MODE_E" type
+               (:typemodifiers ("extern" "\"C\"")
+                :type "enum"
+                :members 
+                  ( ("HI_UNF_DISP_CGMS_MODE_COPY_FREELY" variable
+                       (:constant-flag t
+                        :default-value (17803 17804)
+                        :type "int")
+                        (reparse-symbol enumsubparts) [17766 17804])
+                    ("HI_UNF_DISP_CGMS_MODE_COPY_NO_MORE" variable
+                       (:constant-flag t
+                        :default-value (17925 17929)
+                        :type "int")
+                        (reparse-symbol enumsubparts) [17888 17929])
+                    ("HI_UNF_DISP_CGMS_MODE_COPY_ONCE" variable
+                       (:constant-flag t
+                        :default-value (18082 18086)
+                        :type "int")
+                        (reparse-symbol enumsubparts) [18045 18086])
+                    ("HI_UNF_DISP_CGMS_MODE_COPY_NEVER" variable
+                       (:constant-flag t
+                        :default-value (18204 18208)
+                        :type "int")
+                        (reparse-symbol enumsubparts) [18167 18208])
+                    ("HI_UNF_DISP_CGMS_MODE_BUTT" variable
+                       (:constant-flag t
+                        :type "int")
+                        (reparse-symbol enumsubparts) [18273 18301]))                  )
+                (reparse-symbol extern-c-contents) [17724 18325])
+            ("HI_UNF_DISP_CGMS_TYPE_E" type
+               (:typemodifiers ("extern" "\"C\"")
+                :type "typedef"
+                :typedef ("hiUNF_DISP_CGMS_TYPE_E" type (:type "enum") nil nil))
+                (reparse-symbol extern-c-contents) [17397 17662])
+            ("hiUNF_DISP_CGMS_TYPE_E" type
+               (:typemodifiers ("extern" "\"C\"")
+                :type "enum"
+                :members 
+                  ( ("HI_UNF_DISP_CGMS_TYPE_A" variable
+                       (:constant-flag t
+                        :default-value (17465 17469)
+                        :type "int")
+                        (reparse-symbol enumsubparts) [17439 17469])
+                    ("HI_UNF_DISP_CGMS_TYPE_B" variable
+                       (:constant-flag t
+                        :type "int")
+                        (reparse-symbol enumsubparts) [17524 17548])
+                    ("HI_UNF_DISP_CGMS_TYPE_BUTT" variable
+                       (:constant-flag t
+                        :type "int")
+                        (reparse-symbol enumsubparts) [17610 17638]))                  )
+                (reparse-symbol extern-c-contents) [17397 17662])
+            ("HI_UNF_DISP_MACROVISION_MODE_E" type
+               (:typemodifiers ("extern" "\"C\"")
+                :type "typedef"
+                :typedef ("hiUNF_DISP_MACROVISION_MODE_E" type (:type "enum") nil nil))
+                (reparse-symbol extern-c-contents) [16622 17342])
+            ("hiUNF_DISP_MACROVISION_MODE_E" type
+               (:typemodifiers ("extern" "\"C\"")
+                :type "enum"
+                :members 
+                  ( ("HI_UNF_DISP_MACROVISION_MODE_TYPE0" variable
+                       (:constant-flag t
+                        :type "int")
+                        (reparse-symbol enumsubparts) [16671 16706])
+                    ("HI_UNF_DISP_MACROVISION_MODE_TYPE1" variable
+                       (:constant-flag t
+                        :type "int")
+                        (reparse-symbol enumsubparts) [16774 16809])
+                    ("HI_UNF_DISP_MACROVISION_MODE_TYPE2" variable
+                       (:constant-flag t
+                        :type "int")
+                        (reparse-symbol enumsubparts) [16905 16940])
+                    ("HI_UNF_DISP_MACROVISION_MODE_TYPE3" variable
+                       (:constant-flag t
+                        :type "int")
+                        (reparse-symbol enumsubparts) [17032 17067])
+                    ("HI_UNF_DISP_MACROVISION_MODE_CUSTOM" variable
+                       (:constant-flag t
+                        :type "int")
+                        (reparse-symbol enumsubparts) [17167 17203])
+                    ("HI_UNF_DISP_MACROVISION_MODE_BUTT" variable
+                       (:constant-flag t
+                        :type "int")
+                        (reparse-symbol enumsubparts) [17275 17310]))                  )
+                (reparse-symbol extern-c-contents) [16622 17342])
+            ("HI_UNF_DISP_ISOGENY_ATTR_S" type
+               (:typemodifiers ("extern" "\"C\"")
+                :type "typedef"
+                :typedef ("hiUNF_DISP_ISOGENY_ATTR_S" type (:type "struct") nil nil))
+                (reparse-symbol extern-c-contents) [16215 16441])
+            ("hiUNF_DISP_ISOGENY_ATTR_S" type
+               (:typemodifiers ("extern" "\"C\"")
+                :type "struct"
+                :members 
+                  ( ("enDisp" variable (:type ("HI_UNF_DISP_E" type (:type "class") nil nil)) (reparse-symbol classsubparts) [16263 16293])
+                    ("enFormat" variable (:type ("HI_UNF_ENC_FMT_E" type (:type "class") nil nil)) (reparse-symbol classsubparts) [16338 16370]))                  )
+                (reparse-symbol extern-c-contents) [16215 16441])
+            ("HI_UNF_DISP_BG_COLOR_S" type
+               (:typemodifiers ("extern" "\"C\"")
+                :type "typedef"
+                :typedef ("hiUNF_DISP_BG_COLOR_S" type (:type "struct") nil nil))
+                (reparse-symbol extern-c-contents) [15862 16135])
+            ("hiUNF_DISP_BG_COLOR_S" type
+               (:typemodifiers ("extern" "\"C\"")
+                :type "struct"
+                :members 
+                  ( ("u8Red" variable (:type ("HI_U8" type (:type "class") nil nil)) (reparse-symbol classsubparts) [15906 15918])
+                    ("u8Green" variable (:type ("HI_U8" type (:type "class") nil nil)) (reparse-symbol classsubparts) [15975 15989])
+                    ("u8Blue" variable (:type ("HI_U8" type (:type "class") nil nil)) (reparse-symbol classsubparts) [16045 16058]))                  )
+                (reparse-symbol extern-c-contents) [15862 16135])
+            ("HI_UNF_DISP_COLOR_SETTING_S" type
+               (:typemodifiers ("extern" "\"C\"")
+                :type "typedef"
+                :typedef ("hiUNF_DISP_COLOR_SETTING_S" type (:type "struct") nil nil))
+                (reparse-symbol extern-c-contents) [15209 15787])
+            ("hiUNF_DISP_COLOR_SETTING_S" type
+               (:typemodifiers ("extern" "\"C\"")
+                :type "struct"
+                :members 
+                  ( ("bGammaEnable" variable (:type ("HI_BOOL" type (:type "class") nil nil)) (reparse-symbol classsubparts) [15257 15278])
+                    ("bUseCustGammaTable" variable (:type ("HI_BOOL" type (:type "class") nil nil)) (reparse-symbol classsubparts) [15349 15376])
+                    ("bColorCorrectEnable" variable (:type ("HI_BOOL" type (:type "class") nil nil)) (reparse-symbol classsubparts) [15455 15483])
+                    ("s32ColorTemp" variable (:type ("HI_S32" type (:type "class") nil nil)) (reparse-symbol classsubparts) [15546 15567])
+                    ("u32Reserve" variable (:type ("HI_U32" type (:type "class") nil nil)) (reparse-symbol classsubparts) [15618 15637])
+                    ("pPrivate" variable
+                       (:pointer 1
+                        :type ("HI_VOID" type (:type "class") nil nil))
+                        (reparse-symbol classsubparts) [15687 15705]))                  )
+                (reparse-symbol extern-c-contents) [15209 15787])
+            ("HI_UNF_DISP_CAST_ATTR_S" type
+               (:typemodifiers ("extern" "\"C\"")
+                :type "typedef"
+                :typedef ("hiUNF_DISP_CAST_ATTR_S" type (:type "struct") nil nil))
+                (reparse-symbol extern-c-contents) [13579 15152])
+            ("hiUNF_DISP_CAST_ATTR_S" type
+               (:typemodifiers ("extern" "\"C\"")
+                :type "struct"
+                :members 
+                  ( ("enFormat" variable (:type ("HI_UNF_VIDEO_FORMAT_E" type (:type "class") nil nil)) (reparse-symbol classsubparts) [13623 13654])
+                    ("u32Width" variable (:type ("HI_U32" type (:type "class") nil nil)) (reparse-symbol classsubparts) [13761 13792])
+                    ("u32Height" variable (:type ("HI_U32" type (:type "class") nil nil)) (reparse-symbol classsubparts) [13897 13929])
+                    ("bLowDelay" variable (:type ("HI_BOOL" type (:type "class") nil nil)) (reparse-symbol classsubparts) [14034 14066])
+                    ("u32BufNum" variable (:type ("HI_U32" type (:type "class") nil nil)) (reparse-symbol classsubparts) [14168 14200])
+                    ("bUserAlloc" variable (:type ("HI_BOOL" type (:type "class") nil nil)) (reparse-symbol classsubparts) [14300 14333])
+                    ("u32BufSize" variable (:type ("HI_U32" type (:type "class") nil nil)) (reparse-symbol classsubparts) [14445 14478])
+                    ("u32BufStride" variable (:type ("HI_U32" type (:type "class") nil nil)) (reparse-symbol classsubparts) [14590 14625])
+                    ("u32BufPhyAddr" variable
+                       (:dereference 1
+                        :type ("HI_U32" type (:type "class") nil nil))
+                        (reparse-symbol classsubparts) [14718 14786])
+                    ("bCrop" variable (:type ("HI_BOOL" type (:type "class") nil nil)) (reparse-symbol classsubparts) [14871 14899])
+                    ("stCropRect" variable (:type ("HI_UNF_CROP_RECT_S" type (:type "class") nil nil)) (reparse-symbol classsubparts) [15005 15038]))                  )
+                (reparse-symbol extern-c-contents) [13579 15152])
+            ("HI_DISP_CAST_BUFFER_MAX_NUMBER" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [13483 13513])
+            ("HI_UNF_DISP_VBI_DATA_S" type
+               (:typemodifiers ("extern" "\"C\"")
+                :type "typedef"
+                :typedef ("hiUNF_DISP_VBI_DATA_S" type (:type "struct") nil nil))
+                (reparse-symbol extern-c-contents) [13014 13397])
+            ("hiUNF_DISP_VBI_DATA_S" type
+               (:typemodifiers ("extern" "\"C\"")
+                :type "struct"
+                :members 
+                  ( ("enType" variable (:type ("HI_UNF_DISP_VBI_TYPE_E" type (:type "class") nil nil)) (reparse-symbol classsubparts) [13057 13088])
+                    ("pu8DataAddr" variable
+                       (:pointer 1
+                        :type ("HI_U8" type (:type "class") nil nil))
+                        (reparse-symbol classsubparts) [13150 13187])
+                    ("u32DataLen" variable (:type ("HI_U32" type (:type "class") nil nil)) (reparse-symbol classsubparts) [13275 13310]))                  )
+                (reparse-symbol extern-c-contents) [13014 13397])
+            ("HI_UNF_DISP_VBI_CFG_S" type
+               (:typemodifiers ("extern" "\"C\"")
+                :type "typedef"
+                :typedef ("hiUNF_DISP_VBI_CFG_S" type (:type "struct") nil nil))
+                (reparse-symbol extern-c-contents) [12430 12937])
+            ("hiUNF_DISP_VBI_CFG_S" type
+               (:typemodifiers ("extern" "\"C\"")
+                :type "struct"
+                :members 
+                  ( ("enType" variable (:type ("HI_UNF_DISP_VBI_TYPE_E" type (:type "class") nil nil)) (reparse-symbol classsubparts) [12472 12503])
+                    ("u32InBufferSize" variable (:type ("HI_U32" type (:type "class") nil nil)) (reparse-symbol classsubparts) [12565 12605])
+                    ("u32WorkBufferSize" variable (:type ("HI_U32" type (:type "class") nil nil)) (reparse-symbol classsubparts) [12732 12774]))                  )
+                (reparse-symbol extern-c-contents) [12430 12937])
+            ("HI_UNF_DISP_VBI_TYPE_E" type
+               (:typemodifiers ("extern" "\"C\"")
+                :type "typedef"
+                :typedef ("hiUNF_DISP_VBI_TYPE_E" type (:type "enum") nil nil))
+                (reparse-symbol extern-c-contents) [11951 12364])
+            ("hiUNF_DISP_VBI_TYPE_E" type
+               (:typemodifiers ("extern" "\"C\"")
+                :type "enum"
+                :members 
+                  ( ("HI_UNF_DISP_VBI_TYPE_TTX" variable
+                       (:constant-flag t
+                        :default-value (12019 12020)
+                        :type "int")
+                        (reparse-symbol enumsubparts) [11992 12020])
+                    ("HI_UNF_DISP_VBI_TYPE_CC" variable
+                       (:constant-flag t
+                        :type "int")
+                        (reparse-symbol enumsubparts) [12090 12114])
+                    ("HI_UNF_DISP_VBI_TYPE_WSS" variable
+                       (:constant-flag t
+                        :type "int")
+                        (reparse-symbol enumsubparts) [12212 12237])
+                    ("HI_UNF_DISP_VBI_TYPE_BUTT" variable
+                       (:constant-flag t
+                        :type "int")
+                        (reparse-symbol enumsubparts) [12313 12340]))                  )
+                (reparse-symbol extern-c-contents) [11951 12364])
+            ("HI_UNF_DISP_ALG_CFG_S" type
+               (:typemodifiers ("extern" "\"C\"")
+                :type "typedef"
+                :typedef ("hiUNF_DISP_ALG_CFG_S" type (:type "struct") nil nil))
+                (reparse-symbol extern-c-contents) [11649 11894])
+            ("hiUNF_DISP_ALG_CFG_S" type
+               (:typemodifiers ("extern" "\"C\"")
+                :type "struct"
+                :members 
+                  ( ("bAccEnable" variable (:type ("HI_BOOL" type (:type "class") nil nil)) (reparse-symbol classsubparts) [11691 11710])
+                    ("bSharpEnable" variable (:type ("HI_BOOL" type (:type "class") nil nil)) (reparse-symbol classsubparts) [11781 11802]))                  )
+                (reparse-symbol extern-c-contents) [11649 11894])
+            ("HI_UNF_DISP_ASPECT_RATIO_S" type
+               (:typemodifiers ("extern" "\"C\"")
+                :type "typedef"
+                :typedef ("hiUNF_DISP_ASPECT_RATIO_S" type (:type "struct") nil nil))
+                (reparse-symbol extern-c-contents) [11119 11546])
+            ("hiUNF_DISP_ASPECT_RATIO_S" type
+               (:typemodifiers ("extern" "\"C\"")
+                :type "struct"
+                :members 
+                  ( ("enDispAspectRatio" variable (:type ("HI_UNF_DISP_ASPECT_RATIO_E" type (:type "class") nil nil)) (reparse-symbol classsubparts) [11166 11211])
+                    ("u32UserAspectWidth" variable (:type ("HI_U32" type (:type "class") nil nil)) (reparse-symbol classsubparts) [11283 11329])
+                    ("u32UserAspectHeight" variable (:type ("HI_U32" type (:type "class") nil nil)) (reparse-symbol classsubparts) [11402 11449]))                  )
+                (reparse-symbol extern-c-contents) [11119 11546])
+            ("HI_UNF_DISP_ASPECT_RATIO_E" type
+               (:typemodifiers ("extern" "\"C\"")
+                :type "typedef"
+                :typedef ("hiUNF_DISP_ASPECT_RATIO_E" type (:type "enum") nil nil))
+                (reparse-symbol extern-c-contents) [10468 11037])
+            ("hiUNF_DISP_ASPECT_RATIO_E" type
+               (:typemodifiers ("extern" "\"C\"")
+                :type "enum"
+                :members 
+                  ( ("HI_UNF_DISP_ASPECT_RATIO_AUTO" variable
+                       (:constant-flag t
+                        :type "int")
+                        (reparse-symbol enumsubparts) [10513 10543])
+                    ("HI_UNF_DISP_ASPECT_RATIO_4TO3" variable
+                       (:constant-flag t
+                        :type "int")
+                        (reparse-symbol enumsubparts) [10640 10670])
+                    ("HI_UNF_DISP_ASPECT_RATIO_16TO9" variable
+                       (:constant-flag t
+                        :type "int")
+                        (reparse-symbol enumsubparts) [10719 10750])
+                    ("HI_UNF_DISP_ASPECT_RATIO_221TO1" variable
+                       (:constant-flag t
+                        :type "int")
+                        (reparse-symbol enumsubparts) [10800 10832])
+                    ("HI_UNF_DISP_ASPECT_RATIO_USER" variable
+                       (:constant-flag t
+                        :type "int")
+                        (reparse-symbol enumsubparts) [10887 10917])
+                    ("HI_UNF_DISP_ASPECT_RATIO_BUTT" variable
+                       (:constant-flag t
+                        :type "int")
+                        (reparse-symbol enumsubparts) [10979 11010]))                  )
+                (reparse-symbol extern-c-contents) [10468 11037])
+            ("HI_UNF_DISP_INTF_S" type
+               (:typemodifiers ("extern" "\"C\"")
+                :type "typedef"
+                :typedef ("hiUNF_DISP_INTF_S" type (:type "struct") nil nil))
+                (reparse-symbol extern-c-contents) [9337 10392])
+            ("hiUNF_DISP_INTF_S" type
+               (:typemodifiers ("extern" "\"C\"")
+                :type "struct"
+                :members 
+                  ( ("enIntfType" variable (:type ("HI_UNF_DISP_INTF_TYPE_E" type (:type "class") nil nil)) (reparse-symbol classsubparts) [9377 9412])
+                    ("unIntf" variable (:type ("" type
+                         (:members 
+                            ( ("enHdmi" variable (:type ("HI_UNF_HDMI_ID_E" type (:type "class") nil nil)) (reparse-symbol classsubparts) [9491 9522])
+                              ("enBT1120" variable (:type ("HI_UNF_DISP_BT1120_E" type (:type "class") nil nil)) (reparse-symbol classsubparts) [9579 9612])
+                              ("enBT656" variable (:type ("HI_UNF_DISP_BT656_E" type (:type "class") nil nil)) (reparse-symbol classsubparts) [9670 9702])
+                              ("enLcd" variable (:type ("HI_UNF_DISP_LCD_E" type (:type "class") nil nil)) (reparse-symbol classsubparts) [9759 9789])
+                              ("stYPbPr" variable (:type ("HI_UNF_DISP_INTF_YPBPR_S" type (:type "class") nil nil)) (reparse-symbol classsubparts) [9845 9881])
+                              ("stRGB" variable (:type ("HI_UNF_DISP_INTF_RGB_S" type (:type "class") nil nil)) (reparse-symbol classsubparts) [9951 9985])
+                              ("stVGA" variable (:type ("HI_UNF_DISP_INTF_VGA_S" type (:type "class") nil nil)) (reparse-symbol classsubparts) [10053 10087])
+                              ("stCVBS" variable (:type ("HI_UNF_DISP_INTF_CVBS_S" type (:type "class") nil nil)) (reparse-symbol classsubparts) [10155 10190])
+                              ("stSVideo" variable (:type ("HI_UNF_DISP_INTF_SVIDEO_S" type (:type "class") nil nil)) (reparse-symbol classsubparts) [10259 10296]))                            
+                          :type "union")
+                          nil nil)) (reparse-symbol classsubparts) [9471 10371]))                  )
+                (reparse-symbol extern-c-contents) [9337 10392])
+            ("HI_UNF_DISP_INTF_SVIDEO_S" type
+               (:typemodifiers ("extern" "\"C\"")
+                :type "typedef"
+                :typedef ("hiUNF_DISP_INTF_SVIDEO_S" type (:type "struct") nil nil))
+                (reparse-symbol extern-c-contents) [9033 9266])
+            ("hiUNF_DISP_INTF_SVIDEO_S" type
+               (:typemodifiers ("extern" "\"C\"")
+                :type "struct"
+                :members 
+                  ( ("u8DacY" variable (:type ("HI_U8" type (:type "class") nil nil)) (reparse-symbol classsubparts) [9080 9093])
+                    ("u8DacC" variable (:type ("HI_U8" type (:type "class") nil nil)) (reparse-symbol classsubparts) [9161 9174]))                  )
+                (reparse-symbol extern-c-contents) [9033 9266])
+            ("HI_UNF_DISP_INTF_CVBS_S" type
+               (:typemodifiers ("extern" "\"C\"")
+                :type "typedef"
+                :typedef ("hiUNF_DISP_INTF_CVBS_S" type (:type "struct") nil nil))
+                (reparse-symbol extern-c-contents) [8796 8949])
+            ("hiUNF_DISP_INTF_CVBS_S" type
+               (:typemodifiers ("extern" "\"C\"")
+                :type "struct"
+                :members 
+                  ( ("u8Dac" variable (:type ("HI_U8" type (:type "class") nil nil)) (reparse-symbol classsubparts) [8841 8853]))                  )
+                (reparse-symbol extern-c-contents) [8796 8949])
+            ("HI_UNF_DISP_INTF_VGA_S" type
+               (:typemodifiers ("extern" "\"C\"")
+                :type "typedef"
+                :typedef ("hiUNF_DISP_INTF_VGA_S" type (:type "struct") nil nil))
+                (reparse-symbol extern-c-contents) [8409 8716])
+            ("hiUNF_DISP_INTF_VGA_S" type
+               (:typemodifiers ("extern" "\"C\"")
+                :type "struct"
+                :members 
+                  ( ("u8DacR" variable (:type ("HI_U8" type (:type "class") nil nil)) (reparse-symbol classsubparts) [8453 8467])
+                    ("u8DacG" variable (:type ("HI_U8" type (:type "class") nil nil)) (reparse-symbol classsubparts) [8534 8548])
+                    ("u8DacB" variable (:type ("HI_U8" type (:type "class") nil nil)) (reparse-symbol classsubparts) [8615 8629]))                  )
+                (reparse-symbol extern-c-contents) [8409 8716])
+            ("HI_UNF_DISP_INTF_RGB_S" type
+               (:typemodifiers ("extern" "\"C\"")
+                :type "typedef"
+                :typedef ("hiUNF_DISP_INTF_RGB_S" type (:type "struct") nil nil))
+                (reparse-symbol extern-c-contents) [7931 8331])
+            ("hiUNF_DISP_INTF_RGB_S" type
+               (:typemodifiers ("extern" "\"C\"")
+                :type "struct"
+                :members 
+                  ( ("u8DacR" variable (:type ("HI_U8" type (:type "class") nil nil)) (reparse-symbol classsubparts) [7975 7989])
+                    ("u8DacG" variable (:type ("HI_U8" type (:type "class") nil nil)) (reparse-symbol classsubparts) [8056 8070])
+                    ("u8DacB" variable (:type ("HI_U8" type (:type "class") nil nil)) (reparse-symbol classsubparts) [8137 8151])
+                    ("bDacSync" variable (:type ("HI_BOOL" type (:type "class") nil nil)) (reparse-symbol classsubparts) [8218 8235]))                  )
+                (reparse-symbol extern-c-contents) [7931 8331])
+            ("HI_UNF_DISP_INTF_YPBPR_S" type
+               (:typemodifiers ("extern" "\"C\"")
+                :type "typedef"
+                :typedef ("hiUNF_DISP_INTF_YPBPR_S" type (:type "struct") nil nil))
+                (reparse-symbol extern-c-contents) [7538 7853])
+            ("hiUNF_DISP_INTF_YPBPR_S" type
+               (:typemodifiers ("extern" "\"C\"")
+                :type "struct"
+                :members 
+                  ( ("u8DacY" variable (:type ("HI_U8" type (:type "class") nil nil)) (reparse-symbol classsubparts) [7584 7597])
+                    ("u8DacPb" variable (:type ("HI_U8" type (:type "class") nil nil)) (reparse-symbol classsubparts) [7665 7679])
+                    ("u8DacPr" variable (:type ("HI_U8" type (:type "class") nil nil)) (reparse-symbol classsubparts) [7748 7762]))                  )
+                (reparse-symbol extern-c-contents) [7538 7853])
+            ("HI_UNF_DISP_INTF_TYPE_E" type
+               (:typemodifiers ("extern" "\"C\"")
+                :type "typedef"
+                :typedef ("hiUNF_DISP_INTF_TYPE_E" type (:type "enum") nil nil))
+                (reparse-symbol extern-c-contents) [6518 7456])
+            ("hiUNF_DISP_INTF_TYPE_E" type
+               (:typemodifiers ("extern" "\"C\"")
+                :type "enum"
+                :members 
+                  ( ("HI_UNF_DISP_INTF_TYPE_HDMI" variable
+                       (:constant-flag t
+                        :type "int")
+                        (reparse-symbol enumsubparts) [6561 6588])
+                    ("HI_UNF_DISP_INTF_TYPE_LCD" variable
+                       (:constant-flag t
+                        :type "int")
+                        (reparse-symbol enumsubparts) [6652 6678])
+                    ("HI_UNF_DISP_INTF_TYPE_BT1120" variable
+                       (:constant-flag t
+                        :type "int")
+                        (reparse-symbol enumsubparts) [6741 6770])
+                    ("HI_UNF_DISP_INTF_TYPE_BT656" variable
+                       (:constant-flag t
+                        :type "int")
+                        (reparse-symbol enumsubparts) [6848 6876])
+                    ("HI_UNF_DISP_INTF_TYPE_YPBPR" variable
+                       (:constant-flag t
+                        :type "int")
+                        (reparse-symbol enumsubparts) [6952 6980])
+                    ("HI_UNF_DISP_INTF_TYPE_RGB" variable
+                       (:constant-flag t
+                        :type "int")
+                        (reparse-symbol enumsubparts) [7044 7070])
+                    ("HI_UNF_DISP_INTF_TYPE_CVBS" variable
+                       (:constant-flag t
+                        :type "int")
+                        (reparse-symbol enumsubparts) [7132 7159])
+                    ("HI_UNF_DISP_INTF_TYPE_SVIDEO" variable
+                       (:constant-flag t
+                        :type "int")
+                        (reparse-symbol enumsubparts) [7222 7251])
+                    ("HI_UNF_DISP_INTF_TYPE_VGA" variable
+                       (:constant-flag t
+                        :type "int")
+                        (reparse-symbol enumsubparts) [7316 7342])
+                    ("HI_UNF_DISP_INTF_TYPE_BUTT" variable
+                       (:constant-flag t
+                        :type "int")
+                        (reparse-symbol enumsubparts) [7404 7432]))                  )
+                (reparse-symbol extern-c-contents) [6518 7456])
+            ("HI_UNF_DISP_LCD_E" type
+               (:typemodifiers ("extern" "\"C\"")
+                :type "typedef"
+                :typedef ("hiUNF_LCD_E" type (:type "enum") nil nil))
+                (reparse-symbol extern-c-contents) [6308 6454])
+            ("hiUNF_LCD_E" type
+               (:typemodifiers ("extern" "\"C\"")
+                :type "enum"
+                :members 
+                  ( ("HI_UNF_DISP_LCD_0" variable
+                       (:constant-flag t
+                        :type "int")
+                        (reparse-symbol enumsubparts) [6339 6357])
+                    ("HI_UNF_DISP_LCD_BUTT" variable
+                       (:constant-flag t
+                        :type "int")
+                        (reparse-symbol enumsubparts) [6413 6434]))                  )
+                (reparse-symbol extern-c-contents) [6308 6454])
+            ("HI_UNF_DISP_BT656_E" type
+               (:typemodifiers ("extern" "\"C\"")
+                :type "typedef"
+                :typedef ("hiUNF_DISP_BT656_E" type (:type "enum") nil nil))
+                (reparse-symbol extern-c-contents) [6092 6255])
+            ("hiUNF_DISP_BT656_E" type
+               (:typemodifiers ("extern" "\"C\"")
+                :type "enum"
+                :members 
+                  ( ("HI_UNF_DISP_BT656_0" variable
+                       (:constant-flag t
+                        :type "int")
+                        (reparse-symbol enumsubparts) [6130 6150])
+                    ("HI_UNF_DISP_BT656_BUTT" variable
+                       (:constant-flag t
+                        :type "int")
+                        (reparse-symbol enumsubparts) [6210 6233]))                  )
+                (reparse-symbol extern-c-contents) [6092 6255])
+            ("HI_UNF_DISP_BT1120_E" type
+               (:typemodifiers ("extern" "\"C\"")
+                :type "typedef"
+                :typedef ("hiUNF_DISP_BT1120_E" type (:type "enum") nil nil))
+                (reparse-symbol extern-c-contents) [5866 6035])
+            ("hiUNF_DISP_BT1120_E" type
+               (:typemodifiers ("extern" "\"C\"")
+                :type "enum"
+                :members 
+                  ( ("HI_UNF_DISP_BT1120_0" variable
+                       (:constant-flag t
+                        :type "int")
+                        (reparse-symbol enumsubparts) [5905 5926])
+                    ("HI_UNF_DISP_BT1120_BUTT" variable
+                       (:constant-flag t
+                        :type "int")
+                        (reparse-symbol enumsubparts) [5988 6012]))                  )
+                (reparse-symbol extern-c-contents) [5866 6035])
+            ("HI_UNF_DISP_LAYER_E" type
+               (:typemodifiers ("extern" "\"C\"")
+                :type "typedef"
+                :typedef ("hiUNF_DISP_LAYER_E" type (:type "enum") nil nil))
+                (reparse-symbol extern-c-contents) [5545 5807])
+            ("hiUNF_DISP_LAYER_E" type
+               (:typemodifiers ("extern" "\"C\"")
+                :type "enum"
+                :members 
+                  ( ("HI_UNF_DISP_LAYER_VIDEO" variable
+                       (:constant-flag t
+                        :default-value (5609 5610)
+                        :type "int")
+                        (reparse-symbol enumsubparts) [5583 5610])
+                    ("HI_UNF_DISP_LAYER_GFX" variable
+                       (:constant-flag t
+                        :type "int")
+                        (reparse-symbol enumsubparts) [5675 5697])
+                    ("HI_UNF_DISP_LAYER_BUTT" variable
+                       (:constant-flag t
+                        :type "int")
+                        (reparse-symbol enumsubparts) [5763 5787]))                  )
+                (reparse-symbol extern-c-contents) [5545 5807])
+            ("HI_UNF_DISP_TIMING_S" type
+               (:typemodifiers ("extern" "\"C\"")
+                :type "typedef"
+                :typedef ("hiUNF_DISP_TIMING_S" type (:type "struct") nil nil))
+                (reparse-symbol extern-c-contents) [2684 5476])
+            ("hiUNF_DISP_TIMING_S" type
+               (:typemodifiers ("extern" "\"C\"")
+                :type "struct"
+                :members 
+                  ( ("VFB" variable (:type ("HI_U32" type (:type "class") nil nil)) (reparse-symbol classsubparts) [2725 2759])
+                    ("VBB" variable (:type ("HI_U32" type (:type "class") nil nil)) (reparse-symbol classsubparts) [2828 2862])
+                    ("VACT" variable (:type ("HI_U32" type (:type "class") nil nil)) (reparse-symbol classsubparts) [2930 2965])
+                    ("HFB" variable (:type ("HI_U32" type (:type "class") nil nil)) (reparse-symbol classsubparts) [3033 3067])
+                    ("HBB" variable (:type ("HI_U32" type (:type "class") nil nil)) (reparse-symbol classsubparts) [3137 3171])
+                    ("HACT" variable (:type ("HI_U32" type (:type "class") nil nil)) (reparse-symbol classsubparts) [3240 3275])
+                    ("VPW" variable (:type ("HI_U32" type (:type "class") nil nil)) (reparse-symbol classsubparts) [3345 3379])
+                    ("HPW" variable (:type ("HI_U32" type (:type "class") nil nil)) (reparse-symbol classsubparts) [3455 3489])
+                    ("IDV" variable (:type ("HI_BOOL" type (:type "class") nil nil)) (reparse-symbol classsubparts) [3567 3601])
+                    ("IHS" variable (:type ("HI_BOOL" type (:type "class") nil nil)) (reparse-symbol classsubparts) [3701 3735])
+                    ("IVS" variable (:type ("HI_BOOL" type (:type "class") nil nil)) (reparse-symbol classsubparts) [3841 3875])
+                    ("ClockReversal" variable (:type ("HI_BOOL" type (:type "class") nil nil)) (reparse-symbol classsubparts) [3980 4024])
+                    ("DataWidth" variable (:type ("HI_UNF_DISP_INTF_DATA_WIDTH_E" type (:type "class") nil nil)) (reparse-symbol classsubparts) [4093 4133])
+                    ("ItfFormat" variable (:type ("HI_UNF_DISP_INTF_DATA_FMT_E" type (:type "class") nil nil)) (reparse-symbol classsubparts) [4185 4225])
+                    ("DitherEnable" variable (:type ("HI_BOOL" type (:type "class") nil nil)) (reparse-symbol classsubparts) [4280 4301])
+                    ("ClkPara0" variable (:type ("HI_U32" type (:type "class") nil nil)) (reparse-symbol classsubparts) [4389 4406])
+                    ("ClkPara1" variable (:type ("HI_U32" type (:type "class") nil nil)) (reparse-symbol classsubparts) [4533 4550])
+                    ("bInterlace" variable (:type ("HI_BOOL" type (:type "class") nil nil)) (reparse-symbol classsubparts) [4675 4694])
+                    ("PixFreq" variable (:type ("HI_U32" type (:type "class") nil nil)) (reparse-symbol classsubparts) [4786 4802])
+                    ("VertFreq" variable (:type ("HI_U32" type (:type "class") nil nil)) (reparse-symbol classsubparts) [4880 4897])
+                    ("AspectRatioW" variable (:type ("HI_U32" type (:type "class") nil nil)) (reparse-symbol classsubparts) [4973 4994])
+                    ("AspectRatioH" variable (:type ("HI_U32" type (:type "class") nil nil)) (reparse-symbol classsubparts) [5071 5092])
+                    ("bUseGamma" variable (:type ("HI_BOOL" type (:type "class") nil nil)) (reparse-symbol classsubparts) [5170 5188])
+                    ("Reserve0" variable (:type ("HI_U32" type (:type "class") nil nil)) (reparse-symbol classsubparts) [5269 5286])
+                    ("Reserve1" variable (:type ("HI_U32" type (:type "class") nil nil)) (reparse-symbol classsubparts) [5363 5380]))                  )
+                (reparse-symbol extern-c-contents) [2684 5476])
+            ("HI_UNF_DISP_INTF_DATA_WIDTH_E" type
+               (:typemodifiers ("extern" "\"C\"")
+                :type "typedef"
+                :typedef ("hiUNF_DISP_INTF_DATA_WIDTH_E" type (:type "enum") nil nil))
+                (reparse-symbol extern-c-contents) [2281 2625])
+            ("hiUNF_DISP_INTF_DATA_WIDTH_E" type
+               (:typemodifiers ("extern" "\"C\"")
+                :type "enum"
+                :members 
+                  ( ("HI_UNF_DISP_INTF_DATA_WIDTH8" variable
+                       (:constant-flag t
+                        :default-value (2360 2361)
+                        :type "int")
+                        (reparse-symbol enumsubparts) [2329 2361])
+                    ("HI_UNF_DISP_INTF_DATA_WIDTH16" variable
+                       (:constant-flag t
+                        :type "int")
+                        (reparse-symbol enumsubparts) [2405 2435])
+                    ("HI_UNF_DISP_INTF_DATA_WIDTH24" variable
+                       (:constant-flag t
+                        :type "int")
+                        (reparse-symbol enumsubparts) [2483 2513])
+                    ("HI_UNF_DISP_INTF_DATA_WIDTH_BUTT" variable
+                       (:constant-flag t
+                        :type "int")
+                        (reparse-symbol enumsubparts) [2561 2595]))                  )
+                (reparse-symbol extern-c-contents) [2281 2625])
+            ("HI_UNF_DISP_INTF_DATA_FMT_E" type
+               (:typemodifiers ("extern" "\"C\"")
+                :type "typedef"
+                :typedef ("hiHI_UNF_DISP_INTF_DATA_FMT" type (:type "enum") nil nil))
+                (reparse-symbol extern-c-contents) [1531 2208])
+            ("hiHI_UNF_DISP_INTF_DATA_FMT" type
+               (:typemodifiers ("extern" "\"C\"")
+                :type "enum"
+                :members 
+                  ( ("HI_UNF_DISP_INTF_DATA_FMT_YUV422" variable
+                       (:constant-flag t
+                        :default-value (1615 1616)
+                        :type "int")
+                        (reparse-symbol enumsubparts) [1578 1616])
+                    ("HI_UNF_DISP_INTF_DATA_FMT_RGB565" variable
+                       (:constant-flag t
+                        :default-value (1729 1732)
+                        :type "int")
+                        (reparse-symbol enumsubparts) [1692 1732])
+                    ("HI_UNF_DISP_INTF_DATA_FMT_RGB444" variable
+                       (:constant-flag t
+                        :default-value (1843 1846)
+                        :type "int")
+                        (reparse-symbol enumsubparts) [1806 1846])
+                    ("HI_UNF_DISP_INTF_DATA_FMT_RGB666" variable
+                       (:constant-flag t
+                        :default-value (1957 1960)
+                        :type "int")
+                        (reparse-symbol enumsubparts) [1920 1960])
+                    ("HI_UNF_DISP_INTF_DATA_FMT_RGB888" variable
+                       (:constant-flag t
+                        :default-value (2071 2074)
+                        :type "int")
+                        (reparse-symbol enumsubparts) [2034 2074])
+                    ("HI_UNF_DISP_INTF_DATA_FMT_BUTT" variable
+                       (:constant-flag t
+                        :type "int")
+                        (reparse-symbol enumsubparts) [2148 2180]))                  )
+                (reparse-symbol extern-c-contents) [1531 2208])
+            ("MAX_DAC_NUM" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [1447 1458])
+            ("HI_UNF_DISP_E" type
+               (:typemodifiers ("extern" "\"C\"")
+                :type "typedef"
+                :typedef ("hiUNF_DISP_E" type (:type "enum") nil nil))
+                (reparse-symbol extern-c-contents) [1068 1389])
+            ("hiUNF_DISP_E" type
+               (:typemodifiers ("extern" "\"C\"")
+                :type "enum"
+                :members 
+                  ( ("HI_UNF_DISPLAY0" variable
+                       (:constant-flag t
+                        :default-value (1118 1121)
+                        :type "int")
+                        (reparse-symbol enumsubparts) [1100 1121])
+                    ("HI_UNF_DISPLAY1" variable
+                       (:constant-flag t
+                        :type "int")
+                        (reparse-symbol enumsubparts) [1204 1220])
+                    ("HI_UNF_DISPLAY2" variable
+                       (:constant-flag t
+                        :type "int")
+                        (reparse-symbol enumsubparts) [1279 1295])
+                    ("HI_UNF_DISPLAY_BUTT" variable
+                       (:constant-flag t
+                        :type "int")
+                        (reparse-symbol enumsubparts) [1354 1375]))                  )
+                (reparse-symbol extern-c-contents) [1068 1389]))          
+      :file "hi_unf_disp.h"
+      :pointmax 78402
+      :fsize 78401
+      :lastmodtime '(24795 58770 424830 699000)
+      :unmatched-syntax nil
+      :lexical-table 
+        '(("HI_DISP_CAST_BUFFER_MAX_NUMBER" . ((semantic-list "( 16 )" 13514 . 13520)))
+          ("__HI_UNF_DISP_H__")
+          ("MAX_DAC_NUM" . ((semantic-list "( 6 )" 1459 . 1464)))
+          )
+)
+    (semanticdb-table "semanticdb-table-158896114b42"
+      :file "hi_unf_common.h"
+      :fsize 2676
+      :lastmodtime '(24795 58770 420830 640000))
+    (semanticdb-table "semanticdb-table-15889634340c"
+      :file "hi_unf_hdmi.h"
+      :fsize 73170
+      :lastmodtime '(24795 58770 424830 699000)))
+  :file "!home!bspserver!001_DRV!00_DEV_DRV!HiSTBLinuxV100R!source!msp!include!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

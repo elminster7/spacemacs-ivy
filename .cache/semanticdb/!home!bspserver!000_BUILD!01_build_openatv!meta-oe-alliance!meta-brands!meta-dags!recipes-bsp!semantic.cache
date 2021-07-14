@@ -1,0 +1,27 @@
+;; Object semanticdb-project-database-file-1576dcef0bde
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file-1576dcef0bde"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table-1576dd07c420"
+      :major-mode makefile-mode
+      :tags 
+        '( ("SUMMARY" variable (:default-value ("\"libreader for Dags ${SOC_FAMILY}\"")) nil [1 46])
+            ("SECTION" variable (:default-value ("\"base\"")) nil [46 63])
+            ("PRIORITY" variable (:default-value ("\"optional\"")) nil [63 85])
+            ("LICENSE" variable (:default-value ("\"CLOSED\"")) nil [85 104])
+            ("PACKAGE_ARCH" variable (:default-value ("\"${MACHINE_ARCH}\"")) nil [104 137])
+            ("COMPATIBLE_MACHINE" variable (:default-value ("\"^(force5|dual)$\"")) nil [165 204])
+            ("SRCDATE" variable (:default-value ("\"20210708\"")) nil [205 226])
+            ("PV" variable (:default-value ("\"${SRCDATE}\"")) nil [227 245])
+            ("PR" variable (:default-value ("\"r0\"")) nil [245 255])
+            ("SRC_URI" variable (:default-value ("\"http://192.168.0.133/hisi3798mv200-libreader-${SRCDATE}.tar.gz\"")) nil [342 417])
+            ("S" variable (:default-value ("\"${WORKDIR}\"")) nil [418 435]))          
+      :file "dags-reader-hisi3798mv200.bb"
+      :pointmax 934
+      :fsize 933
+      :lastmodtime '(24807 60878 29287 415000)
+      :unmatched-syntax nil))
+  :file "!home!bspserver!000_BUILD!01_build_openatv!meta-oe-alliance!meta-brands!meta-dags!recipes-bsp!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

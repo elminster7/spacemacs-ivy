@@ -1,0 +1,27 @@
+;; Object semanticdb-project-database-file-1576dba83262
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file-1576dba83262"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table-1576dba96b06"
+      :major-mode makefile-mode
+      :tags 
+        '( ("SUMMARY" variable (:default-value ("\"showiframe for AMIKO Model ${MACHINE}\"")) nil [1 51])
+            ("SECTION" variable (:default-value ("\"base\"")) nil [51 68])
+            ("PRIORITY" variable (:default-value ("\"optional\"")) nil [68 90])
+            ("LICENSE" variable (:default-value ("\"CLOSED\"")) nil [90 109])
+            ("PACKAGE_ARCH" variable (:default-value ("\"${MACHINE_ARCH}\"")) nil [109 142])
+            ("COMPATIBLE_MACHINE" variable (:default-value ("\"^(viper4k)$\"")) nil [143 178])
+            ("SRCDATE" variable (:default-value ("\"20180301\"")) nil [179 200])
+            ("PV" variable (:default-value ("\"${SRCDATE}\"")) nil [201 219])
+            ("PR" variable (:default-value ("\"r0\"")) nil [219 229])
+            ("SRC_URI" variable (:default-value ("\"http://source.mynonpublic.com/amiko/${MACHINE}-showiframe-${SRCDATE}.tar.gz\"")) nil [327 415])
+            ("S" variable (:default-value ("\"${WORKDIR}\"")) nil [416 433]))          
+      :file "amiko-showiframe-viper4k.bb"
+      :pointmax 733
+      :fsize 732
+      :lastmodtime '(24795 63300 446322 589000)
+      :unmatched-syntax '((string 666 . 732) (punctuation 664 . 665) (semantic-list 652 . 663) (symbol 645 . 652) (bol 645 . 645) (string 610 . 644) (punctuation 608 . 609) (semantic-list 599 . 607) (symbol 592 . 599) (bol 592 . 592) (string 568 . 590) (punctuation 566 . 567) (semantic-list 560 . 564) (punctuation 559 . 560) (symbol 553 . 559) (bol 553 . 553) (semantic-list 548 . 551) (semantic-list 545 . 547) (symbol 532 . 545) (bol 532 . 532) (semantic-list 447 . 530) (semantic-list 444 . 446) (symbol 434 . 444) (bol 434 . 434) (string 313 . 325) (punctuation 311 . 312) (semantic-list 306 . 310) (punctuation 305 . 306) (symbol 294 . 305) (bol 294 . 294) (string 281 . 293) (punctuation 279 . 280) (semantic-list 273 . 277) (punctuation 272 . 273) (symbol 262 . 272) (bol 262 . 262) (string 249 . 261) (punctuation 247 . 248) (semantic-list 241 . 245) (punctuation 240 . 241) (symbol 230 . 240) (bol 230 . 230))))
+  :file "!home!bspserver!000_BUILD!00_debug-openatv!meta-oe-alliance!meta-brands!meta-amiko!recipes-bsp!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

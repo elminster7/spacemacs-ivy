@@ -1,0 +1,26 @@
+;; Object semanticdb-project-database-file-1576dd1f4b86
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file-1576dd1f4b86"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table-1576dd0bc61c"
+      :major-mode makefile-mode
+      :tags 
+        '( ("SUMMARY" variable (:default-value ("\"libray to show an mpeg2/4 iframe on a linuxtv video device\"")) nil [1 72])
+            ("SECTION" variable (:default-value ("\"base\"")) nil [72 89])
+            ("PRIORITY" variable (:default-value ("\"optional\"")) nil [89 111])
+            ("LICENSE" variable (:default-value ("\"PD\"")) nil [111 126])
+            ("LIC_FILES_CHKSUM" variable (:default-value ("\"file://showiframe.c;md5=94aed1df7937308d1289e88a5406adf5\"")) nil [227 305])
+            ("PV" variable (:default-value ("\"1.0\"")) nil [306 317])
+            ("PROVIDES" variable (:default-value ("+" "\" libshowiframe0\"")) nil [318 348])
+            ("PACKAGES" variable (:default-value ("+" "\" libshowiframe0\"")) nil [348 378])
+            ("SRC_URI" variable (:default-value ("\"file://showiframe.c file://showiframe.h\"")) nil [379 431])
+            ("S" variable (:default-value ("\"${WORKDIR}\"")) nil [432 449]))          
+      :file "libshowiframe.bb"
+      :pointmax 800
+      :fsize 799
+      :lastmodtime '(24807 64910 416229 450000)
+      :unmatched-syntax nil))
+  :file "!home!bspserver!000_BUILD!01_build_openatv!meta-oe-alliance!meta-oe!recipes-multimedia!libshowiframe!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

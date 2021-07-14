@@ -1,0 +1,23 @@
+;; Object semanticdb-project-database-file-1576dbebacf8
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file-1576dbebacf8"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table-1576dbee3036"
+      :major-mode makefile-mode
+      :tags 
+        '( ("SCONF_VERSION" variable (:default-value ("\"1\"")) nil [1 21])
+            ("BB_NUMBER_THREADS" variable (:default-value ("\"32\"")) nil [21 46])
+            ("PARALLEL_MAKE" variable (:default-value ("\"-j 32\"")) nil [46 70])
+            ("BUILD_OPTIMIZATION" variable (:default-value ("\"-O2 -pipe\"")) nil [70 103])
+            ("DL_DIR" variable (:default-value ("\"/home/bspserver/000_BUILD/01_build_openatv/sources\"")) nil [103 165])
+            ("BB_GIT_SHALLOW_DEPTH" variable (:default-value ("\"1\"")) nil [187 214])
+            ("BB_GIT_SHALLOW" variable (:default-value ("\"1\"")) nil [214 235]))          
+      :file "site.conf"
+      :pointmax 235
+      :fsize 234
+      :lastmodtime '(24807 62003 284045 800000)
+      :unmatched-syntax nil))
+  :file "!home!bspserver!000_BUILD!01_build_openatv!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

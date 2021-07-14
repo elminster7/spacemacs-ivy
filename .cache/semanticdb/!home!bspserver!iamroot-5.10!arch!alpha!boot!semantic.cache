@@ -1,0 +1,16 @@
+;; Object semanticdb-project-database-file-15685f5bcf7a
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file-15685f5bcf7a"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table-15685f97bb4c"
+      :major-mode c-mode
+      :tags nil
+      :file "bootpz.c"
+      :pointmax 13431
+      :fsize 13430
+      :lastmodtime '(24802 37831 940190 823000)
+      :unmatched-syntax nil))
+  :file "!home!bspserver!iamroot-5.10!arch!alpha!boot!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

@@ -1,0 +1,77 @@
+;; Object semanticdb-project-database-file-1576dd8d0dc8
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file-1576dd8d0dc8"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table-1576dd4fdad0"
+      :major-mode makefile-mode
+      :tags 
+        '( ("conf/machine/include/dags-oem.inc" include nil nil [1 43])
+            ("DISTRO_FEATURES_remove" variable (:default-value ("\"x11 wayland\"")) nil [44 83])
+            ("KERNEL_FILE" variable (:default-value ("\"kernel.bin\"")) nil [84 111])
+            ("ROOTFS_FILE" variable (:default-value ("\"rootfs.tar.bz2\"")) nil [111 142])
+            ("MTD_BLACK" variable (:default-value ("\"mmcblk0\"")) nil [142 165])
+            ("MTD_KERNEL" variable (:default-value ("\"mmcblk0p27\"")) nil [166 192])
+            ("MTD_ROOTFS" variable (:default-value ("\"mmcblk0p30\"")) nil [192 218])
+            ("MACHINE_ESSENTIAL_EXTRA_RDEPENDS" variable (:default-value ("\" \\
+	dags-reader-${SOC_FAMILY} \\
+	dags-libreader-${SOC_FAMILY} \\
+	dags-loadmodules-${SOC_FAMILY} \\
+	e2fsprogs-resize2fs \\
+	dags-libs-${SOC_FAMILY} \\
+	enigma2-plugin-drivers-network-usb-rtl8192eu \\
+	dags-bootoptions-${MACHINEBUILD} \\
+	dags-buildimage \\
+	deepsleep-${SOC_FAMILY} \\
+	dags-blindscan-utils-${SOC_FAMILY} \\
+	enigma2-plugin-extensions-hbbtv-webkit \\
+\"")) nil [219 616])
+            ("IMAGE_CLASSES" variable (:default-value ("\"dags-emmc_image\"")) nil [617 652])
+            ("IMAGE_FSTYPES" variable (:default-value ("\"dagsemmc\"")) nil [652 680])
+            ("TARGET_ARCH" variable (:default-value ("\"arm\"")) nil [711 731])
+            ("DEFAULTTUNE" variable (:default-value ("\"cortexa15hf-neon-vfpv4\"")) nil [731 770])
+            ("PREFERRED_VERSION_linux-dags" variable (:default-value ("\"4.4.35\"")) nil [771 811])
+            ("PREFERRED_VERSION_ffmpeg" variable (:default-value ("\"3.4.2\"")) nil [811 846])
+            ("PREFERRED_PROVIDER_virtual/kernel" variable (:default-value ("\"linux-dags\"")) nil [847 896])
+            ("PREFERRED_PROVIDER_virtual/egl" variable (:default-value ("\"dags-opengl-${SOC_FAMILY}\"")) nil [897 958])
+            ("PREFERRED_PROVIDER_virtual/libgles1" variable (:default-value ("\"dags-opengl-${SOC_FAMILY}\"")) nil [958 1024])
+            ("PREFERRED_PROVIDER_virtual/libgles2" variable (:default-value ("\"dags-opengl-${SOC_FAMILY}\"")) nil [1024 1090])
+            ("PREFERRED_PROVIDER_virtual/blindscan-dvbs" variable (:default-value ("\"dags-blindscan-utils-${SOC_FAMILY}\"")) nil [1091 1172])
+            ("IMAGE_CMD_dagsemmc_append" variable (:default-value ("\"\\
+    mkdir -p ${DEPLOY_DIR_IMAGE}/${IMAGEDIR}; \\
+    mkdir -p ${DEPLOY_DIR_IMAGE}/release/${IMAGEDIR}; \\
+    cp ${DEPLOY_DIR_IMAGE}/uImage ${DEPLOY_DIR_IMAGE}/${IMAGEDIR}/${KERNEL_FILE}; \\
+    mv ${IMGDEPLOYDIR}/${IMAGE_NAME}_subrootfs.ext4 ${DEPLOY_DIR_IMAGE}/${IMAGEDIR}/rootfs.ext4; \\
+    echo ${IMAGE_VER_STRING} > ${DEPLOY_DIR_IMAGE}/${IMAGEDIR}/imageversion; \\
+    cd ${DEPLOY_DIR_IMAGE}; \\
+    zip ${IMAGE_NAME}_restore_mmc.zip ${IMAGEDIR}/*; \\
+    cd ${IMAGE_ROOTFS}; \\
+    tar -cvf ${DEPLOY_DIR_IMAGE}/rootfs.tar -C ${IMAGE_ROOTFS} .; \\
+    mv ${DEPLOY_DIR_IMAGE}/rootfs.tar ${DEPLOY_DIR_IMAGE}/${IMAGEDIR}/rootfs.tar; \\
+    cd ${DEPLOY_DIR_IMAGE}; \\
+    bzip2 ${DEPLOY_DIR_IMAGE}/${IMAGEDIR}/rootfs.tar; \\
+    zip -j ${IMAGE_NAME}_mmc.zip ${DEPLOY_DIR_IMAGE}/${IMAGEDIR}/imageversion ${DEPLOY_DIR_IMAGE}/${IMAGEDIR}/kernel.bin ${DEPLOY_DIR_IMAGE}/${IMAGEDIR}/rootfs.tar.bz2; \\
+    rm -f ${DEPLOY_DIR_IMAGE}/*.manifest; \\
+    rm -Rf ${DEPLOY_DIR_IMAGE}/rootfs; \\
+    rm -f ${DEPLOY_DIR_IMAGE}/.ext4; \\
+    rm -f ${DEPLOY_DIR_IMAGE}/.manifest; \\
+    rm -f -f ${DEPLOY_DIR_IMAGE}/*.json; \\
+    rm -Rf ${IMAGEDIR}; \\
+    rm -Rf release; \\
+    \"")) nil [1222 2403])
+            ("BBMASK" variable (:default-value ("\"meta-vuplus/recipes-graphics/\"")) nil [2404 2445])
+            ("BBMASK" variable (:default-value ("\"meta-fulan/recipes-graphics/\"")) nil [2445 2486])
+            ("BBMASK" variable (:default-value ("\"meta-vuplus/recipes-webkit/\"")) nil [2486 2526])
+            ("BBMASK" variable (:default-value ("\"meta-oe/recipes-qt5.14/\"")) nil [2526 2562]))          
+      :file "dags-hisi.inc"
+      :pointmax 2562
+      :fsize 2561
+      :lastmodtime '(24808 3161 66138 320000)
+      :unmatched-syntax nil)
+    (semanticdb-table "semanticdb-table-1576dbe8f68c"
+      :file "dags-oem.inc"
+      :fsize 33246
+      :lastmodtime '(24807 54549 435745 268000)))
+  :file "!home!bspserver!000_BUILD!00_debug-openatv!meta-oe-alliance!meta-brands!meta-dags!conf!machine!include!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

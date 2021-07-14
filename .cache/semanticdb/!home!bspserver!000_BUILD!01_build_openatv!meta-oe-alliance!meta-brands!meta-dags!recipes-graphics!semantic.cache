@@ -1,0 +1,17 @@
+;; Object semanticdb-project-database-file-1576dc0a6978
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file-1576dc0a6978"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table-1576dc0a69a2"
+      :major-mode makefile-mode
+      :tags 
+        '( ("SRCDATE" variable (:default-value ("\"20210708\"")) nil [23 44]))          
+      :file "dags-libs-hisi3798mv200.bb"
+      :pointmax 352
+      :fsize 351
+      :lastmodtime '(24807 44640 656770 728000)
+      :unmatched-syntax '((string 285 . 351) (punctuation 283 . 284) (semantic-list 271 . 282) (symbol 264 . 271) (bol 264 . 264) (string 229 . 263) (punctuation 227 . 228) (semantic-list 218 . 226) (symbol 211 . 218) (bol 211 . 211) (symbol 53 . 66) (symbol 45 . 52) (bol 45 . 45))))
+  :file "!home!bspserver!000_BUILD!01_build_openatv!meta-oe-alliance!meta-brands!meta-dags!recipes-graphics!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

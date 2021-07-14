@@ -1,0 +1,71 @@
+;; Object semanticdb-project-database-file-1576dd383960
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file-1576dd383960"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table-1576dd44eafe"
+      :major-mode makefile-mode
+      :tags 
+        '( ("SUMMARY" variable (:default-value ("\"Skins for Enigma2\"")) nil [1 31])
+            ("MAINTAINER" variable (:default-value ("\"schwerkraft\"")) nil [31 58])
+            ("PACKAGES" variable (:default-value ("\"${PN}-meta ${PN}\"")) nil [58 88])
+            ("PACKAGES_DYNAMIC" variable (:default-value ("\"enigma2-plugin-skins-*\"")) nil [88 132])
+            ("LICENSE" variable (:default-value ("\"Proprietary\"")) nil [133 157])
+            ("LIC_FILES_CHKSUM" variable (:default-value ("\"file://README;startline=1;endline=6;md5=d41d8cd98f00b204e9800998ecf8427e\"")) nil [157 251])
+            ("PV" variable (:default-value ("\"experimental-git${SRCPV}\"")) nil [269 301])
+            ("PKGV" variable (:default-value ("\"experimental-git${GITPKGV}\"")) nil [301 337])
+            ("PR" variable (:default-value ("\"r0\"")) nil [337 347])
+            ("BRANCH" variable (:default-value ("\"3.2\"")) nil [347 362])
+            ("SRC_URI" variable (:default-value ("\"git://github.com/opendreambox/enigma2-skins.git;protocol=git;branch=${BRANCH} \\
+        file://0001-make-genmetaindex-py2-py3-compatible.patch \\
+        file://skinsnotwanted\"")) nil [363 550])
+            ("SRC_URI_append" variable (:default-value ("\" \\
+    file://dtvhd.diff \\
+    file://brushedaluhd.diff \\
+    file://blackbox.diff \\
+    \"")) nil [588 697])
+            ("S" variable (:default-value ("\"${WORKDIR}/git\"")) nil [948 969]))          
+      :file "enigma2-skins.bb"
+      :pointmax 1671
+      :fsize 1670
+      :lastmodtime '(24807 54220 578039 735000)
+      :unmatched-syntax '((string 1668 . 1671) (punctuation 1666 . 1667) (semantic-list 1657 . 1665) (symbol 1638 . 1657) (bol 1638 . 1638) (semantic-list 1006 . 1636) (semantic-list 1003 . 1005) (symbol 977 . 1002) (symbol 970 . 976) (bol 970 . 970) (symbol 927 . 946) (symbol 919 . 926) (bol 919 . 919) (string 915 . 917) (punctuation 913 . 914) (symbol 907 . 912) (semantic-list 903 . 907) (punctuation 902 . 903) (symbol 893 . 902) (bol 893 . 893) (string 875 . 892) (punctuation 873 . 874) (symbol 867 . 872) (semantic-list 863 . 867) (punctuation 862 . 863) (symbol 856 . 862) (bol 856 . 856) (string 818 . 855) (punctuation 816 . 817) (semantic-list 811 . 815) (punctuation 810 . 811) (symbol 804 . 810) (bol 804 . 804) (string 800 . 803) (punctuation 798 . 799) (semantic-list 793 . 797) (punctuation 792 . 793) (symbol 780 . 792) (bol 780 . 780) (symbol 260 . 267) (symbol 252 . 259) (bol 252 . 252)))
+    (semanticdb-table "semanticdb-table-1576dd166618"
+      :major-mode makefile-mode
+      :tags 
+        '( ("SUMMARY" variable (:default-value ("\"Display Skins for Enigma2\"")) nil [1 39])
+            ("MAINTAINER" variable (:default-value ("\"oe-aliance\"")) nil [39 65])
+            ("PACKAGES" variable (:default-value ("\"${PN}-meta ${PN}\"")) nil [65 95])
+            ("PACKAGES_DYNAMIC" variable (:default-value ("\"enigma2-plugin-display-*\"")) nil [95 141])
+            ("LICENSE" variable (:default-value ("\"Proprietary\"")) nil [142 166])
+            ("LIC_FILES_CHKSUM" variable (:default-value ("\"file://README.md;startline=1;endline=6;md5=d87dcebda7b395f6f541992adbb03d9d\"")) nil [166 263])
+            ("PACKAGE_ARCH" variable (:default-value ("\"${MACHINEBUILD}\"")) nil [281 314])
+            ("SRCREV" variable (:default-value ("\"${AUTOREV}\"")) nil [314 336])
+            ("PV" variable (:default-value ("\"git${SRCPV}\"")) nil [336 355])
+            ("PKGV" variable (:default-value ("\"git${GITPKGV}\"")) nil [355 378])
+            ("PR" variable (:default-value ("\"r0\"")) nil [378 388])
+            ("SRC_URI" variable (:default-value ("\"git://github.com/oe-alliance/enigma2-display-skins.git;protocol=git;branch=python3 file://skinsnotwanted\"")) nil [389 506])
+            ("S" variable (:default-value ("\"${WORKDIR}/git\"")) nil [748 769])
+            ("EXTRA_OECONF" variable (:default-value ("\"\\
+    ${@bb.utils.contains(\"MACHINE_FEATURES\", \"textlcd\", \"--with-textlcd\" , \"\", d)} \\
+    ${@bb.utils.contains(\"MACHINE_FEATURES\", \"colorlcd\", \"--with-colorlcd\" , \"\", d)} \\
+    ${@bb.utils.contains(\"MACHINE_FEATURES\", \"colorlcd128\", \"--with-colorlcd128\" , \"\", d)} \\
+    ${@bb.utils.contains(\"MACHINE_FEATURES\", \"colorlcd220\", \"--with-colorlcd220\" , \"\", d)} \\
+    ${@bb.utils.contains(\"MACHINE_FEATURES\", \"colorlcd390\", \"--with-colorlcd390\" , \"\", d)} \\
+    ${@bb.utils.contains(\"MACHINE_FEATURES\", \"colorlcd400\", \"--with-colorlcd400\" , \"\", d)} \\
+    ${@bb.utils.contains(\"MACHINE_FEATURES\", \"colorlcd480\", \"--with-colorlcd480\" , \"\", d)} \\
+    ${@bb.utils.contains(\"MACHINE_FEATURES\", \"colorlcd720\", \"--with-colorlcd720\" , \"\", d)} \\
+    ${@bb.utils.contains(\"MACHINE_FEATURES\", \"colorlcd800\", \"--with-colorlcd800\" , \"\", d)} \\
+    ${@bb.utils.contains(\"MACHINE_FEATURES\", \"bwlcd96\", \"--with-bwlcd96\" , \"\", d)} \\
+    ${@bb.utils.contains(\"MACHINE_FEATURES\", \"bwlcd128\", \"--with-bwlcd128\" , \"\", d)} \\
+    ${@bb.utils.contains(\"MACHINE_FEATURES\", \"bwlcd140\", \"--with-bwlcd140\" , \"\", d)} \\
+    ${@bb.utils.contains(\"MACHINE_FEATURES\", \"bwlcd255\", \"--with-bwlcd255\" , \"\", d)} \\
+    \"")) nil [770 1964]))          
+      :file "enigma2-display-skins.bb"
+      :pointmax 2650
+      :fsize 2649
+      :lastmodtime '(24807 54220 574039 729000)
+      :unmatched-syntax '((semantic-list 2001 . 2649) (semantic-list 1998 . 2000) (symbol 1972 . 1997) (symbol 1965 . 1971) (bol 1965 . 1965) (symbol 727 . 746) (symbol 719 . 726) (bol 719 . 719) (string 715 . 717) (punctuation 713 . 714) (symbol 707 . 712) (semantic-list 703 . 707) (punctuation 702 . 703) (symbol 693 . 702) (bol 693 . 693) (string 675 . 692) (punctuation 673 . 674) (symbol 667 . 672) (semantic-list 663 . 667) (punctuation 662 . 663) (symbol 656 . 662) (bol 656 . 656) (string 627 . 655) (punctuation 625 . 626) (semantic-list 620 . 624) (punctuation 619 . 620) (symbol 613 . 619) (bol 613 . 613) (string 609 . 612) (punctuation 607 . 608) (semantic-list 602 . 606) (punctuation 601 . 602) (symbol 589 . 601) (bol 589 . 589) (symbol 272 . 279) (symbol 264 . 271) (bol 264 . 264))))
+  :file "!home!bspserver!000_BUILD!01_build_openatv!meta-oe-alliance!meta-oe!recipes-oe-alliance!enigma2-skins!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

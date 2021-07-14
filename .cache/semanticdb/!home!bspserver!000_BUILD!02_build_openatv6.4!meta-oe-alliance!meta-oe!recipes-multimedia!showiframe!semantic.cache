@@ -1,0 +1,28 @@
+;; Object semanticdb-project-database-file-1576dc85e468
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file-1576dc85e468"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table-1576dc962b38"
+      :major-mode makefile-mode
+      :tags 
+        '( ("SUMMARY" variable (:default-value ("\"utility to show an mpeg2/4 iframe on a linuxtv video device\"")) nil [1 73])
+            ("SECTION" variable (:default-value ("\"base\"")) nil [73 90])
+            ("PRIORITY" variable (:default-value ("\"optional\"")) nil [90 112])
+            ("LICENSE" variable (:default-value ("\"PD\"")) nil [112 127])
+            ("LIC_FILES_CHKSUM" variable (:default-value ("\"file://showiframe.c;md5=94aed1df7937308d1289e88a5406adf5\"")) nil [228 306])
+            ("PACKAGE_ARCH" variable (:default-value ("\"${MACHINE_ARCH}\"")) nil [306 339])
+            ("PV" variable (:default-value ("\"1.4\"")) nil [340 351])
+            ("SRC_URI" variable (:default-value ("\"file://showiframe.c\"")) nil [352 384])
+            ("SRC_URI_append_sh4" variable (:default-value ("\" \\
+    file://showiframe-sh4.patch \\
+\"")) nil [385 446])
+            ("S" variable (:default-value ("\"${WORKDIR}\"")) nil [447 464]))          
+      :file "showiframe.bb"
+      :pointmax 652
+      :fsize 651
+      :lastmodtime '(24807 65373 211440 959000)
+      :unmatched-syntax '((string 642 . 651) (punctuation 640 . 641) (punctuation 639 . 640) (semantic-list 634 . 638) (punctuation 633 . 634) (symbol 621 . 633) (bol 621 . 621) (semantic-list 533 . 619) (semantic-list 530 . 532) (symbol 520 . 530) (bol 520 . 520) (semantic-list 478 . 518) (semantic-list 475 . 477) (symbol 465 . 475) (bol 465 . 465))))
+  :file "!home!bspserver!000_BUILD!02_build_openatv6.4!meta-oe-alliance!meta-oe!recipes-multimedia!showiframe!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

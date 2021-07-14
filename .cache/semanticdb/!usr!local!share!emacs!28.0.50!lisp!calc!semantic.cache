@@ -1,0 +1,52 @@
+;; Object semanticdb-project-database-file-159378f7040e
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file-159378f7040e"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table-159378349fb2"
+      :major-mode emacs-lisp-mode
+      :tags 
+        '( ("declare-function" code nil nil [945 990])
+            ("declare-function" code nil nil [991 1035])
+            ("declare-function" code nil nil [1036 1086])
+            ("declare-function" code nil nil [1087 1131])
+            ("declare-function" code nil nil [1132 1180])
+            ("calc-wrapper" function (:arguments ("body")) nil [1183 1265])
+            ("calc-slow-wrapper" function (:arguments ("body")) nil [1267 1352])
+            ("math-showing-full-precision" function (:arguments ("form")) nil [1354 1464])
+            ("math-with-extra-prec" function (:arguments ("delta" "body")) nil [1466 1612])
+            ("math-working" function (:arguments ("msg" "arg")) nil [1614 1741])
+            ("calc-with-default-simplification" function (:arguments ("body")) nil [1743 1918])
+            ("calc-with-trail-buffer" function (:arguments ("body")) nil [1920 2215])
+            ("Math-zerop" function (:arguments ("a")) nil [2275 2406])
+            ("Math-integer-negp" function (:arguments ("a")) nil [2408 2469])
+            ("Math-integer-posp" function (:arguments ("a")) nil [2471 2532])
+            ("Math-negp" function (:arguments ("a")) nil [2534 2675])
+            ("Math-looks-negp" function (:arguments ("a")) nil [2677 2899])
+            ("Math-posp" function (:arguments ("a")) nil [2901 3042])
+            ("defalias" code nil nil [3044 3080])
+            ("Math-natnump" function (:arguments ("a")) nil [3082 3139])
+            ("Math-ratp" function (:arguments ("a")) nil [3141 3213])
+            ("Math-realp" function (:arguments ("a")) nil [3215 3298])
+            ("Math-anglep" function (:arguments ("a")) nil [3300 3388])
+            ("Math-numberp" function (:arguments ("a")) nil [3390 3486])
+            ("Math-scalarp" function (:arguments ("a")) nil [3488 3588])
+            ("Math-vectorp" function (:arguments ("a")) nil [3590 3642])
+            ("Math-messy-integerp" function (:arguments ("a")) nil [3644 3747])
+            ("Math-objectp" function (:arguments ("a")) nil [3749 3886])
+            ("Math-objvecp" function (:arguments ("a")) nil [3888 4036])
+            ("Math-integer-neg" function (:arguments ("a")) nil [4090 4129])
+            ("Math-equal" function (:arguments ("a" "b")) nil [4131 4185])
+            ("Math-lessp" function (:arguments ("a" "b")) nil [4187 4242])
+            ("Math-primp" function (:arguments ("a")) nil [4244 4363])
+            ("Math-num-integerp" function (:arguments ("a")) nil [4365 4491])
+            ("Math-equal-int" function (:arguments ("a" "b")) nil [4493 4627])
+            ("calc-macs" package nil nil [4629 4649]))          
+      :file "calc-macs.el.gz"
+      :pointmax 4678
+      :fsize 1583
+      :lastmodtime '(24807 40778 0 0)
+      :unmatched-syntax nil))
+  :file "!usr!local!share!emacs!28.0.50!lisp!calc!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

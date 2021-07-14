@@ -1,0 +1,27 @@
+;; Object semanticdb-project-database-file-1576dc9b8cfa
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file-1576dc9b8cfa"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table-1576dceac94e"
+      :major-mode makefile-mode
+      :tags 
+        '( ("SUMMARY" variable (:default-value ("\"libreader for Dags ${SOC_FAMILY}\"")) nil [1 46])
+            ("SECTION" variable (:default-value ("\"base\"")) nil [46 63])
+            ("PRIORITY" variable (:default-value ("\"optional\"")) nil [63 85])
+            ("LICENSE" variable (:default-value ("\"CLOSED\"")) nil [85 104])
+            ("PACKAGE_ARCH" variable (:default-value ("\"${MACHINE_ARCH}\"")) nil [104 137])
+            ("COMPATIBLE_MACHINE" variable (:default-value ("\"^(force5|dual)$\"")) nil [165 204])
+            ("SRCDATE" variable (:default-value ("\"20210708\"")) nil [205 226])
+            ("PV" variable (:default-value ("\"${SRCDATE}\"")) nil [227 245])
+            ("PR" variable (:default-value ("\"r0\"")) nil [245 255])
+            ("SRC_URI" variable (:default-value ("\"http://192.168.0.133/hisi3798mv200-libreader-${SRCDATE}.tar.gz\"")) nil [342 417])
+            ("S" variable (:default-value ("\"${WORKDIR}\"")) nil [418 435]))          
+      :file "dags-reader-hisi3798mv200.bb"
+      :pointmax 933
+      :fsize 932
+      :lastmodtime '(24811 45353 745397 432000)
+      :unmatched-syntax '((string 914 . 932) (punctuation 912 . 913) (punctuation 911 . 912) (semantic-list 906 . 910) (punctuation 905 . 906) (symbol 893 . 905) (bol 893 . 893) (string 825 . 891) (punctuation 823 . 824) (semantic-list 811 . 822) (symbol 804 . 811) (bol 804 . 804) (string 769 . 803) (punctuation 767 . 768) (semantic-list 758 . 766) (symbol 751 . 758) (bol 751 . 751) (string 586 . 606) (punctuation 584 . 585) (semantic-list 578 . 582) (punctuation 577 . 578) (symbol 571 . 577) (bol 571 . 571) (semantic-list 566 . 569) (semantic-list 563 . 565) (symbol 550 . 563) (bol 550 . 550) (semantic-list 467 . 548) (semantic-list 464 . 466) (symbol 454 . 464) (bol 454 . 454) (semantic-list 449 . 452) (semantic-list 446 . 448) (symbol 436 . 446) (bol 436 . 436) (string 155 . 163) (punctuation 153 . 154) (semantic-list 148 . 152) (punctuation 147 . 148) (symbol 138 . 147) (bol 138 . 138) (string 818 . 836) (punctuation 816 . 817) (punctuation 815 . 816) (semantic-list 810 . 814) (punctuation 809 . 810) (symbol 797 . 809) (bol 797 . 797) (string 793 . 795) (punctuation 791 . 792) (semantic-list 779 . 790) (symbol 772 . 779) (bol 772 . 772) (string 769 . 771) (punctuation 767 . 768) (semantic-list 758 . 766) (symbol 751 . 758) (bol 751 . 751) (string 586 . 606) (punctuation 584 . 585) (semantic-list 578 . 582) (punctuation 577 . 578) (symbol 571 . 577) (bol 571 . 571) (semantic-list 566 . 569) (semantic-list 563 . 565) (symbol 550 . 563) (bol 550 . 550) (semantic-list 467 . 548) (semantic-list 464 . 466) (symbol 454 . 464) (bol 454 . 454) (semantic-list 449 . 452) (semantic-list 446 . 448) (symbol 436 . 446) (bol 436 . 436) (string 155 . 163) (punctuation 153 . 154) (semantic-list 148 . 152) (punctuation 147 . 148) (symbol 138 . 147) (bol 138 . 138) (string 882 . 900) (punctuation 880 . 881) (punctuation 879 . 880) (semantic-list 874 . 878) (punctuation 873 . 874) (symbol 861 . 873) (bol 861 . 861) (string 793 . 859) (punctuation 791 . 792) (semantic-list 779 . 790) (symbol 772 . 779) (bol 772 . 772) (string 769 . 771) (punctuation 767 . 768) (semantic-list 758 . 766) (symbol 751 . 758) (bol 751 . 751) (string 586 . 606) (punctuation 584 . 585) (semantic-list 578 . 582) (punctuation 577 . 578) (symbol 571 . 577) (bol 571 . 571) (semantic-list 566 . 569) (semantic-list 563 . 565) (symbol 550 . 563) (bol 550 . 550) (semantic-list 467 . 548) (semantic-list 464 . 466) (symbol 454 . 464) (bol 454 . 454) (semantic-list 449 . 452) (semantic-list 446 . 448) (symbol 436 . 446) (bol 436 . 436) (string 155 . 163) (punctuation 153 . 154) (semantic-list 148 . 152) (punctuation 147 . 148) (symbol 138 . 147) (bol 138 . 138) (string 914 . 932) (punctuation 912 . 913) (punctuation 911 . 912) (semantic-list 906 . 910) (punctuation 905 . 906) (symbol 893 . 905) (bol 893 . 893) (string 825 . 891) (punctuation 823 . 824) (semantic-list 811 . 822) (symbol 804 . 811) (bol 804 . 804) (string 769 . 803) (punctuation 767 . 768) (semantic-list 758 . 766) (symbol 751 . 758) (bol 751 . 751) (string 586 . 606) (punctuation 584 . 585) (semantic-list 578 . 582) (punctuation 577 . 578) (symbol 571 . 577) (bol 571 . 571) (semantic-list 566 . 569) (semantic-list 563 . 565) (symbol 550 . 563) (bol 550 . 550) (semantic-list 467 . 548) (semantic-list 464 . 466) (symbol 454 . 464) (bol 454 . 454) (semantic-list 449 . 452) (semantic-list 446 . 448) (symbol 436 . 446) (bol 436 . 436) (string 155 . 163) (punctuation 153 . 154) (semantic-list 148 . 152) (punctuation 147 . 148) (symbol 138 . 147) (bol 138 . 138))))
+  :file "!home!bspserver!000_BUILD!02_build_openatv6.4!meta-oe-alliance!meta-brands!meta-dags!recipes-bsp!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

@@ -1,0 +1,426 @@
+;; Object semanticdb-project-database-file-15937a3ef732
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file-15937a3ef732"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table-15937a3ef76e"
+      :major-mode c-mode
+      :tags 
+        '( ("LOAD_OFFSET" variable (:constant-flag t) nil [1249 1260])
+            ("NOTES_HEADERS" variable (:constant-flag t) nil [1806 1819])
+            ("NOTES_HEADERS_RESTORE" variable (:constant-flag t) nil [1828 1849])
+            ("RO_EXCEPTION_TABLE" variable (:constant-flag t) nil [2136 2154])
+            ("ALIGN_FUNCTION" variable (:constant-flag t) nil [2244 2258])
+            ("TEXT_MAIN" variable (:constant-flag t) nil [2996 3005])
+            ("DATA_MAIN" variable (:constant-flag t) nil [3020 3029])
+            ("SDATA_MAIN" variable (:constant-flag t) nil [3044 3054])
+            ("RODATA_MAIN" variable (:constant-flag t) nil [3070 3081])
+            ("BSS_MAIN" variable (:constant-flag t) nil [3098 3106])
+            ("SBSS_MAIN" variable (:constant-flag t) nil [3120 3129])
+            ("STRUCT_ALIGNMENT" variable (:constant-flag t) nil [3366 3382])
+            ("STRUCT_ALIGN" variable (:constant-flag t) nil [3401 3413])
+            ("SCHED_DATA" variable (:constant-flag t) nil [3626 3636])
+            ("CPU_KEEP" variable (:constant-flag t) nil [4113 4121])
+            ("CPU_DISCARD" variable (:constant-flag t) nil [4135 4146])
+            ("MEM_KEEP" variable (:constant-flag t) nil [4285 4293])
+            ("MEM_DISCARD" variable (:constant-flag t) nil [4307 4318])
+            ("MCOUNT_REC" variable (:constant-flag t) nil [5143 5153])
+            ("LIKELY_PROFILE" variable (:constant-flag t) nil [5369 5383])
+            ("BRANCH_PROFILE" variable (:constant-flag t) nil [5562 5576])
+            ("KPROBE_BLACKLIST" variable (:constant-flag t) nil [5791 5807])
+            ("ERROR_INJECT_WHITELIST" variable (:constant-flag t) nil [6070 6092])
+            ("FTRACE_EVENTS" variable (:constant-flag t) nil [6390 6403])
+            ("TRACE_PRINTKS" variable (:constant-flag t) nil [6771 6784])
+            ("TRACEPOINT_STR" variable (:constant-flag t) nil [6795 6809])
+            ("TRACE_SYSCALLS" variable (:constant-flag t) nil [7019 7033])
+            ("BPF_RAW_TP" variable (:constant-flag t) nil [7221 7231])
+            ("EARLYCON_TABLE" variable (:constant-flag t) nil [7423 7437])
+            ("LSM_TABLE" variable (:constant-flag t) nil [7756 7765])
+            ("EARLY_LSM_TABLE" variable (:constant-flag t) nil [7776 7791])
+            ("___OF_TABLE" variable (:constant-flag t) nil [7810 7821])
+            ("__OF_TABLE" variable (:constant-flag t) nil [7863 7873])
+            ("OF_TABLE" variable (:constant-flag t) nil [7916 7924])
+            ("_OF_TABLE_0" variable (:constant-flag t) nil [7978 7989])
+            ("_OF_TABLE_1" variable (:constant-flag t) nil [8004 8015])
+            ("TIMER_OF_TABLES" variable (:constant-flag t) nil [8163 8178])
+            ("IRQCHIP_OF_MATCH_TABLE" variable (:constant-flag t) nil [8222 8244])
+            ("CLK_OF_TABLES" variable (:constant-flag t) nil [8289 8302])
+            ("RESERVEDMEM_OF_TABLES" variable (:constant-flag t) nil [8347 8368])
+            ("CPU_METHOD_OF_TABLES" variable (:constant-flag t) nil [8425 8445])
+            ("CPUIDLE_METHOD_OF_TABLES" variable (:constant-flag t) nil [8489 8513])
+            ("ACPI_PROBE_TABLE" variable (:constant-flag t) nil [8773 8789])
+            ("THERMAL_TABLE" variable (:constant-flag t) nil [9010 9023])
+            ("KERNEL_DTB" variable (:constant-flag t) nil [9046 9056])
+            ("DATA_DATA" variable (:constant-flag t) nil [9199 9208])
+            ("NOSAVE_DATA" variable (:constant-flag t) nil [9854 9865])
+            ("PAGE_ALIGNED_DATA" variable (:constant-flag t) nil [10015 10032])
+            ("READ_MOSTLY_DATA" variable (:constant-flag t) nil [10146 10162])
+            ("CACHELINE_ALIGNED_DATA" variable (:constant-flag t) nil [10261 10283])
+            ("INIT_TASK_DATA" variable (:constant-flag t) nil [10361 10375])
+            ("JUMP_TABLE_DATA" variable (:constant-flag t) nil [10649 10664])
+            ("STATIC_CALL_DATA" variable (:constant-flag t) nil [10794 10810])
+            ("RO_AFTER_INIT_DATA" variable (:constant-flag t) nil [11097 11115])
+            ("RO_DATA" variable (:constant-flag t) nil [11329 11336])
+            ("NOINSTR_TEXT" variable (:constant-flag t) nil [16625 16637])
+            ("TEXT_TEXT" variable (:constant-flag t) nil [17073 17082])
+            ("SCHED_TEXT" variable (:constant-flag t) nil [17532 17542])
+            ("LOCK_TEXT" variable (:constant-flag t) nil [17801 17810])
+            ("CPUIDLE_TEXT" variable (:constant-flag t) nil [17934 17946])
+            ("KPROBES_TEXT" variable (:constant-flag t) nil [18074 18086])
+            ("ENTRY_TEXT" variable (:constant-flag t) nil [18214 18224])
+            ("IRQENTRY_TEXT" variable (:constant-flag t) nil [18348 18361])
+            ("SOFTIRQENTRY_TEXT" variable (:constant-flag t) nil [18492 18509])
+            ("STATIC_CALL_TEXT" variable (:constant-flag t) nil [18651 18667])
+            ("HEAD_TEXT" variable (:constant-flag t) nil [18854 18863])
+            ("HEAD_TEXT_SECTION" variable (:constant-flag t) nil [18894 18911])
+            ("EXCEPTION_TABLE" variable (:constant-flag t) nil [19031 19046])
+            ("BTF" variable (:constant-flag t) nil [19542 19545])
+            ("INIT_TASK_DATA_SECTION" variable (:constant-flag t) nil [19582 19604])
+            ("KERNEL_CTORS" variable (:constant-flag t) nil [20003 20015])
+            ("INIT_DATA" variable (:constant-flag t) nil [20071 20080])
+            ("INIT_TEXT" variable (:constant-flag t) nil [20808 20817])
+            ("EXIT_DATA" variable (:constant-flag t) nil [20919 20928])
+            ("EXIT_TEXT" variable (:constant-flag t) nil [21102 21111])
+            ("EXIT_CALL" variable (:constant-flag t) nil [21199 21208])
+            ("SBSS" variable (:constant-flag t) nil [21331 21335])
+            ("BSS_FIRST_SECTIONS" variable (:constant-flag t) nil [21640 21658])
+            ("BSS" variable (:constant-flag t) nil [21675 21678])
+            ("DWARF_DEBUG" variable (:constant-flag t) nil [22107 22118])
+            ("STABS_DEBUG" variable (:constant-flag t) nil [23566 23577])
+            ("ELF_DETAILS" variable (:constant-flag t) nil [23880 23891])
+            ("BUG_TABLE" variable (:constant-flag t) nil [24279 24288])
+            ("ORC_UNWIND_TABLE" variable (:constant-flag t) nil [24972 24988])
+            ("TRACEDATA" variable (:constant-flag t) nil [25228 25237])
+            ("NOTES" variable (:constant-flag t) nil [25254 25259])
+            ("INIT_SETUP" variable (:constant-flag t) nil [25451 25461])
+            ("INIT_CALLS_LEVEL" variable (:constant-flag t) nil [25604 25620])
+            ("INIT_CALLS" variable (:constant-flag t) nil [25761 25771])
+            ("CON_INITCALL" variable (:constant-flag t) nil [26133 26145])
+            ("KUNIT_TABLE" variable (:constant-flag t) nil [26337 26348])
+            ("INIT_RAM_FS" variable (:constant-flag t) nil [26681 26692])
+            ("PERCPU_DECRYPTED_SECTION" variable (:constant-flag t) nil [27200 27224])
+            ("EXIT_DISCARDS" variable (:constant-flag t) nil [27631 27644])
+            ("SANITIZER_DISCARDS" variable (:constant-flag t) nil [28189 28207])
+            ("COMMON_DISCARDS" variable (:constant-flag t) nil [28224 28239])
+            ("DISCARDS" variable (:constant-flag t) nil [28438 28446])
+            ("PERCPU_INPUT" variable (:constant-flag t) nil [28869 28881])
+            ("PERCPU_VADDR" variable (:constant-flag t) nil [30204 30216])
+            ("PERCPU_SECTION" variable (:constant-flag t) nil [30951 30965])
+            ("RW_DATA" variable (:constant-flag t) nil [31773 31780])
+            ("INIT_TEXT_SECTION" variable (:constant-flag t) nil [32142 32159])
+            ("INIT_DATA_SECTION" variable (:constant-flag t) nil [32350 32367])
+            ("BSS_SECTION" variable (:constant-flag t) nil [32573 32584]))          
+      :file "vmlinux.lds.h"
+      :pointmax 32777
+      :fsize 32776
+      :lastmodtime '(24802 37835 260219 357000)
+      :unmatched-syntax nil
+      :lexical-table 
+        '(("LOAD_OFFSET" . ((number "0" 1261 . 1262)))
+          ("RODATA_MAIN" . ((punctuation "." 3082 . 3083) (symbol "rodata" 3083 . 3089)))
+          ("STRUCT_ALIGN" (spp-arg-list nil 3413 . 3415) . 
+              ((punctuation "." 3416 . 3417) (punctuation "=" 3418 . 3419) (symbol "ALIGN" 3420 . 3425) (semantic-list "(STRUCT_ALIGNMENT)" 3425 . 3443)))
+          ("TRACE_PRINTKS" (spp-arg-list nil 6784 . 6786))
+          ("TRACE_SYSCALLS" (spp-arg-list nil 7033 . 7035))
+          ("EARLYCON_TABLE" (spp-arg-list nil 7437 . 7439))
+          ("___OF_TABLE" (spp-arg-list ("cfg" "name") 7821 . 7832) . ((spp-symbol-merge ((symbol "_OF_TABLE_" 7833 . 7843) (symbol "cfg" 7845 . 7848)) 7833 . 7848) (semantic-list "(name)" 7848 . 7854)))
+          ("NOSAVE_DATA" . 
+              ((punctuation "." 9875 . 9876) (punctuation "=" 9877 . 9878) (symbol "ALIGN" 9879 . 9884) (semantic-list "(PAGE_SIZE)" 9884 . 9895) (punctuation ";" 9895 . 9896) (symbol "__nosave_begin" 9905 . 9919) (punctuation "=" 9920 . 9921) (punctuation "." 9922 . 9923) (punctuation ";" 9923 . 9924) (punctuation "*" 9933 . 9934) (semantic-list "(.data..nosave)" 9934 . 9949) (punctuation "." 9958 . 9959) (punctuation "=" 9960 . 9961) (symbol "ALIGN" 9962 . 9967) (semantic-list "(PAGE_SIZE)" 9967 . 9978) (punctuation ";" 9978 . 9979) (symbol "__nosave_end" 9988 . 10000) (punctuation "=" 10001 . 10002) (punctuation "." 10003 . 10004) (punctuation ";" 10004 . 10005)))
+          ("RO_AFTER_INIT_DATA" . 
+              ((punctuation "." 11124 . 11125) (punctuation "=" 11126 . 11127) (symbol "ALIGN" 11128 . 11133) (semantic-list "(8)" 11133 . 11136) (punctuation ";" 11136 . 11137) (symbol "__start_ro_after_init" 11147 . 11168) (punctuation "=" 11169 . 11170) (punctuation "." 11171 . 11172) (punctuation ";" 11172 . 11173) (punctuation "*" 11181 . 11182) (semantic-list "(.data..ro_after_init)" 11182 . 11204) (symbol "JUMP_TABLE_DATA" 11213 . 11228) (symbol "STATIC_CALL_DATA" 11238 . 11254) (symbol "__end_ro_after_init" 11263 . 11282) (punctuation "=" 11283 . 11284) (punctuation "." 11285 . 11286) (punctuation ";" 11286 . 11287)))
+          ("HEAD_TEXT" . ((symbol "KEEP" 18865 . 18869) (semantic-list "(*(.head.text))" 18869 . 18884)))
+          ("EXIT_TEXT" . 
+              ((punctuation "*" 21121 . 21122) (semantic-list "(.exit.text)" 21122 . 21134) (punctuation "*" 21144 . 21145) (semantic-list "(.text.exit)" 21145 . 21157) (symbol "MEM_DISCARD" 21167 . 21178) (semantic-list "(exit.text)" 21178 . 21189)))
+          ("NOTES" . 
+              ((punctuation "." 25270 . 25271) (symbol "notes" 25271 . 25276) (punctuation ":" 25277 . 25278) (symbol "AT" 25279 . 25281) (semantic-list "(ADDR(.notes) - LOAD_OFFSET)" 25281 . 25309) (semantic-list "{			\\
+		__start_notes = .;					\\
+		KEEP(*(.note.*))					\\
+		__stop_notes = .;					\\
+	}" 25310 . 25396) (symbol "NOTES_HEADERS" 25397 . 25410) (symbol "NOTES_HEADERS_RESTORE" 25420 . 25441)))
+          ("INIT_CALLS_LEVEL" (spp-arg-list ("level") 25620 . 25627) . 
+              ((spp-symbol-merge ((spp-symbol-merge ((symbol "__initcall" 25637 . 25647) (symbol "level" 25649 . 25654)) 25637 . 25654) (symbol "_start" 25656 . 25662)) 25637 . 25662) (punctuation "=" 25663 . 25664) (punctuation "." 25665 . 25666) (punctuation ";" 25666 . 25667) (symbol "KEEP" 25675 . 25679) (semantic-list "(*(.initcall##level##.init))" 25679 . 25707) (symbol "KEEP" 25714 . 25718) (semantic-list "(*(.initcall##level##s.init))" 25718 . 25747)))
+          ("INIT_CALLS" . 
+              ((symbol "__initcall_start" 25782 . 25798) (punctuation "=" 25799 . 25800) (punctuation "." 25801 . 25802) (punctuation ";" 25802 . 25803) (symbol "KEEP" 25812 . 25816) (semantic-list "(*(.initcallearly.init))" 25816 . 25840) (symbol "INIT_CALLS_LEVEL" 25848 . 25864) (semantic-list "(0)" 25864 . 25867) (symbol "INIT_CALLS_LEVEL" 25876 . 25892) (semantic-list "(1)" 25892 . 25895) (symbol "INIT_CALLS_LEVEL" 25904 . 25920) (semantic-list "(2)" 25920 . 25923) (symbol "INIT_CALLS_LEVEL" 25932 . 25948) (semantic-list "(3)" 25948 . 25951) (symbol "INIT_CALLS_LEVEL" 25960 . 25976) (semantic-list "(4)" 25976 . 25979) (symbol "INIT_CALLS_LEVEL" 25988 . 26004) (semantic-list "(5)" 26004 . 26007) (symbol "INIT_CALLS_LEVEL" 26016 . 26032) (semantic-list "(rootfs)" 26032 . 26040) (symbol "INIT_CALLS_LEVEL" 26048 . 26064) (semantic-list "(6)" 26064 . 26067) (symbol "INIT_CALLS_LEVEL" 26076 . 26092) (semantic-list "(7)" 26092 . 26095) (symbol "__initcall_end" 26104 . 26118) (punctuation "=" 26119 . 26120) (punctuation "." 26121 . 26122) (punctuation ";" 26122 . 26123)))
+          ("SCHED_DATA" . 
+              ((symbol "STRUCT_ALIGN" 3643 . 3655) (semantic-list "()" 3655 . 3657) (punctuation ";" 3657 . 3658) (symbol "__begin_sched_classes" 3665 . 3686) (punctuation "=" 3687 . 3688) (punctuation "." 3689 . 3690) (punctuation ";" 3690 . 3691) (punctuation "*" 3696 . 3697) (semantic-list "(__idle_sched_class)" 3697 . 3717) (punctuation "*" 3723 . 3724) (semantic-list "(__fair_sched_class)" 3724 . 3744) (punctuation "*" 3750 . 3751) (semantic-list "(__rt_sched_class)" 3751 . 3769) (punctuation "*" 3775 . 3776) (semantic-list "(__dl_sched_class)" 3776 . 3794) (punctuation "*" 3800 . 3801) (semantic-list "(__stop_sched_class)" 3801 . 3821) (symbol "__end_sched_classes" 3827 . 3846) (punctuation "=" 3847 . 3848) (punctuation "." 3849 . 3850) (punctuation ";" 3850 . 3851)))
+          ("CPU_DISCARD" (spp-arg-list ("sec") 4146 . 4151) . ((punctuation "*" 4152 . 4153) (semantic-list "(.cpu##sec)" 4153 . 4164)))
+          ("CPUIDLE_METHOD_OF_TABLES" (spp-arg-list nil 8513 . 8515) . ((symbol "OF_TABLE" 8516 . 8524) (semantic-list "(CONFIG_CPU_IDLE, cpuidle_method)" 8524 . 8557)))
+          ("ENTRY_TEXT" . 
+              ((symbol "ALIGN_FUNCTION" 18235 . 18249) (semantic-list "()" 18249 . 18251) (punctuation ";" 18251 . 18252) (symbol "__entry_text_start" 18261 . 18279) (punctuation "=" 18280 . 18281) (punctuation "." 18282 . 18283) (punctuation ";" 18283 . 18284) (punctuation "*" 18293 . 18294) (semantic-list "(.entry.text)" 18294 . 18307) (symbol "__entry_text_end" 18317 . 18333) (punctuation "=" 18334 . 18335) (punctuation "." 18336 . 18337) (punctuation ";" 18337 . 18338)))
+          ("TRACEDATA")
+          ("TEXT_MAIN" . ((punctuation "." 3006 . 3007) (symbol "text" 3007 . 3011)))
+          ("MEM_KEEP" (spp-arg-list ("sec") 4293 . 4298))
+          ("BRANCH_PROFILE" (spp-arg-list nil 5576 . 5578))
+          ("CLK_OF_TABLES" (spp-arg-list nil 8302 . 8304) . ((symbol "OF_TABLE" 8306 . 8314) (semantic-list "(CONFIG_COMMON_CLK, clk)" 8314 . 8338)))
+          ("PAGE_ALIGNED_DATA" (spp-arg-list ("page_align") 10032 . 10044) . 
+              ((punctuation "." 10052 . 10053) (punctuation "=" 10054 . 10055) (symbol "ALIGN" 10056 . 10061) (semantic-list "(page_align)" 10061 . 10073) (punctuation ";" 10073 . 10074) (punctuation "*" 10083 . 10084) (semantic-list "(.data..page_aligned)" 10084 . 10105) (punctuation "." 10114 . 10115) (punctuation "=" 10116 . 10117) (symbol "ALIGN" 10118 . 10123) (semantic-list "(page_align)" 10123 . 10135) (punctuation ";" 10135 . 10136)))
+          ("RO_DATA" (spp-arg-list ("align") 11336 . 11343) . 
+              ((punctuation "." 11353 . 11354) (punctuation "=" 11355 . 11356) (symbol "ALIGN" 11357 . 11362) (semantic-list "((align))" 11362 . 11371) (punctuation ";" 11371 . 11372) (punctuation "." 11381 . 11382) (symbol "rodata" 11382 . 11388) (punctuation ":" 11399 . 11400) (symbol "AT" 11401 . 11403) (semantic-list "(ADDR(.rodata) - LOAD_OFFSET)" 11403 . 11432) (semantic-list "{		\\
+		__start_rodata = .;					\\
+		*(.rodata) *(.rodata.*)					\\
+		SCHED_DATA						\\
+		RO_AFTER_INIT_DATA	/* Read only after init */	\\
+		. = ALIGN(8);						\\
+		__start___tracepoints_ptrs = .;				\\
+		KEEP(*(__tracepoints_ptrs)) /* Tracepoints: pointer array */ \\
+		__stop___tracepoints_ptrs = .;				\\
+		*(__tracepoints_strings)/* Tracepoints: strings */	\\
+	}" 11433 . 11790) (punctuation "." 11812 . 11813) (symbol "rodata1" 11813 . 11820) (punctuation ":" 11830 . 11831) (symbol "AT" 11832 . 11834) (semantic-list "(ADDR(.rodata1) - LOAD_OFFSET)" 11834 . 11864) (semantic-list "{		\\
+		*(.rodata1)						\\
+	}" 11865 . 11893) (punctuation "." 11940 . 11941) (symbol "pci_fixup" 11941 . 11950) (punctuation ":" 11958 . 11959) (symbol "AT" 11960 . 11962) (semantic-list "(ADDR(.pci_fixup) - LOAD_OFFSET)" 11962 . 11994) (semantic-list "{	\\
+		__start_pci_fixups_early = .;				\\
+		KEEP(*(.pci_fixup_early))				\\
+		__end_pci_fixups_early = .;				\\
+		__start_pci_fixups_header = .;				\\
+		KEEP(*(.pci_fixup_header))				\\
+		__end_pci_fixups_header = .;				\\
+		__start_pci_fixups_final = .;				\\
+		KEEP(*(.pci_fixup_final))				\\
+		__end_pci_fixups_final = .;				\\
+		__start_pci_fixups_enable = .;				\\
+		KEEP(*(.pci_fixup_enable))				\\
+		__end_pci_fixups_enable = .;				\\
+		__start_pci_fixups_resume = .;				\\
+		KEEP(*(.pci_fixup_resume))				\\
+		__end_pci_fixups_resume = .;				\\
+		__start_pci_fixups_resume_early = .;			\\
+		KEEP(*(.pci_fixup_resume_early))			\\
+		__end_pci_fixups_resume_early = .;			\\
+		__start_pci_fixups_suspend = .;				\\
+		KEEP(*(.pci_fixup_suspend))				\\
+		__end_pci_fixups_suspend = .;				\\
+		__start_pci_fixups_suspend_late = .;			\\
+		KEEP(*(.pci_fixup_suspend_late))			\\
+		__end_pci_fixups_suspend_late = .;			\\
+	}" 11995 . 12892) (punctuation "." 12951 . 12952) (symbol "builtin_fw" 12952 . 12962) (punctuation ":" 12970 . 12971) (symbol "AT" 12972 . 12974) (semantic-list "(ADDR(.builtin_fw) - LOAD_OFFSET)" 12974 . 13007) (semantic-list "{	\\
+		__start_builtin_fw = .;					\\
+		KEEP(*(.builtin_fw))					\\
+		__end_builtin_fw = .;					\\
+	}" 13008 . 13105) (symbol "TRACEDATA" 13127 . 13136) (symbol "__ksymtab" 13204 . 13213) (punctuation ":" 13222 . 13223) (symbol "AT" 13224 . 13226) (semantic-list "(ADDR(__ksymtab) - LOAD_OFFSET)" 13226 . 13257) (semantic-list "{		\\
+		__start___ksymtab = .;					\\
+		KEEP(*(SORT(___ksymtab+*)))				\\
+		__stop___ksymtab = .;					\\
+	}" 13258 . 13361) (symbol "__ksymtab_gpl" 13432 . 13445) (punctuation ":" 13450 . 13451) (symbol "AT" 13452 . 13454) (semantic-list "(ADDR(__ksymtab_gpl) - LOAD_OFFSET)" 13454 . 13489) (semantic-list "{	\\
+		__start___ksymtab_gpl = .;				\\
+		KEEP(*(SORT(___ksymtab_gpl+*)))				\\
+		__stop___ksymtab_gpl = .;				\\
+	}" 13490 . 13602) (symbol "__ksymtab_unused" 13677 . 13693) (punctuation ":" 13695 . 13696) (symbol "AT" 13697 . 13699) (semantic-list "(ADDR(__ksymtab_unused) - LOAD_OFFSET)" 13699 . 13737) (semantic-list "{	\\
+		__start___ksymtab_unused = .;				\\
+		KEEP(*(SORT(___ksymtab_unused+*)))			\\
+		__stop___ksymtab_unused = .;				\\
+	}" 13738 . 13858) (symbol "__ksymtab_unused_gpl" 13935 . 13955) (punctuation ":" 13956 . 13957) (symbol "AT" 13958 . 13960) (semantic-list "(ADDR(__ksymtab_unused_gpl) - LOAD_OFFSET)" 13960 . 14002) (semantic-list "{ \\
+		__start___ksymtab_unused_gpl = .;			\\
+		KEEP(*(SORT(___ksymtab_unused_gpl+*)))			\\
+		__stop___ksymtab_unused_gpl = .;			\\
+	}" 14003 . 14133) (symbol "__ksymtab_gpl_future" 14210 . 14230) (punctuation ":" 14231 . 14232) (symbol "AT" 14233 . 14235) (semantic-list "(ADDR(__ksymtab_gpl_future) - LOAD_OFFSET)" 14235 . 14277) (semantic-list "{ \\
+		__start___ksymtab_gpl_future = .;			\\
+		KEEP(*(SORT(___ksymtab_gpl_future+*)))			\\
+		__stop___ksymtab_gpl_future = .;			\\
+	}" 14278 . 14408) (symbol "__kcrctab" 14477 . 14486) (punctuation ":" 14495 . 14496) (symbol "AT" 14497 . 14499) (semantic-list "(ADDR(__kcrctab) - LOAD_OFFSET)" 14499 . 14530) (semantic-list "{		\\
+		__start___kcrctab = .;					\\
+		KEEP(*(SORT(___kcrctab+*)))				\\
+		__stop___kcrctab = .;					\\
+	}" 14531 . 14634) (symbol "__kcrctab_gpl" 14705 . 14718) (punctuation ":" 14723 . 14724) (symbol "AT" 14725 . 14727) (semantic-list "(ADDR(__kcrctab_gpl) - LOAD_OFFSET)" 14727 . 14762) (semantic-list "{	\\
+		__start___kcrctab_gpl = .;				\\
+		KEEP(*(SORT(___kcrctab_gpl+*)))				\\
+		__stop___kcrctab_gpl = .;				\\
+	}" 14763 . 14875) (symbol "__kcrctab_unused" 14950 . 14966) (punctuation ":" 14968 . 14969) (symbol "AT" 14970 . 14972) (semantic-list "(ADDR(__kcrctab_unused) - LOAD_OFFSET)" 14972 . 15010) (semantic-list "{	\\
+		__start___kcrctab_unused = .;				\\
+		KEEP(*(SORT(___kcrctab_unused+*)))			\\
+		__stop___kcrctab_unused = .;				\\
+	}" 15011 . 15131) (symbol "__kcrctab_unused_gpl" 15208 . 15228) (punctuation ":" 15229 . 15230) (symbol "AT" 15231 . 15233) (semantic-list "(ADDR(__kcrctab_unused_gpl) - LOAD_OFFSET)" 15233 . 15275) (semantic-list "{ \\
+		__start___kcrctab_unused_gpl = .;			\\
+		KEEP(*(SORT(___kcrctab_unused_gpl+*)))			\\
+		__stop___kcrctab_unused_gpl = .;			\\
+	}" 15276 . 15406) (symbol "__kcrctab_gpl_future" 15483 . 15503) (punctuation ":" 15504 . 15505) (symbol "AT" 15506 . 15508) (semantic-list "(ADDR(__kcrctab_gpl_future) - LOAD_OFFSET)" 15508 . 15550) (semantic-list "{ \\
+		__start___kcrctab_gpl_future = .;			\\
+		KEEP(*(SORT(___kcrctab_gpl_future+*)))			\\
+		__stop___kcrctab_gpl_future = .;			\\
+	}" 15551 . 15681) (symbol "__ksymtab_strings" 15751 . 15768) (punctuation ":" 15769 . 15770) (symbol "AT" 15771 . 15773) (semantic-list "(ADDR(__ksymtab_strings) - LOAD_OFFSET)" 15773 . 15812) (semantic-list "{	\\
+		*(__ksymtab_strings)					\\
+	}" 15813 . 15848) (symbol "__init_rodata" 15901 . 15914) (punctuation ":" 15915 . 15916) (symbol "AT" 15917 . 15919) (semantic-list "(ADDR(__init_rodata) - LOAD_OFFSET)" 15919 . 15954) (semantic-list "{		\\
+		*(.ref.rodata)						\\
+		MEM_KEEP(init.rodata)					\\
+		MEM_KEEP(exit.rodata)					\\
+	}" 15955 . 16046) (symbol "__param" 16108 . 16115) (punctuation ":" 16116 . 16117) (symbol "AT" 16118 . 16120) (semantic-list "(ADDR(__param) - LOAD_OFFSET)" 16120 . 16149) (semantic-list "{			\\
+		__start___param = .;					\\
+		KEEP(*(__param))					\\
+		__stop___param = .;					\\
+	}" 16150 . 16240) (symbol "__modver" 16301 . 16309) (punctuation ":" 16310 . 16311) (symbol "AT" 16312 . 16314) (semantic-list "(ADDR(__modver) - LOAD_OFFSET)" 16314 . 16344) (semantic-list "{			\\
+		__start___modver = .;					\\
+		KEEP(*(__modver))					\\
+		__stop___modver = .;					\\
+	}" 16345 . 16438) (symbol "RO_EXCEPTION_TABLE" 16460 . 16478) (symbol "NOTES" 16487 . 16492) (symbol "BTF" 16503 . 16506) (punctuation "." 16528 . 16529) (punctuation "=" 16530 . 16531) (symbol "ALIGN" 16532 . 16537) (semantic-list "((align))" 16537 . 16546) (punctuation ";" 16546 . 16547) (symbol "__end_rodata" 16556 . 16568) (punctuation "=" 16569 . 16570) (punctuation "." 16571 . 16572) (punctuation ";" 16572 . 16573)))
+          ("NOINSTR_TEXT" . 
+              ((symbol "ALIGN_FUNCTION" 16648 . 16662) (semantic-list "()" 16662 . 16664) (punctuation ";" 16664 . 16665) (symbol "__noinstr_text_start" 16674 . 16694) (punctuation "=" 16695 . 16696) (punctuation "." 16697 . 16698) (punctuation ";" 16698 . 16699) (punctuation "*" 16707 . 16708) (semantic-list "(.noinstr.text)" 16708 . 16723) (symbol "__noinstr_text_end" 16732 . 16750) (punctuation "=" 16751 . 16752) (punctuation "." 16753 . 16754) (punctuation ";" 16754 . 16755)))
+          ("STATIC_CALL_TEXT" . 
+              ((symbol "ALIGN_FUNCTION" 18677 . 18691) (semantic-list "()" 18691 . 18693) (punctuation ";" 18693 . 18694) (symbol "__static_call_text_start" 18703 . 18727) (punctuation "=" 18728 . 18729) (punctuation "." 18730 . 18731) (punctuation ";" 18731 . 18732) (punctuation "*" 18740 . 18741) (semantic-list "(.static_call.text)" 18741 . 18760) (symbol "__static_call_text_end" 18769 . 18791) (punctuation "=" 18792 . 18793) (punctuation "." 18794 . 18795) (punctuation ";" 18795 . 18796)))
+          ("__OF_TABLE" (spp-arg-list ("cfg" "name") 7873 . 7884) . ((symbol "___OF_TABLE" 7885 . 7896) (semantic-list "(cfg, name)" 7896 . 7907)))
+          ("RESERVEDMEM_OF_TABLES" (spp-arg-list nil 8368 . 8370) . ((symbol "OF_TABLE" 8371 . 8379) (semantic-list "(CONFIG_OF_RESERVED_MEM, reservedmem)" 8379 . 8416)))
+          ("CACHELINE_ALIGNED_DATA" (spp-arg-list ("align") 10283 . 10290) . 
+              ((punctuation "." 10298 . 10299) (punctuation "=" 10300 . 10301) (symbol "ALIGN" 10302 . 10307) (semantic-list "(align)" 10307 . 10314) (punctuation ";" 10314 . 10315) (punctuation "*" 10324 . 10325) (semantic-list "(.data..cacheline_aligned)" 10325 . 10351)))
+          ("LOCK_TEXT" . 
+              ((symbol "ALIGN_FUNCTION" 17821 . 17835) (semantic-list "()" 17835 . 17837) (punctuation ";" 17837 . 17838) (symbol "__lock_text_start" 17847 . 17864) (punctuation "=" 17865 . 17866) (punctuation "." 17867 . 17868) (punctuation ";" 17868 . 17869) (punctuation "*" 17878 . 17879) (semantic-list "(.spinlock.text)" 17879 . 17895) (symbol "__lock_text_end" 17904 . 17919) (punctuation "=" 17920 . 17921) (punctuation "." 17922 . 17923) (punctuation ";" 17923 . 17924)))
+          ("IRQENTRY_TEXT" . 
+              ((symbol "ALIGN_FUNCTION" 18372 . 18386) (semantic-list "()" 18386 . 18388) (punctuation ";" 18388 . 18389) (symbol "__irqentry_text_start" 18398 . 18419) (punctuation "=" 18420 . 18421) (punctuation "." 18422 . 18423) (punctuation ";" 18423 . 18424) (punctuation "*" 18432 . 18433) (semantic-list "(.irqentry.text)" 18433 . 18449) (symbol "__irqentry_text_end" 18458 . 18477) (punctuation "=" 18478 . 18479) (punctuation "." 18480 . 18481) (punctuation ";" 18481 . 18482)))
+          ("EXIT_DATA" . 
+              ((punctuation "*" 20938 . 20939) (semantic-list "(.exit.data .exit.data.*)" 20939 . 20964) (punctuation "*" 20972 . 20973) (semantic-list "(.fini_array .fini_array.*)" 20973 . 21000) (punctuation "*" 21008 . 21009) (semantic-list "(.dtors .dtors.*)" 21009 . 21026) (symbol "MEM_DISCARD" 21035 . 21046) (semantic-list "(exit.data*)" 21046 . 21058) (symbol "MEM_DISCARD" 21067 . 21078) (semantic-list "(exit.rodata*)" 21078 . 21092)))
+          ("BSS_FIRST_SECTIONS")
+          ("INIT_SETUP" (spp-arg-list ("initsetup_align") 25461 . 25478) . 
+              ((punctuation "." 25487 . 25488) (punctuation "=" 25489 . 25490) (symbol "ALIGN" 25491 . 25496) (semantic-list "(initsetup_align)" 25496 . 25513) (punctuation ";" 25513 . 25514) (symbol "__setup_start" 25522 . 25535) (punctuation "=" 25536 . 25537) (punctuation "." 25538 . 25539) (punctuation ";" 25539 . 25540) (symbol "KEEP" 25549 . 25553) (semantic-list "(*(.init.setup))" 25553 . 25569) (symbol "__setup_end" 25578 . 25589) (punctuation "=" 25590 . 25591) (punctuation "." 25592 . 25593) (punctuation ";" 25593 . 25594)))
+          ("CON_INITCALL" . 
+              ((symbol "__con_initcall_start" 26156 . 26176) (punctuation "=" 26177 . 26178) (punctuation "." 26179 . 26180) (punctuation ";" 26180 . 26181) (symbol "KEEP" 26189 . 26193) (semantic-list "(*(.con_initcall.init))" 26193 . 26216) (symbol "__con_initcall_end" 26224 . 26242) (punctuation "=" 26243 . 26244) (punctuation "." 26245 . 26246) (punctuation ";" 26246 . 26247)))
+          ("PERCPU_VADDR" (spp-arg-list ("cacheline" "vaddr" "phdr") 30216 . 30240) . 
+              ((symbol "__per_cpu_load" 30247 . 30261) (punctuation "=" 30262 . 30263) (punctuation "." 30264 . 30265) (punctuation ";" 30265 . 30266) (punctuation "." 30275 . 30276) (symbol "data" 30276 . 30280) (punctuation "." 30280 . 30281) (punctuation "." 30281 . 30282) (symbol "percpu" 30282 . 30288) (symbol "vaddr" 30289 . 30294) (punctuation ":" 30295 . 30296) (symbol "AT" 30297 . 30299) (semantic-list "(__per_cpu_load - LOAD_OFFSET)" 30299 . 30329) (semantic-list "{	\\
+		PERCPU_INPUT(cacheline)					\\
+	}" 30330 . 30368) (symbol "phdr" 30369 . 30373) (punctuation "." 30384 . 30385) (punctuation "=" 30386 . 30387) (symbol "__per_cpu_load" 30388 . 30402) (punctuation "+" 30403 . 30404) (symbol "SIZEOF" 30405 . 30411) (semantic-list "(.data..percpu)" 30411 . 30426) (punctuation ";" 30426 . 30427)))
+          ("ALIGN_FUNCTION" (spp-arg-list nil 2258 . 2260) . 
+              ((punctuation "." 2262 . 2263) (punctuation "=" 2264 . 2265) (symbol "ALIGN" 2266 . 2271) (semantic-list "(8)" 2271 . 2274)))
+          ("LSM_TABLE" (spp-arg-list nil 7765 . 7767))
+          ("DATA_DATA" . 
+              ((punctuation "*" 9218 . 9219) (semantic-list "(.xiptext)" 9219 . 9229) (punctuation "*" 9239 . 9240) (semantic-list "(DATA_MAIN)" 9240 . 9251) (punctuation "*" 9261 . 9262) (semantic-list "(.ref.data)" 9262 . 9273) (punctuation "*" 9283 . 9284) (semantic-list "(.data..shared_aligned)" 9284 . 9307) (symbol "MEM_KEEP" 9334 . 9342) (semantic-list "(init.data*)" 9342 . 9354) (symbol "MEM_KEEP" 9363 . 9371) (semantic-list "(exit.data*)" 9371 . 9383) (punctuation "*" 9392 . 9393) (semantic-list "(.data.unlikely)" 9393 . 9409) (symbol "__start_once" 9418 . 9430) (punctuation "=" 9431 . 9432) (punctuation "." 9433 . 9434) (punctuation ";" 9434 . 9435) (punctuation "*" 9444 . 9445) (semantic-list "(.data.once)" 9445 . 9457) (symbol "__end_once" 9467 . 9477) (punctuation "=" 9478 . 9479) (punctuation "." 9480 . 9481) (punctuation ";" 9481 . 9482) (symbol "STRUCT_ALIGN" 9492 . 9504) (semantic-list "()" 9504 . 9506) (punctuation ";" 9506 . 9507) (punctuation "*" 9517 . 9518) (semantic-list "(__tracepoints)" 9518 . 9533) (punctuation "." 9585 . 9586) (punctuation "=" 9587 . 9588) (symbol "ALIGN" 9589 . 9594) (semantic-list "(8)" 9594 . 9597) (punctuation ";" 9597 . 9598) (symbol "__start___dyndbg" 9608 . 9624) (punctuation "=" 9625 . 9626) (punctuation "." 9627 . 9628) (punctuation ";" 9628 . 9629) (symbol "KEEP" 9638 . 9642) (semantic-list "(*(__dyndbg))" 9642 . 9655) (symbol "__stop___dyndbg" 9664 . 9679) (punctuation "=" 9680 . 9681) (punctuation "." 9682 . 9683) (punctuation ";" 9683 . 9684) (symbol "LIKELY_PROFILE" 9693 . 9707) (semantic-list "()" 9707 . 9709) (symbol "BRANCH_PROFILE" 9725 . 9739) (semantic-list "()" 9739 . 9741) (symbol "TRACE_PRINTKS" 9750 . 9763) (semantic-list "()" 9763 . 9765) (symbol "BPF_RAW_TP" 9775 . 9785) (semantic-list "()" 9785 . 9787) (symbol "TRACEPOINT_STR" 9797 . 9811) (semantic-list "()" 9811 . 9813)))
+          ("CPUIDLE_TEXT" . 
+              ((symbol "ALIGN_FUNCTION" 17957 . 17971) (semantic-list "()" 17971 . 17973) (punctuation ";" 17973 . 17974) (symbol "__cpuidle_text_start" 17983 . 18003) (punctuation "=" 18004 . 18005) (punctuation "." 18006 . 18007) (punctuation ";" 18007 . 18008) (punctuation "*" 18016 . 18017) (semantic-list "(.cpuidle.text)" 18017 . 18032) (symbol "__cpuidle_text_end" 18041 . 18059) (punctuation "=" 18060 . 18061) (punctuation "." 18062 . 18063) (punctuation ";" 18063 . 18064)))
+          ("STABS_DEBUG" . 
+              ((punctuation "." 23588 . 23589) (symbol "stab" 23589 . 23593) (number "0" 23594 . 23595) (punctuation ":" 23596 . 23597) (semantic-list "{ *(.stab) }" 23598 . 23610) (punctuation "." 23619 . 23620) (symbol "stabstr" 23620 . 23627) (number "0" 23628 . 23629) (punctuation ":" 23630 . 23631) (semantic-list "{ *(.stabstr) }" 23632 . 23647) (punctuation "." 23655 . 23656) (symbol "stab" 23656 . 23660) (punctuation "." 23660 . 23661) (symbol "excl" 23661 . 23665) (number "0" 23666 . 23667) (punctuation ":" 23668 . 23669) (semantic-list "{ *(.stab.excl) }" 23670 . 23687) (punctuation "." 23694 . 23695) (symbol "stab" 23695 . 23699) (punctuation "." 23699 . 23700) (symbol "exclstr" 23700 . 23707) (number "0" 23708 . 23709) (punctuation ":" 23710 . 23711) (semantic-list "{ *(.stab.exclstr) }" 23712 . 23732) (punctuation "." 23739 . 23740) (symbol "stab" 23740 . 23744) (punctuation "." 23744 . 23745) (symbol "index" 23745 . 23750) (number "0" 23751 . 23752) (punctuation ":" 23753 . 23754) (semantic-list "{ *(.stab.index) }" 23755 . 23773) (punctuation "." 23780 . 23781) (symbol "stab" 23781 . 23785) (punctuation "." 23785 . 23786) (symbol "indexstr" 23786 . 23794) (number "0" 23795 . 23796) (punctuation ":" 23797 . 23798) (semantic-list "{ *(.stab.indexstr) }" 23799 . 23820)))
+          ("PERCPU_SECTION" (spp-arg-list ("cacheline") 30965 . 30976) . 
+              ((punctuation "." 30984 . 30985) (punctuation "=" 30986 . 30987) (symbol "ALIGN" 30988 . 30993) (semantic-list "(PAGE_SIZE)" 30993 . 31004) (punctuation ";" 31004 . 31005) (punctuation "." 31014 . 31015) (symbol "data" 31015 . 31019) (punctuation "." 31019 . 31020) (punctuation "." 31020 . 31021) (symbol "percpu" 31021 . 31027) (punctuation ":" 31028 . 31029) (symbol "AT" 31030 . 31032) (semantic-list "(ADDR(.data..percpu) - LOAD_OFFSET)" 31032 . 31067) (semantic-list "{	\\
+		__per_cpu_load = .;					\\
+		PERCPU_INPUT(cacheline)					\\
+	}" 31068 . 31134)))
+          ("IRQCHIP_OF_MATCH_TABLE" (spp-arg-list nil 8244 . 8246) . ((symbol "OF_TABLE" 8247 . 8255) (semantic-list "(CONFIG_IRQCHIP, irqchip)" 8255 . 8280)))
+          ("HEAD_TEXT_SECTION" . 
+              ((punctuation "." 18921 . 18922) (symbol "head" 18922 . 18926) (punctuation "." 18926 . 18927) (symbol "text" 18927 . 18931) (punctuation ":" 18932 . 18933) (symbol "AT" 18934 . 18936) (semantic-list "(ADDR(.head.text) - LOAD_OFFSET)" 18936 . 18968) (semantic-list "{		\\
+		HEAD_TEXT						\\
+	}" 18969 . 18995)))
+          ("INIT_TEXT" . 
+              ((punctuation "*" 20827 . 20828) (semantic-list "(.init.text .init.text.*)" 20828 . 20853) (punctuation "*" 20861 . 20862) (semantic-list "(.text.startup)" 20862 . 20877) (symbol "MEM_DISCARD" 20886 . 20897) (semantic-list "(init.text*)" 20897 . 20909)))
+          ("ELF_DETAILS" . 
+              ((punctuation "." 23902 . 23903) (symbol "comment" 23903 . 23910) (number "0" 23911 . 23912) (punctuation ":" 23913 . 23914) (semantic-list "{ *(.comment) }" 23915 . 23930) (punctuation "." 23938 . 23939) (symbol "symtab" 23939 . 23945) (number "0" 23946 . 23947) (punctuation ":" 23948 . 23949) (semantic-list "{ *(.symtab) }" 23950 . 23964) (punctuation "." 23972 . 23973) (symbol "strtab" 23973 . 23979) (number "0" 23980 . 23981) (punctuation ":" 23982 . 23983) (semantic-list "{ *(.strtab) }" 23984 . 23998) (punctuation "." 24006 . 24007) (symbol "shstrtab" 24007 . 24015) (number "0" 24016 . 24017) (punctuation ":" 24018 . 24019) (semantic-list "{ *(.shstrtab) }" 24020 . 24036)))
+          ("BSS_SECTION" (spp-arg-list ("sbss_align" "bss_align" "stop_align") 32584 . 32619) . 
+              ((punctuation "." 32625 . 32626) (punctuation "=" 32627 . 32628) (symbol "ALIGN" 32629 . 32634) (semantic-list "(sbss_align)" 32634 . 32646) (punctuation ";" 32646 . 32647) (symbol "__bss_start" 32656 . 32667) (punctuation "=" 32668 . 32669) (punctuation "." 32670 . 32671) (punctuation ";" 32671 . 32672) (symbol "SBSS" 32681 . 32685) (semantic-list "(sbss_align)" 32685 . 32697) (symbol "BSS" 32706 . 32709) (semantic-list "(bss_align)" 32709 . 32720) (punctuation "." 32730 . 32731) (punctuation "=" 32732 . 32733) (symbol "ALIGN" 32734 . 32739) (semantic-list "(stop_align)" 32739 . 32751) (punctuation ";" 32751 . 32752) (symbol "__bss_stop" 32761 . 32771) (punctuation "=" 32772 . 32773) (punctuation "." 32774 . 32775) (punctuation ";" 32775 . 32776)))
+          ("FTRACE_EVENTS" (spp-arg-list nil 6403 . 6405))
+          ("TEXT_TEXT" . 
+              ((symbol "ALIGN_FUNCTION" 17093 . 17107) (semantic-list "()" 17107 . 17109) (punctuation ";" 17109 . 17110) (punctuation "*" 17119 . 17120) (semantic-list "(.text.hot .text.hot.*)" 17120 . 17143) (punctuation "*" 17151 . 17152) (semantic-list "(TEXT_MAIN .text.fixup)" 17152 . 17175) (punctuation "*" 17183 . 17184) (semantic-list "(.text.unlikely .text.unlikely.*)" 17184 . 17217) (punctuation "*" 17224 . 17225) (semantic-list "(.text.unknown .text.unknown.*)" 17225 . 17256) (symbol "NOINSTR_TEXT" 17263 . 17275) (punctuation "*" 17285 . 17286) (semantic-list "(.text..refcount)" 17286 . 17303) (punctuation "*" 17312 . 17313) (semantic-list "(.ref.text)" 17313 . 17324) (symbol "MEM_KEEP" 17333 . 17341) (semantic-list "(init.text*)" 17341 . 17353) (symbol "MEM_KEEP" 17362 . 17370) (semantic-list "(exit.text*)" 17370 . 17382)))
+          ("EXIT_CALL" . ((punctuation "*" 21218 . 21219) (semantic-list "(.exitcall.exit)" 21219 . 21235)))
+          ("BSS" (spp-arg-list ("bss_align") 21678 . 21689) . 
+              ((punctuation "." 21699 . 21700) (punctuation "=" 21701 . 21702) (symbol "ALIGN" 21703 . 21708) (semantic-list "(bss_align)" 21708 . 21719) (punctuation ";" 21719 . 21720) (punctuation "." 21729 . 21730) (symbol "bss" 21730 . 21733) (punctuation ":" 21734 . 21735) (symbol "AT" 21736 . 21738) (semantic-list "(ADDR(.bss) - LOAD_OFFSET)" 21738 . 21764) (semantic-list "{				\\
+		BSS_FIRST_SECTIONS					\\
+		. = ALIGN(PAGE_SIZE);					\\
+		*(.bss..page_aligned)					\\
+		. = ALIGN(PAGE_SIZE);					\\
+		*(.dynbss)						\\
+		*(BSS_MAIN)						\\
+		*(COMMON)						\\
+	}" 21765 . 21951)))
+          ("NOTES_HEADERS_RESTORE")
+          ("KPROBE_BLACKLIST" (spp-arg-list nil 5807 . 5809))
+          ("TRACEPOINT_STR" (spp-arg-list nil 6809 . 6811))
+          ("_OF_TABLE_0" (spp-arg-list ("name") 7989 . 7995))
+          ("CPU_METHOD_OF_TABLES" (spp-arg-list nil 8445 . 8447) . ((symbol "OF_TABLE" 8448 . 8456) (semantic-list "(CONFIG_SMP, cpu_method)" 8456 . 8480)))
+          ("SCHED_TEXT" . 
+              ((symbol "ALIGN_FUNCTION" 17553 . 17567) (semantic-list "()" 17567 . 17569) (punctuation ";" 17569 . 17570) (symbol "__sched_text_start" 17579 . 17597) (punctuation "=" 17598 . 17599) (punctuation "." 17600 . 17601) (punctuation ";" 17601 . 17602) (punctuation "*" 17611 . 17612) (semantic-list "(.sched.text)" 17612 . 17625) (symbol "__sched_text_end" 17635 . 17651) (punctuation "=" 17652 . 17653) (punctuation "." 17654 . 17655) (punctuation ";" 17655 . 17656)))
+          ("KERNEL_CTORS" (spp-arg-list nil 20015 . 20017))
+          ("SBSS" (spp-arg-list ("sbss_align") 21335 . 21347) . 
+              ((punctuation "." 21356 . 21357) (punctuation "=" 21358 . 21359) (symbol "ALIGN" 21360 . 21365) (semantic-list "(sbss_align)" 21365 . 21377) (punctuation ";" 21377 . 21378) (punctuation "." 21387 . 21388) (symbol "sbss" 21388 . 21392) (punctuation ":" 21393 . 21394) (symbol "AT" 21395 . 21397) (semantic-list "(ADDR(.sbss) - LOAD_OFFSET)" 21397 . 21424) (semantic-list "{				\\
+		*(.dynsbss)						\\
+		*(SBSS_MAIN)						\\
+		*(.scommon)						\\
+	}" 21425 . 21498)))
+          ("BUG_TABLE")
+          ("DISCARDS" . 
+              ((punctuation "/" 28456 . 28457) (symbol "DISCARD" 28457 . 28464) (punctuation "/" 28464 . 28465) (punctuation ":" 28466 . 28467) (semantic-list "{							\\
+	EXIT_DISCARDS							\\
+	EXIT_CALL							\\
+	COMMON_DISCARDS							\\
+	}" 28468 . 28547)))
+          ("INIT_TEXT_SECTION" (spp-arg-list ("inittext_align") 32159 . 32175) . 
+              ((punctuation "." 32182 . 32183) (punctuation "=" 32184 . 32185) (symbol "ALIGN" 32186 . 32191) (semantic-list "(inittext_align)" 32191 . 32207) (punctuation ";" 32207 . 32208) (punctuation "." 32216 . 32217) (symbol "init" 32217 . 32221) (punctuation "." 32221 . 32222) (symbol "text" 32222 . 32226) (punctuation ":" 32227 . 32228) (symbol "AT" 32229 . 32231) (semantic-list "(ADDR(.init.text) - LOAD_OFFSET)" 32231 . 32263) (semantic-list "{		\\
+		_sinittext = .;						\\
+		INIT_TEXT						\\
+		_einittext = .;						\\
+	}" 32264 . 32340)))
+          ("SDATA_MAIN" . ((punctuation "." 3055 . 3056) (symbol "sdata" 3056 . 3061)))
+          ("STRUCT_ALIGNMENT" . ((number "32" 3383 . 3385)))
+          ("OF_TABLE" (spp-arg-list ("cfg" "name") 7924 . 7935) . ((symbol "__OF_TABLE" 7936 . 7946) (semantic-list "(IS_ENABLED(cfg), name)" 7946 . 7969)))
+          ("_OF_TABLE_1" (spp-arg-list ("name") 8015 . 8021) . 
+              ((punctuation "." 8030 . 8031) (punctuation "=" 8032 . 8033) (symbol "ALIGN" 8034 . 8039) (semantic-list "(8)" 8039 . 8042) (punctuation ";" 8042 . 8043) (spp-symbol-merge ((spp-symbol-merge ((symbol "__" 8053 . 8055) (symbol "name" 8057 . 8061)) 8053 . 8061) (symbol "_of_table" 8063 . 8072)) 8053 . 8072) (punctuation "=" 8073 . 8074) (punctuation "." 8075 . 8076) (punctuation ";" 8076 . 8077) (symbol "KEEP" 8085 . 8089) (semantic-list "(*(__##name##_of_table))" 8089 . 8113) (symbol "KEEP" 8121 . 8125) (semantic-list "(*(__##name##_of_table_end))" 8125 . 8153)))
+          ("TIMER_OF_TABLES" (spp-arg-list nil 8178 . 8180) . ((symbol "OF_TABLE" 8181 . 8189) (semantic-list "(CONFIG_TIMER_OF, timer)" 8189 . 8213)))
+          ("KPROBES_TEXT" . 
+              ((symbol "ALIGN_FUNCTION" 18097 . 18111) (semantic-list "()" 18111 . 18113) (punctuation ";" 18113 . 18114) (symbol "__kprobes_text_start" 18123 . 18143) (punctuation "=" 18144 . 18145) (punctuation "." 18146 . 18147) (punctuation ";" 18147 . 18148) (punctuation "*" 18156 . 18157) (semantic-list "(.kprobes.text)" 18157 . 18172) (symbol "__kprobes_text_end" 18181 . 18199) (punctuation "=" 18200 . 18201) (punctuation "." 18202 . 18203) (punctuation ";" 18203 . 18204)))
+          ("SOFTIRQENTRY_TEXT" . 
+              ((symbol "ALIGN_FUNCTION" 18519 . 18533) (semantic-list "()" 18533 . 18535) (punctuation ";" 18535 . 18536) (symbol "__softirqentry_text_start" 18545 . 18570) (punctuation "=" 18571 . 18572) (punctuation "." 18573 . 18574) (punctuation ";" 18574 . 18575) (punctuation "*" 18583 . 18584) (semantic-list "(.softirqentry.text)" 18584 . 18604) (symbol "__softirqentry_text_end" 18613 . 18636) (punctuation "=" 18637 . 18638) (punctuation "." 18639 . 18640) (punctuation ";" 18640 . 18641)))
+          ("INIT_DATA" . 
+              ((symbol "KEEP" 20090 . 20094) (semantic-list "(*(SORT(___kentry+*)))" 20094 . 20116) (punctuation "*" 20124 . 20125) (semantic-list "(.init.data init.data.*)" 20125 . 20149) (symbol "MEM_DISCARD" 20157 . 20168) (semantic-list "(init.data*)" 20168 . 20180) (symbol "KERNEL_CTORS" 20189 . 20201) (semantic-list "()" 20201 . 20203) (symbol "MCOUNT_REC" 20213 . 20223) (semantic-list "()" 20223 . 20225) (punctuation "*" 20235 . 20236) (semantic-list "(.init.rodata .init.rodata.*)" 20236 . 20265) (symbol "FTRACE_EVENTS" 20273 . 20286) (semantic-list "()" 20286 . 20288) (symbol "TRACE_SYSCALLS" 20298 . 20312) (semantic-list "()" 20312 . 20314) (symbol "KPROBE_BLACKLIST" 20323 . 20339) (semantic-list "()" 20339 . 20341) (symbol "ERROR_INJECT_WHITELIST" 20350 . 20372) (semantic-list "()" 20372 . 20374) (symbol "MEM_DISCARD" 20382 . 20393) (semantic-list "(init.rodata)" 20393 . 20406) (symbol "CLK_OF_TABLES" 20414 . 20427) (semantic-list "()" 20427 . 20429) (symbol "RESERVEDMEM_OF_TABLES" 20439 . 20460) (semantic-list "()" 20460 . 20462) (symbol "TIMER_OF_TABLES" 20471 . 20486) (semantic-list "()" 20486 . 20488) (symbol "CPU_METHOD_OF_TABLES" 20497 . 20517) (semantic-list "()" 20517 . 20519) (symbol "CPUIDLE_METHOD_OF_TABLES" 20528 . 20552) (semantic-list "()" 20552 . 20554) (symbol "KERNEL_DTB" 20562 . 20572) (semantic-list "()" 20572 . 20574) (symbol "IRQCHIP_OF_MATCH_TABLE" 20584 . 20606) (semantic-list "()" 20606 . 20608) (symbol "ACPI_PROBE_TABLE" 20616 . 20632) (semantic-list "(irqchip)" 20632 . 20641) (symbol "ACPI_PROBE_TABLE" 20649 . 20665) (semantic-list "(timer)" 20665 . 20672) (symbol "THERMAL_TABLE" 20681 . 20694) (semantic-list "(governor)" 20694 . 20704) (symbol "EARLYCON_TABLE" 20713 . 20727) (semantic-list "()" 20727 . 20729) (symbol "LSM_TABLE" 20738 . 20747) (semantic-list "()" 20747 . 20749) (symbol "EARLY_LSM_TABLE" 20759 . 20774) (semantic-list "()" 20774 . 20776) (symbol "KUNIT_TABLE" 20785 . 20796) (semantic-list "()" 20796 . 20798)))
+          ("KUNIT_TABLE" (spp-arg-list nil 26348 . 26350) . 
+              ((punctuation "." 26361 . 26362) (punctuation "=" 26363 . 26364) (symbol "ALIGN" 26365 . 26370) (semantic-list "(8)" 26370 . 26373) (punctuation ";" 26373 . 26374) (symbol "__kunit_suites_start" 26384 . 26404) (punctuation "=" 26405 . 26406) (punctuation "." 26407 . 26408) (punctuation ";" 26408 . 26409) (symbol "KEEP" 26417 . 26421) (semantic-list "(*(.kunit_test_suites))" 26421 . 26444) (symbol "__kunit_suites_end" 26452 . 26470) (punctuation "=" 26471 . 26472) (punctuation "." 26473 . 26474) (punctuation ";" 26474 . 26475)))
+          ("SANITIZER_DISCARDS")
+          ("PERCPU_INPUT" (spp-arg-list ("cacheline") 28881 . 28892) . 
+              ((symbol "__per_cpu_start" 28901 . 28916) (punctuation "=" 28917 . 28918) (punctuation "." 28919 . 28920) (punctuation ";" 28920 . 28921) (punctuation "*" 28930 . 28931) (semantic-list "(.data..percpu..first)" 28931 . 28953) (punctuation "." 28962 . 28963) (punctuation "=" 28964 . 28965) (symbol "ALIGN" 28966 . 28971) (semantic-list "(PAGE_SIZE)" 28971 . 28982) (punctuation ";" 28982 . 28983) (punctuation "*" 28992 . 28993) (semantic-list "(.data..percpu..page_aligned)" 28993 . 29022) (punctuation "." 29030 . 29031) (punctuation "=" 29032 . 29033) (symbol "ALIGN" 29034 . 29039) (semantic-list "(cacheline)" 29039 . 29050) (punctuation ";" 29050 . 29051) (punctuation "*" 29060 . 29061) (semantic-list "(.data..percpu..read_mostly)" 29061 . 29089) (punctuation "." 29097 . 29098) (punctuation "=" 29099 . 29100) (symbol "ALIGN" 29101 . 29106) (semantic-list "(cacheline)" 29106 . 29117) (punctuation ";" 29117 . 29118) (punctuation "*" 29127 . 29128) (semantic-list "(.data..percpu)" 29128 . 29143) (punctuation "*" 29152 . 29153) (semantic-list "(.data..percpu..shared_aligned)" 29153 . 29184) (symbol "PERCPU_DECRYPTED_SECTION" 29191 . 29215) (symbol "__per_cpu_end" 29223 . 29236) (punctuation "=" 29237 . 29238) (punctuation "." 29239 . 29240) (punctuation ";" 29240 . 29241)))
+          ("THERMAL_TABLE" (spp-arg-list ("name") 9023 . 9029))
+          ("READ_MOSTLY_DATA" (spp-arg-list ("align") 10162 . 10169) . 
+              ((punctuation "." 10178 . 10179) (punctuation "=" 10180 . 10181) (symbol "ALIGN" 10182 . 10187) (semantic-list "(align)" 10187 . 10194) (punctuation ";" 10194 . 10195) (punctuation "*" 10204 . 10205) (semantic-list "(.data..read_mostly)" 10205 . 10225) (punctuation "." 10234 . 10235) (punctuation "=" 10236 . 10237) (symbol "ALIGN" 10238 . 10243) (semantic-list "(align)" 10243 . 10250) (punctuation ";" 10250 . 10251)))
+          ("JUMP_TABLE_DATA" . 
+              ((punctuation "." 10674 . 10675) (punctuation "=" 10676 . 10677) (symbol "ALIGN" 10678 . 10683) (semantic-list "(8)" 10683 . 10686) (punctuation ";" 10686 . 10687) (symbol "__start___jump_table" 10697 . 10717) (punctuation "=" 10718 . 10719) (punctuation "." 10720 . 10721) (punctuation ";" 10721 . 10722) (symbol "KEEP" 10730 . 10734) (semantic-list "(*(__jump_table))" 10734 . 10751) (symbol "__stop___jump_table" 10760 . 10779) (punctuation "=" 10780 . 10781) (punctuation "." 10782 . 10783) (punctuation ";" 10783 . 10784)))
+          ("BTF")
+          ("INIT_TASK_DATA_SECTION" (spp-arg-list ("align") 19604 . 19611) . 
+              ((punctuation "." 19619 . 19620) (punctuation "=" 19621 . 19622) (symbol "ALIGN" 19623 . 19628) (semantic-list "(align)" 19628 . 19635) (punctuation ";" 19635 . 19636) (punctuation "." 19645 . 19646) (symbol "data" 19646 . 19650) (punctuation "." 19650 . 19651) (punctuation "." 19651 . 19652) (symbol "init_task" 19652 . 19661) (punctuation ":" 19662 . 19663) (symbol "AT" 19665 . 19667) (semantic-list "(ADDR(.data..init_task) - LOAD_OFFSET)" 19667 . 19705) (semantic-list "{	\\
+		INIT_TASK_DATA(align)					\\
+	}" 19706 . 19742)))
+          ("DWARF_DEBUG" . 
+              ((punctuation "." 22152 . 22153) (symbol "debug" 22153 . 22158) (number "0" 22168 . 22169) (punctuation ":" 22170 . 22171) (semantic-list "{ *(.debug) }" 22172 . 22185) (punctuation "." 22192 . 22193) (symbol "line" 22193 . 22197) (number "0" 22208 . 22209) (punctuation ":" 22210 . 22211) (semantic-list "{ *(.line) }" 22212 . 22224) (punctuation "." 22267 . 22268) (symbol "debug_srcinfo" 22268 . 22281) (number "0" 22283 . 22284) (punctuation ":" 22285 . 22286) (semantic-list "{ *(.debug_srcinfo) }" 22287 . 22308) (punctuation "." 22314 . 22315) (symbol "debug_sfnames" 22315 . 22328) (number "0" 22330 . 22331) (punctuation ":" 22332 . 22333) (semantic-list "{ *(.debug_sfnames) }" 22334 . 22355) (punctuation "." 22396 . 22397) (symbol "debug_aranges" 22397 . 22410) (number "0" 22412 . 22413) (punctuation ":" 22414 . 22415) (semantic-list "{ *(.debug_aranges) }" 22416 . 22437) (punctuation "." 22443 . 22444) (symbol "debug_pubnames" 22444 . 22458) (number "0" 22459 . 22460) (punctuation ":" 22461 . 22462) (semantic-list "{ *(.debug_pubnames) }" 22463 . 22485) (punctuation "." 22514 . 22515) (symbol "debug_info" 22515 . 22525) (number "0" 22530 . 22531) (punctuation ":" 22532 . 22533) (semantic-list "{ *(.debug_info			\\
+				.gnu.linkonce.wi.*) }" 22534 . 22579) (punctuation "." 22586 . 22587) (symbol "debug_abbrev" 22587 . 22599) (number "0" 22602 . 22603) (punctuation ":" 22604 . 22605) (semantic-list "{ *(.debug_abbrev) }" 22606 . 22626) (punctuation "." 22632 . 22633) (symbol "debug_line" 22633 . 22643) (number "0" 22648 . 22649) (punctuation ":" 22650 . 22651) (semantic-list "{ *(.debug_line) }" 22652 . 22670) (punctuation "." 22677 . 22678) (symbol "debug_frame" 22678 . 22689) (number "0" 22693 . 22694) (punctuation ":" 22695 . 22696) (semantic-list "{ *(.debug_frame) }" 22697 . 22716) (punctuation "." 22723 . 22724) (symbol "debug_str" 22724 . 22733) (number "0" 22739 . 22740) (punctuation ":" 22741 . 22742) (semantic-list "{ *(.debug_str) }" 22743 . 22760) (punctuation "." 22767 . 22768) (symbol "debug_loc" 22768 . 22777) (number "0" 22783 . 22784) (punctuation ":" 22785 . 22786) (semantic-list "{ *(.debug_loc) }" 22787 . 22804) (punctuation "." 22811 . 22812) (symbol "debug_macinfo" 22812 . 22825) (number "0" 22827 . 22828) (punctuation ":" 22829 . 22830) (semantic-list "{ *(.debug_macinfo) }" 22831 . 22852) (punctuation "." 22858 . 22859) (symbol "debug_pubtypes" 22859 . 22873) (number "0" 22874 . 22875) (punctuation ":" 22876 . 22877) (semantic-list "{ *(.debug_pubtypes) }" 22878 . 22900) (punctuation "." 22929 . 22930) (symbol "debug_ranges" 22930 . 22942) (number "0" 22943 . 22944) (punctuation ":" 22945 . 22946) (semantic-list "{ *(.debug_ranges) }" 22947 . 22967) (punctuation "." 23013 . 23014) (symbol "debug_weaknames" 23014 . 23029) (number "0" 23030 . 23031) (punctuation ":" 23032 . 23033) (semantic-list "{ *(.debug_weaknames) }" 23034 . 23057) (punctuation "." 23063 . 23064) (symbol "debug_funcnames" 23064 . 23079) (number "0" 23080 . 23081) (punctuation ":" 23082 . 23083) (semantic-list "{ *(.debug_funcnames) }" 23084 . 23107) (punctuation "." 23113 . 23114) (symbol "debug_typenames" 23114 . 23129) (number "0" 23130 . 23131) (punctuation ":" 23132 . 23133) (semantic-list "{ *(.debug_typenames) }" 23134 . 23157) (punctuation "." 23163 . 23164) (symbol "debug_varnames" 23164 . 23178) (number "0" 23180 . 23181) (punctuation ":" 23182 . 23183) (semantic-list "{ *(.debug_varnames) }" 23184 . 23206) (punctuation "." 23248 . 23249) (symbol "debug_gnu_pubnames" 23249 . 23267) (number "0" 23268 . 23269) (punctuation ":" 23270 . 23271) (semantic-list "{ *(.debug_gnu_pubnames) }" 23272 . 23298) (punctuation "." 23303 . 23304) (symbol "debug_gnu_pubtypes" 23304 . 23322) (number "0" 23323 . 23324) (punctuation ":" 23325 . 23326) (semantic-list "{ *(.debug_gnu_pubtypes) }" 23327 . 23353) (punctuation "." 23381 . 23382) (symbol "debug_types" 23382 . 23393) (number "0" 23394 . 23395) (punctuation ":" 23396 . 23397) (semantic-list "{ *(.debug_types) }" 23398 . 23417) (punctuation "." 23447 . 23448) (symbol "debug_macro" 23448 . 23459) (number "0" 23460 . 23461) (punctuation ":" 23462 . 23463) (semantic-list "{ *(.debug_macro) }" 23464 . 23483) (punctuation "." 23490 . 23491) (symbol "debug_addr" 23491 . 23501) (number "0" 23502 . 23503) (punctuation ":" 23504 . 23505) (semantic-list "{ *(.debug_addr) }" 23506 . 23524)))
+          ("RW_DATA" (spp-arg-list ("cacheline" "pagealigned" "inittask") 31780 . 31814) . 
+              ((punctuation "." 31820 . 31821) (punctuation "=" 31822 . 31823) (symbol "ALIGN" 31824 . 31829) (semantic-list "(PAGE_SIZE)" 31829 . 31840) (punctuation ";" 31840 . 31841) (punctuation "." 31850 . 31851) (symbol "data" 31851 . 31855) (punctuation ":" 31856 . 31857) (symbol "AT" 31858 . 31860) (semantic-list "(ADDR(.data) - LOAD_OFFSET)" 31860 . 31887) (semantic-list "{				\\
+		INIT_TASK_DATA(inittask)				\\
+		NOSAVE_DATA						\\
+		PAGE_ALIGNED_DATA(pagealigned)				\\
+		CACHELINE_ALIGNED_DATA(cacheline)			\\
+		READ_MOSTLY_DATA(cacheline)				\\
+		DATA_DATA						\\
+		CONSTRUCTORS						\\
+	}" 31888 . 32104) (symbol "BUG_TABLE" 32115 . 32124)))
+          ("DATA_MAIN" . ((punctuation "." 3030 . 3031) (symbol "data" 3031 . 3035)))
+          ("BSS_MAIN" . ((punctuation "." 3107 . 3108) (symbol "bss" 3108 . 3111)))
+          ("SBSS_MAIN" . ((punctuation "." 3130 . 3131) (symbol "sbss" 3131 . 3135)))
+          ("LIKELY_PROFILE" (spp-arg-list nil 5383 . 5385))
+          ("ERROR_INJECT_WHITELIST" (spp-arg-list nil 6092 . 6094))
+          ("BPF_RAW_TP" (spp-arg-list nil 7231 . 7233))
+          ("ACPI_PROBE_TABLE" (spp-arg-list ("name") 8789 . 8795))
+          ("STATIC_CALL_DATA" . 
+              ((punctuation "." 10819 . 10820) (punctuation "=" 10821 . 10822) (symbol "ALIGN" 10823 . 10828) (semantic-list "(8)" 10828 . 10831) (punctuation ";" 10831 . 10832) (symbol "__start_static_call_sites" 10842 . 10867) (punctuation "=" 10868 . 10869) (punctuation "." 10870 . 10871) (punctuation ";" 10871 . 10872) (symbol "KEEP" 10880 . 10884) (semantic-list "(*(.static_call_sites))" 10884 . 10907) (symbol "__stop_static_call_sites" 10915 . 10939) (punctuation "=" 10940 . 10941) (punctuation "." 10942 . 10943) (punctuation ";" 10943 . 10944)))
+          ("EXCEPTION_TABLE" (spp-arg-list ("align") 19046 . 19053) . 
+              ((punctuation "." 19062 . 19063) (punctuation "=" 19064 . 19065) (symbol "ALIGN" 19066 . 19071) (semantic-list "(align)" 19071 . 19078) (punctuation ";" 19078 . 19079) (symbol "__ex_table" 19088 . 19098) (punctuation ":" 19099 . 19100) (symbol "AT" 19101 . 19103) (semantic-list "(ADDR(__ex_table) - LOAD_OFFSET)" 19103 . 19135) (semantic-list "{		\\
+		__start___ex_table = .;					\\
+		KEEP(*(__ex_table))					\\
+		__stop___ex_table = .;					\\
+	}" 19136 . 19234)))
+          ("INIT_DATA_SECTION" (spp-arg-list ("initsetup_align") 32367 . 32384) . 
+              ((punctuation "." 32391 . 32392) (symbol "init" 32392 . 32396) (punctuation "." 32396 . 32397) (symbol "data" 32397 . 32401) (punctuation ":" 32402 . 32403) (symbol "AT" 32404 . 32406) (semantic-list "(ADDR(.init.data) - LOAD_OFFSET)" 32406 . 32438) (semantic-list "{		\\
+		INIT_DATA						\\
+		INIT_SETUP(initsetup_align)				\\
+		INIT_CALLS						\\
+		CON_INITCALL						\\
+		INIT_RAM_FS						\\
+	}" 32439 . 32563)))
+          ("CPU_KEEP" (spp-arg-list ("sec") 4121 . 4126))
+          ("MEM_DISCARD" (spp-arg-list ("sec") 4318 . 4323) . ((punctuation "*" 4324 . 4325) (semantic-list "(.mem##sec)" 4325 . 4336)))
+          ("KERNEL_DTB" (spp-arg-list nil 9056 . 9058) . 
+              ((symbol "STRUCT_ALIGN" 9068 . 9080) (semantic-list "()" 9080 . 9082) (punctuation ";" 9082 . 9083) (symbol "__dtb_start" 9093 . 9104) (punctuation "=" 9105 . 9106) (punctuation "." 9107 . 9108) (punctuation ";" 9108 . 9109) (symbol "KEEP" 9118 . 9122) (semantic-list "(*(.dtb.init.rodata))" 9122 . 9143) (symbol "__dtb_end" 9151 . 9160) (punctuation "=" 9161 . 9162) (punctuation "." 9163 . 9164) (punctuation ";" 9164 . 9165)))
+          ("INIT_RAM_FS")
+          ("NOTES_HEADERS")
+          ("RO_EXCEPTION_TABLE")
+          ("MCOUNT_REC" (spp-arg-list nil 5153 . 5155))
+          ("EARLY_LSM_TABLE" (spp-arg-list nil 7791 . 7793))
+          ("INIT_TASK_DATA" (spp-arg-list ("align") 10375 . 10382) . 
+              ((punctuation "." 10391 . 10392) (punctuation "=" 10393 . 10394) (symbol "ALIGN" 10395 . 10400) (semantic-list "(align)" 10400 . 10407) (punctuation ";" 10407 . 10408) (symbol "__start_init_task" 10417 . 10434) (punctuation "=" 10435 . 10436) (punctuation "." 10437 . 10438) (punctuation ";" 10438 . 10439) (symbol "init_thread_union" 10448 . 10465) (punctuation "=" 10466 . 10467) (punctuation "." 10468 . 10469) (punctuation ";" 10469 . 10470) (symbol "init_stack" 10479 . 10489) (punctuation "=" 10490 . 10491) (punctuation "." 10492 . 10493) (punctuation ";" 10493 . 10494) (symbol "KEEP" 10504 . 10508) (semantic-list "(*(.data..init_task))" 10508 . 10529) (symbol "KEEP" 10537 . 10541) (semantic-list "(*(.data..init_thread_info))" 10541 . 10569) (punctuation "." 10576 . 10577) (punctuation "=" 10578 . 10579) (symbol "__start_init_task" 10580 . 10597) (punctuation "+" 10598 . 10599) (symbol "THREAD_SIZE" 10600 . 10611) (punctuation ";" 10611 . 10612) (symbol "__end_init_task" 10619 . 10634) (punctuation "=" 10635 . 10636) (punctuation "." 10637 . 10638) (punctuation ";" 10638 . 10639)))
+          ("ORC_UNWIND_TABLE")
+          ("PERCPU_DECRYPTED_SECTION")
+          ("EXIT_DISCARDS" . ((symbol "EXIT_TEXT" 27654 . 27663) (symbol "EXIT_DATA" 27673 . 27682)))
+          ("COMMON_DISCARDS" . 
+              ((symbol "SANITIZER_DISCARDS" 28249 . 28267) (punctuation "*" 28276 . 28277) (semantic-list "(.discard)" 28277 . 28287) (punctuation "*" 28297 . 28298) (semantic-list "(.discard.*)" 28298 . 28310) (punctuation "*" 28320 . 28321) (semantic-list "(.modinfo)" 28321 . 28331) (punctuation "*" 28405 . 28406) (semantic-list "(.gnu.version*)" 28406 . 28421)))
+          )
+))
+  :file "!home!bspserver!iamroot-5.10!include!asm-generic!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

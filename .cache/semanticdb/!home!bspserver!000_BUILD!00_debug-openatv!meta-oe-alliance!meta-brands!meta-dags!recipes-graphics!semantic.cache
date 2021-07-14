@@ -1,0 +1,38 @@
+;; Object semanticdb-project-database-file-1576dce7d7d0
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file-1576dce7d7d0"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table-1576dbc8ec5c"
+      :major-mode makefile-mode
+      :tags 
+        '( ("SRCDATE" variable (:default-value ("\"20210708\"")) nil [23 44]))          
+      :file "dags-libs-hisi3798mv200.bb"
+      :pointmax 352
+      :fsize 351
+      :lastmodtime '(24807 44640 656770 728000)
+      :unmatched-syntax '((string 285 . 351) (punctuation 283 . 284) (semantic-list 271 . 282) (symbol 264 . 271) (bol 264 . 264) (string 229 . 263) (punctuation 227 . 228) (semantic-list 218 . 226) (symbol 211 . 218) (bol 211 . 211) (symbol 53 . 66) (symbol 45 . 52) (bol 45 . 45) (string 285 . 287) (punctuation 283 . 284) (semantic-list 271 . 282) (symbol 264 . 271) (bol 264 . 264) (string 229 . 263) (punctuation 227 . 228) (semantic-list 218 . 226) (symbol 211 . 218) (bol 211 . 211) (symbol 53 . 66) (symbol 45 . 52) (bol 45 . 45) (string 253 . 255) (punctuation 251 . 252) (semantic-list 239 . 250) (symbol 232 . 239) (bol 232 . 232) (string 229 . 231) (punctuation 227 . 228) (semantic-list 218 . 226) (symbol 211 . 218) (bol 211 . 211) (symbol 53 . 66) (symbol 45 . 52) (bol 45 . 45)))
+    (semanticdb-table "semanticdb-table-1576dd13a9ce"
+      :major-mode makefile-mode
+      :tags 
+        '( ("DESCRIPTION" variable (:default-value ("\"shared lib for ${MACHINE}\"")) nil [1 43])
+            ("SECTION" variable (:default-value ("\"base\"")) nil [43 60])
+            ("PRIORITY" variable (:default-value ("\"required\"")) nil [60 82])
+            ("LICENSE" variable (:default-value ("\"CLOSED\"")) nil [82 101])
+            ("PACKAGE_ARCH" variable (:default-value ("\"${MACHINE_ARCH}\"")) nil [102 135])
+            ("PV" variable (:default-value ("\"${SRCDATE}\"")) nil [161 179])
+            ("PR" variable (:default-value ("\"r1\"")) nil [179 189])
+            ("INHIBIT_PACKAGE_STRIP" variable (:default-value ("\"1\"")) nil [211 239])
+            ("INHIBIT_PACKAGE_DEBUG_SPLIT" variable (:default-value ("\"1\"")) nil [239 273])
+            ("SOLIBS" variable (:default-value ("\".so\"")) nil [273 288])
+            ("FILES_SOLIBSDEV" variable (:default-value ("\"\"")) nil [288 309])
+            ("SRC_URI" variable (:default-value ("\"http://192.168.0.133/hisi3798mv200-hilib-${SRCDATE}.tar.gz\"")) nil [392 463])
+            ("S" variable (:default-value ("\"${WORKDIR}/hilib\"")) nil [464 487]))          
+      :file "dags-libs.inc"
+      :pointmax 709
+      :fsize 708
+      :lastmodtime '(24807 45065 703700 277000)
+      :unmatched-syntax nil))
+  :file "!home!bspserver!000_BUILD!00_debug-openatv!meta-oe-alliance!meta-brands!meta-dags!recipes-graphics!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")
