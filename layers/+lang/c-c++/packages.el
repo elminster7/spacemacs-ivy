@@ -20,7 +20,7 @@
     company-ycmd
     flycheck
     gdb-mi
-    ggtags
+    ;;ggtags
     ;google-c-style
     (helm-cscope :requires (helm))
     (helm-gtags :requires (helm))
@@ -218,7 +218,7 @@
   :ensure t
   :bind ("C-c f" . man-follow)
   ("C-c r" . lsp-ui-peek-find-references)
-  ("M-. " . lsp-ui-peek-find-definitions)
+  ("M-." . lsp-ui-peek-find-definitions)
   ("M-[" . lsp-ui-peek-jump-backward)
   ("M-]" . lsp-ui-peek-jump-forward)
   ("M-o" . xref-find-definitions-other-window)
