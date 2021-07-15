@@ -14,16 +14,16 @@
         ;; default
         adaptive-wrap
         auto-highlight-symbol
-        column-enforce-mode
+        ;; column-enforce-mode
         (hide-comnt :location local)
-        highlight-indentation
+        ;; highlight-indentation
         highlight-numbers
         highlight-parentheses
         highlight-indent-guides
         ;; waiting for an overlay bug to be fixed
         ;; see https://github.com/syl20bnr/spacemacs/issues/2529
         (hl-anything :excluded t)
-        indent-guide
+        ;; indent-guide
         rainbow-delimiters
         volatile-highlights
         ))
@@ -381,7 +381,7 @@
   (require 'highlight-indent-guides)
   (setq highlight-indent-guides-method 'character)
   (add-hook 'prog-mode-hook 'highlight-indent-guides-mode)
-  (setq highlight-indent-guides-delay 10)
+  (setq highlight-indent-guides-delay 30)
   (setq highlight-indent-guides-auto-odd-face-perc 15)
   (setq highlight-indent-guides-auto-even-face-perc 15)
   (setq highlight-indent-guides-auto-character-face-perc 20)
