@@ -55,7 +55,7 @@ values."
              shell-default-height 30
              shell-default-position 'bottom)
      colors
-     spell-checking
+     ;; spell-checking
      syntax-checking
      version-control
      themes-megapack
@@ -144,10 +144,10 @@ values."
    ;; Default font, or prioritized list of fonts. `powerline-scale' allows to
    ;; quickly tweak the mode-line size to make separators look not too crappy.
    dotspacemacs-default-font '("PragmataPro"
-                               :size 13
+                               :size 10
                                :weight normal
                                :width normal
-                               :powerline-scale 1.1)
+                               :powerline-scale 1.0)
    ;; The leader key
    dotspacemacs-leader-key "SPC"
    ;; The key used for Emacs commands (M-x) (after pressing on the leader key).
@@ -318,11 +318,11 @@ values."
 				 (native-comp-available-p)))
  (setq native-comp-deferred-compilation t)
  (setq native-comp-async-query-on-exit t)
- (setq native-comp-async-jobs-number 4)
+ (setq native-comp-async-jobs-number 32)
  (setq native-comp-async-report-warnings-errors nil)
  ;; global nlinum
- (require 'nlinum)
- (global-nlinum-mode t)
+ ;; (require 'nlinum)
+ ;; (global-nlinum-mode t)
  )
 
 (defun linux-kernel-coding-style/c-lineup-arglist-tabs-only (ignored)
