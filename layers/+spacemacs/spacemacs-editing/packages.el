@@ -26,6 +26,7 @@
         (spacemacs-whitespace-cleanup :location local)
         undo-tree
         uuidgen
+        ztree
         ws-butler))
 
 ;; Initialization of packages
@@ -47,6 +48,13 @@
     (progn
       (add-hook 'diff-auto-refine-mode-hook 'spacemacs/toggle-aggressive-indent-off)
       (spacemacs|diminish aggressive-indent-mode " Ⓘ" " I"))))
+
+(defun spacemacs-editing/init-ztree ()
+  (use-package ztree
+  :defer t
+  :init
+  (bind-key "C-c z" 'ztree-diff)
+  ))
 
 (defun spacemacs-editing/init-avy ()
   (use-package avy
